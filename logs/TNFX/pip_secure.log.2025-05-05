@@ -1,0 +1,5 @@
+2025-05-05 06:48:52,918 - INFO - Logging initialized for account TNFX
+2025-05-05 06:48:52,922 - INFO - Heartbeat monitor initialized.
+2025-05-05 06:48:52,922 - INFO - Starting PipSecureEA monitoring for account TNFX
+2025-05-05 06:48:52,923 - INFO - Attempting to connect to account TNFX...
+2025-05-05 06:48:52,929 - INFO - Connected to MT5 account TNFX (Login: 549357, Server: TNFX-Demo) successfully

@@ -1,0 +1,625 @@
+2025-04-30 13:50:39,386 - INFO - Logging initialized for account TestConfirm
+2025-04-30 13:50:39,387 - INFO - Heartbeat monitor initialized.
+2025-04-30 13:50:39,388 - INFO - ==== ACTIVITY SUMMARY ====
+2025-04-30 13:50:39,389 - INFO - Positions checked: 1
+2025-04-30 13:50:39,389 - INFO - Positions secured (Total): 0
+2025-04-30 13:50:39,389 - INFO -   - TP1 secured events: 0
+2025-04-30 13:50:39,389 - INFO -   - 2nd Price secured events: 0
+2025-04-30 13:50:39,390 - INFO - Pending orders deleted: 0
+2025-04-30 13:50:39,390 - INFO -   - Pending deleted events: 0
+2025-04-30 13:50:39,390 - INFO - Errors encountered: 0
+2025-04-30 13:50:39,391 - INFO - Active symbols: EURUSD
+2025-04-30 13:50:39,391 - INFO - =========================
+2025-04-30 13:50:39,400 - INFO - Logging initialized for account TestConfirm
+2025-04-30 13:50:39,400 - INFO - Logging initialized for account TestConfirm
+2025-04-30 13:50:39,401 - INFO - Heartbeat monitor initialized.
+2025-04-30 13:50:39,401 - INFO - Heartbeat monitor initialized.
+2025-04-30 13:50:39,402 - INFO - ==== ACTIVITY SUMMARY ====
+2025-04-30 13:50:39,402 - INFO - ==== ACTIVITY SUMMARY ====
+2025-04-30 13:50:39,403 - INFO - Positions checked: 1
+2025-04-30 13:50:39,403 - INFO - Positions checked: 1
+2025-04-30 13:50:39,403 - INFO - Positions secured (Total): 0
+2025-04-30 13:50:39,403 - INFO - Positions secured (Total): 0
+2025-04-30 13:50:39,403 - INFO -   - TP1 secured events: 0
+2025-04-30 13:50:39,403 - INFO -   - TP1 secured events: 0
+2025-04-30 13:50:39,404 - INFO -   - 2nd Price secured events: 0
+2025-04-30 13:50:39,404 - INFO -   - 2nd Price secured events: 0
+2025-04-30 13:50:39,404 - INFO - Pending orders deleted: 0
+2025-04-30 13:50:39,404 - INFO - Pending orders deleted: 0
+2025-04-30 13:50:39,405 - INFO -   - Pending deleted events: 0
+2025-04-30 13:50:39,405 - INFO -   - Pending deleted events: 0
+2025-04-30 13:50:39,405 - INFO - Errors encountered: 0
+2025-04-30 13:50:39,405 - INFO - Errors encountered: 0
+2025-04-30 13:50:39,405 - INFO - Active symbols: GBPUSD
+2025-04-30 13:50:39,405 - INFO - Active symbols: GBPUSD
+2025-04-30 13:50:39,406 - INFO - =========================
+2025-04-30 13:50:39,406 - INFO - =========================
+2025-04-30 13:50:39,418 - INFO - Logging initialized for account TestConfirm
+2025-04-30 13:50:39,418 - INFO - Logging initialized for account TestConfirm
+2025-04-30 13:50:39,418 - INFO - Logging initialized for account TestConfirm
+2025-04-30 13:50:39,419 - INFO - Heartbeat monitor initialized.
+2025-04-30 13:50:39,419 - INFO - Heartbeat monitor initialized.
+2025-04-30 13:50:39,419 - INFO - Heartbeat monitor initialized.
+2025-04-30 13:50:39,420 - INFO - TP1 Condition Met for 201 (USDCHF): within 3 pips of TP1 (0.1 pips away). Initiating actions...
+2025-04-30 13:50:39,420 - INFO - TP1 Condition Met for 201 (USDCHF): within 3 pips of TP1 (0.1 pips away). Initiating actions...
+2025-04-30 13:50:39,420 - INFO - TP1 Condition Met for 201 (USDCHF): within 3 pips of TP1 (0.1 pips away). Initiating actions...
+2025-04-30 13:50:39,421 - INFO -   Action: Securing TP1 position 201 at entry.
+2025-04-30 13:50:39,421 - INFO -   Action: Securing TP1 position 201 at entry.
+2025-04-30 13:50:39,421 - INFO -   Action: Securing TP1 position 201 at entry.
+2025-04-30 13:50:39,421 - INFO - [TARGET] Securing position 201 (USDCHF) at entry price 0.95
+2025-04-30 13:50:39,421 - INFO - [TARGET] Securing position 201 (USDCHF) at entry price 0.95
+2025-04-30 13:50:39,421 - INFO - [TARGET] Securing position 201 (USDCHF) at entry price 0.95
+2025-04-30 13:50:39,422 - INFO -   Type: BUY, Volume: 0.01, Current SL: 0.948
+2025-04-30 13:50:39,422 - INFO -   Type: BUY, Volume: 0.01, Current SL: 0.948
+2025-04-30 13:50:39,422 - INFO -   Type: BUY, Volume: 0.01, Current SL: 0.948
+2025-04-30 13:50:39,423 - INFO - [SUCCESS] Successfully secured position 201 for USDCHF
+2025-04-30 13:50:39,423 - INFO - [SUCCESS] Successfully secured position 201 for USDCHF
+2025-04-30 13:50:39,423 - INFO - [SUCCESS] Successfully secured position 201 for USDCHF
+2025-04-30 13:50:39,423 - INFO -   Stop loss moved to entry: 0.95
+2025-04-30 13:50:39,423 - INFO -   Stop loss moved to entry: 0.95
+2025-04-30 13:50:39,423 - INFO -   Stop loss moved to entry: 0.95
+2025-04-30 13:50:39,426 - INFO -   TP1 position 201 secured successfully.
+2025-04-30 13:50:39,426 - INFO -   TP1 position 201 secured successfully.
+2025-04-30 13:50:39,426 - INFO -   TP1 position 201 secured successfully.
+2025-04-30 13:50:39,427 - INFO -   Action: Securing other positions in group USDCHF_0_0 at their entries.
+2025-04-30 13:50:39,427 - INFO -   Action: Securing other positions in group USDCHF_0_0 at their entries.
+2025-04-30 13:50:39,427 - INFO -   Action: Securing other positions in group USDCHF_0_0 at their entries.
+2025-04-30 13:50:39,428 - INFO -     Securing related position 202 (TP2)
+2025-04-30 13:50:39,428 - INFO -     Securing related position 202 (TP2)
+2025-04-30 13:50:39,428 - INFO -     Securing related position 202 (TP2)
+2025-04-30 13:50:39,428 - INFO - [TARGET] Securing position 202 (USDCHF) at entry price 0.95
+2025-04-30 13:50:39,428 - INFO - [TARGET] Securing position 202 (USDCHF) at entry price 0.95
+2025-04-30 13:50:39,428 - INFO - [TARGET] Securing position 202 (USDCHF) at entry price 0.95
+2025-04-30 13:50:39,429 - INFO -   Type: BUY, Volume: 0.01, Current SL: 0.948
+2025-04-30 13:50:39,429 - INFO -   Type: BUY, Volume: 0.01, Current SL: 0.948
+2025-04-30 13:50:39,429 - INFO -   Type: BUY, Volume: 0.01, Current SL: 0.948
+2025-04-30 13:50:39,429 - INFO - [SUCCESS] Successfully secured position 202 for USDCHF
+2025-04-30 13:50:39,429 - INFO - [SUCCESS] Successfully secured position 202 for USDCHF
+2025-04-30 13:50:39,429 - INFO - [SUCCESS] Successfully secured position 202 for USDCHF
+2025-04-30 13:50:39,431 - INFO -   Stop loss moved to entry: 0.95
+2025-04-30 13:50:39,431 - INFO -   Stop loss moved to entry: 0.95
+2025-04-30 13:50:39,431 - INFO -   Stop loss moved to entry: 0.95
+2025-04-30 13:50:39,432 - ERROR - Error processing position 201 (USDCHF): name 'symbol' is not defined
+Traceback (most recent call last):
+  File "C:\Users\musta\OneDrive\Desktop\forex project\secure position-3\multi_account_ea.py", line 1008, in check_positions
+    self.logger.info(f"  Action: Checking for second price level for {symbol} based on TP1 hit.")
+                                                                      ^^^^^^
+NameError: name 'symbol' is not defined
+2025-04-30 13:50:39,432 - ERROR - Error processing position 201 (USDCHF): name 'symbol' is not defined
+Traceback (most recent call last):
+  File "C:\Users\musta\OneDrive\Desktop\forex project\secure position-3\multi_account_ea.py", line 1008, in check_positions
+    self.logger.info(f"  Action: Checking for second price level for {symbol} based on TP1 hit.")
+                                                                      ^^^^^^
+NameError: name 'symbol' is not defined
+2025-04-30 13:50:39,432 - ERROR - Error processing position 201 (USDCHF): name 'symbol' is not defined
+Traceback (most recent call last):
+  File "C:\Users\musta\OneDrive\Desktop\forex project\secure position-3\multi_account_ea.py", line 1008, in check_positions
+    self.logger.info(f"  Action: Checking for second price level for {symbol} based on TP1 hit.")
+                                                                      ^^^^^^
+NameError: name 'symbol' is not defined
+2025-04-30 13:50:39,437 - INFO - ==== ACTIVITY SUMMARY ====
+2025-04-30 13:50:39,437 - INFO - ==== ACTIVITY SUMMARY ====
+2025-04-30 13:50:39,437 - INFO - ==== ACTIVITY SUMMARY ====
+2025-04-30 13:50:39,438 - INFO - Positions checked: 2
+2025-04-30 13:50:39,438 - INFO - Positions checked: 2
+2025-04-30 13:50:39,438 - INFO - Positions checked: 2
+2025-04-30 13:50:39,438 - INFO - Positions secured (Total): 2
+2025-04-30 13:50:39,438 - INFO - Positions secured (Total): 2
+2025-04-30 13:50:39,438 - INFO - Positions secured (Total): 2
+2025-04-30 13:50:39,439 - INFO -   - TP1 secured events: 1
+2025-04-30 13:50:39,439 - INFO -   - TP1 secured events: 1
+2025-04-30 13:50:39,439 - INFO -   - TP1 secured events: 1
+2025-04-30 13:50:39,439 - INFO -   - 2nd Price secured events: 0
+2025-04-30 13:50:39,439 - INFO -   - 2nd Price secured events: 0
+2025-04-30 13:50:39,439 - INFO -   - 2nd Price secured events: 0
+2025-04-30 13:50:39,443 - INFO - Pending orders deleted: 0
+2025-04-30 13:50:39,443 - INFO - Pending orders deleted: 0
+2025-04-30 13:50:39,443 - INFO - Pending orders deleted: 0
+2025-04-30 13:50:39,444 - INFO -   - Pending deleted events: 0
+2025-04-30 13:50:39,444 - INFO -   - Pending deleted events: 0
+2025-04-30 13:50:39,444 - INFO -   - Pending deleted events: 0
+2025-04-30 13:50:39,445 - INFO - Errors encountered: 1
+2025-04-30 13:50:39,445 - INFO - Errors encountered: 1
+2025-04-30 13:50:39,445 - INFO - Errors encountered: 1
+2025-04-30 13:50:39,446 - INFO - Active symbols: USDCHF
+2025-04-30 13:50:39,446 - INFO - Active symbols: USDCHF
+2025-04-30 13:50:39,446 - INFO - Active symbols: USDCHF
+2025-04-30 13:50:39,448 - INFO - =========================
+2025-04-30 13:50:39,448 - INFO - =========================
+2025-04-30 13:50:39,448 - INFO - =========================
+2025-04-30 13:50:39,455 - INFO - Logging initialized for account TestConfirm
+2025-04-30 13:50:39,455 - INFO - Logging initialized for account TestConfirm
+2025-04-30 13:50:39,455 - INFO - Logging initialized for account TestConfirm
+2025-04-30 13:50:39,455 - INFO - Logging initialized for account TestConfirm
+2025-04-30 13:50:39,456 - INFO - Heartbeat monitor initialized.
+2025-04-30 13:50:39,456 - INFO - Heartbeat monitor initialized.
+2025-04-30 13:50:39,456 - INFO - Heartbeat monitor initialized.
+2025-04-30 13:50:39,456 - INFO - Heartbeat monitor initialized.
+2025-04-30 13:50:39,460 - INFO - ==== ACTIVITY SUMMARY ====
+2025-04-30 13:50:39,460 - INFO - ==== ACTIVITY SUMMARY ====
+2025-04-30 13:50:39,460 - INFO - ==== ACTIVITY SUMMARY ====
+2025-04-30 13:50:39,460 - INFO - ==== ACTIVITY SUMMARY ====
+2025-04-30 13:50:39,460 - INFO - Positions checked: 1
+2025-04-30 13:50:39,460 - INFO - Positions checked: 1
+2025-04-30 13:50:39,460 - INFO - Positions checked: 1
+2025-04-30 13:50:39,460 - INFO - Positions checked: 1
+2025-04-30 13:50:39,461 - INFO - Positions secured (Total): 0
+2025-04-30 13:50:39,461 - INFO - Positions secured (Total): 0
+2025-04-30 13:50:39,461 - INFO - Positions secured (Total): 0
+2025-04-30 13:50:39,461 - INFO - Positions secured (Total): 0
+2025-04-30 13:50:39,462 - INFO -   - TP1 secured events: 0
+2025-04-30 13:50:39,462 - INFO -   - TP1 secured events: 0
+2025-04-30 13:50:39,462 - INFO -   - TP1 secured events: 0
+2025-04-30 13:50:39,462 - INFO -   - TP1 secured events: 0
+2025-04-30 13:50:39,462 - INFO -   - 2nd Price secured events: 0
+2025-04-30 13:50:39,462 - INFO -   - 2nd Price secured events: 0
+2025-04-30 13:50:39,462 - INFO -   - 2nd Price secured events: 0
+2025-04-30 13:50:39,462 - INFO -   - 2nd Price secured events: 0
+2025-04-30 13:50:39,463 - INFO - Pending orders deleted: 0
+2025-04-30 13:50:39,463 - INFO - Pending orders deleted: 0
+2025-04-30 13:50:39,463 - INFO - Pending orders deleted: 0
+2025-04-30 13:50:39,463 - INFO - Pending orders deleted: 0
+2025-04-30 13:50:39,465 - INFO -   - Pending deleted events: 0
+2025-04-30 13:50:39,465 - INFO -   - Pending deleted events: 0
+2025-04-30 13:50:39,465 - INFO -   - Pending deleted events: 0
+2025-04-30 13:50:39,465 - INFO -   - Pending deleted events: 0
+2025-04-30 13:50:39,466 - INFO - Errors encountered: 0
+2025-04-30 13:50:39,466 - INFO - Errors encountered: 0
+2025-04-30 13:50:39,466 - INFO - Errors encountered: 0
+2025-04-30 13:50:39,466 - INFO - Errors encountered: 0
+2025-04-30 13:50:39,467 - INFO - Active symbols: EURUSD
+2025-04-30 13:50:39,467 - INFO - Active symbols: EURUSD
+2025-04-30 13:50:39,467 - INFO - Active symbols: EURUSD
+2025-04-30 13:50:39,467 - INFO - Active symbols: EURUSD
+2025-04-30 13:50:39,467 - INFO - =========================
+2025-04-30 13:50:39,467 - INFO - =========================
+2025-04-30 13:50:39,467 - INFO - =========================
+2025-04-30 13:50:39,467 - INFO - =========================
+2025-04-30 13:50:39,473 - INFO - Logging initialized for account TestConfirm
+2025-04-30 13:50:39,473 - INFO - Logging initialized for account TestConfirm
+2025-04-30 13:50:39,473 - INFO - Logging initialized for account TestConfirm
+2025-04-30 13:50:39,473 - INFO - Logging initialized for account TestConfirm
+2025-04-30 13:50:39,473 - INFO - Logging initialized for account TestConfirm
+2025-04-30 13:50:39,476 - INFO - Heartbeat monitor initialized.
+2025-04-30 13:50:39,476 - INFO - Heartbeat monitor initialized.
+2025-04-30 13:50:39,476 - INFO - Heartbeat monitor initialized.
+2025-04-30 13:50:39,476 - INFO - Heartbeat monitor initialized.
+2025-04-30 13:50:39,476 - INFO - Heartbeat monitor initialized.
+2025-04-30 13:50:39,478 - INFO - TP1 Condition Met for 401 (GBPUSD): within 3 pips of TP1 (0.2 pips away). Initiating actions...
+2025-04-30 13:50:39,478 - INFO - TP1 Condition Met for 401 (GBPUSD): within 3 pips of TP1 (0.2 pips away). Initiating actions...
+2025-04-30 13:50:39,478 - INFO - TP1 Condition Met for 401 (GBPUSD): within 3 pips of TP1 (0.2 pips away). Initiating actions...
+2025-04-30 13:50:39,478 - INFO - TP1 Condition Met for 401 (GBPUSD): within 3 pips of TP1 (0.2 pips away). Initiating actions...
+2025-04-30 13:50:39,478 - INFO - TP1 Condition Met for 401 (GBPUSD): within 3 pips of TP1 (0.2 pips away). Initiating actions...
+2025-04-30 13:50:39,480 - INFO -   Action: Securing TP1 position 401 at entry.
+2025-04-30 13:50:39,480 - INFO -   Action: Securing TP1 position 401 at entry.
+2025-04-30 13:50:39,480 - INFO -   Action: Securing TP1 position 401 at entry.
+2025-04-30 13:50:39,480 - INFO -   Action: Securing TP1 position 401 at entry.
+2025-04-30 13:50:39,480 - INFO -   Action: Securing TP1 position 401 at entry.
+2025-04-30 13:50:39,481 - INFO - [TARGET] Securing position 401 (GBPUSD) at entry price 1.25
+2025-04-30 13:50:39,481 - INFO - [TARGET] Securing position 401 (GBPUSD) at entry price 1.25
+2025-04-30 13:50:39,481 - INFO - [TARGET] Securing position 401 (GBPUSD) at entry price 1.25
+2025-04-30 13:50:39,481 - INFO - [TARGET] Securing position 401 (GBPUSD) at entry price 1.25
+2025-04-30 13:50:39,481 - INFO - [TARGET] Securing position 401 (GBPUSD) at entry price 1.25
+2025-04-30 13:50:39,482 - INFO -   Type: BUY, Volume: 0.01, Current SL: 1.248
+2025-04-30 13:50:39,482 - INFO -   Type: BUY, Volume: 0.01, Current SL: 1.248
+2025-04-30 13:50:39,482 - INFO -   Type: BUY, Volume: 0.01, Current SL: 1.248
+2025-04-30 13:50:39,482 - INFO -   Type: BUY, Volume: 0.01, Current SL: 1.248
+2025-04-30 13:50:39,482 - INFO -   Type: BUY, Volume: 0.01, Current SL: 1.248
+2025-04-30 13:50:39,483 - INFO - [SUCCESS] Successfully secured position 401 for GBPUSD
+2025-04-30 13:50:39,483 - INFO - [SUCCESS] Successfully secured position 401 for GBPUSD
+2025-04-30 13:50:39,483 - INFO - [SUCCESS] Successfully secured position 401 for GBPUSD
+2025-04-30 13:50:39,483 - INFO - [SUCCESS] Successfully secured position 401 for GBPUSD
+2025-04-30 13:50:39,483 - INFO - [SUCCESS] Successfully secured position 401 for GBPUSD
+2025-04-30 13:50:39,483 - INFO -   Stop loss moved to entry: 1.25
+2025-04-30 13:50:39,483 - INFO -   Stop loss moved to entry: 1.25
+2025-04-30 13:50:39,483 - INFO -   Stop loss moved to entry: 1.25
+2025-04-30 13:50:39,483 - INFO -   Stop loss moved to entry: 1.25
+2025-04-30 13:50:39,483 - INFO -   Stop loss moved to entry: 1.25
+2025-04-30 13:50:39,487 - INFO -   TP1 position 401 secured successfully.
+2025-04-30 13:50:39,487 - INFO -   TP1 position 401 secured successfully.
+2025-04-30 13:50:39,487 - INFO -   TP1 position 401 secured successfully.
+2025-04-30 13:50:39,487 - INFO -   TP1 position 401 secured successfully.
+2025-04-30 13:50:39,487 - INFO -   TP1 position 401 secured successfully.
+2025-04-30 13:50:39,489 - INFO -   Action: Securing other positions in group GBPUSD_0_0 at their entries.
+2025-04-30 13:50:39,489 - INFO -   Action: Securing other positions in group GBPUSD_0_0 at their entries.
+2025-04-30 13:50:39,489 - INFO -   Action: Securing other positions in group GBPUSD_0_0 at their entries.
+2025-04-30 13:50:39,489 - INFO -   Action: Securing other positions in group GBPUSD_0_0 at their entries.
+2025-04-30 13:50:39,489 - INFO -   Action: Securing other positions in group GBPUSD_0_0 at their entries.
+2025-04-30 13:50:39,493 - INFO -     Securing related position 402 (TP2)
+2025-04-30 13:50:39,493 - INFO -     Securing related position 402 (TP2)
+2025-04-30 13:50:39,493 - INFO -     Securing related position 402 (TP2)
+2025-04-30 13:50:39,493 - INFO -     Securing related position 402 (TP2)
+2025-04-30 13:50:39,493 - INFO -     Securing related position 402 (TP2)
+2025-04-30 13:50:39,495 - INFO - [TARGET] Securing position 402 (GBPUSD) at entry price 1.25
+2025-04-30 13:50:39,495 - INFO - [TARGET] Securing position 402 (GBPUSD) at entry price 1.25
+2025-04-30 13:50:39,495 - INFO - [TARGET] Securing position 402 (GBPUSD) at entry price 1.25
+2025-04-30 13:50:39,495 - INFO - [TARGET] Securing position 402 (GBPUSD) at entry price 1.25
+2025-04-30 13:50:39,495 - INFO - [TARGET] Securing position 402 (GBPUSD) at entry price 1.25
+2025-04-30 13:50:39,497 - INFO -   Type: BUY, Volume: 0.01, Current SL: 1.248
+2025-04-30 13:50:39,497 - INFO -   Type: BUY, Volume: 0.01, Current SL: 1.248
+2025-04-30 13:50:39,497 - INFO -   Type: BUY, Volume: 0.01, Current SL: 1.248
+2025-04-30 13:50:39,497 - INFO -   Type: BUY, Volume: 0.01, Current SL: 1.248
+2025-04-30 13:50:39,497 - INFO -   Type: BUY, Volume: 0.01, Current SL: 1.248
+2025-04-30 13:50:39,500 - INFO - [SUCCESS] Successfully secured position 402 for GBPUSD
+2025-04-30 13:50:39,500 - INFO - [SUCCESS] Successfully secured position 402 for GBPUSD
+2025-04-30 13:50:39,500 - INFO - [SUCCESS] Successfully secured position 402 for GBPUSD
+2025-04-30 13:50:39,500 - INFO - [SUCCESS] Successfully secured position 402 for GBPUSD
+2025-04-30 13:50:39,500 - INFO - [SUCCESS] Successfully secured position 402 for GBPUSD
+2025-04-30 13:50:39,503 - INFO -   Stop loss moved to entry: 1.25
+2025-04-30 13:50:39,503 - INFO -   Stop loss moved to entry: 1.25
+2025-04-30 13:50:39,503 - INFO -   Stop loss moved to entry: 1.25
+2025-04-30 13:50:39,503 - INFO -   Stop loss moved to entry: 1.25
+2025-04-30 13:50:39,503 - INFO -   Stop loss moved to entry: 1.25
+2025-04-30 13:50:39,505 - ERROR - Error processing position 401 (GBPUSD): name 'symbol' is not defined
+Traceback (most recent call last):
+  File "C:\Users\musta\OneDrive\Desktop\forex project\secure position-3\multi_account_ea.py", line 1008, in check_positions
+    self.logger.info(f"  Action: Checking for second price level for {symbol} based on TP1 hit.")
+                                                                      ^^^^^^
+NameError: name 'symbol' is not defined
+2025-04-30 13:50:39,505 - ERROR - Error processing position 401 (GBPUSD): name 'symbol' is not defined
+Traceback (most recent call last):
+  File "C:\Users\musta\OneDrive\Desktop\forex project\secure position-3\multi_account_ea.py", line 1008, in check_positions
+    self.logger.info(f"  Action: Checking for second price level for {symbol} based on TP1 hit.")
+                                                                      ^^^^^^
+NameError: name 'symbol' is not defined
+2025-04-30 13:50:39,505 - ERROR - Error processing position 401 (GBPUSD): name 'symbol' is not defined
+Traceback (most recent call last):
+  File "C:\Users\musta\OneDrive\Desktop\forex project\secure position-3\multi_account_ea.py", line 1008, in check_positions
+    self.logger.info(f"  Action: Checking for second price level for {symbol} based on TP1 hit.")
+                                                                      ^^^^^^
+NameError: name 'symbol' is not defined
+2025-04-30 13:50:39,505 - ERROR - Error processing position 401 (GBPUSD): name 'symbol' is not defined
+Traceback (most recent call last):
+  File "C:\Users\musta\OneDrive\Desktop\forex project\secure position-3\multi_account_ea.py", line 1008, in check_positions
+    self.logger.info(f"  Action: Checking for second price level for {symbol} based on TP1 hit.")
+                                                                      ^^^^^^
+NameError: name 'symbol' is not defined
+2025-04-30 13:50:39,505 - ERROR - Error processing position 401 (GBPUSD): name 'symbol' is not defined
+Traceback (most recent call last):
+  File "C:\Users\musta\OneDrive\Desktop\forex project\secure position-3\multi_account_ea.py", line 1008, in check_positions
+    self.logger.info(f"  Action: Checking for second price level for {symbol} based on TP1 hit.")
+                                                                      ^^^^^^
+NameError: name 'symbol' is not defined
+2025-04-30 13:50:39,511 - INFO - TP1 Condition Met for 501 (GBPUSD): within 3 pips of TP1 (-39.8 pips away). Initiating actions...
+2025-04-30 13:50:39,511 - INFO - TP1 Condition Met for 501 (GBPUSD): within 3 pips of TP1 (-39.8 pips away). Initiating actions...
+2025-04-30 13:50:39,511 - INFO - TP1 Condition Met for 501 (GBPUSD): within 3 pips of TP1 (-39.8 pips away). Initiating actions...
+2025-04-30 13:50:39,511 - INFO - TP1 Condition Met for 501 (GBPUSD): within 3 pips of TP1 (-39.8 pips away). Initiating actions...
+2025-04-30 13:50:39,511 - INFO - TP1 Condition Met for 501 (GBPUSD): within 3 pips of TP1 (-39.8 pips away). Initiating actions...
+2025-04-30 13:50:39,516 - INFO -   Action: Securing TP1 position 501 at entry.
+2025-04-30 13:50:39,516 - INFO -   Action: Securing TP1 position 501 at entry.
+2025-04-30 13:50:39,516 - INFO -   Action: Securing TP1 position 501 at entry.
+2025-04-30 13:50:39,516 - INFO -   Action: Securing TP1 position 501 at entry.
+2025-04-30 13:50:39,516 - INFO -   Action: Securing TP1 position 501 at entry.
+2025-04-30 13:50:39,517 - INFO - [TARGET] Securing position 501 (GBPUSD) at entry price 1.245
+2025-04-30 13:50:39,517 - INFO - [TARGET] Securing position 501 (GBPUSD) at entry price 1.245
+2025-04-30 13:50:39,517 - INFO - [TARGET] Securing position 501 (GBPUSD) at entry price 1.245
+2025-04-30 13:50:39,517 - INFO - [TARGET] Securing position 501 (GBPUSD) at entry price 1.245
+2025-04-30 13:50:39,517 - INFO - [TARGET] Securing position 501 (GBPUSD) at entry price 1.245
+2025-04-30 13:50:39,518 - INFO -   Type: BUY, Volume: 0.01, Current SL: 1.243
+2025-04-30 13:50:39,518 - INFO -   Type: BUY, Volume: 0.01, Current SL: 1.243
+2025-04-30 13:50:39,518 - INFO -   Type: BUY, Volume: 0.01, Current SL: 1.243
+2025-04-30 13:50:39,518 - INFO -   Type: BUY, Volume: 0.01, Current SL: 1.243
+2025-04-30 13:50:39,518 - INFO -   Type: BUY, Volume: 0.01, Current SL: 1.243
+2025-04-30 13:50:39,519 - INFO - [SUCCESS] Successfully secured position 501 for GBPUSD
+2025-04-30 13:50:39,519 - INFO - [SUCCESS] Successfully secured position 501 for GBPUSD
+2025-04-30 13:50:39,519 - INFO - [SUCCESS] Successfully secured position 501 for GBPUSD
+2025-04-30 13:50:39,519 - INFO - [SUCCESS] Successfully secured position 501 for GBPUSD
+2025-04-30 13:50:39,519 - INFO - [SUCCESS] Successfully secured position 501 for GBPUSD
+2025-04-30 13:50:39,520 - INFO -   Stop loss moved to entry: 1.245
+2025-04-30 13:50:39,520 - INFO -   Stop loss moved to entry: 1.245
+2025-04-30 13:50:39,520 - INFO -   Stop loss moved to entry: 1.245
+2025-04-30 13:50:39,520 - INFO -   Stop loss moved to entry: 1.245
+2025-04-30 13:50:39,520 - INFO -   Stop loss moved to entry: 1.245
+2025-04-30 13:50:39,522 - INFO -   TP1 position 501 secured successfully.
+2025-04-30 13:50:39,522 - INFO -   TP1 position 501 secured successfully.
+2025-04-30 13:50:39,522 - INFO -   TP1 position 501 secured successfully.
+2025-04-30 13:50:39,522 - INFO -   TP1 position 501 secured successfully.
+2025-04-30 13:50:39,522 - INFO -   TP1 position 501 secured successfully.
+2025-04-30 13:50:39,527 - INFO -   Action: Securing other positions in group GBPUSD_0_1 at their entries.
+2025-04-30 13:50:39,527 - INFO -   Action: Securing other positions in group GBPUSD_0_1 at their entries.
+2025-04-30 13:50:39,527 - INFO -   Action: Securing other positions in group GBPUSD_0_1 at their entries.
+2025-04-30 13:50:39,527 - INFO -   Action: Securing other positions in group GBPUSD_0_1 at their entries.
+2025-04-30 13:50:39,527 - INFO -   Action: Securing other positions in group GBPUSD_0_1 at their entries.
+2025-04-30 13:50:39,534 - INFO -     Securing related position 502 (TP2)
+2025-04-30 13:50:39,534 - INFO -     Securing related position 502 (TP2)
+2025-04-30 13:50:39,534 - INFO -     Securing related position 502 (TP2)
+2025-04-30 13:50:39,534 - INFO -     Securing related position 502 (TP2)
+2025-04-30 13:50:39,534 - INFO -     Securing related position 502 (TP2)
+2025-04-30 13:50:39,534 - INFO - [TARGET] Securing position 502 (GBPUSD) at entry price 1.245
+2025-04-30 13:50:39,534 - INFO - [TARGET] Securing position 502 (GBPUSD) at entry price 1.245
+2025-04-30 13:50:39,534 - INFO - [TARGET] Securing position 502 (GBPUSD) at entry price 1.245
+2025-04-30 13:50:39,534 - INFO - [TARGET] Securing position 502 (GBPUSD) at entry price 1.245
+2025-04-30 13:50:39,534 - INFO - [TARGET] Securing position 502 (GBPUSD) at entry price 1.245
+2025-04-30 13:50:39,535 - INFO -   Type: BUY, Volume: 0.01, Current SL: 1.243
+2025-04-30 13:50:39,535 - INFO -   Type: BUY, Volume: 0.01, Current SL: 1.243
+2025-04-30 13:50:39,535 - INFO -   Type: BUY, Volume: 0.01, Current SL: 1.243
+2025-04-30 13:50:39,535 - INFO -   Type: BUY, Volume: 0.01, Current SL: 1.243
+2025-04-30 13:50:39,535 - INFO -   Type: BUY, Volume: 0.01, Current SL: 1.243
+2025-04-30 13:50:39,536 - INFO - [SUCCESS] Successfully secured position 502 for GBPUSD
+2025-04-30 13:50:39,536 - INFO - [SUCCESS] Successfully secured position 502 for GBPUSD
+2025-04-30 13:50:39,536 - INFO - [SUCCESS] Successfully secured position 502 for GBPUSD
+2025-04-30 13:50:39,536 - INFO - [SUCCESS] Successfully secured position 502 for GBPUSD
+2025-04-30 13:50:39,536 - INFO - [SUCCESS] Successfully secured position 502 for GBPUSD
+2025-04-30 13:50:39,537 - INFO -   Stop loss moved to entry: 1.245
+2025-04-30 13:50:39,537 - INFO -   Stop loss moved to entry: 1.245
+2025-04-30 13:50:39,537 - INFO -   Stop loss moved to entry: 1.245
+2025-04-30 13:50:39,537 - INFO -   Stop loss moved to entry: 1.245
+2025-04-30 13:50:39,537 - INFO -   Stop loss moved to entry: 1.245
+2025-04-30 13:50:39,538 - ERROR - Error processing position 501 (GBPUSD): name 'symbol' is not defined
+Traceback (most recent call last):
+  File "C:\Users\musta\OneDrive\Desktop\forex project\secure position-3\multi_account_ea.py", line 1008, in check_positions
+    self.logger.info(f"  Action: Checking for second price level for {symbol} based on TP1 hit.")
+                                                                      ^^^^^^
+NameError: name 'symbol' is not defined
+2025-04-30 13:50:39,538 - ERROR - Error processing position 501 (GBPUSD): name 'symbol' is not defined
+Traceback (most recent call last):
+  File "C:\Users\musta\OneDrive\Desktop\forex project\secure position-3\multi_account_ea.py", line 1008, in check_positions
+    self.logger.info(f"  Action: Checking for second price level for {symbol} based on TP1 hit.")
+                                                                      ^^^^^^
+NameError: name 'symbol' is not defined
+2025-04-30 13:50:39,538 - ERROR - Error processing position 501 (GBPUSD): name 'symbol' is not defined
+Traceback (most recent call last):
+  File "C:\Users\musta\OneDrive\Desktop\forex project\secure position-3\multi_account_ea.py", line 1008, in check_positions
+    self.logger.info(f"  Action: Checking for second price level for {symbol} based on TP1 hit.")
+                                                                      ^^^^^^
+NameError: name 'symbol' is not defined
+2025-04-30 13:50:39,538 - ERROR - Error processing position 501 (GBPUSD): name 'symbol' is not defined
+Traceback (most recent call last):
+  File "C:\Users\musta\OneDrive\Desktop\forex project\secure position-3\multi_account_ea.py", line 1008, in check_positions
+    self.logger.info(f"  Action: Checking for second price level for {symbol} based on TP1 hit.")
+                                                                      ^^^^^^
+NameError: name 'symbol' is not defined
+2025-04-30 13:50:39,538 - ERROR - Error processing position 501 (GBPUSD): name 'symbol' is not defined
+Traceback (most recent call last):
+  File "C:\Users\musta\OneDrive\Desktop\forex project\secure position-3\multi_account_ea.py", line 1008, in check_positions
+    self.logger.info(f"  Action: Checking for second price level for {symbol} based on TP1 hit.")
+                                                                      ^^^^^^
+NameError: name 'symbol' is not defined
+2025-04-30 13:50:39,548 - INFO - ==== ACTIVITY SUMMARY ====
+2025-04-30 13:50:39,548 - INFO - ==== ACTIVITY SUMMARY ====
+2025-04-30 13:50:39,548 - INFO - ==== ACTIVITY SUMMARY ====
+2025-04-30 13:50:39,548 - INFO - ==== ACTIVITY SUMMARY ====
+2025-04-30 13:50:39,548 - INFO - ==== ACTIVITY SUMMARY ====
+2025-04-30 13:50:39,549 - INFO - Positions checked: 4
+2025-04-30 13:50:39,549 - INFO - Positions checked: 4
+2025-04-30 13:50:39,549 - INFO - Positions checked: 4
+2025-04-30 13:50:39,549 - INFO - Positions checked: 4
+2025-04-30 13:50:39,549 - INFO - Positions checked: 4
+2025-04-30 13:50:39,550 - INFO - Positions secured (Total): 4
+2025-04-30 13:50:39,550 - INFO - Positions secured (Total): 4
+2025-04-30 13:50:39,550 - INFO - Positions secured (Total): 4
+2025-04-30 13:50:39,550 - INFO - Positions secured (Total): 4
+2025-04-30 13:50:39,550 - INFO - Positions secured (Total): 4
+2025-04-30 13:50:39,551 - INFO -   - TP1 secured events: 2
+2025-04-30 13:50:39,551 - INFO -   - TP1 secured events: 2
+2025-04-30 13:50:39,551 - INFO -   - TP1 secured events: 2
+2025-04-30 13:50:39,551 - INFO -   - TP1 secured events: 2
+2025-04-30 13:50:39,551 - INFO -   - TP1 secured events: 2
+2025-04-30 13:50:39,552 - INFO -   - 2nd Price secured events: 0
+2025-04-30 13:50:39,552 - INFO -   - 2nd Price secured events: 0
+2025-04-30 13:50:39,552 - INFO -   - 2nd Price secured events: 0
+2025-04-30 13:50:39,552 - INFO -   - 2nd Price secured events: 0
+2025-04-30 13:50:39,552 - INFO -   - 2nd Price secured events: 0
+2025-04-30 13:50:39,553 - INFO - Pending orders deleted: 0
+2025-04-30 13:50:39,553 - INFO - Pending orders deleted: 0
+2025-04-30 13:50:39,553 - INFO - Pending orders deleted: 0
+2025-04-30 13:50:39,553 - INFO - Pending orders deleted: 0
+2025-04-30 13:50:39,553 - INFO - Pending orders deleted: 0
+2025-04-30 13:50:39,554 - INFO -   - Pending deleted events: 0
+2025-04-30 13:50:39,554 - INFO -   - Pending deleted events: 0
+2025-04-30 13:50:39,554 - INFO -   - Pending deleted events: 0
+2025-04-30 13:50:39,554 - INFO -   - Pending deleted events: 0
+2025-04-30 13:50:39,554 - INFO -   - Pending deleted events: 0
+2025-04-30 13:50:39,555 - INFO - Errors encountered: 2
+2025-04-30 13:50:39,555 - INFO - Errors encountered: 2
+2025-04-30 13:50:39,555 - INFO - Errors encountered: 2
+2025-04-30 13:50:39,555 - INFO - Errors encountered: 2
+2025-04-30 13:50:39,555 - INFO - Errors encountered: 2
+2025-04-30 13:50:39,558 - INFO - Active symbols: GBPUSD
+2025-04-30 13:50:39,558 - INFO - Active symbols: GBPUSD
+2025-04-30 13:50:39,558 - INFO - Active symbols: GBPUSD
+2025-04-30 13:50:39,558 - INFO - Active symbols: GBPUSD
+2025-04-30 13:50:39,558 - INFO - Active symbols: GBPUSD
+2025-04-30 13:50:39,562 - INFO - =========================
+2025-04-30 13:50:39,562 - INFO - =========================
+2025-04-30 13:50:39,562 - INFO - =========================
+2025-04-30 13:50:39,562 - INFO - =========================
+2025-04-30 13:50:39,562 - INFO - =========================
+2025-04-30 13:50:39,572 - INFO - Logging initialized for account TestConfirm
+2025-04-30 13:50:39,572 - INFO - Logging initialized for account TestConfirm
+2025-04-30 13:50:39,572 - INFO - Logging initialized for account TestConfirm
+2025-04-30 13:50:39,572 - INFO - Logging initialized for account TestConfirm
+2025-04-30 13:50:39,572 - INFO - Logging initialized for account TestConfirm
+2025-04-30 13:50:39,572 - INFO - Logging initialized for account TestConfirm
+2025-04-30 13:50:39,575 - INFO - Heartbeat monitor initialized.
+2025-04-30 13:50:39,575 - INFO - Heartbeat monitor initialized.
+2025-04-30 13:50:39,575 - INFO - Heartbeat monitor initialized.
+2025-04-30 13:50:39,575 - INFO - Heartbeat monitor initialized.
+2025-04-30 13:50:39,575 - INFO - Heartbeat monitor initialized.
+2025-04-30 13:50:39,575 - INFO - Heartbeat monitor initialized.
+2025-04-30 13:50:39,581 - INFO - ==== ACTIVITY SUMMARY ====
+2025-04-30 13:50:39,581 - INFO - ==== ACTIVITY SUMMARY ====
+2025-04-30 13:50:39,581 - INFO - ==== ACTIVITY SUMMARY ====
+2025-04-30 13:50:39,581 - INFO - ==== ACTIVITY SUMMARY ====
+2025-04-30 13:50:39,581 - INFO - ==== ACTIVITY SUMMARY ====
+2025-04-30 13:50:39,581 - INFO - ==== ACTIVITY SUMMARY ====
+2025-04-30 13:50:39,582 - INFO - Positions checked: 1
+2025-04-30 13:50:39,582 - INFO - Positions checked: 1
+2025-04-30 13:50:39,582 - INFO - Positions checked: 1
+2025-04-30 13:50:39,582 - INFO - Positions checked: 1
+2025-04-30 13:50:39,582 - INFO - Positions checked: 1
+2025-04-30 13:50:39,582 - INFO - Positions checked: 1
+2025-04-30 13:50:39,583 - INFO - Positions secured (Total): 0
+2025-04-30 13:50:39,583 - INFO - Positions secured (Total): 0
+2025-04-30 13:50:39,583 - INFO - Positions secured (Total): 0
+2025-04-30 13:50:39,583 - INFO - Positions secured (Total): 0
+2025-04-30 13:50:39,583 - INFO - Positions secured (Total): 0
+2025-04-30 13:50:39,583 - INFO - Positions secured (Total): 0
+2025-04-30 13:50:39,584 - INFO -   - TP1 secured events: 0
+2025-04-30 13:50:39,584 - INFO -   - TP1 secured events: 0
+2025-04-30 13:50:39,584 - INFO -   - TP1 secured events: 0
+2025-04-30 13:50:39,584 - INFO -   - TP1 secured events: 0
+2025-04-30 13:50:39,584 - INFO -   - TP1 secured events: 0
+2025-04-30 13:50:39,584 - INFO -   - TP1 secured events: 0
+2025-04-30 13:50:39,585 - INFO -   - 2nd Price secured events: 0
+2025-04-30 13:50:39,585 - INFO -   - 2nd Price secured events: 0
+2025-04-30 13:50:39,585 - INFO -   - 2nd Price secured events: 0
+2025-04-30 13:50:39,585 - INFO -   - 2nd Price secured events: 0
+2025-04-30 13:50:39,585 - INFO -   - 2nd Price secured events: 0
+2025-04-30 13:50:39,585 - INFO -   - 2nd Price secured events: 0
+2025-04-30 13:50:39,586 - INFO - Pending orders deleted: 0
+2025-04-30 13:50:39,586 - INFO - Pending orders deleted: 0
+2025-04-30 13:50:39,586 - INFO - Pending orders deleted: 0
+2025-04-30 13:50:39,586 - INFO - Pending orders deleted: 0
+2025-04-30 13:50:39,586 - INFO - Pending orders deleted: 0
+2025-04-30 13:50:39,586 - INFO - Pending orders deleted: 0
+2025-04-30 13:50:39,587 - INFO -   - Pending deleted events: 0
+2025-04-30 13:50:39,587 - INFO -   - Pending deleted events: 0
+2025-04-30 13:50:39,587 - INFO -   - Pending deleted events: 0
+2025-04-30 13:50:39,587 - INFO -   - Pending deleted events: 0
+2025-04-30 13:50:39,587 - INFO -   - Pending deleted events: 0
+2025-04-30 13:50:39,587 - INFO -   - Pending deleted events: 0
+2025-04-30 13:50:39,588 - INFO - Errors encountered: 0
+2025-04-30 13:50:39,588 - INFO - Errors encountered: 0
+2025-04-30 13:50:39,588 - INFO - Errors encountered: 0
+2025-04-30 13:50:39,588 - INFO - Errors encountered: 0
+2025-04-30 13:50:39,588 - INFO - Errors encountered: 0
+2025-04-30 13:50:39,588 - INFO - Errors encountered: 0
+2025-04-30 13:50:39,589 - INFO - Active symbols: XAUUSD
+2025-04-30 13:50:39,589 - INFO - Active symbols: XAUUSD
+2025-04-30 13:50:39,589 - INFO - Active symbols: XAUUSD
+2025-04-30 13:50:39,589 - INFO - Active symbols: XAUUSD
+2025-04-30 13:50:39,589 - INFO - Active symbols: XAUUSD
+2025-04-30 13:50:39,589 - INFO - Active symbols: XAUUSD
+2025-04-30 13:50:39,593 - INFO - =========================
+2025-04-30 13:50:39,593 - INFO - =========================
+2025-04-30 13:50:39,593 - INFO - =========================
+2025-04-30 13:50:39,593 - INFO - =========================
+2025-04-30 13:50:39,593 - INFO - =========================
+2025-04-30 13:50:39,593 - INFO - =========================
+2025-04-30 13:50:39,602 - INFO - Logging initialized for account TestConfirm
+2025-04-30 13:50:39,602 - INFO - Logging initialized for account TestConfirm
+2025-04-30 13:50:39,602 - INFO - Logging initialized for account TestConfirm
+2025-04-30 13:50:39,602 - INFO - Logging initialized for account TestConfirm
+2025-04-30 13:50:39,602 - INFO - Logging initialized for account TestConfirm
+2025-04-30 13:50:39,602 - INFO - Logging initialized for account TestConfirm
+2025-04-30 13:50:39,602 - INFO - Logging initialized for account TestConfirm
+2025-04-30 13:50:39,603 - INFO - Heartbeat monitor initialized.
+2025-04-30 13:50:39,603 - INFO - Heartbeat monitor initialized.
+2025-04-30 13:50:39,603 - INFO - Heartbeat monitor initialized.
+2025-04-30 13:50:39,603 - INFO - Heartbeat monitor initialized.
+2025-04-30 13:50:39,603 - INFO - Heartbeat monitor initialized.
+2025-04-30 13:50:39,603 - INFO - Heartbeat monitor initialized.
+2025-04-30 13:50:39,603 - INFO - Heartbeat monitor initialized.
+2025-04-30 13:50:39,605 - INFO - ==== ACTIVITY SUMMARY ====
+2025-04-30 13:50:39,605 - INFO - ==== ACTIVITY SUMMARY ====
+2025-04-30 13:50:39,605 - INFO - ==== ACTIVITY SUMMARY ====
+2025-04-30 13:50:39,605 - INFO - ==== ACTIVITY SUMMARY ====
+2025-04-30 13:50:39,605 - INFO - ==== ACTIVITY SUMMARY ====
+2025-04-30 13:50:39,605 - INFO - ==== ACTIVITY SUMMARY ====
+2025-04-30 13:50:39,605 - INFO - ==== ACTIVITY SUMMARY ====
+2025-04-30 13:50:39,609 - INFO - Positions checked: 1
+2025-04-30 13:50:39,609 - INFO - Positions checked: 1
+2025-04-30 13:50:39,609 - INFO - Positions checked: 1
+2025-04-30 13:50:39,609 - INFO - Positions checked: 1
+2025-04-30 13:50:39,609 - INFO - Positions checked: 1
+2025-04-30 13:50:39,609 - INFO - Positions checked: 1
+2025-04-30 13:50:39,609 - INFO - Positions checked: 1
+2025-04-30 13:50:39,611 - INFO - Positions secured (Total): 0
+2025-04-30 13:50:39,611 - INFO - Positions secured (Total): 0
+2025-04-30 13:50:39,611 - INFO - Positions secured (Total): 0
+2025-04-30 13:50:39,611 - INFO - Positions secured (Total): 0
+2025-04-30 13:50:39,611 - INFO - Positions secured (Total): 0
+2025-04-30 13:50:39,611 - INFO - Positions secured (Total): 0
+2025-04-30 13:50:39,611 - INFO - Positions secured (Total): 0
+2025-04-30 13:50:39,612 - INFO -   - TP1 secured events: 0
+2025-04-30 13:50:39,612 - INFO -   - TP1 secured events: 0
+2025-04-30 13:50:39,612 - INFO -   - TP1 secured events: 0
+2025-04-30 13:50:39,612 - INFO -   - TP1 secured events: 0
+2025-04-30 13:50:39,612 - INFO -   - TP1 secured events: 0
+2025-04-30 13:50:39,612 - INFO -   - TP1 secured events: 0
+2025-04-30 13:50:39,612 - INFO -   - TP1 secured events: 0
+2025-04-30 13:50:39,615 - INFO -   - 2nd Price secured events: 0
+2025-04-30 13:50:39,615 - INFO -   - 2nd Price secured events: 0
+2025-04-30 13:50:39,615 - INFO -   - 2nd Price secured events: 0
+2025-04-30 13:50:39,615 - INFO -   - 2nd Price secured events: 0
+2025-04-30 13:50:39,615 - INFO -   - 2nd Price secured events: 0
+2025-04-30 13:50:39,615 - INFO -   - 2nd Price secured events: 0
+2025-04-30 13:50:39,615 - INFO -   - 2nd Price secured events: 0
+2025-04-30 13:50:39,616 - INFO - Pending orders deleted: 0
+2025-04-30 13:50:39,616 - INFO - Pending orders deleted: 0
+2025-04-30 13:50:39,616 - INFO - Pending orders deleted: 0
+2025-04-30 13:50:39,616 - INFO - Pending orders deleted: 0
+2025-04-30 13:50:39,616 - INFO - Pending orders deleted: 0
+2025-04-30 13:50:39,616 - INFO - Pending orders deleted: 0
+2025-04-30 13:50:39,616 - INFO - Pending orders deleted: 0
+2025-04-30 13:50:39,617 - INFO -   - Pending deleted events: 0
+2025-04-30 13:50:39,617 - INFO -   - Pending deleted events: 0
+2025-04-30 13:50:39,617 - INFO -   - Pending deleted events: 0
+2025-04-30 13:50:39,617 - INFO -   - Pending deleted events: 0
+2025-04-30 13:50:39,617 - INFO -   - Pending deleted events: 0
+2025-04-30 13:50:39,617 - INFO -   - Pending deleted events: 0
+2025-04-30 13:50:39,617 - INFO -   - Pending deleted events: 0
+2025-04-30 13:50:39,618 - INFO - Errors encountered: 0
+2025-04-30 13:50:39,618 - INFO - Errors encountered: 0
+2025-04-30 13:50:39,618 - INFO - Errors encountered: 0
+2025-04-30 13:50:39,618 - INFO - Errors encountered: 0
+2025-04-30 13:50:39,618 - INFO - Errors encountered: 0
+2025-04-30 13:50:39,618 - INFO - Errors encountered: 0
+2025-04-30 13:50:39,618 - INFO - Errors encountered: 0
+2025-04-30 13:50:39,619 - INFO - Active symbols: USDCAD
+2025-04-30 13:50:39,619 - INFO - Active symbols: USDCAD
+2025-04-30 13:50:39,619 - INFO - Active symbols: USDCAD
+2025-04-30 13:50:39,619 - INFO - Active symbols: USDCAD
+2025-04-30 13:50:39,619 - INFO - Active symbols: USDCAD
+2025-04-30 13:50:39,619 - INFO - Active symbols: USDCAD
+2025-04-30 13:50:39,619 - INFO - Active symbols: USDCAD
+2025-04-30 13:50:39,620 - INFO - =========================
+2025-04-30 13:50:39,620 - INFO - =========================
+2025-04-30 13:50:39,620 - INFO - =========================
+2025-04-30 13:50:39,620 - INFO - =========================
+2025-04-30 13:50:39,620 - INFO - =========================
+2025-04-30 13:50:39,620 - INFO - =========================
+2025-04-30 13:50:39,620 - INFO - =========================
+2025-04-30 16:01:25,882 - INFO - Logging initialized for account TestConfirm
+2025-04-30 16:01:25,884 - INFO - Heartbeat monitor initialized.
+2025-04-30 16:01:25,907 - INFO - Logging initialized for account TestConfirm
+2025-04-30 16:01:25,908 - INFO - Heartbeat monitor initialized.
+2025-04-30 16:01:25,931 - INFO - Logging initialized for account TestConfirm
+2025-04-30 16:01:25,932 - INFO - Heartbeat monitor initialized.
+2025-04-30 16:01:25,955 - INFO - Logging initialized for account TestConfirm
+2025-04-30 16:01:25,956 - INFO - Heartbeat monitor initialized.
+2025-04-30 16:01:25,983 - INFO - Logging initialized for account TestConfirm
+2025-04-30 16:01:25,983 - INFO - Heartbeat monitor initialized.
+2025-04-30 16:01:26,018 - INFO - Logging initialized for account TestConfirm
+2025-04-30 16:01:26,018 - INFO - Heartbeat monitor initialized.
+2025-04-30 16:01:26,029 - INFO - Logging initialized for account TestConfirm
+2025-04-30 16:01:26,029 - INFO - Heartbeat monitor initialized.
+2025-04-30 16:16:34,612 - INFO - Logging initialized for account TestConfirm
+2025-04-30 16:16:34,613 - INFO - Heartbeat monitor initialized.
+2025-04-30 16:16:34,645 - INFO - Logging initialized for account TestConfirm
+2025-04-30 16:16:34,645 - INFO - Heartbeat monitor initialized.
+2025-04-30 16:16:34,671 - INFO - Logging initialized for account TestConfirm
+2025-04-30 16:16:34,671 - INFO - Heartbeat monitor initialized.
+2025-04-30 16:16:34,694 - INFO - Logging initialized for account TestConfirm
+2025-04-30 16:16:34,695 - INFO - Heartbeat monitor initialized.
+2025-04-30 16:16:34,732 - INFO - Logging initialized for account TestConfirm
+2025-04-30 16:16:34,732 - INFO - Heartbeat monitor initialized.
+2025-04-30 16:16:34,754 - INFO - Logging initialized for account TestConfirm
+2025-04-30 16:16:34,755 - INFO - Heartbeat monitor initialized.
+2025-04-30 16:16:34,765 - INFO - Logging initialized for account TestConfirm
+2025-04-30 16:16:34,765 - INFO - Heartbeat monitor initialized.
+2025-04-30 16:27:35,521 - INFO - Logging initialized for account TestConfirm
+2025-04-30 16:27:35,522 - INFO - Heartbeat monitor initialized.
+2025-04-30 16:27:35,545 - INFO - Logging initialized for account TestConfirm
+2025-04-30 16:27:35,546 - INFO - Heartbeat monitor initialized.
+2025-04-30 16:27:35,574 - INFO - Logging initialized for account TestConfirm
+2025-04-30 16:27:35,574 - INFO - Heartbeat monitor initialized.
+2025-04-30 16:27:35,603 - INFO - Logging initialized for account TestConfirm
+2025-04-30 16:27:35,604 - INFO - Heartbeat monitor initialized.
+2025-04-30 16:27:35,635 - INFO - Logging initialized for account TestConfirm
+2025-04-30 16:27:35,636 - INFO - Heartbeat monitor initialized.
+2025-04-30 16:27:35,661 - INFO - Logging initialized for account TestConfirm
+2025-04-30 16:27:35,662 - INFO - Heartbeat monitor initialized.
+2025-04-30 16:27:35,672 - INFO - Logging initialized for account TestConfirm
+2025-04-30 16:27:35,672 - INFO - Heartbeat monitor initialized.

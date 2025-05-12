@@ -1,0 +1,10 @@
+2025-04-22 15:34:49,526 - MultiAccountMonitor - INFO - Received interrupt, terminating all processes
+2025-04-22 15:34:54,846 - MultiAccountMonitor - INFO - Loaded 2 account configurations
+2025-04-22 15:34:54,846 - MultiAccountMonitor - INFO - Starting Multi-Account Monitor
+2025-04-22 15:34:54,874 - MultiAccountMonitor - INFO - Started process for account XM
+2025-04-22 15:34:54,886 - MultiAccountMonitor - INFO - Started process for account TNFX
+2025-04-22 16:58:02,112 - MultiAccountMonitor - INFO - Received interrupt, terminating all processes
+2025-04-22 17:04:04,407 - MultiAccountMonitor - INFO - Loaded 2 account configurations
+2025-04-22 17:04:04,408 - MultiAccountMonitor - INFO - Starting Multi-Account Monitor
+2025-04-22 17:04:04,433 - MultiAccountMonitor - INFO - Started process for account XM
+2025-04-22 17:04:04,441 - MultiAccountMonitor - INFO - Started process for account TNFX

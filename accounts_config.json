@@ -1,0 +1,16 @@
+[
+    {
+        "name": "XM",
+        "login": 98509933,
+        "password": "@Xmm232425",
+        "server": "XMGlobal-MT5 5",
+        "terminal_path": "C:\\Program Files\\XM Global MT5\\terminal64.exe"
+    },
+    {
+        "name": "TNFX",
+        "login": 5005688,
+        "password": "@Tnf2324252627",
+        "server": "TNFX-Demo",
+        "terminal_path": "C:\\Program Files\\TNFX Ltd MetaTrader 5 Terminal\\terminal64.exe"
+    }
+]

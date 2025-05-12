@@ -1,0 +1,83 @@
+[2025-04-30 16:16:34] [TestConfirm] [TP1_SECURED] Position 101 (EURUSD) secured at entry 1.1 after TP1 condition met.
+[2025-04-30 16:16:34] [TestConfirm] [TP1_SECURED] Position 102 (GBPUSD) secured at entry 1.2 after TP1 condition met.
+[2025-04-30 16:16:34] [TestConfirm] [TP1_SECURED] Position 201 (USDCHF) secured at entry 0.95 after TP1 condition met.
+[2025-04-30 16:16:34] [TestConfirm] [TP1_SECURED] Position 301 (EURUSD) secured at entry 1.12 after TP1 condition met.
+[2025-04-30 16:16:34] [TestConfirm] [PENDING_DELETED] Pending order 901 (EURUSD, Price: 1.115) deleted due to TP1 hit on related position.
+[2025-04-30 16:16:34] [TestConfirm] [PENDING_DELETED] Pending order 902 (EURUSD, Price: 1.1149) deleted due to TP1 hit on related position.
+[2025-04-30 16:16:34] [TestConfirm] [TP1_SECURED] Position 401 (GBPUSD) secured at entry 1.25 after TP1 condition met.
+[2025-04-30 16:16:34] [TestConfirm] [SECOND_PRICE_SECURED] Position 501 (GBPUSD, Entry: 1.24500) secured with SL at FIRST price entry 1.25000 (Rule 2).
+[2025-04-30 16:16:34] [TestConfirm] [SECOND_PRICE_SECURED] Position 502 (GBPUSD, Entry: 1.24500) secured with SL at FIRST price entry 1.25000 (Rule 2).
+[2025-05-06 12:51:48] [XM] [TP1_SECURED] Position 503328889 (AUDCAD) secured at entry 0.89502 after TP1 condition met.
+[2025-05-06 12:51:49] [XM] [PENDING_DELETE_FAILED] Failed to delete pending order 503328917 (AUDCAD). System Error: -2 - Invalid "comment" argument
+[2025-05-06 12:51:50] [XM] [PENDING_DELETE_FAILED] Failed to delete pending order 503328927 (AUDCAD). System Error: -2 - Invalid "comment" argument
+[2025-05-06 12:51:51] [XM] [PENDING_DELETE_FAILED] Failed to delete pending order 503328941 (AUDCAD). System Error: -2 - Invalid "comment" argument
+[2025-05-06 12:51:52] [XM] [PENDING_DELETE_FAILED] Failed to delete pending order 503328946 (AUDCAD). System Error: -2 - Invalid "comment" argument
+[2025-05-06 12:51:52] [XM] [TP1_SECURED] Position 503329094 (AUDUSD) secured at entry 0.64902 after TP1 condition met.
+[2025-05-06 12:51:54] [XM] [PENDING_DELETE_FAILED] Failed to delete pending order 503329108 (AUDUSD). System Error: -2 - Invalid "comment" argument
+[2025-05-06 12:51:55] [XM] [PENDING_DELETE_FAILED] Failed to delete pending order 503329110 (AUDUSD). System Error: -2 - Invalid "comment" argument
+[2025-05-06 12:51:56] [XM] [PENDING_DELETE_FAILED] Failed to delete pending order 503329113 (AUDUSD). System Error: -2 - Invalid "comment" argument
+[2025-05-06 12:51:57] [XM] [PENDING_DELETE_FAILED] Failed to delete pending order 503329115 (AUDUSD). System Error: -2 - Invalid "comment" argument
+[2025-05-06 12:52:25] [XM] [TP1_SECURED] Position 503328810 (JP225Cash) secured at entry 36959.0 after TP1 condition met.
+[2025-05-06 12:52:26] [XM] [PENDING_DELETE_FAILED] Failed to delete pending order 503328827 (JP225Cash). System Error: -2 - Invalid "comment" argument
+[2025-05-06 12:52:27] [XM] [PENDING_DELETE_FAILED] Failed to delete pending order 503328834 (JP225Cash). System Error: -2 - Invalid "comment" argument
+[2025-05-06 12:52:28] [XM] [PENDING_DELETE_FAILED] Failed to delete pending order 503328838 (JP225Cash). System Error: -2 - Invalid "comment" argument
+[2025-05-06 12:52:29] [XM] [PENDING_DELETE_FAILED] Failed to delete pending order 503328842 (JP225Cash). System Error: -2 - Invalid "comment" argument
+[2025-05-06 16:50:47] [XM] [PENDING_DELETE_FAILED] Failed to delete pending order 503328827 (JP225Cash). System Error: -2 - Invalid "comment" argument
+[2025-05-06 16:50:48] [XM] [PENDING_DELETE_FAILED] Failed to delete pending order 503328834 (JP225Cash). System Error: -2 - Invalid "comment" argument
+[2025-05-06 16:50:49] [XM] [PENDING_DELETE_FAILED] Failed to delete pending order 503328838 (JP225Cash). System Error: -2 - Invalid "comment" argument
+[2025-05-06 16:50:50] [XM] [PENDING_DELETE_FAILED] Failed to delete pending order 503328842 (JP225Cash). System Error: -2 - Invalid "comment" argument
+[2025-05-06 18:11:14] [XM] [TP1_SECURED] Position 503331945 (GBPAUD) secured at entry 2.067 after TP1 condition met.
+[2025-05-06 18:11:16] [XM] [PENDING_DELETE_FAILED] Failed to delete pending order 503331963 (GBPAUD). System Error: -2 - Invalid "comment" argument
+[2025-05-06 18:11:17] [XM] [PENDING_DELETE_FAILED] Failed to delete pending order 503331965 (GBPAUD). System Error: -2 - Invalid "comment" argument
+[2025-05-06 18:11:18] [XM] [PENDING_DELETE_FAILED] Failed to delete pending order 503331967 (GBPAUD). System Error: -2 - Invalid "comment" argument
+[2025-05-06 18:11:19] [XM] [PENDING_DELETE_FAILED] Failed to delete pending order 503331970 (GBPAUD). System Error: -2 - Invalid "comment" argument
+[2025-05-06 18:14:36] [XM] [TP1_SECURED] Position 503331974 (GBPCAD) secured at entry 1.846 after TP1 condition met.
+[2025-05-06 18:14:37] [XM] [PENDING_DELETE_FAILED] Failed to delete pending order 503331985 (GBPCAD). System Error: -2 - Invalid "comment" argument
+[2025-05-06 18:14:38] [XM] [PENDING_DELETE_FAILED] Failed to delete pending order 503331988 (GBPCAD). System Error: -2 - Invalid "comment" argument
+[2025-05-06 18:14:39] [XM] [PENDING_DELETE_FAILED] Failed to delete pending order 503331990 (GBPCAD). System Error: -2 - Invalid "comment" argument
+[2025-05-06 18:14:40] [XM] [PENDING_DELETE_FAILED] Failed to delete pending order 503331992 (GBPCAD). System Error: -2 - Invalid "comment" argument
+[2025-05-06 19:13:38] [XM] [TP1_SECURED] Position 503328703 (US30Cash) secured at entry 40796.5 after TP1 condition met.
+[2025-05-06 19:14:23] [XM] [TP1_SECURED] Position 503328690 (US30Cash) secured at entry 40997.4 after TP1 condition met.
+[2025-05-07 22:12:06] [XM] [TP1_SECURED] Position 503332162 (NZDUSD) secured at entry 0.59901 after TP1 condition met.
+[2025-05-07 22:12:08] [XM] [PENDING_DELETE_FAILED] Failed to delete pending order 503332169 (NZDUSD). System Error: -2 - Invalid "comment" argument
+[2025-05-07 22:12:09] [XM] [PENDING_DELETE_FAILED] Failed to delete pending order 503332172 (NZDUSD). System Error: -2 - Invalid "comment" argument
+[2025-05-07 22:12:10] [XM] [PENDING_DELETE_FAILED] Failed to delete pending order 503332221 (NZDUSD). System Error: -2 - Invalid "comment" argument
+[2025-05-07 22:12:11] [XM] [PENDING_DELETE_FAILED] Failed to delete pending order 503332223 (NZDUSD). System Error: -2 - Invalid "comment" argument
+[2025-05-07 22:42:08] [XM] [TP1_SECURED] Position 503329331 (EURAUD) secured at entry 1.762 after TP1 condition met.
+[2025-05-07 22:42:10] [XM] [PENDING_DELETE_FAILED] Failed to delete pending order 503329346 (EURAUD). System Error: -2 - Invalid "comment" argument
+[2025-05-07 22:42:11] [XM] [PENDING_DELETE_FAILED] Failed to delete pending order 503329348 (EURAUD). System Error: -2 - Invalid "comment" argument
+[2025-05-07 22:42:12] [XM] [PENDING_DELETE_FAILED] Failed to delete pending order 503329349 (EURAUD). System Error: -2 - Invalid "comment" argument
+[2025-05-07 22:42:13] [XM] [PENDING_DELETE_FAILED] Failed to delete pending order 503329353 (EURAUD). System Error: -2 - Invalid "comment" argument
+[2025-05-08 23:00:39] [XM] [TP1_SECURED] Position 503331985 (GBPCAD) secured at entry 1.85201 after TP1 condition met.
+[2025-05-09 03:02:15] [XM] [TP1_SECURED] Position 503328762 (US100Cash) secured at entry 20200.9 after TP1 condition met.
+[2025-05-09 03:02:17] [XM] [PENDING_DELETE_FAILED] Failed to delete pending order 503328770 (US100Cash). System Error: -2 - Invalid "comment" argument
+[2025-05-09 03:02:18] [XM] [PENDING_DELETE_FAILED] Failed to delete pending order 503328772 (US100Cash). System Error: -2 - Invalid "comment" argument
+[2025-05-09 03:02:19] [XM] [PENDING_DELETE_FAILED] Failed to delete pending order 503328774 (US100Cash). System Error: -2 - Invalid "comment" argument
+[2025-05-09 03:02:20] [XM] [PENDING_DELETE_FAILED] Failed to delete pending order 503328775 (US100Cash). System Error: -2 - Invalid "comment" argument
+[2025-05-09 03:49:38] [XM] [TP1_SECURED] Position 503331995 (GBPJPY) secured at entry 193.405 after TP1 condition met.
+[2025-05-09 03:49:39] [XM] [PENDING_DELETE_FAILED] Failed to delete pending order 503332006 (GBPJPY). System Error: -2 - Invalid "comment" argument
+[2025-05-09 03:49:40] [XM] [PENDING_DELETE_FAILED] Failed to delete pending order 503332011 (GBPJPY). System Error: -2 - Invalid "comment" argument
+[2025-05-09 03:49:41] [XM] [PENDING_DELETE_FAILED] Failed to delete pending order 503332013 (GBPJPY). System Error: -2 - Invalid "comment" argument
+[2025-05-09 03:49:42] [XM] [PENDING_DELETE_FAILED] Failed to delete pending order 503332015 (GBPJPY). System Error: -2 - Invalid "comment" argument
+[2025-05-09 16:44:50] [XM] [TP1_SECURED] Position 503332019 (GBPNZD) secured at entry 2.25301 after TP1 condition met.
+[2025-05-09 16:44:51] [XM] [PENDING_DELETE_FAILED] Failed to delete pending order 503332032 (GBPNZD). System Error: -2 - Invalid "comment" argument
+[2025-05-09 16:44:52] [XM] [PENDING_DELETE_FAILED] Failed to delete pending order 503332064 (GBPNZD). System Error: -2 - Invalid "comment" argument
+[2025-05-09 16:44:53] [XM] [PENDING_DELETE_FAILED] Failed to delete pending order 503332069 (GBPNZD). System Error: -2 - Invalid "comment" argument
+[2025-05-09 16:44:54] [XM] [PENDING_DELETE_FAILED] Failed to delete pending order 503332073 (GBPNZD). System Error: -2 - Invalid "comment" argument
+[2025-05-12 08:48:23] [XM] [TP1_SECURED] Position 503331963 (GBPAUD) secured at entry 2.07301 after TP1 condition met.
+[2025-05-12 10:00:18] [XM] [TP1_SECURED] Position 503328995 (AUDCHF) secured at entry 0.52999 after TP1 condition met.
+[2025-05-12 10:06:22] [XM] [TP1_SECURED] Position 507799407 (EURNZD) secured at entry 1.88994 after TP1 condition met.
+[2025-05-12 10:06:23] [XM] [PENDING_DELETE_FAILED] Failed to delete pending order 507799426 (EURNZD). System Error: -2 - Invalid "comment" argument
+[2025-05-12 10:06:24] [XM] [PENDING_DELETE_FAILED] Failed to delete pending order 507799428 (EURNZD). System Error: -2 - Invalid "comment" argument
+[2025-05-12 10:06:25] [XM] [PENDING_DELETE_FAILED] Failed to delete pending order 507799429 (EURNZD). System Error: -2 - Invalid "comment" argument
+[2025-05-12 10:06:26] [XM] [PENDING_DELETE_FAILED] Failed to delete pending order 507799431 (EURNZD). System Error: -2 - Invalid "comment" argument
+[2025-05-12 10:53:01] [XM] [TP1_SECURED] Position 507795499 (GER40Cash) secured at entry 23906.15 after TP1 condition met.
+[2025-05-12 10:53:02] [XM] [PENDING_DELETE_FAILED] Failed to delete pending order 507795523 (GER40Cash). System Error: -2 - Invalid "comment" argument
+[2025-05-12 10:53:03] [XM] [PENDING_DELETE_FAILED] Failed to delete pending order 507795527 (GER40Cash). System Error: -2 - Invalid "comment" argument
+[2025-05-12 10:53:04] [XM] [PENDING_DELETE_FAILED] Failed to delete pending order 507795532 (GER40Cash). System Error: -2 - Invalid "comment" argument
+[2025-05-12 10:53:05] [XM] [PENDING_DELETE_FAILED] Failed to delete pending order 507795533 (GER40Cash). System Error: -2 - Invalid "comment" argument
+[2025-05-12 10:56:11] [XM] [TP1_SECURED] Position 507795572 (JP225Cash) secured at entry 38300.0 after TP1 condition met.
+[2025-05-12 10:56:13] [XM] [PENDING_DELETE_FAILED] Failed to delete pending order 507795589 (JP225Cash). System Error: -2 - Invalid "comment" argument
+[2025-05-12 10:56:14] [XM] [PENDING_DELETE_FAILED] Failed to delete pending order 507795593 (JP225Cash). System Error: -2 - Invalid "comment" argument
+[2025-05-12 10:56:15] [XM] [PENDING_DELETE_FAILED] Failed to delete pending order 507795597 (JP225Cash). System Error: -2 - Invalid "comment" argument
+[2025-05-12 10:56:16] [XM] [PENDING_DELETE_FAILED] Failed to delete pending order 507795598 (JP225Cash). System Error: -2 - Invalid "comment" argument

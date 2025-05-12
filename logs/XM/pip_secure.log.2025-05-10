@@ -1,0 +1,2960 @@
+2025-05-10 00:02:30,278 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 00:02:30,323 - INFO - Positions checked: 3874
+2025-05-10 00:02:30,332 - INFO - Positions secured (Total): 40
+2025-05-10 00:02:30,337 - INFO -   - TP1 secured events: 0
+2025-05-10 00:02:30,338 - INFO -   - 2nd Price secured events: 0
+2025-05-10 00:02:30,339 - INFO - Pending orders deleted: 0
+2025-05-10 00:02:30,340 - INFO -   - Pending deleted events: 0
+2025-05-10 00:02:30,340 - INFO - Errors encountered: 0
+2025-05-10 00:02:30,341 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 00:02:30,342 - INFO - =========================
+2025-05-10 00:07:30,798 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 00:07:30,798 - INFO - Positions checked: 3874
+2025-05-10 00:07:30,800 - INFO - Positions secured (Total): 40
+2025-05-10 00:07:30,800 - INFO -   - TP1 secured events: 0
+2025-05-10 00:07:30,801 - INFO -   - 2nd Price secured events: 0
+2025-05-10 00:07:30,801 - INFO - Pending orders deleted: 0
+2025-05-10 00:07:30,801 - INFO -   - Pending deleted events: 0
+2025-05-10 00:07:30,801 - INFO - Errors encountered: 0
+2025-05-10 00:07:30,801 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 00:07:30,802 - INFO - =========================
+2025-05-10 00:12:31,215 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 00:12:31,215 - INFO - Positions checked: 3874
+2025-05-10 00:12:31,217 - INFO - Positions secured (Total): 40
+2025-05-10 00:12:31,218 - INFO -   - TP1 secured events: 0
+2025-05-10 00:12:31,218 - INFO -   - 2nd Price secured events: 0
+2025-05-10 00:12:31,219 - INFO - Pending orders deleted: 0
+2025-05-10 00:12:31,219 - INFO -   - Pending deleted events: 0
+2025-05-10 00:12:31,219 - INFO - Errors encountered: 0
+2025-05-10 00:12:31,220 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 00:12:31,220 - INFO - =========================
+2025-05-10 00:17:31,732 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 00:17:31,733 - INFO - Positions checked: 3874
+2025-05-10 00:17:31,735 - INFO - Positions secured (Total): 40
+2025-05-10 00:17:31,735 - INFO -   - TP1 secured events: 0
+2025-05-10 00:17:31,736 - INFO -   - 2nd Price secured events: 0
+2025-05-10 00:17:31,737 - INFO - Pending orders deleted: 0
+2025-05-10 00:17:31,738 - INFO -   - Pending deleted events: 0
+2025-05-10 00:17:31,739 - INFO - Errors encountered: 0
+2025-05-10 00:17:31,739 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 00:17:31,741 - INFO - =========================
+2025-05-10 00:22:32,153 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 00:22:32,153 - INFO - Positions checked: 3874
+2025-05-10 00:22:32,154 - INFO - Positions secured (Total): 40
+2025-05-10 00:22:32,154 - INFO -   - TP1 secured events: 0
+2025-05-10 00:22:32,154 - INFO -   - 2nd Price secured events: 0
+2025-05-10 00:22:32,155 - INFO - Pending orders deleted: 0
+2025-05-10 00:22:32,155 - INFO -   - Pending deleted events: 0
+2025-05-10 00:22:32,155 - INFO - Errors encountered: 0
+2025-05-10 00:22:32,156 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 00:22:32,156 - INFO - =========================
+2025-05-10 00:27:32,623 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 00:27:32,623 - INFO - Positions checked: 3874
+2025-05-10 00:27:32,624 - INFO - Positions secured (Total): 40
+2025-05-10 00:27:32,624 - INFO -   - TP1 secured events: 0
+2025-05-10 00:27:32,624 - INFO -   - 2nd Price secured events: 0
+2025-05-10 00:27:32,625 - INFO - Pending orders deleted: 0
+2025-05-10 00:27:32,625 - INFO -   - Pending deleted events: 0
+2025-05-10 00:27:32,625 - INFO - Errors encountered: 0
+2025-05-10 00:27:32,626 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 00:27:32,626 - INFO - =========================
+2025-05-10 00:32:33,171 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 00:32:33,171 - INFO - Positions checked: 3874
+2025-05-10 00:32:33,171 - INFO - Positions secured (Total): 40
+2025-05-10 00:32:33,171 - INFO -   - TP1 secured events: 0
+2025-05-10 00:32:33,172 - INFO -   - 2nd Price secured events: 0
+2025-05-10 00:32:33,172 - INFO - Pending orders deleted: 0
+2025-05-10 00:32:33,172 - INFO -   - Pending deleted events: 0
+2025-05-10 00:32:33,172 - INFO - Errors encountered: 0
+2025-05-10 00:32:33,173 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 00:32:33,173 - INFO - =========================
+2025-05-10 00:37:33,672 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 00:37:33,673 - INFO - Positions checked: 3874
+2025-05-10 00:37:33,673 - INFO - Positions secured (Total): 40
+2025-05-10 00:37:33,673 - INFO -   - TP1 secured events: 0
+2025-05-10 00:37:33,673 - INFO -   - 2nd Price secured events: 0
+2025-05-10 00:37:33,674 - INFO - Pending orders deleted: 0
+2025-05-10 00:37:33,674 - INFO -   - Pending deleted events: 0
+2025-05-10 00:37:33,674 - INFO - Errors encountered: 0
+2025-05-10 00:37:33,675 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 00:37:33,675 - INFO - =========================
+2025-05-10 00:42:34,099 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 00:42:34,100 - INFO - Positions checked: 3874
+2025-05-10 00:42:34,101 - INFO - Positions secured (Total): 40
+2025-05-10 00:42:34,105 - INFO -   - TP1 secured events: 0
+2025-05-10 00:42:34,107 - INFO -   - 2nd Price secured events: 0
+2025-05-10 00:42:34,108 - INFO - Pending orders deleted: 0
+2025-05-10 00:42:34,109 - INFO -   - Pending deleted events: 0
+2025-05-10 00:42:34,111 - INFO - Errors encountered: 0
+2025-05-10 00:42:34,112 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 00:42:34,112 - INFO - =========================
+2025-05-10 00:47:34,455 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 00:47:34,455 - INFO - Positions checked: 3874
+2025-05-10 00:47:34,456 - INFO - Positions secured (Total): 40
+2025-05-10 00:47:34,456 - INFO -   - TP1 secured events: 0
+2025-05-10 00:47:34,456 - INFO -   - 2nd Price secured events: 0
+2025-05-10 00:47:34,457 - INFO - Pending orders deleted: 0
+2025-05-10 00:47:34,457 - INFO -   - Pending deleted events: 0
+2025-05-10 00:47:34,457 - INFO - Errors encountered: 0
+2025-05-10 00:47:34,458 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 00:47:34,458 - INFO - =========================
+2025-05-10 00:52:34,676 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 00:52:34,677 - INFO - Positions checked: 3874
+2025-05-10 00:52:34,679 - INFO - Positions secured (Total): 40
+2025-05-10 00:52:34,679 - INFO -   - TP1 secured events: 0
+2025-05-10 00:52:34,680 - INFO -   - 2nd Price secured events: 0
+2025-05-10 00:52:34,680 - INFO - Pending orders deleted: 0
+2025-05-10 00:52:34,680 - INFO -   - Pending deleted events: 0
+2025-05-10 00:52:34,680 - INFO - Errors encountered: 0
+2025-05-10 00:52:34,680 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 00:52:34,681 - INFO - =========================
+2025-05-10 00:57:35,230 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 00:57:35,231 - INFO - Positions checked: 3874
+2025-05-10 00:57:35,231 - INFO - Positions secured (Total): 40
+2025-05-10 00:57:35,231 - INFO -   - TP1 secured events: 0
+2025-05-10 00:57:35,232 - INFO -   - 2nd Price secured events: 0
+2025-05-10 00:57:35,232 - INFO - Pending orders deleted: 0
+2025-05-10 00:57:35,232 - INFO -   - Pending deleted events: 0
+2025-05-10 00:57:35,233 - INFO - Errors encountered: 0
+2025-05-10 00:57:35,233 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 00:57:35,233 - INFO - =========================
+2025-05-10 01:02:35,808 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 01:02:35,808 - INFO - Positions checked: 3874
+2025-05-10 01:02:35,808 - INFO - Positions secured (Total): 40
+2025-05-10 01:02:35,808 - INFO -   - TP1 secured events: 0
+2025-05-10 01:02:35,808 - INFO -   - 2nd Price secured events: 0
+2025-05-10 01:02:35,809 - INFO - Pending orders deleted: 0
+2025-05-10 01:02:35,809 - INFO -   - Pending deleted events: 0
+2025-05-10 01:02:35,809 - INFO - Errors encountered: 0
+2025-05-10 01:02:35,810 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 01:02:35,810 - INFO - =========================
+2025-05-10 01:07:36,396 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 01:07:36,397 - INFO - Positions checked: 3874
+2025-05-10 01:07:36,397 - INFO - Positions secured (Total): 40
+2025-05-10 01:07:36,398 - INFO -   - TP1 secured events: 0
+2025-05-10 01:07:36,398 - INFO -   - 2nd Price secured events: 0
+2025-05-10 01:07:36,398 - INFO - Pending orders deleted: 0
+2025-05-10 01:07:36,399 - INFO -   - Pending deleted events: 0
+2025-05-10 01:07:36,399 - INFO - Errors encountered: 0
+2025-05-10 01:07:36,399 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 01:07:36,401 - INFO - =========================
+2025-05-10 01:12:36,900 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 01:12:36,902 - INFO - Positions checked: 3874
+2025-05-10 01:12:36,903 - INFO - Positions secured (Total): 40
+2025-05-10 01:12:36,904 - INFO -   - TP1 secured events: 0
+2025-05-10 01:12:36,905 - INFO -   - 2nd Price secured events: 0
+2025-05-10 01:12:36,905 - INFO - Pending orders deleted: 0
+2025-05-10 01:12:36,906 - INFO -   - Pending deleted events: 0
+2025-05-10 01:12:36,907 - INFO - Errors encountered: 0
+2025-05-10 01:12:36,908 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 01:12:36,909 - INFO - =========================
+2025-05-10 01:17:37,416 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 01:17:37,417 - INFO - Positions checked: 3874
+2025-05-10 01:17:37,417 - INFO - Positions secured (Total): 40
+2025-05-10 01:17:37,418 - INFO -   - TP1 secured events: 0
+2025-05-10 01:17:37,418 - INFO -   - 2nd Price secured events: 0
+2025-05-10 01:17:37,418 - INFO - Pending orders deleted: 0
+2025-05-10 01:17:37,419 - INFO -   - Pending deleted events: 0
+2025-05-10 01:17:37,420 - INFO - Errors encountered: 0
+2025-05-10 01:17:37,420 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 01:17:37,421 - INFO - =========================
+2025-05-10 01:22:37,953 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 01:22:37,953 - INFO - Positions checked: 3874
+2025-05-10 01:22:37,954 - INFO - Positions secured (Total): 40
+2025-05-10 01:22:37,955 - INFO -   - TP1 secured events: 0
+2025-05-10 01:22:37,955 - INFO -   - 2nd Price secured events: 0
+2025-05-10 01:22:37,956 - INFO - Pending orders deleted: 0
+2025-05-10 01:22:37,956 - INFO -   - Pending deleted events: 0
+2025-05-10 01:22:37,956 - INFO - Errors encountered: 0
+2025-05-10 01:22:37,957 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 01:22:37,957 - INFO - =========================
+2025-05-10 01:27:38,597 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 01:27:38,597 - INFO - Positions checked: 3874
+2025-05-10 01:27:38,623 - INFO - Positions secured (Total): 40
+2025-05-10 01:27:38,625 - INFO -   - TP1 secured events: 0
+2025-05-10 01:27:38,627 - INFO -   - 2nd Price secured events: 0
+2025-05-10 01:27:38,627 - INFO - Pending orders deleted: 0
+2025-05-10 01:27:38,632 - INFO -   - Pending deleted events: 0
+2025-05-10 01:27:38,707 - INFO - Errors encountered: 0
+2025-05-10 01:27:38,708 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 01:27:38,708 - INFO - =========================
+2025-05-10 01:32:39,355 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 01:32:39,355 - INFO - Positions checked: 3874
+2025-05-10 01:32:39,355 - INFO - Positions secured (Total): 40
+2025-05-10 01:32:39,355 - INFO -   - TP1 secured events: 0
+2025-05-10 01:32:39,355 - INFO -   - 2nd Price secured events: 0
+2025-05-10 01:32:39,356 - INFO - Pending orders deleted: 0
+2025-05-10 01:32:39,356 - INFO -   - Pending deleted events: 0
+2025-05-10 01:32:39,356 - INFO - Errors encountered: 0
+2025-05-10 01:32:39,356 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 01:32:39,357 - INFO - =========================
+2025-05-10 01:37:39,946 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 01:37:39,947 - INFO - Positions checked: 3874
+2025-05-10 01:37:39,947 - INFO - Positions secured (Total): 40
+2025-05-10 01:37:39,947 - INFO -   - TP1 secured events: 0
+2025-05-10 01:37:39,948 - INFO -   - 2nd Price secured events: 0
+2025-05-10 01:37:39,948 - INFO - Pending orders deleted: 0
+2025-05-10 01:37:39,948 - INFO -   - Pending deleted events: 0
+2025-05-10 01:37:39,948 - INFO - Errors encountered: 0
+2025-05-10 01:37:39,948 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 01:37:39,949 - INFO - =========================
+2025-05-10 01:42:40,503 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 01:42:40,504 - INFO - Positions checked: 3874
+2025-05-10 01:42:40,504 - INFO - Positions secured (Total): 40
+2025-05-10 01:42:40,504 - INFO -   - TP1 secured events: 0
+2025-05-10 01:42:40,505 - INFO -   - 2nd Price secured events: 0
+2025-05-10 01:42:40,505 - INFO - Pending orders deleted: 0
+2025-05-10 01:42:40,505 - INFO -   - Pending deleted events: 0
+2025-05-10 01:42:40,506 - INFO - Errors encountered: 0
+2025-05-10 01:42:40,506 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 01:42:40,506 - INFO - =========================
+2025-05-10 01:47:41,021 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 01:47:41,023 - INFO - Positions checked: 3874
+2025-05-10 01:47:41,024 - INFO - Positions secured (Total): 40
+2025-05-10 01:47:41,027 - INFO -   - TP1 secured events: 0
+2025-05-10 01:47:41,028 - INFO -   - 2nd Price secured events: 0
+2025-05-10 01:47:41,029 - INFO - Pending orders deleted: 0
+2025-05-10 01:47:41,030 - INFO -   - Pending deleted events: 0
+2025-05-10 01:47:41,031 - INFO - Errors encountered: 0
+2025-05-10 01:47:41,032 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 01:47:41,034 - INFO - =========================
+2025-05-10 01:52:41,538 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 01:52:41,539 - INFO - Positions checked: 3874
+2025-05-10 01:52:41,539 - INFO - Positions secured (Total): 40
+2025-05-10 01:52:41,540 - INFO -   - TP1 secured events: 0
+2025-05-10 01:52:41,540 - INFO -   - 2nd Price secured events: 0
+2025-05-10 01:52:41,541 - INFO - Pending orders deleted: 0
+2025-05-10 01:52:41,541 - INFO -   - Pending deleted events: 0
+2025-05-10 01:52:41,542 - INFO - Errors encountered: 0
+2025-05-10 01:52:41,542 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 01:52:41,542 - INFO - =========================
+2025-05-10 01:57:42,072 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 01:57:42,072 - INFO - Positions checked: 3874
+2025-05-10 01:57:42,073 - INFO - Positions secured (Total): 40
+2025-05-10 01:57:42,074 - INFO -   - TP1 secured events: 0
+2025-05-10 01:57:42,074 - INFO -   - 2nd Price secured events: 0
+2025-05-10 01:57:42,074 - INFO - Pending orders deleted: 0
+2025-05-10 01:57:42,075 - INFO -   - Pending deleted events: 0
+2025-05-10 01:57:42,075 - INFO - Errors encountered: 0
+2025-05-10 01:57:42,076 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 01:57:42,076 - INFO - =========================
+2025-05-10 02:02:42,632 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 02:02:42,633 - INFO - Positions checked: 3874
+2025-05-10 02:02:42,633 - INFO - Positions secured (Total): 40
+2025-05-10 02:02:42,634 - INFO -   - TP1 secured events: 0
+2025-05-10 02:02:42,634 - INFO -   - 2nd Price secured events: 0
+2025-05-10 02:02:42,635 - INFO - Pending orders deleted: 0
+2025-05-10 02:02:42,635 - INFO -   - Pending deleted events: 0
+2025-05-10 02:02:42,636 - INFO - Errors encountered: 0
+2025-05-10 02:02:42,636 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 02:02:42,637 - INFO - =========================
+2025-05-10 02:07:43,150 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 02:07:43,150 - INFO - Positions checked: 3874
+2025-05-10 02:07:43,151 - INFO - Positions secured (Total): 40
+2025-05-10 02:07:43,151 - INFO -   - TP1 secured events: 0
+2025-05-10 02:07:43,152 - INFO -   - 2nd Price secured events: 0
+2025-05-10 02:07:43,152 - INFO - Pending orders deleted: 0
+2025-05-10 02:07:43,153 - INFO -   - Pending deleted events: 0
+2025-05-10 02:07:43,153 - INFO - Errors encountered: 0
+2025-05-10 02:07:43,153 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 02:07:43,154 - INFO - =========================
+2025-05-10 02:12:43,642 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 02:12:43,642 - INFO - Positions checked: 3874
+2025-05-10 02:12:43,642 - INFO - Positions secured (Total): 40
+2025-05-10 02:12:43,643 - INFO -   - TP1 secured events: 0
+2025-05-10 02:12:43,643 - INFO -   - 2nd Price secured events: 0
+2025-05-10 02:12:43,643 - INFO - Pending orders deleted: 0
+2025-05-10 02:12:43,644 - INFO -   - Pending deleted events: 0
+2025-05-10 02:12:43,644 - INFO - Errors encountered: 0
+2025-05-10 02:12:43,644 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 02:12:43,644 - INFO - =========================
+2025-05-10 02:17:44,191 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 02:17:44,191 - INFO - Positions checked: 3874
+2025-05-10 02:17:44,191 - INFO - Positions secured (Total): 40
+2025-05-10 02:17:44,192 - INFO -   - TP1 secured events: 0
+2025-05-10 02:17:44,192 - INFO -   - 2nd Price secured events: 0
+2025-05-10 02:17:44,193 - INFO - Pending orders deleted: 0
+2025-05-10 02:17:44,193 - INFO -   - Pending deleted events: 0
+2025-05-10 02:17:44,193 - INFO - Errors encountered: 0
+2025-05-10 02:17:44,194 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 02:17:44,194 - INFO - =========================
+2025-05-10 02:22:44,799 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 02:22:44,800 - INFO - Positions checked: 3874
+2025-05-10 02:22:44,801 - INFO - Positions secured (Total): 40
+2025-05-10 02:22:44,809 - INFO -   - TP1 secured events: 0
+2025-05-10 02:22:44,810 - INFO -   - 2nd Price secured events: 0
+2025-05-10 02:22:44,812 - INFO - Pending orders deleted: 0
+2025-05-10 02:22:44,815 - INFO -   - Pending deleted events: 0
+2025-05-10 02:22:44,816 - INFO - Errors encountered: 0
+2025-05-10 02:22:44,816 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 02:22:44,817 - INFO - =========================
+2025-05-10 02:27:45,323 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 02:27:45,324 - INFO - Positions checked: 3874
+2025-05-10 02:27:45,325 - INFO - Positions secured (Total): 40
+2025-05-10 02:27:45,326 - INFO -   - TP1 secured events: 0
+2025-05-10 02:27:45,327 - INFO -   - 2nd Price secured events: 0
+2025-05-10 02:27:45,328 - INFO - Pending orders deleted: 0
+2025-05-10 02:27:45,329 - INFO -   - Pending deleted events: 0
+2025-05-10 02:27:45,330 - INFO - Errors encountered: 0
+2025-05-10 02:27:45,331 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 02:27:45,332 - INFO - =========================
+2025-05-10 02:32:45,886 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 02:32:45,888 - INFO - Positions checked: 3874
+2025-05-10 02:32:45,890 - INFO - Positions secured (Total): 40
+2025-05-10 02:32:45,891 - INFO -   - TP1 secured events: 0
+2025-05-10 02:32:45,892 - INFO -   - 2nd Price secured events: 0
+2025-05-10 02:32:45,893 - INFO - Pending orders deleted: 0
+2025-05-10 02:32:45,894 - INFO -   - Pending deleted events: 0
+2025-05-10 02:32:45,895 - INFO - Errors encountered: 0
+2025-05-10 02:32:45,896 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 02:32:45,897 - INFO - =========================
+2025-05-10 02:37:46,302 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 02:37:46,304 - INFO - Positions checked: 3874
+2025-05-10 02:37:46,306 - INFO - Positions secured (Total): 40
+2025-05-10 02:37:46,309 - INFO -   - TP1 secured events: 0
+2025-05-10 02:37:46,310 - INFO -   - 2nd Price secured events: 0
+2025-05-10 02:37:46,312 - INFO - Pending orders deleted: 0
+2025-05-10 02:37:46,313 - INFO -   - Pending deleted events: 0
+2025-05-10 02:37:46,321 - INFO - Errors encountered: 0
+2025-05-10 02:37:46,322 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 02:37:46,323 - INFO - =========================
+2025-05-10 02:42:46,798 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 02:42:46,799 - INFO - Positions checked: 3874
+2025-05-10 02:42:46,800 - INFO - Positions secured (Total): 40
+2025-05-10 02:42:46,801 - INFO -   - TP1 secured events: 0
+2025-05-10 02:42:46,802 - INFO -   - 2nd Price secured events: 0
+2025-05-10 02:42:46,803 - INFO - Pending orders deleted: 0
+2025-05-10 02:42:46,803 - INFO -   - Pending deleted events: 0
+2025-05-10 02:42:46,805 - INFO - Errors encountered: 0
+2025-05-10 02:42:46,806 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 02:42:46,806 - INFO - =========================
+2025-05-10 02:47:47,331 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 02:47:47,332 - INFO - Positions checked: 3874
+2025-05-10 02:47:47,332 - INFO - Positions secured (Total): 40
+2025-05-10 02:47:47,333 - INFO -   - TP1 secured events: 0
+2025-05-10 02:47:47,334 - INFO -   - 2nd Price secured events: 0
+2025-05-10 02:47:47,334 - INFO - Pending orders deleted: 0
+2025-05-10 02:47:47,335 - INFO -   - Pending deleted events: 0
+2025-05-10 02:47:47,336 - INFO - Errors encountered: 0
+2025-05-10 02:47:47,337 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 02:47:47,338 - INFO - =========================
+2025-05-10 02:52:47,907 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 02:52:47,908 - INFO - Positions checked: 3874
+2025-05-10 02:52:47,910 - INFO - Positions secured (Total): 40
+2025-05-10 02:52:47,919 - INFO -   - TP1 secured events: 0
+2025-05-10 02:52:47,920 - INFO -   - 2nd Price secured events: 0
+2025-05-10 02:52:47,921 - INFO - Pending orders deleted: 0
+2025-05-10 02:52:47,923 - INFO -   - Pending deleted events: 0
+2025-05-10 02:52:47,924 - INFO - Errors encountered: 0
+2025-05-10 02:52:47,925 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 02:52:47,926 - INFO - =========================
+2025-05-10 02:57:48,545 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 02:57:48,546 - INFO - Positions checked: 3874
+2025-05-10 02:57:48,548 - INFO - Positions secured (Total): 40
+2025-05-10 02:57:48,549 - INFO -   - TP1 secured events: 0
+2025-05-10 02:57:48,550 - INFO -   - 2nd Price secured events: 0
+2025-05-10 02:57:48,550 - INFO - Pending orders deleted: 0
+2025-05-10 02:57:48,551 - INFO -   - Pending deleted events: 0
+2025-05-10 02:57:48,553 - INFO - Errors encountered: 0
+2025-05-10 02:57:48,554 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 02:57:48,554 - INFO - =========================
+2025-05-10 03:02:49,188 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 03:02:49,188 - INFO - Positions checked: 3874
+2025-05-10 03:02:49,188 - INFO - Positions secured (Total): 40
+2025-05-10 03:02:49,188 - INFO -   - TP1 secured events: 0
+2025-05-10 03:02:49,189 - INFO -   - 2nd Price secured events: 0
+2025-05-10 03:02:49,189 - INFO - Pending orders deleted: 0
+2025-05-10 03:02:49,189 - INFO -   - Pending deleted events: 0
+2025-05-10 03:02:49,189 - INFO - Errors encountered: 0
+2025-05-10 03:02:49,190 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 03:02:49,190 - INFO - =========================
+2025-05-10 03:07:49,764 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 03:07:49,764 - INFO - Positions checked: 3874
+2025-05-10 03:07:49,765 - INFO - Positions secured (Total): 40
+2025-05-10 03:07:49,765 - INFO -   - TP1 secured events: 0
+2025-05-10 03:07:49,765 - INFO -   - 2nd Price secured events: 0
+2025-05-10 03:07:49,766 - INFO - Pending orders deleted: 0
+2025-05-10 03:07:49,766 - INFO -   - Pending deleted events: 0
+2025-05-10 03:07:49,766 - INFO - Errors encountered: 0
+2025-05-10 03:07:49,766 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 03:07:49,767 - INFO - =========================
+2025-05-10 03:12:50,420 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 03:12:50,421 - INFO - Positions checked: 3874
+2025-05-10 03:12:50,423 - INFO - Positions secured (Total): 40
+2025-05-10 03:12:50,425 - INFO -   - TP1 secured events: 0
+2025-05-10 03:12:50,428 - INFO -   - 2nd Price secured events: 0
+2025-05-10 03:12:50,429 - INFO - Pending orders deleted: 0
+2025-05-10 03:12:50,430 - INFO -   - Pending deleted events: 0
+2025-05-10 03:12:50,431 - INFO - Errors encountered: 0
+2025-05-10 03:12:50,432 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 03:12:50,432 - INFO - =========================
+2025-05-10 03:17:51,044 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 03:17:51,046 - INFO - Positions checked: 3874
+2025-05-10 03:17:51,046 - INFO - Positions secured (Total): 40
+2025-05-10 03:17:51,047 - INFO -   - TP1 secured events: 0
+2025-05-10 03:17:51,048 - INFO -   - 2nd Price secured events: 0
+2025-05-10 03:17:51,049 - INFO - Pending orders deleted: 0
+2025-05-10 03:17:51,049 - INFO -   - Pending deleted events: 0
+2025-05-10 03:17:51,050 - INFO - Errors encountered: 0
+2025-05-10 03:17:51,051 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 03:17:51,052 - INFO - =========================
+2025-05-10 03:22:51,620 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 03:22:51,621 - INFO - Positions checked: 3874
+2025-05-10 03:22:51,622 - INFO - Positions secured (Total): 40
+2025-05-10 03:22:51,623 - INFO -   - TP1 secured events: 0
+2025-05-10 03:22:51,623 - INFO -   - 2nd Price secured events: 0
+2025-05-10 03:22:51,624 - INFO - Pending orders deleted: 0
+2025-05-10 03:22:51,626 - INFO -   - Pending deleted events: 0
+2025-05-10 03:22:51,627 - INFO - Errors encountered: 0
+2025-05-10 03:22:51,627 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 03:22:51,628 - INFO - =========================
+2025-05-10 03:27:52,205 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 03:27:52,205 - INFO - Positions checked: 3874
+2025-05-10 03:27:52,205 - INFO - Positions secured (Total): 40
+2025-05-10 03:27:52,205 - INFO -   - TP1 secured events: 0
+2025-05-10 03:27:52,206 - INFO -   - 2nd Price secured events: 0
+2025-05-10 03:27:52,206 - INFO - Pending orders deleted: 0
+2025-05-10 03:27:52,206 - INFO -   - Pending deleted events: 0
+2025-05-10 03:27:52,206 - INFO - Errors encountered: 0
+2025-05-10 03:27:52,207 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 03:27:52,207 - INFO - =========================
+2025-05-10 03:32:52,716 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 03:32:52,717 - INFO - Positions checked: 3874
+2025-05-10 03:32:52,717 - INFO - Positions secured (Total): 40
+2025-05-10 03:32:52,717 - INFO -   - TP1 secured events: 0
+2025-05-10 03:32:52,718 - INFO -   - 2nd Price secured events: 0
+2025-05-10 03:32:52,718 - INFO - Pending orders deleted: 0
+2025-05-10 03:32:52,718 - INFO -   - Pending deleted events: 0
+2025-05-10 03:32:52,718 - INFO - Errors encountered: 0
+2025-05-10 03:32:52,719 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 03:32:52,719 - INFO - =========================
+2025-05-10 03:37:53,209 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 03:37:53,210 - INFO - Positions checked: 3874
+2025-05-10 03:37:53,210 - INFO - Positions secured (Total): 40
+2025-05-10 03:37:53,210 - INFO -   - TP1 secured events: 0
+2025-05-10 03:37:53,211 - INFO -   - 2nd Price secured events: 0
+2025-05-10 03:37:53,211 - INFO - Pending orders deleted: 0
+2025-05-10 03:37:53,211 - INFO -   - Pending deleted events: 0
+2025-05-10 03:37:53,211 - INFO - Errors encountered: 0
+2025-05-10 03:37:53,212 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 03:37:53,212 - INFO - =========================
+2025-05-10 03:42:53,625 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 03:42:53,626 - INFO - Positions checked: 3874
+2025-05-10 03:42:53,626 - INFO - Positions secured (Total): 40
+2025-05-10 03:42:53,626 - INFO -   - TP1 secured events: 0
+2025-05-10 03:42:53,627 - INFO -   - 2nd Price secured events: 0
+2025-05-10 03:42:53,627 - INFO - Pending orders deleted: 0
+2025-05-10 03:42:53,627 - INFO -   - Pending deleted events: 0
+2025-05-10 03:42:53,627 - INFO - Errors encountered: 0
+2025-05-10 03:42:53,627 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 03:42:53,628 - INFO - =========================
+2025-05-10 03:47:54,181 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 03:47:54,181 - INFO - Positions checked: 3874
+2025-05-10 03:47:54,182 - INFO - Positions secured (Total): 40
+2025-05-10 03:47:54,182 - INFO -   - TP1 secured events: 0
+2025-05-10 03:47:54,182 - INFO -   - 2nd Price secured events: 0
+2025-05-10 03:47:54,182 - INFO - Pending orders deleted: 0
+2025-05-10 03:47:54,183 - INFO -   - Pending deleted events: 0
+2025-05-10 03:47:54,183 - INFO - Errors encountered: 0
+2025-05-10 03:47:54,183 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 03:47:54,183 - INFO - =========================
+2025-05-10 03:52:54,520 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 03:52:54,521 - INFO - Positions checked: 3874
+2025-05-10 03:52:54,521 - INFO - Positions secured (Total): 40
+2025-05-10 03:52:54,521 - INFO -   - TP1 secured events: 0
+2025-05-10 03:52:54,521 - INFO -   - 2nd Price secured events: 0
+2025-05-10 03:52:54,522 - INFO - Pending orders deleted: 0
+2025-05-10 03:52:54,522 - INFO -   - Pending deleted events: 0
+2025-05-10 03:52:54,522 - INFO - Errors encountered: 0
+2025-05-10 03:52:54,522 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 03:52:54,523 - INFO - =========================
+2025-05-10 03:57:54,951 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 03:57:54,952 - INFO - Positions checked: 3874
+2025-05-10 03:57:54,953 - INFO - Positions secured (Total): 40
+2025-05-10 03:57:54,955 - INFO -   - TP1 secured events: 0
+2025-05-10 03:57:54,955 - INFO -   - 2nd Price secured events: 0
+2025-05-10 03:57:54,956 - INFO - Pending orders deleted: 0
+2025-05-10 03:57:54,957 - INFO -   - Pending deleted events: 0
+2025-05-10 03:57:54,958 - INFO - Errors encountered: 0
+2025-05-10 03:57:54,958 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 03:57:54,959 - INFO - =========================
+2025-05-10 04:02:55,505 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 04:02:55,506 - INFO - Positions checked: 3874
+2025-05-10 04:02:55,506 - INFO - Positions secured (Total): 40
+2025-05-10 04:02:55,506 - INFO -   - TP1 secured events: 0
+2025-05-10 04:02:55,506 - INFO -   - 2nd Price secured events: 0
+2025-05-10 04:02:55,507 - INFO - Pending orders deleted: 0
+2025-05-10 04:02:55,507 - INFO -   - Pending deleted events: 0
+2025-05-10 04:02:55,507 - INFO - Errors encountered: 0
+2025-05-10 04:02:55,507 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 04:02:55,508 - INFO - =========================
+2025-05-10 04:07:56,052 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 04:07:56,082 - INFO - Positions checked: 3874
+2025-05-10 04:07:56,082 - INFO - Positions secured (Total): 40
+2025-05-10 04:07:56,083 - INFO -   - TP1 secured events: 0
+2025-05-10 04:07:56,083 - INFO -   - 2nd Price secured events: 0
+2025-05-10 04:07:56,102 - INFO - Pending orders deleted: 0
+2025-05-10 04:07:56,109 - INFO -   - Pending deleted events: 0
+2025-05-10 04:07:56,119 - INFO - Errors encountered: 0
+2025-05-10 04:07:56,120 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 04:07:56,123 - INFO - =========================
+2025-05-10 04:12:56,688 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 04:12:56,688 - INFO - Positions checked: 3874
+2025-05-10 04:12:56,688 - INFO - Positions secured (Total): 40
+2025-05-10 04:12:56,689 - INFO -   - TP1 secured events: 0
+2025-05-10 04:12:56,689 - INFO -   - 2nd Price secured events: 0
+2025-05-10 04:12:56,689 - INFO - Pending orders deleted: 0
+2025-05-10 04:12:56,689 - INFO -   - Pending deleted events: 0
+2025-05-10 04:12:56,690 - INFO - Errors encountered: 0
+2025-05-10 04:12:56,690 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 04:12:56,692 - INFO - =========================
+2025-05-10 04:17:57,163 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 04:17:57,164 - INFO - Positions checked: 3874
+2025-05-10 04:17:57,164 - INFO - Positions secured (Total): 40
+2025-05-10 04:17:57,164 - INFO -   - TP1 secured events: 0
+2025-05-10 04:17:57,165 - INFO -   - 2nd Price secured events: 0
+2025-05-10 04:17:57,165 - INFO - Pending orders deleted: 0
+2025-05-10 04:17:57,165 - INFO -   - Pending deleted events: 0
+2025-05-10 04:17:57,165 - INFO - Errors encountered: 0
+2025-05-10 04:17:57,166 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 04:17:57,166 - INFO - =========================
+2025-05-10 04:22:57,474 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 04:22:57,474 - INFO - Positions checked: 3874
+2025-05-10 04:22:57,475 - INFO - Positions secured (Total): 40
+2025-05-10 04:22:57,475 - INFO -   - TP1 secured events: 0
+2025-05-10 04:22:57,476 - INFO -   - 2nd Price secured events: 0
+2025-05-10 04:22:57,476 - INFO - Pending orders deleted: 0
+2025-05-10 04:22:57,476 - INFO -   - Pending deleted events: 0
+2025-05-10 04:22:57,477 - INFO - Errors encountered: 0
+2025-05-10 04:22:57,477 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 04:22:57,477 - INFO - =========================
+2025-05-10 04:27:58,037 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 04:27:58,037 - INFO - Positions checked: 3874
+2025-05-10 04:27:58,038 - INFO - Positions secured (Total): 40
+2025-05-10 04:27:58,038 - INFO -   - TP1 secured events: 0
+2025-05-10 04:27:58,038 - INFO -   - 2nd Price secured events: 0
+2025-05-10 04:27:58,038 - INFO - Pending orders deleted: 0
+2025-05-10 04:27:58,039 - INFO -   - Pending deleted events: 0
+2025-05-10 04:27:58,039 - INFO - Errors encountered: 0
+2025-05-10 04:27:58,039 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 04:27:58,040 - INFO - =========================
+2025-05-10 04:32:58,514 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 04:32:58,516 - INFO - Positions checked: 3874
+2025-05-10 04:32:58,517 - INFO - Positions secured (Total): 40
+2025-05-10 04:32:58,518 - INFO -   - TP1 secured events: 0
+2025-05-10 04:32:58,520 - INFO -   - 2nd Price secured events: 0
+2025-05-10 04:32:58,521 - INFO - Pending orders deleted: 0
+2025-05-10 04:32:58,522 - INFO -   - Pending deleted events: 0
+2025-05-10 04:32:58,522 - INFO - Errors encountered: 0
+2025-05-10 04:32:58,523 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 04:32:58,524 - INFO - =========================
+2025-05-10 04:37:58,820 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 04:37:58,821 - INFO - Positions checked: 3874
+2025-05-10 04:37:58,821 - INFO - Positions secured (Total): 40
+2025-05-10 04:37:58,821 - INFO -   - TP1 secured events: 0
+2025-05-10 04:37:58,821 - INFO -   - 2nd Price secured events: 0
+2025-05-10 04:37:58,822 - INFO - Pending orders deleted: 0
+2025-05-10 04:37:58,822 - INFO -   - Pending deleted events: 0
+2025-05-10 04:37:58,823 - INFO - Errors encountered: 0
+2025-05-10 04:37:58,823 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 04:37:58,823 - INFO - =========================
+2025-05-10 04:42:59,342 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 04:42:59,343 - INFO - Positions checked: 3874
+2025-05-10 04:42:59,344 - INFO - Positions secured (Total): 40
+2025-05-10 04:42:59,344 - INFO -   - TP1 secured events: 0
+2025-05-10 04:42:59,345 - INFO -   - 2nd Price secured events: 0
+2025-05-10 04:42:59,345 - INFO - Pending orders deleted: 0
+2025-05-10 04:42:59,345 - INFO -   - Pending deleted events: 0
+2025-05-10 04:42:59,346 - INFO - Errors encountered: 0
+2025-05-10 04:42:59,347 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 04:42:59,348 - INFO - =========================
+2025-05-10 04:47:59,817 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 04:47:59,817 - INFO - Positions checked: 3874
+2025-05-10 04:47:59,817 - INFO - Positions secured (Total): 40
+2025-05-10 04:47:59,818 - INFO -   - TP1 secured events: 0
+2025-05-10 04:47:59,818 - INFO -   - 2nd Price secured events: 0
+2025-05-10 04:47:59,819 - INFO - Pending orders deleted: 0
+2025-05-10 04:47:59,819 - INFO -   - Pending deleted events: 0
+2025-05-10 04:47:59,819 - INFO - Errors encountered: 0
+2025-05-10 04:47:59,820 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 04:47:59,820 - INFO - =========================
+2025-05-10 04:53:00,217 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 04:53:00,217 - INFO - Positions checked: 3874
+2025-05-10 04:53:00,217 - INFO - Positions secured (Total): 40
+2025-05-10 04:53:00,217 - INFO -   - TP1 secured events: 0
+2025-05-10 04:53:00,217 - INFO -   - 2nd Price secured events: 0
+2025-05-10 04:53:00,218 - INFO - Pending orders deleted: 0
+2025-05-10 04:53:00,218 - INFO -   - Pending deleted events: 0
+2025-05-10 04:53:00,218 - INFO - Errors encountered: 0
+2025-05-10 04:53:00,218 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 04:53:00,219 - INFO - =========================
+2025-05-10 04:58:00,820 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 04:58:00,820 - INFO - Positions checked: 3874
+2025-05-10 04:58:00,821 - INFO - Positions secured (Total): 40
+2025-05-10 04:58:00,821 - INFO -   - TP1 secured events: 0
+2025-05-10 04:58:00,822 - INFO -   - 2nd Price secured events: 0
+2025-05-10 04:58:00,822 - INFO - Pending orders deleted: 0
+2025-05-10 04:58:00,823 - INFO -   - Pending deleted events: 0
+2025-05-10 04:58:00,823 - INFO - Errors encountered: 0
+2025-05-10 04:58:00,824 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 04:58:00,824 - INFO - =========================
+2025-05-10 05:03:01,259 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 05:03:01,260 - INFO - Positions checked: 3874
+2025-05-10 05:03:01,261 - INFO - Positions secured (Total): 40
+2025-05-10 05:03:01,261 - INFO -   - TP1 secured events: 0
+2025-05-10 05:03:01,262 - INFO -   - 2nd Price secured events: 0
+2025-05-10 05:03:01,263 - INFO - Pending orders deleted: 0
+2025-05-10 05:03:01,264 - INFO -   - Pending deleted events: 0
+2025-05-10 05:03:01,265 - INFO - Errors encountered: 0
+2025-05-10 05:03:01,265 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 05:03:01,266 - INFO - =========================
+2025-05-10 05:08:01,825 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 05:08:01,825 - INFO - Positions checked: 3874
+2025-05-10 05:08:01,832 - INFO - Positions secured (Total): 40
+2025-05-10 05:08:01,833 - INFO -   - TP1 secured events: 0
+2025-05-10 05:08:01,833 - INFO -   - 2nd Price secured events: 0
+2025-05-10 05:08:01,833 - INFO - Pending orders deleted: 0
+2025-05-10 05:08:01,834 - INFO -   - Pending deleted events: 0
+2025-05-10 05:08:01,834 - INFO - Errors encountered: 0
+2025-05-10 05:08:01,835 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 05:08:01,836 - INFO - =========================
+2025-05-10 05:13:02,430 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 05:13:02,432 - INFO - Positions checked: 3874
+2025-05-10 05:13:02,434 - INFO - Positions secured (Total): 40
+2025-05-10 05:13:02,435 - INFO -   - TP1 secured events: 0
+2025-05-10 05:13:02,437 - INFO -   - 2nd Price secured events: 0
+2025-05-10 05:13:02,438 - INFO - Pending orders deleted: 0
+2025-05-10 05:13:02,439 - INFO -   - Pending deleted events: 0
+2025-05-10 05:13:02,440 - INFO - Errors encountered: 0
+2025-05-10 05:13:02,441 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 05:13:02,443 - INFO - =========================
+2025-05-10 05:18:02,910 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 05:18:02,910 - INFO - Positions checked: 3874
+2025-05-10 05:18:02,910 - INFO - Positions secured (Total): 40
+2025-05-10 05:18:02,910 - INFO -   - TP1 secured events: 0
+2025-05-10 05:18:02,910 - INFO -   - 2nd Price secured events: 0
+2025-05-10 05:18:02,911 - INFO - Pending orders deleted: 0
+2025-05-10 05:18:02,912 - INFO -   - Pending deleted events: 0
+2025-05-10 05:18:02,913 - INFO - Errors encountered: 0
+2025-05-10 05:18:02,917 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 05:18:02,920 - INFO - =========================
+2025-05-10 05:23:03,552 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 05:23:03,552 - INFO - Positions checked: 3874
+2025-05-10 05:23:03,553 - INFO - Positions secured (Total): 40
+2025-05-10 05:23:03,553 - INFO -   - TP1 secured events: 0
+2025-05-10 05:23:03,553 - INFO -   - 2nd Price secured events: 0
+2025-05-10 05:23:03,554 - INFO - Pending orders deleted: 0
+2025-05-10 05:23:03,554 - INFO -   - Pending deleted events: 0
+2025-05-10 05:23:03,555 - INFO - Errors encountered: 0
+2025-05-10 05:23:03,555 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 05:23:03,555 - INFO - =========================
+2025-05-10 05:28:04,115 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 05:28:04,115 - INFO - Positions checked: 3874
+2025-05-10 05:28:04,115 - INFO - Positions secured (Total): 40
+2025-05-10 05:28:04,116 - INFO -   - TP1 secured events: 0
+2025-05-10 05:28:04,116 - INFO -   - 2nd Price secured events: 0
+2025-05-10 05:28:04,116 - INFO - Pending orders deleted: 0
+2025-05-10 05:28:04,116 - INFO -   - Pending deleted events: 0
+2025-05-10 05:28:04,117 - INFO - Errors encountered: 0
+2025-05-10 05:28:04,117 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 05:28:04,117 - INFO - =========================
+2025-05-10 05:31:23,909 - ERROR - MT5 connection lost - attempting to reconnect...
+2025-05-10 05:31:23,909 - INFO - Attempting to connect to account XM...
+2025-05-10 05:31:23,914 - ERROR - MT5 initialization failed for account XM. Error code: (-6, 'Terminal: Authorization failed')
+2025-05-10 05:31:23,915 - ERROR - Failed to reconnect to MT5. Will retry next cycle.
+2025-05-10 05:31:54,919 - ERROR - MT5 connection lost - attempting to reconnect...
+2025-05-10 05:31:54,920 - INFO - Attempting to connect to account XM...
+2025-05-10 05:31:54,924 - INFO - Connected to MT5 account XM (Login: 98509933, Server: XMGlobal-MT5 5) successfully
+2025-05-10 05:31:54,926 - INFO - Successfully reconnected to MT5.
+2025-05-10 05:33:04,476 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 05:33:04,477 - INFO - Positions checked: 3471
+2025-05-10 05:33:04,477 - INFO - Positions secured (Total): 40
+2025-05-10 05:33:04,477 - INFO -   - TP1 secured events: 0
+2025-05-10 05:33:04,478 - INFO -   - 2nd Price secured events: 0
+2025-05-10 05:33:04,478 - INFO - Pending orders deleted: 0
+2025-05-10 05:33:04,479 - INFO -   - Pending deleted events: 0
+2025-05-10 05:33:04,480 - INFO - Errors encountered: 3
+2025-05-10 05:33:04,480 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 05:33:04,481 - INFO - =========================
+2025-05-10 05:38:05,072 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 05:38:05,072 - INFO - Positions checked: 3874
+2025-05-10 05:38:05,072 - INFO - Positions secured (Total): 40
+2025-05-10 05:38:05,072 - INFO -   - TP1 secured events: 0
+2025-05-10 05:38:05,073 - INFO -   - 2nd Price secured events: 0
+2025-05-10 05:38:05,073 - INFO - Pending orders deleted: 0
+2025-05-10 05:38:05,073 - INFO -   - Pending deleted events: 0
+2025-05-10 05:38:05,073 - INFO - Errors encountered: 0
+2025-05-10 05:38:05,074 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 05:38:05,074 - INFO - =========================
+2025-05-10 05:43:05,459 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 05:43:05,459 - INFO - Positions checked: 3874
+2025-05-10 05:43:05,460 - INFO - Positions secured (Total): 40
+2025-05-10 05:43:05,461 - INFO -   - TP1 secured events: 0
+2025-05-10 05:43:05,461 - INFO -   - 2nd Price secured events: 0
+2025-05-10 05:43:05,461 - INFO - Pending orders deleted: 0
+2025-05-10 05:43:05,461 - INFO -   - Pending deleted events: 0
+2025-05-10 05:43:05,462 - INFO - Errors encountered: 0
+2025-05-10 05:43:05,462 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 05:43:05,462 - INFO - =========================
+2025-05-10 05:48:05,894 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 05:48:05,895 - INFO - Positions checked: 3874
+2025-05-10 05:48:05,895 - INFO - Positions secured (Total): 40
+2025-05-10 05:48:05,898 - INFO -   - TP1 secured events: 0
+2025-05-10 05:48:05,900 - INFO -   - 2nd Price secured events: 0
+2025-05-10 05:48:05,901 - INFO - Pending orders deleted: 0
+2025-05-10 05:48:05,902 - INFO -   - Pending deleted events: 0
+2025-05-10 05:48:05,902 - INFO - Errors encountered: 0
+2025-05-10 05:48:05,902 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 05:48:05,903 - INFO - =========================
+2025-05-10 05:53:06,335 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 05:53:06,336 - INFO - Positions checked: 3874
+2025-05-10 05:53:06,336 - INFO - Positions secured (Total): 40
+2025-05-10 05:53:06,343 - INFO -   - TP1 secured events: 0
+2025-05-10 05:53:06,344 - INFO -   - 2nd Price secured events: 0
+2025-05-10 05:53:06,345 - INFO - Pending orders deleted: 0
+2025-05-10 05:53:06,346 - INFO -   - Pending deleted events: 0
+2025-05-10 05:53:06,346 - INFO - Errors encountered: 0
+2025-05-10 05:53:06,347 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 05:53:06,347 - INFO - =========================
+2025-05-10 05:58:06,720 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 05:58:06,721 - INFO - Positions checked: 3874
+2025-05-10 05:58:06,721 - INFO - Positions secured (Total): 40
+2025-05-10 05:58:06,722 - INFO -   - TP1 secured events: 0
+2025-05-10 05:58:06,722 - INFO -   - 2nd Price secured events: 0
+2025-05-10 05:58:06,722 - INFO - Pending orders deleted: 0
+2025-05-10 05:58:06,722 - INFO -   - Pending deleted events: 0
+2025-05-10 05:58:06,723 - INFO - Errors encountered: 0
+2025-05-10 05:58:06,723 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 05:58:06,723 - INFO - =========================
+2025-05-10 06:03:07,343 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 06:03:07,344 - INFO - Positions checked: 3874
+2025-05-10 06:03:07,346 - INFO - Positions secured (Total): 40
+2025-05-10 06:03:07,347 - INFO -   - TP1 secured events: 0
+2025-05-10 06:03:07,350 - INFO -   - 2nd Price secured events: 0
+2025-05-10 06:03:07,351 - INFO - Pending orders deleted: 0
+2025-05-10 06:03:07,352 - INFO -   - Pending deleted events: 0
+2025-05-10 06:03:07,352 - INFO - Errors encountered: 0
+2025-05-10 06:03:07,353 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 06:03:07,354 - INFO - =========================
+2025-05-10 06:08:07,955 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 06:08:07,955 - INFO - Positions checked: 3874
+2025-05-10 06:08:07,955 - INFO - Positions secured (Total): 40
+2025-05-10 06:08:07,956 - INFO -   - TP1 secured events: 0
+2025-05-10 06:08:07,956 - INFO -   - 2nd Price secured events: 0
+2025-05-10 06:08:07,956 - INFO - Pending orders deleted: 0
+2025-05-10 06:08:07,956 - INFO -   - Pending deleted events: 0
+2025-05-10 06:08:07,956 - INFO - Errors encountered: 0
+2025-05-10 06:08:07,957 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 06:08:07,957 - INFO - =========================
+2025-05-10 06:13:08,381 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 06:13:08,382 - INFO - Positions checked: 3874
+2025-05-10 06:13:08,382 - INFO - Positions secured (Total): 40
+2025-05-10 06:13:08,383 - INFO -   - TP1 secured events: 0
+2025-05-10 06:13:08,383 - INFO -   - 2nd Price secured events: 0
+2025-05-10 06:13:08,383 - INFO - Pending orders deleted: 0
+2025-05-10 06:13:08,384 - INFO -   - Pending deleted events: 0
+2025-05-10 06:13:08,384 - INFO - Errors encountered: 0
+2025-05-10 06:13:08,384 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 06:13:08,385 - INFO - =========================
+2025-05-10 06:18:09,023 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 06:18:09,023 - INFO - Positions checked: 3874
+2025-05-10 06:18:09,023 - INFO - Positions secured (Total): 40
+2025-05-10 06:18:09,024 - INFO -   - TP1 secured events: 0
+2025-05-10 06:18:09,024 - INFO -   - 2nd Price secured events: 0
+2025-05-10 06:18:09,024 - INFO - Pending orders deleted: 0
+2025-05-10 06:18:09,024 - INFO -   - Pending deleted events: 0
+2025-05-10 06:18:09,025 - INFO - Errors encountered: 0
+2025-05-10 06:18:09,025 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 06:18:09,025 - INFO - =========================
+2025-05-10 06:23:09,596 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 06:23:09,596 - INFO - Positions checked: 3874
+2025-05-10 06:23:09,596 - INFO - Positions secured (Total): 40
+2025-05-10 06:23:09,596 - INFO -   - TP1 secured events: 0
+2025-05-10 06:23:09,596 - INFO -   - 2nd Price secured events: 0
+2025-05-10 06:23:09,597 - INFO - Pending orders deleted: 0
+2025-05-10 06:23:09,597 - INFO -   - Pending deleted events: 0
+2025-05-10 06:23:09,597 - INFO - Errors encountered: 0
+2025-05-10 06:23:09,597 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 06:23:09,598 - INFO - =========================
+2025-05-10 06:28:10,233 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 06:28:10,233 - INFO - Positions checked: 3874
+2025-05-10 06:28:10,233 - INFO - Positions secured (Total): 40
+2025-05-10 06:28:10,234 - INFO -   - TP1 secured events: 0
+2025-05-10 06:28:10,234 - INFO -   - 2nd Price secured events: 0
+2025-05-10 06:28:10,234 - INFO - Pending orders deleted: 0
+2025-05-10 06:28:10,234 - INFO -   - Pending deleted events: 0
+2025-05-10 06:28:10,235 - INFO - Errors encountered: 0
+2025-05-10 06:28:10,235 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 06:28:10,235 - INFO - =========================
+2025-05-10 06:33:10,890 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 06:33:10,891 - INFO - Positions checked: 3874
+2025-05-10 06:33:10,892 - INFO - Positions secured (Total): 40
+2025-05-10 06:33:10,892 - INFO -   - TP1 secured events: 0
+2025-05-10 06:33:10,893 - INFO -   - 2nd Price secured events: 0
+2025-05-10 06:33:10,893 - INFO - Pending orders deleted: 0
+2025-05-10 06:33:10,893 - INFO -   - Pending deleted events: 0
+2025-05-10 06:33:10,894 - INFO - Errors encountered: 0
+2025-05-10 06:33:10,894 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 06:33:10,895 - INFO - =========================
+2025-05-10 06:38:11,597 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 06:38:11,598 - INFO - Positions checked: 3874
+2025-05-10 06:38:11,598 - INFO - Positions secured (Total): 40
+2025-05-10 06:38:11,598 - INFO -   - TP1 secured events: 0
+2025-05-10 06:38:11,598 - INFO -   - 2nd Price secured events: 0
+2025-05-10 06:38:11,599 - INFO - Pending orders deleted: 0
+2025-05-10 06:38:11,599 - INFO -   - Pending deleted events: 0
+2025-05-10 06:38:11,599 - INFO - Errors encountered: 0
+2025-05-10 06:38:11,599 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 06:38:11,599 - INFO - =========================
+2025-05-10 06:43:12,250 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 06:43:12,251 - INFO - Positions checked: 3874
+2025-05-10 06:43:12,251 - INFO - Positions secured (Total): 40
+2025-05-10 06:43:12,252 - INFO -   - TP1 secured events: 0
+2025-05-10 06:43:12,252 - INFO -   - 2nd Price secured events: 0
+2025-05-10 06:43:12,252 - INFO - Pending orders deleted: 0
+2025-05-10 06:43:12,252 - INFO -   - Pending deleted events: 0
+2025-05-10 06:43:12,252 - INFO - Errors encountered: 0
+2025-05-10 06:43:12,253 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 06:43:12,253 - INFO - =========================
+2025-05-10 06:48:12,738 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 06:48:12,739 - INFO - Positions checked: 3874
+2025-05-10 06:48:12,739 - INFO - Positions secured (Total): 40
+2025-05-10 06:48:12,739 - INFO -   - TP1 secured events: 0
+2025-05-10 06:48:12,739 - INFO -   - 2nd Price secured events: 0
+2025-05-10 06:48:12,740 - INFO - Pending orders deleted: 0
+2025-05-10 06:48:12,740 - INFO -   - Pending deleted events: 0
+2025-05-10 06:48:12,740 - INFO - Errors encountered: 0
+2025-05-10 06:48:12,740 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 06:48:12,741 - INFO - =========================
+2025-05-10 06:53:13,341 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 06:53:13,342 - INFO - Positions checked: 3874
+2025-05-10 06:53:13,342 - INFO - Positions secured (Total): 40
+2025-05-10 06:53:13,342 - INFO -   - TP1 secured events: 0
+2025-05-10 06:53:13,342 - INFO -   - 2nd Price secured events: 0
+2025-05-10 06:53:13,343 - INFO - Pending orders deleted: 0
+2025-05-10 06:53:13,343 - INFO -   - Pending deleted events: 0
+2025-05-10 06:53:13,343 - INFO - Errors encountered: 0
+2025-05-10 06:53:13,344 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 06:53:13,344 - INFO - =========================
+2025-05-10 06:58:13,881 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 06:58:13,882 - INFO - Positions checked: 3874
+2025-05-10 06:58:13,882 - INFO - Positions secured (Total): 40
+2025-05-10 06:58:13,882 - INFO -   - TP1 secured events: 0
+2025-05-10 06:58:13,883 - INFO -   - 2nd Price secured events: 0
+2025-05-10 06:58:13,883 - INFO - Pending orders deleted: 0
+2025-05-10 06:58:13,883 - INFO -   - Pending deleted events: 0
+2025-05-10 06:58:13,883 - INFO - Errors encountered: 0
+2025-05-10 06:58:13,884 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 06:58:13,884 - INFO - =========================
+2025-05-10 07:03:14,443 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 07:03:14,443 - INFO - Positions checked: 3874
+2025-05-10 07:03:14,445 - INFO - Positions secured (Total): 40
+2025-05-10 07:03:14,446 - INFO -   - TP1 secured events: 0
+2025-05-10 07:03:14,446 - INFO -   - 2nd Price secured events: 0
+2025-05-10 07:03:14,446 - INFO - Pending orders deleted: 0
+2025-05-10 07:03:14,446 - INFO -   - Pending deleted events: 0
+2025-05-10 07:03:14,447 - INFO - Errors encountered: 0
+2025-05-10 07:03:14,447 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 07:03:14,447 - INFO - =========================
+2025-05-10 07:08:15,049 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 07:08:15,049 - INFO - Positions checked: 3874
+2025-05-10 07:08:15,049 - INFO - Positions secured (Total): 40
+2025-05-10 07:08:15,050 - INFO -   - TP1 secured events: 0
+2025-05-10 07:08:15,050 - INFO -   - 2nd Price secured events: 0
+2025-05-10 07:08:15,050 - INFO - Pending orders deleted: 0
+2025-05-10 07:08:15,050 - INFO -   - Pending deleted events: 0
+2025-05-10 07:08:15,050 - INFO - Errors encountered: 0
+2025-05-10 07:08:15,051 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 07:08:15,051 - INFO - =========================
+2025-05-10 07:13:15,567 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 07:13:15,568 - INFO - Positions checked: 3874
+2025-05-10 07:13:15,569 - INFO - Positions secured (Total): 40
+2025-05-10 07:13:15,570 - INFO -   - TP1 secured events: 0
+2025-05-10 07:13:15,571 - INFO -   - 2nd Price secured events: 0
+2025-05-10 07:13:15,571 - INFO - Pending orders deleted: 0
+2025-05-10 07:13:15,571 - INFO -   - Pending deleted events: 0
+2025-05-10 07:13:15,572 - INFO - Errors encountered: 0
+2025-05-10 07:13:15,572 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 07:13:15,573 - INFO - =========================
+2025-05-10 07:18:16,115 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 07:18:16,116 - INFO - Positions checked: 3874
+2025-05-10 07:18:16,116 - INFO - Positions secured (Total): 40
+2025-05-10 07:18:16,116 - INFO -   - TP1 secured events: 0
+2025-05-10 07:18:16,117 - INFO -   - 2nd Price secured events: 0
+2025-05-10 07:18:16,117 - INFO - Pending orders deleted: 0
+2025-05-10 07:18:16,117 - INFO -   - Pending deleted events: 0
+2025-05-10 07:18:16,118 - INFO - Errors encountered: 0
+2025-05-10 07:18:16,118 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 07:18:16,118 - INFO - =========================
+2025-05-10 07:23:16,592 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 07:23:16,592 - INFO - Positions checked: 3874
+2025-05-10 07:23:16,593 - INFO - Positions secured (Total): 40
+2025-05-10 07:23:16,594 - INFO -   - TP1 secured events: 0
+2025-05-10 07:23:16,594 - INFO -   - 2nd Price secured events: 0
+2025-05-10 07:23:16,595 - INFO - Pending orders deleted: 0
+2025-05-10 07:23:16,595 - INFO -   - Pending deleted events: 0
+2025-05-10 07:23:16,596 - INFO - Errors encountered: 0
+2025-05-10 07:23:16,596 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 07:23:16,597 - INFO - =========================
+2025-05-10 07:28:17,152 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 07:28:17,153 - INFO - Positions checked: 3874
+2025-05-10 07:28:17,154 - INFO - Positions secured (Total): 40
+2025-05-10 07:28:17,155 - INFO -   - TP1 secured events: 0
+2025-05-10 07:28:17,156 - INFO -   - 2nd Price secured events: 0
+2025-05-10 07:28:17,157 - INFO - Pending orders deleted: 0
+2025-05-10 07:28:17,158 - INFO -   - Pending deleted events: 0
+2025-05-10 07:28:17,159 - INFO - Errors encountered: 0
+2025-05-10 07:28:17,160 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 07:28:17,161 - INFO - =========================
+2025-05-10 07:33:17,635 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 07:33:17,635 - INFO - Positions checked: 3874
+2025-05-10 07:33:17,636 - INFO - Positions secured (Total): 40
+2025-05-10 07:33:17,637 - INFO -   - TP1 secured events: 0
+2025-05-10 07:33:17,637 - INFO -   - 2nd Price secured events: 0
+2025-05-10 07:33:17,638 - INFO - Pending orders deleted: 0
+2025-05-10 07:33:17,639 - INFO -   - Pending deleted events: 0
+2025-05-10 07:33:17,640 - INFO - Errors encountered: 0
+2025-05-10 07:33:17,641 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 07:33:17,641 - INFO - =========================
+2025-05-10 07:38:18,281 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 07:38:18,282 - INFO - Positions checked: 3874
+2025-05-10 07:38:18,283 - INFO - Positions secured (Total): 40
+2025-05-10 07:38:18,284 - INFO -   - TP1 secured events: 0
+2025-05-10 07:38:18,285 - INFO -   - 2nd Price secured events: 0
+2025-05-10 07:38:18,285 - INFO - Pending orders deleted: 0
+2025-05-10 07:38:18,286 - INFO -   - Pending deleted events: 0
+2025-05-10 07:38:18,287 - INFO - Errors encountered: 0
+2025-05-10 07:38:18,288 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 07:38:18,289 - INFO - =========================
+2025-05-10 07:43:18,286 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 07:43:18,287 - INFO - Positions checked: 3874
+2025-05-10 07:43:18,289 - INFO - Positions secured (Total): 40
+2025-05-10 07:43:18,290 - INFO -   - TP1 secured events: 0
+2025-05-10 07:43:18,291 - INFO -   - 2nd Price secured events: 0
+2025-05-10 07:43:18,291 - INFO - Pending orders deleted: 0
+2025-05-10 07:43:18,292 - INFO -   - Pending deleted events: 0
+2025-05-10 07:43:18,293 - INFO - Errors encountered: 0
+2025-05-10 07:43:18,293 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 07:43:18,294 - INFO - =========================
+2025-05-10 07:48:18,746 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 07:48:18,747 - INFO - Positions checked: 3874
+2025-05-10 07:48:18,747 - INFO - Positions secured (Total): 40
+2025-05-10 07:48:18,754 - INFO -   - TP1 secured events: 0
+2025-05-10 07:48:18,754 - INFO -   - 2nd Price secured events: 0
+2025-05-10 07:48:18,755 - INFO - Pending orders deleted: 0
+2025-05-10 07:48:18,755 - INFO -   - Pending deleted events: 0
+2025-05-10 07:48:18,756 - INFO - Errors encountered: 0
+2025-05-10 07:48:18,757 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 07:48:18,757 - INFO - =========================
+2025-05-10 07:53:19,308 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 07:53:19,308 - INFO - Positions checked: 3874
+2025-05-10 07:53:19,309 - INFO - Positions secured (Total): 40
+2025-05-10 07:53:19,309 - INFO -   - TP1 secured events: 0
+2025-05-10 07:53:19,310 - INFO -   - 2nd Price secured events: 0
+2025-05-10 07:53:19,310 - INFO - Pending orders deleted: 0
+2025-05-10 07:53:19,310 - INFO -   - Pending deleted events: 0
+2025-05-10 07:53:19,310 - INFO - Errors encountered: 0
+2025-05-10 07:53:19,311 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 07:53:19,311 - INFO - =========================
+2025-05-10 07:58:19,691 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 07:58:19,691 - INFO - Positions checked: 3874
+2025-05-10 07:58:19,692 - INFO - Positions secured (Total): 40
+2025-05-10 07:58:19,692 - INFO -   - TP1 secured events: 0
+2025-05-10 07:58:19,694 - INFO -   - 2nd Price secured events: 0
+2025-05-10 07:58:19,694 - INFO - Pending orders deleted: 0
+2025-05-10 07:58:19,695 - INFO -   - Pending deleted events: 0
+2025-05-10 07:58:19,695 - INFO - Errors encountered: 0
+2025-05-10 07:58:19,695 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 07:58:19,695 - INFO - =========================
+2025-05-10 08:03:20,327 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 08:03:20,328 - INFO - Positions checked: 3874
+2025-05-10 08:03:20,331 - INFO - Positions secured (Total): 40
+2025-05-10 08:03:20,332 - INFO -   - TP1 secured events: 0
+2025-05-10 08:03:20,332 - INFO -   - 2nd Price secured events: 0
+2025-05-10 08:03:20,333 - INFO - Pending orders deleted: 0
+2025-05-10 08:03:20,333 - INFO -   - Pending deleted events: 0
+2025-05-10 08:03:20,334 - INFO - Errors encountered: 0
+2025-05-10 08:03:20,334 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 08:03:20,335 - INFO - =========================
+2025-05-10 08:08:20,904 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 08:08:20,904 - INFO - Positions checked: 3874
+2025-05-10 08:08:20,904 - INFO - Positions secured (Total): 40
+2025-05-10 08:08:20,905 - INFO -   - TP1 secured events: 0
+2025-05-10 08:08:20,905 - INFO -   - 2nd Price secured events: 0
+2025-05-10 08:08:20,906 - INFO - Pending orders deleted: 0
+2025-05-10 08:08:20,906 - INFO -   - Pending deleted events: 0
+2025-05-10 08:08:20,906 - INFO - Errors encountered: 0
+2025-05-10 08:08:20,907 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 08:08:20,907 - INFO - =========================
+2025-05-10 08:13:21,380 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 08:13:21,380 - INFO - Positions checked: 3874
+2025-05-10 08:13:21,381 - INFO - Positions secured (Total): 40
+2025-05-10 08:13:21,382 - INFO -   - TP1 secured events: 0
+2025-05-10 08:13:21,382 - INFO -   - 2nd Price secured events: 0
+2025-05-10 08:13:21,383 - INFO - Pending orders deleted: 0
+2025-05-10 08:13:21,383 - INFO -   - Pending deleted events: 0
+2025-05-10 08:13:21,384 - INFO - Errors encountered: 0
+2025-05-10 08:13:21,384 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 08:13:21,385 - INFO - =========================
+2025-05-10 08:18:21,942 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 08:18:21,943 - INFO - Positions checked: 3874
+2025-05-10 08:18:21,943 - INFO - Positions secured (Total): 40
+2025-05-10 08:18:21,944 - INFO -   - TP1 secured events: 0
+2025-05-10 08:18:21,944 - INFO -   - 2nd Price secured events: 0
+2025-05-10 08:18:21,945 - INFO - Pending orders deleted: 0
+2025-05-10 08:18:21,946 - INFO -   - Pending deleted events: 0
+2025-05-10 08:18:21,946 - INFO - Errors encountered: 0
+2025-05-10 08:18:21,947 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 08:18:21,947 - INFO - =========================
+2025-05-10 08:23:22,488 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 08:23:22,488 - INFO - Positions checked: 3874
+2025-05-10 08:23:22,488 - INFO - Positions secured (Total): 40
+2025-05-10 08:23:22,489 - INFO -   - TP1 secured events: 0
+2025-05-10 08:23:22,490 - INFO -   - 2nd Price secured events: 0
+2025-05-10 08:23:22,490 - INFO - Pending orders deleted: 0
+2025-05-10 08:23:22,490 - INFO -   - Pending deleted events: 0
+2025-05-10 08:23:22,490 - INFO - Errors encountered: 0
+2025-05-10 08:23:22,491 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 08:23:22,491 - INFO - =========================
+2025-05-10 08:28:22,789 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 08:28:22,790 - INFO - Positions checked: 3874
+2025-05-10 08:28:22,792 - INFO - Positions secured (Total): 40
+2025-05-10 08:28:22,793 - INFO -   - TP1 secured events: 0
+2025-05-10 08:28:22,794 - INFO -   - 2nd Price secured events: 0
+2025-05-10 08:28:22,795 - INFO - Pending orders deleted: 0
+2025-05-10 08:28:22,796 - INFO -   - Pending deleted events: 0
+2025-05-10 08:28:22,797 - INFO - Errors encountered: 0
+2025-05-10 08:28:22,798 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 08:28:22,799 - INFO - =========================
+2025-05-10 08:33:23,290 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 08:33:23,291 - INFO - Positions checked: 3874
+2025-05-10 08:33:23,305 - INFO - Positions secured (Total): 40
+2025-05-10 08:33:23,307 - INFO -   - TP1 secured events: 0
+2025-05-10 08:33:23,308 - INFO -   - 2nd Price secured events: 0
+2025-05-10 08:33:23,312 - INFO - Pending orders deleted: 0
+2025-05-10 08:33:23,313 - INFO -   - Pending deleted events: 0
+2025-05-10 08:33:23,314 - INFO - Errors encountered: 0
+2025-05-10 08:33:23,315 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 08:33:23,316 - INFO - =========================
+2025-05-10 08:38:23,871 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 08:38:23,873 - INFO - Positions checked: 3874
+2025-05-10 08:38:23,875 - INFO - Positions secured (Total): 40
+2025-05-10 08:38:23,876 - INFO -   - TP1 secured events: 0
+2025-05-10 08:38:23,878 - INFO -   - 2nd Price secured events: 0
+2025-05-10 08:38:23,879 - INFO - Pending orders deleted: 0
+2025-05-10 08:38:23,881 - INFO -   - Pending deleted events: 0
+2025-05-10 08:38:23,882 - INFO - Errors encountered: 0
+2025-05-10 08:38:23,883 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 08:38:23,883 - INFO - =========================
+2025-05-10 08:43:24,365 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 08:43:24,365 - INFO - Positions checked: 3874
+2025-05-10 08:43:24,365 - INFO - Positions secured (Total): 40
+2025-05-10 08:43:24,366 - INFO -   - TP1 secured events: 0
+2025-05-10 08:43:24,366 - INFO -   - 2nd Price secured events: 0
+2025-05-10 08:43:24,366 - INFO - Pending orders deleted: 0
+2025-05-10 08:43:24,366 - INFO -   - Pending deleted events: 0
+2025-05-10 08:43:24,367 - INFO - Errors encountered: 0
+2025-05-10 08:43:24,367 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 08:43:24,367 - INFO - =========================
+2025-05-10 08:48:24,957 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 08:48:24,958 - INFO - Positions checked: 3874
+2025-05-10 08:48:24,958 - INFO - Positions secured (Total): 40
+2025-05-10 08:48:24,958 - INFO -   - TP1 secured events: 0
+2025-05-10 08:48:24,959 - INFO -   - 2nd Price secured events: 0
+2025-05-10 08:48:24,959 - INFO - Pending orders deleted: 0
+2025-05-10 08:48:24,959 - INFO -   - Pending deleted events: 0
+2025-05-10 08:48:24,960 - INFO - Errors encountered: 0
+2025-05-10 08:48:24,960 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 08:48:24,960 - INFO - =========================
+2025-05-10 08:53:25,562 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 08:53:25,563 - INFO - Positions checked: 3874
+2025-05-10 08:53:25,563 - INFO - Positions secured (Total): 40
+2025-05-10 08:53:25,563 - INFO -   - TP1 secured events: 0
+2025-05-10 08:53:25,564 - INFO -   - 2nd Price secured events: 0
+2025-05-10 08:53:25,564 - INFO - Pending orders deleted: 0
+2025-05-10 08:53:25,565 - INFO -   - Pending deleted events: 0
+2025-05-10 08:53:25,565 - INFO - Errors encountered: 0
+2025-05-10 08:53:25,565 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 08:53:25,565 - INFO - =========================
+2025-05-10 08:58:25,973 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 08:58:25,974 - INFO - Positions checked: 3874
+2025-05-10 08:58:25,976 - INFO - Positions secured (Total): 40
+2025-05-10 08:58:25,977 - INFO -   - TP1 secured events: 0
+2025-05-10 08:58:25,979 - INFO -   - 2nd Price secured events: 0
+2025-05-10 08:58:25,981 - INFO - Pending orders deleted: 0
+2025-05-10 08:58:25,982 - INFO -   - Pending deleted events: 0
+2025-05-10 08:58:25,982 - INFO - Errors encountered: 0
+2025-05-10 08:58:25,985 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 08:58:25,986 - INFO - =========================
+2025-05-10 09:03:26,464 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 09:03:26,464 - INFO - Positions checked: 3874
+2025-05-10 09:03:26,465 - INFO - Positions secured (Total): 40
+2025-05-10 09:03:26,465 - INFO -   - TP1 secured events: 0
+2025-05-10 09:03:26,465 - INFO -   - 2nd Price secured events: 0
+2025-05-10 09:03:26,466 - INFO - Pending orders deleted: 0
+2025-05-10 09:03:26,466 - INFO -   - Pending deleted events: 0
+2025-05-10 09:03:26,466 - INFO - Errors encountered: 0
+2025-05-10 09:03:26,466 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 09:03:26,467 - INFO - =========================
+2025-05-10 09:08:27,045 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 09:08:27,046 - INFO - Positions checked: 3874
+2025-05-10 09:08:27,053 - INFO - Positions secured (Total): 40
+2025-05-10 09:08:27,055 - INFO -   - TP1 secured events: 0
+2025-05-10 09:08:27,056 - INFO -   - 2nd Price secured events: 0
+2025-05-10 09:08:27,057 - INFO - Pending orders deleted: 0
+2025-05-10 09:08:27,058 - INFO -   - Pending deleted events: 0
+2025-05-10 09:08:27,059 - INFO - Errors encountered: 0
+2025-05-10 09:08:27,060 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 09:08:27,061 - INFO - =========================
+2025-05-10 09:13:27,601 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 09:13:27,602 - INFO - Positions checked: 3874
+2025-05-10 09:13:27,602 - INFO - Positions secured (Total): 40
+2025-05-10 09:13:27,602 - INFO -   - TP1 secured events: 0
+2025-05-10 09:13:27,603 - INFO -   - 2nd Price secured events: 0
+2025-05-10 09:13:27,603 - INFO - Pending orders deleted: 0
+2025-05-10 09:13:27,603 - INFO -   - Pending deleted events: 0
+2025-05-10 09:13:27,604 - INFO - Errors encountered: 0
+2025-05-10 09:13:27,604 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 09:13:27,604 - INFO - =========================
+2025-05-10 09:18:28,246 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 09:18:28,247 - INFO - Positions checked: 3874
+2025-05-10 09:18:28,247 - INFO - Positions secured (Total): 40
+2025-05-10 09:18:28,248 - INFO -   - TP1 secured events: 0
+2025-05-10 09:18:28,248 - INFO -   - 2nd Price secured events: 0
+2025-05-10 09:18:28,250 - INFO - Pending orders deleted: 0
+2025-05-10 09:18:28,250 - INFO -   - Pending deleted events: 0
+2025-05-10 09:18:28,251 - INFO - Errors encountered: 0
+2025-05-10 09:18:28,251 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 09:18:28,251 - INFO - =========================
+2025-05-10 09:23:28,933 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 09:23:28,934 - INFO - Positions checked: 3874
+2025-05-10 09:23:28,934 - INFO - Positions secured (Total): 40
+2025-05-10 09:23:28,934 - INFO -   - TP1 secured events: 0
+2025-05-10 09:23:28,935 - INFO -   - 2nd Price secured events: 0
+2025-05-10 09:23:28,935 - INFO - Pending orders deleted: 0
+2025-05-10 09:23:28,935 - INFO -   - Pending deleted events: 0
+2025-05-10 09:23:28,935 - INFO - Errors encountered: 0
+2025-05-10 09:23:28,936 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 09:23:28,936 - INFO - =========================
+2025-05-10 09:28:29,429 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 09:28:29,429 - INFO - Positions checked: 3874
+2025-05-10 09:28:29,429 - INFO - Positions secured (Total): 40
+2025-05-10 09:28:29,429 - INFO -   - TP1 secured events: 0
+2025-05-10 09:28:29,430 - INFO -   - 2nd Price secured events: 0
+2025-05-10 09:28:29,430 - INFO - Pending orders deleted: 0
+2025-05-10 09:28:29,430 - INFO -   - Pending deleted events: 0
+2025-05-10 09:28:29,431 - INFO - Errors encountered: 0
+2025-05-10 09:28:29,431 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 09:28:29,432 - INFO - =========================
+2025-05-10 09:33:30,046 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 09:33:30,047 - INFO - Positions checked: 3874
+2025-05-10 09:33:30,047 - INFO - Positions secured (Total): 40
+2025-05-10 09:33:30,048 - INFO -   - TP1 secured events: 0
+2025-05-10 09:33:30,048 - INFO -   - 2nd Price secured events: 0
+2025-05-10 09:33:30,049 - INFO - Pending orders deleted: 0
+2025-05-10 09:33:30,049 - INFO -   - Pending deleted events: 0
+2025-05-10 09:33:30,049 - INFO - Errors encountered: 0
+2025-05-10 09:33:30,050 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 09:33:30,050 - INFO - =========================
+2025-05-10 09:38:30,628 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 09:38:30,628 - INFO - Positions checked: 3874
+2025-05-10 09:38:30,628 - INFO - Positions secured (Total): 40
+2025-05-10 09:38:30,628 - INFO -   - TP1 secured events: 0
+2025-05-10 09:38:30,629 - INFO -   - 2nd Price secured events: 0
+2025-05-10 09:38:30,629 - INFO - Pending orders deleted: 0
+2025-05-10 09:38:30,629 - INFO -   - Pending deleted events: 0
+2025-05-10 09:38:30,630 - INFO - Errors encountered: 0
+2025-05-10 09:38:30,630 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 09:38:30,630 - INFO - =========================
+2025-05-10 09:43:31,183 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 09:43:31,183 - INFO - Positions checked: 3874
+2025-05-10 09:43:31,186 - INFO - Positions secured (Total): 40
+2025-05-10 09:43:31,187 - INFO -   - TP1 secured events: 0
+2025-05-10 09:43:31,188 - INFO -   - 2nd Price secured events: 0
+2025-05-10 09:43:31,189 - INFO - Pending orders deleted: 0
+2025-05-10 09:43:31,189 - INFO -   - Pending deleted events: 0
+2025-05-10 09:43:31,190 - INFO - Errors encountered: 0
+2025-05-10 09:43:31,190 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 09:43:31,191 - INFO - =========================
+2025-05-10 09:48:31,480 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 09:48:31,481 - INFO - Positions checked: 3874
+2025-05-10 09:48:31,482 - INFO - Positions secured (Total): 40
+2025-05-10 09:48:31,483 - INFO -   - TP1 secured events: 0
+2025-05-10 09:48:31,485 - INFO -   - 2nd Price secured events: 0
+2025-05-10 09:48:31,486 - INFO - Pending orders deleted: 0
+2025-05-10 09:48:31,487 - INFO -   - Pending deleted events: 0
+2025-05-10 09:48:31,488 - INFO - Errors encountered: 0
+2025-05-10 09:48:31,488 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 09:48:31,489 - INFO - =========================
+2025-05-10 09:53:31,978 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 09:53:31,980 - INFO - Positions checked: 3874
+2025-05-10 09:53:31,981 - INFO - Positions secured (Total): 40
+2025-05-10 09:53:31,982 - INFO -   - TP1 secured events: 0
+2025-05-10 09:53:31,983 - INFO -   - 2nd Price secured events: 0
+2025-05-10 09:53:31,983 - INFO - Pending orders deleted: 0
+2025-05-10 09:53:31,984 - INFO -   - Pending deleted events: 0
+2025-05-10 09:53:31,985 - INFO - Errors encountered: 0
+2025-05-10 09:53:31,985 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 09:53:31,986 - INFO - =========================
+2025-05-10 09:58:32,435 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 09:58:32,436 - INFO - Positions checked: 3874
+2025-05-10 09:58:32,437 - INFO - Positions secured (Total): 40
+2025-05-10 09:58:32,438 - INFO -   - TP1 secured events: 0
+2025-05-10 09:58:32,439 - INFO -   - 2nd Price secured events: 0
+2025-05-10 09:58:32,441 - INFO - Pending orders deleted: 0
+2025-05-10 09:58:32,443 - INFO -   - Pending deleted events: 0
+2025-05-10 09:58:32,444 - INFO - Errors encountered: 0
+2025-05-10 09:58:32,445 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 09:58:32,446 - INFO - =========================
+2025-05-10 10:03:33,194 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 10:03:33,195 - INFO - Positions checked: 3874
+2025-05-10 10:03:33,196 - INFO - Positions secured (Total): 40
+2025-05-10 10:03:33,196 - INFO -   - TP1 secured events: 0
+2025-05-10 10:03:33,197 - INFO -   - 2nd Price secured events: 0
+2025-05-10 10:03:33,197 - INFO - Pending orders deleted: 0
+2025-05-10 10:03:33,197 - INFO -   - Pending deleted events: 0
+2025-05-10 10:03:33,198 - INFO - Errors encountered: 0
+2025-05-10 10:03:33,198 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 10:03:33,198 - INFO - =========================
+2025-05-10 10:08:33,763 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 10:08:33,764 - INFO - Positions checked: 3874
+2025-05-10 10:08:33,765 - INFO - Positions secured (Total): 40
+2025-05-10 10:08:33,766 - INFO -   - TP1 secured events: 0
+2025-05-10 10:08:33,767 - INFO -   - 2nd Price secured events: 0
+2025-05-10 10:08:33,767 - INFO - Pending orders deleted: 0
+2025-05-10 10:08:33,768 - INFO -   - Pending deleted events: 0
+2025-05-10 10:08:33,768 - INFO - Errors encountered: 0
+2025-05-10 10:08:33,769 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 10:08:33,770 - INFO - =========================
+2025-05-10 10:13:34,411 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 10:13:34,411 - INFO - Positions checked: 3874
+2025-05-10 10:13:34,412 - INFO - Positions secured (Total): 40
+2025-05-10 10:13:34,412 - INFO -   - TP1 secured events: 0
+2025-05-10 10:13:34,412 - INFO -   - 2nd Price secured events: 0
+2025-05-10 10:13:34,413 - INFO - Pending orders deleted: 0
+2025-05-10 10:13:34,413 - INFO -   - Pending deleted events: 0
+2025-05-10 10:13:34,413 - INFO - Errors encountered: 0
+2025-05-10 10:13:34,414 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 10:13:34,414 - INFO - =========================
+2025-05-10 10:18:35,031 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 10:18:35,031 - INFO - Positions checked: 3874
+2025-05-10 10:18:35,031 - INFO - Positions secured (Total): 40
+2025-05-10 10:18:35,032 - INFO -   - TP1 secured events: 0
+2025-05-10 10:18:35,032 - INFO -   - 2nd Price secured events: 0
+2025-05-10 10:18:35,032 - INFO - Pending orders deleted: 0
+2025-05-10 10:18:35,032 - INFO -   - Pending deleted events: 0
+2025-05-10 10:18:35,032 - INFO - Errors encountered: 0
+2025-05-10 10:18:35,033 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 10:18:35,033 - INFO - =========================
+2025-05-10 10:20:32,046 - ERROR - MT5 connection lost - attempting to reconnect...
+2025-05-10 10:20:32,046 - INFO - Attempting to connect to account XM...
+2025-05-10 10:20:32,049 - ERROR - MT5 initialization failed for account XM. Error code: (-6, 'Terminal: Authorization failed')
+2025-05-10 10:20:32,049 - ERROR - Failed to reconnect to MT5. Will retry next cycle.
+2025-05-10 10:21:03,052 - ERROR - MT5 connection lost - attempting to reconnect...
+2025-05-10 10:21:03,052 - INFO - Attempting to connect to account XM...
+2025-05-10 10:21:03,056 - ERROR - MT5 initialization failed for account XM. Error code: (-6, 'Terminal: Authorization failed')
+2025-05-10 10:21:03,056 - ERROR - Failed to reconnect to MT5. Will retry next cycle.
+2025-05-10 10:21:34,060 - ERROR - MT5 connection lost - attempting to reconnect...
+2025-05-10 10:21:34,063 - INFO - Attempting to connect to account XM...
+2025-05-10 10:21:34,074 - ERROR - MT5 initialization failed for account XM. Error code: (-6, 'Terminal: Authorization failed')
+2025-05-10 10:21:34,079 - ERROR - Failed to reconnect to MT5. Will retry next cycle.
+2025-05-10 10:22:05,087 - ERROR - MT5 connection lost - attempting to reconnect...
+2025-05-10 10:22:05,087 - INFO - Attempting to connect to account XM...
+2025-05-10 10:22:05,090 - ERROR - MT5 initialization failed for account XM. Error code: (-6, 'Terminal: Authorization failed')
+2025-05-10 10:22:05,090 - ERROR - Failed to reconnect to MT5. Will retry next cycle.
+2025-05-10 10:22:36,096 - ERROR - MT5 connection lost - attempting to reconnect...
+2025-05-10 10:22:36,096 - INFO - Attempting to connect to account XM...
+2025-05-10 10:22:36,106 - ERROR - MT5 initialization failed for account XM. Error code: (-6, 'Terminal: Authorization failed')
+2025-05-10 10:22:36,107 - ERROR - Failed to reconnect to MT5. Will retry next cycle.
+2025-05-10 10:23:07,112 - ERROR - MT5 connection lost - attempting to reconnect...
+2025-05-10 10:23:07,112 - INFO - Attempting to connect to account XM...
+2025-05-10 10:23:07,118 - ERROR - MT5 initialization failed for account XM. Error code: (-6, 'Terminal: Authorization failed')
+2025-05-10 10:23:07,118 - ERROR - Failed to reconnect to MT5. Will retry next cycle.
+2025-05-10 10:23:38,120 - ERROR - MT5 connection lost - attempting to reconnect...
+2025-05-10 10:23:38,120 - INFO - Attempting to connect to account XM...
+2025-05-10 10:23:38,124 - ERROR - MT5 initialization failed for account XM. Error code: (-6, 'Terminal: Authorization failed')
+2025-05-10 10:23:38,125 - ERROR - Failed to reconnect to MT5. Will retry next cycle.
+2025-05-10 10:24:09,128 - ERROR - MT5 connection lost - attempting to reconnect...
+2025-05-10 10:24:09,128 - INFO - Attempting to connect to account XM...
+2025-05-10 10:24:09,131 - ERROR - MT5 initialization failed for account XM. Error code: (-6, 'Terminal: Authorization failed')
+2025-05-10 10:24:09,132 - ERROR - Failed to reconnect to MT5. Will retry next cycle.
+2025-05-10 10:24:40,134 - ERROR - MT5 connection lost - attempting to reconnect...
+2025-05-10 10:24:40,134 - INFO - Attempting to connect to account XM...
+2025-05-10 10:24:40,137 - ERROR - MT5 initialization failed for account XM. Error code: (-6, 'Terminal: Authorization failed')
+2025-05-10 10:24:40,138 - ERROR - Failed to reconnect to MT5. Will retry next cycle.
+2025-05-10 10:25:11,140 - ERROR - MT5 connection lost - attempting to reconnect...
+2025-05-10 10:25:11,141 - INFO - Attempting to connect to account XM...
+2025-05-10 10:25:11,151 - ERROR - MT5 initialization failed for account XM. Error code: (-6, 'Terminal: Authorization failed')
+2025-05-10 10:25:11,152 - ERROR - Failed to reconnect to MT5. Will retry next cycle.
+2025-05-10 10:25:42,155 - ERROR - MT5 connection lost - attempting to reconnect...
+2025-05-10 10:25:42,155 - INFO - Attempting to connect to account XM...
+2025-05-10 10:25:42,160 - ERROR - MT5 initialization failed for account XM. Error code: (-6, 'Terminal: Authorization failed')
+2025-05-10 10:25:42,160 - ERROR - Failed to reconnect to MT5. Will retry next cycle.
+2025-05-10 10:26:13,164 - ERROR - MT5 connection lost - attempting to reconnect...
+2025-05-10 10:26:13,165 - INFO - Attempting to connect to account XM...
+2025-05-10 10:26:13,170 - ERROR - MT5 initialization failed for account XM. Error code: (-6, 'Terminal: Authorization failed')
+2025-05-10 10:26:13,171 - ERROR - Failed to reconnect to MT5. Will retry next cycle.
+2025-05-10 10:26:44,174 - ERROR - MT5 connection lost - attempting to reconnect...
+2025-05-10 10:26:44,176 - INFO - Attempting to connect to account XM...
+2025-05-10 10:26:44,182 - ERROR - MT5 initialization failed for account XM. Error code: (-6, 'Terminal: Authorization failed')
+2025-05-10 10:26:44,183 - ERROR - Failed to reconnect to MT5. Will retry next cycle.
+2025-05-10 10:27:15,187 - ERROR - MT5 connection lost - attempting to reconnect...
+2025-05-10 10:27:15,187 - INFO - Attempting to connect to account XM...
+2025-05-10 10:27:15,189 - ERROR - MT5 initialization failed for account XM. Error code: (-6, 'Terminal: Authorization failed')
+2025-05-10 10:27:15,190 - ERROR - Failed to reconnect to MT5. Will retry next cycle.
+2025-05-10 10:27:46,192 - ERROR - MT5 connection lost - attempting to reconnect...
+2025-05-10 10:27:46,193 - INFO - Attempting to connect to account XM...
+2025-05-10 10:27:46,198 - ERROR - MT5 initialization failed for account XM. Error code: (-6, 'Terminal: Authorization failed')
+2025-05-10 10:27:46,199 - ERROR - Failed to reconnect to MT5. Will retry next cycle.
+2025-05-10 10:28:17,204 - ERROR - MT5 connection lost - attempting to reconnect...
+2025-05-10 10:28:17,204 - INFO - Attempting to connect to account XM...
+2025-05-10 10:28:17,206 - ERROR - MT5 initialization failed for account XM. Error code: (-6, 'Terminal: Authorization failed')
+2025-05-10 10:28:17,207 - ERROR - Failed to reconnect to MT5. Will retry next cycle.
+2025-05-10 10:28:48,209 - ERROR - MT5 connection lost - attempting to reconnect...
+2025-05-10 10:28:48,209 - INFO - Attempting to connect to account XM...
+2025-05-10 10:28:48,212 - ERROR - MT5 initialization failed for account XM. Error code: (-6, 'Terminal: Authorization failed')
+2025-05-10 10:28:48,213 - ERROR - Failed to reconnect to MT5. Will retry next cycle.
+2025-05-10 10:29:19,214 - ERROR - MT5 connection lost - attempting to reconnect...
+2025-05-10 10:29:19,215 - INFO - Attempting to connect to account XM...
+2025-05-10 10:29:19,217 - ERROR - MT5 initialization failed for account XM. Error code: (-6, 'Terminal: Authorization failed')
+2025-05-10 10:29:19,218 - ERROR - Failed to reconnect to MT5. Will retry next cycle.
+2025-05-10 10:29:50,223 - ERROR - MT5 connection lost - attempting to reconnect...
+2025-05-10 10:29:50,223 - INFO - Attempting to connect to account XM...
+2025-05-10 10:29:50,226 - ERROR - MT5 initialization failed for account XM. Error code: (-6, 'Terminal: Authorization failed')
+2025-05-10 10:29:50,226 - ERROR - Failed to reconnect to MT5. Will retry next cycle.
+2025-05-10 10:30:21,228 - ERROR - MT5 connection lost - attempting to reconnect...
+2025-05-10 10:30:21,228 - INFO - Attempting to connect to account XM...
+2025-05-10 10:30:21,231 - INFO - Connected to MT5 account XM (Login: 98509933, Server: XMGlobal-MT5 5) successfully
+2025-05-10 10:30:21,232 - INFO - Successfully reconnected to MT5.
+2025-05-10 10:30:21,235 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 10:30:21,235 - INFO - Positions checked: 1508
+2025-05-10 10:30:21,235 - INFO - Positions secured (Total): 40
+2025-05-10 10:30:21,236 - INFO -   - TP1 secured events: 0
+2025-05-10 10:30:21,236 - INFO -   - 2nd Price secured events: 0
+2025-05-10 10:30:21,236 - INFO - Pending orders deleted: 0
+2025-05-10 10:30:21,237 - INFO -   - Pending deleted events: 0
+2025-05-10 10:30:21,237 - INFO - Errors encountered: 39
+2025-05-10 10:30:21,237 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 10:30:21,238 - INFO - =========================
+2025-05-10 10:35:21,626 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 10:35:21,627 - INFO - Positions checked: 3874
+2025-05-10 10:35:21,627 - INFO - Positions secured (Total): 40
+2025-05-10 10:35:21,627 - INFO -   - TP1 secured events: 0
+2025-05-10 10:35:21,628 - INFO -   - 2nd Price secured events: 0
+2025-05-10 10:35:21,628 - INFO - Pending orders deleted: 0
+2025-05-10 10:35:21,629 - INFO -   - Pending deleted events: 0
+2025-05-10 10:35:21,629 - INFO - Errors encountered: 0
+2025-05-10 10:35:21,629 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 10:35:21,630 - INFO - =========================
+2025-05-10 10:40:22,245 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 10:40:22,246 - INFO - Positions checked: 3874
+2025-05-10 10:40:22,250 - INFO - Positions secured (Total): 40
+2025-05-10 10:40:22,251 - INFO -   - TP1 secured events: 0
+2025-05-10 10:40:22,251 - INFO -   - 2nd Price secured events: 0
+2025-05-10 10:40:22,252 - INFO - Pending orders deleted: 0
+2025-05-10 10:40:22,252 - INFO -   - Pending deleted events: 0
+2025-05-10 10:40:22,254 - INFO - Errors encountered: 0
+2025-05-10 10:40:22,255 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 10:40:22,255 - INFO - =========================
+2025-05-10 10:45:22,664 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 10:45:22,665 - INFO - Positions checked: 3874
+2025-05-10 10:45:22,668 - INFO - Positions secured (Total): 40
+2025-05-10 10:45:22,676 - INFO -   - TP1 secured events: 0
+2025-05-10 10:45:22,678 - INFO -   - 2nd Price secured events: 0
+2025-05-10 10:45:22,680 - INFO - Pending orders deleted: 0
+2025-05-10 10:45:22,682 - INFO -   - Pending deleted events: 0
+2025-05-10 10:45:22,683 - INFO - Errors encountered: 0
+2025-05-10 10:45:22,684 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 10:45:22,684 - INFO - =========================
+2025-05-10 10:50:23,075 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 10:50:23,076 - INFO - Positions checked: 3874
+2025-05-10 10:50:23,076 - INFO - Positions secured (Total): 40
+2025-05-10 10:50:23,077 - INFO -   - TP1 secured events: 0
+2025-05-10 10:50:23,077 - INFO -   - 2nd Price secured events: 0
+2025-05-10 10:50:23,078 - INFO - Pending orders deleted: 0
+2025-05-10 10:50:23,078 - INFO -   - Pending deleted events: 0
+2025-05-10 10:50:23,079 - INFO - Errors encountered: 0
+2025-05-10 10:50:23,080 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 10:50:23,080 - INFO - =========================
+2025-05-10 10:55:23,601 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 10:55:23,601 - INFO - Positions checked: 3874
+2025-05-10 10:55:23,601 - INFO - Positions secured (Total): 40
+2025-05-10 10:55:23,602 - INFO -   - TP1 secured events: 0
+2025-05-10 10:55:23,602 - INFO -   - 2nd Price secured events: 0
+2025-05-10 10:55:23,602 - INFO - Pending orders deleted: 0
+2025-05-10 10:55:23,602 - INFO -   - Pending deleted events: 0
+2025-05-10 10:55:23,603 - INFO - Errors encountered: 0
+2025-05-10 10:55:23,603 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 10:55:23,603 - INFO - =========================
+2025-05-10 11:00:24,202 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 11:00:24,204 - INFO - Positions checked: 3874
+2025-05-10 11:00:24,205 - INFO - Positions secured (Total): 40
+2025-05-10 11:00:24,207 - INFO -   - TP1 secured events: 0
+2025-05-10 11:00:24,208 - INFO -   - 2nd Price secured events: 0
+2025-05-10 11:00:24,211 - INFO - Pending orders deleted: 0
+2025-05-10 11:00:24,212 - INFO -   - Pending deleted events: 0
+2025-05-10 11:00:24,213 - INFO - Errors encountered: 0
+2025-05-10 11:00:24,214 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 11:00:24,215 - INFO - =========================
+2025-05-10 11:05:24,649 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 11:05:24,649 - INFO - Positions checked: 3874
+2025-05-10 11:05:24,649 - INFO - Positions secured (Total): 40
+2025-05-10 11:05:24,649 - INFO -   - TP1 secured events: 0
+2025-05-10 11:05:24,650 - INFO -   - 2nd Price secured events: 0
+2025-05-10 11:05:24,650 - INFO - Pending orders deleted: 0
+2025-05-10 11:05:24,651 - INFO -   - Pending deleted events: 0
+2025-05-10 11:05:24,651 - INFO - Errors encountered: 0
+2025-05-10 11:05:24,652 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 11:05:24,652 - INFO - =========================
+2025-05-10 11:10:25,208 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 11:10:25,208 - INFO - Positions checked: 3874
+2025-05-10 11:10:25,209 - INFO - Positions secured (Total): 40
+2025-05-10 11:10:25,209 - INFO -   - TP1 secured events: 0
+2025-05-10 11:10:25,210 - INFO -   - 2nd Price secured events: 0
+2025-05-10 11:10:25,210 - INFO - Pending orders deleted: 0
+2025-05-10 11:10:25,211 - INFO -   - Pending deleted events: 0
+2025-05-10 11:10:25,212 - INFO - Errors encountered: 0
+2025-05-10 11:10:25,212 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 11:10:25,213 - INFO - =========================
+2025-05-10 11:15:25,822 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 11:15:25,822 - INFO - Positions checked: 3874
+2025-05-10 11:15:25,822 - INFO - Positions secured (Total): 40
+2025-05-10 11:15:25,823 - INFO -   - TP1 secured events: 0
+2025-05-10 11:15:25,823 - INFO -   - 2nd Price secured events: 0
+2025-05-10 11:15:25,824 - INFO - Pending orders deleted: 0
+2025-05-10 11:15:25,824 - INFO -   - Pending deleted events: 0
+2025-05-10 11:15:25,824 - INFO - Errors encountered: 0
+2025-05-10 11:15:25,825 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 11:15:25,825 - INFO - =========================
+2025-05-10 11:20:26,402 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 11:20:26,402 - INFO - Positions checked: 3874
+2025-05-10 11:20:26,403 - INFO - Positions secured (Total): 40
+2025-05-10 11:20:26,403 - INFO -   - TP1 secured events: 0
+2025-05-10 11:20:26,404 - INFO -   - 2nd Price secured events: 0
+2025-05-10 11:20:26,404 - INFO - Pending orders deleted: 0
+2025-05-10 11:20:26,405 - INFO -   - Pending deleted events: 0
+2025-05-10 11:20:26,405 - INFO - Errors encountered: 0
+2025-05-10 11:20:26,405 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 11:20:26,406 - INFO - =========================
+2025-05-10 11:25:26,991 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 11:25:26,992 - INFO - Positions checked: 3874
+2025-05-10 11:25:26,994 - INFO - Positions secured (Total): 40
+2025-05-10 11:25:26,996 - INFO -   - TP1 secured events: 0
+2025-05-10 11:25:26,997 - INFO -   - 2nd Price secured events: 0
+2025-05-10 11:25:26,998 - INFO - Pending orders deleted: 0
+2025-05-10 11:25:26,999 - INFO -   - Pending deleted events: 0
+2025-05-10 11:25:27,001 - INFO - Errors encountered: 0
+2025-05-10 11:25:27,002 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 11:25:27,003 - INFO - =========================
+2025-05-10 11:30:27,451 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 11:30:27,452 - INFO - Positions checked: 3874
+2025-05-10 11:30:27,453 - INFO - Positions secured (Total): 40
+2025-05-10 11:30:27,454 - INFO -   - TP1 secured events: 0
+2025-05-10 11:30:27,454 - INFO -   - 2nd Price secured events: 0
+2025-05-10 11:30:27,455 - INFO - Pending orders deleted: 0
+2025-05-10 11:30:27,455 - INFO -   - Pending deleted events: 0
+2025-05-10 11:30:27,456 - INFO - Errors encountered: 0
+2025-05-10 11:30:27,456 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 11:30:27,457 - INFO - =========================
+2025-05-10 11:35:27,972 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 11:35:27,972 - INFO - Positions checked: 3874
+2025-05-10 11:35:27,972 - INFO - Positions secured (Total): 40
+2025-05-10 11:35:27,972 - INFO -   - TP1 secured events: 0
+2025-05-10 11:35:27,973 - INFO -   - 2nd Price secured events: 0
+2025-05-10 11:35:27,973 - INFO - Pending orders deleted: 0
+2025-05-10 11:35:27,973 - INFO -   - Pending deleted events: 0
+2025-05-10 11:35:27,973 - INFO - Errors encountered: 0
+2025-05-10 11:35:27,974 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 11:35:27,974 - INFO - =========================
+2025-05-10 11:40:28,560 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 11:40:28,561 - INFO - Positions checked: 3874
+2025-05-10 11:40:28,562 - INFO - Positions secured (Total): 40
+2025-05-10 11:40:28,564 - INFO -   - TP1 secured events: 0
+2025-05-10 11:40:28,564 - INFO -   - 2nd Price secured events: 0
+2025-05-10 11:40:28,567 - INFO - Pending orders deleted: 0
+2025-05-10 11:40:28,569 - INFO -   - Pending deleted events: 0
+2025-05-10 11:40:28,570 - INFO - Errors encountered: 0
+2025-05-10 11:40:28,571 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 11:40:28,572 - INFO - =========================
+2025-05-10 11:45:29,040 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 11:45:29,040 - INFO - Positions checked: 3874
+2025-05-10 11:45:29,040 - INFO - Positions secured (Total): 40
+2025-05-10 11:45:29,041 - INFO -   - TP1 secured events: 0
+2025-05-10 11:45:29,041 - INFO -   - 2nd Price secured events: 0
+2025-05-10 11:45:29,041 - INFO - Pending orders deleted: 0
+2025-05-10 11:45:29,041 - INFO -   - Pending deleted events: 0
+2025-05-10 11:45:29,042 - INFO - Errors encountered: 0
+2025-05-10 11:45:29,042 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 11:45:29,042 - INFO - =========================
+2025-05-10 11:50:29,509 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 11:50:29,509 - INFO - Positions checked: 3874
+2025-05-10 11:50:29,509 - INFO - Positions secured (Total): 40
+2025-05-10 11:50:29,509 - INFO -   - TP1 secured events: 0
+2025-05-10 11:50:29,510 - INFO -   - 2nd Price secured events: 0
+2025-05-10 11:50:29,510 - INFO - Pending orders deleted: 0
+2025-05-10 11:50:29,510 - INFO -   - Pending deleted events: 0
+2025-05-10 11:50:29,510 - INFO - Errors encountered: 0
+2025-05-10 11:50:29,511 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 11:50:29,511 - INFO - =========================
+2025-05-10 11:55:30,150 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 11:55:30,150 - INFO - Positions checked: 3874
+2025-05-10 11:55:30,151 - INFO - Positions secured (Total): 40
+2025-05-10 11:55:30,156 - INFO -   - TP1 secured events: 0
+2025-05-10 11:55:30,157 - INFO -   - 2nd Price secured events: 0
+2025-05-10 11:55:30,159 - INFO - Pending orders deleted: 0
+2025-05-10 11:55:30,160 - INFO -   - Pending deleted events: 0
+2025-05-10 11:55:30,162 - INFO - Errors encountered: 0
+2025-05-10 11:55:30,162 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 11:55:30,162 - INFO - =========================
+2025-05-10 12:00:30,576 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 12:00:30,578 - INFO - Positions checked: 3874
+2025-05-10 12:00:30,580 - INFO - Positions secured (Total): 40
+2025-05-10 12:00:30,581 - INFO -   - TP1 secured events: 0
+2025-05-10 12:00:30,582 - INFO -   - 2nd Price secured events: 0
+2025-05-10 12:00:30,583 - INFO - Pending orders deleted: 0
+2025-05-10 12:00:30,585 - INFO -   - Pending deleted events: 0
+2025-05-10 12:00:30,586 - INFO - Errors encountered: 0
+2025-05-10 12:00:30,587 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 12:00:30,588 - INFO - =========================
+2025-05-10 12:05:31,035 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 12:05:31,037 - INFO - Positions checked: 3874
+2025-05-10 12:05:31,039 - INFO - Positions secured (Total): 40
+2025-05-10 12:05:31,040 - INFO -   - TP1 secured events: 0
+2025-05-10 12:05:31,041 - INFO -   - 2nd Price secured events: 0
+2025-05-10 12:05:31,043 - INFO - Pending orders deleted: 0
+2025-05-10 12:05:31,044 - INFO -   - Pending deleted events: 0
+2025-05-10 12:05:31,045 - INFO - Errors encountered: 0
+2025-05-10 12:05:31,046 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 12:05:31,051 - INFO - =========================
+2025-05-10 12:10:31,591 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 12:10:31,592 - INFO - Positions checked: 3874
+2025-05-10 12:10:31,592 - INFO - Positions secured (Total): 40
+2025-05-10 12:10:31,593 - INFO -   - TP1 secured events: 0
+2025-05-10 12:10:31,594 - INFO -   - 2nd Price secured events: 0
+2025-05-10 12:10:31,594 - INFO - Pending orders deleted: 0
+2025-05-10 12:10:31,594 - INFO -   - Pending deleted events: 0
+2025-05-10 12:10:31,595 - INFO - Errors encountered: 0
+2025-05-10 12:10:31,595 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 12:10:31,596 - INFO - =========================
+2025-05-10 12:15:32,231 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 12:15:32,231 - INFO - Positions checked: 3874
+2025-05-10 12:15:32,232 - INFO - Positions secured (Total): 40
+2025-05-10 12:15:32,232 - INFO -   - TP1 secured events: 0
+2025-05-10 12:15:32,234 - INFO -   - 2nd Price secured events: 0
+2025-05-10 12:15:32,234 - INFO - Pending orders deleted: 0
+2025-05-10 12:15:32,235 - INFO -   - Pending deleted events: 0
+2025-05-10 12:15:32,235 - INFO - Errors encountered: 0
+2025-05-10 12:15:32,236 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 12:15:32,236 - INFO - =========================
+2025-05-10 12:20:32,696 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 12:20:32,697 - INFO - Positions checked: 3874
+2025-05-10 12:20:32,698 - INFO - Positions secured (Total): 40
+2025-05-10 12:20:32,699 - INFO -   - TP1 secured events: 0
+2025-05-10 12:20:32,699 - INFO -   - 2nd Price secured events: 0
+2025-05-10 12:20:32,700 - INFO - Pending orders deleted: 0
+2025-05-10 12:20:32,700 - INFO -   - Pending deleted events: 0
+2025-05-10 12:20:32,701 - INFO - Errors encountered: 0
+2025-05-10 12:20:32,701 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 12:20:32,701 - INFO - =========================
+2025-05-10 12:25:33,162 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 12:25:33,162 - INFO - Positions checked: 3874
+2025-05-10 12:25:33,162 - INFO - Positions secured (Total): 40
+2025-05-10 12:25:33,162 - INFO -   - TP1 secured events: 0
+2025-05-10 12:25:33,162 - INFO -   - 2nd Price secured events: 0
+2025-05-10 12:25:33,162 - INFO - Pending orders deleted: 0
+2025-05-10 12:25:33,162 - INFO -   - Pending deleted events: 0
+2025-05-10 12:25:33,162 - INFO - Errors encountered: 0
+2025-05-10 12:25:33,162 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 12:25:33,162 - INFO - =========================
+2025-05-10 12:30:33,770 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 12:30:33,770 - INFO - Positions checked: 3874
+2025-05-10 12:30:33,770 - INFO - Positions secured (Total): 40
+2025-05-10 12:30:33,775 - INFO -   - TP1 secured events: 0
+2025-05-10 12:30:33,775 - INFO -   - 2nd Price secured events: 0
+2025-05-10 12:30:33,775 - INFO - Pending orders deleted: 0
+2025-05-10 12:30:33,775 - INFO -   - Pending deleted events: 0
+2025-05-10 12:30:33,775 - INFO - Errors encountered: 0
+2025-05-10 12:30:33,775 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 12:30:33,775 - INFO - =========================
+2025-05-10 12:35:34,310 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 12:35:34,310 - INFO - Positions checked: 3874
+2025-05-10 12:35:34,310 - INFO - Positions secured (Total): 40
+2025-05-10 12:35:34,322 - INFO -   - TP1 secured events: 0
+2025-05-10 12:35:34,322 - INFO -   - 2nd Price secured events: 0
+2025-05-10 12:35:34,322 - INFO - Pending orders deleted: 0
+2025-05-10 12:35:34,322 - INFO -   - Pending deleted events: 0
+2025-05-10 12:35:34,322 - INFO - Errors encountered: 0
+2025-05-10 12:35:34,322 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 12:35:34,322 - INFO - =========================
+2025-05-10 12:40:34,868 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 12:40:34,868 - INFO - Positions checked: 3874
+2025-05-10 12:40:34,868 - INFO - Positions secured (Total): 40
+2025-05-10 12:40:34,868 - INFO -   - TP1 secured events: 0
+2025-05-10 12:40:34,868 - INFO -   - 2nd Price secured events: 0
+2025-05-10 12:40:34,868 - INFO - Pending orders deleted: 0
+2025-05-10 12:40:34,868 - INFO -   - Pending deleted events: 0
+2025-05-10 12:40:34,868 - INFO - Errors encountered: 0
+2025-05-10 12:40:34,868 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 12:40:34,868 - INFO - =========================
+2025-05-10 12:45:35,453 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 12:45:35,468 - INFO - Positions checked: 3874
+2025-05-10 12:45:35,468 - INFO - Positions secured (Total): 40
+2025-05-10 12:45:35,468 - INFO -   - TP1 secured events: 0
+2025-05-10 12:45:35,484 - INFO -   - 2nd Price secured events: 0
+2025-05-10 12:45:35,484 - INFO - Pending orders deleted: 0
+2025-05-10 12:45:35,484 - INFO -   - Pending deleted events: 0
+2025-05-10 12:45:35,484 - INFO - Errors encountered: 0
+2025-05-10 12:45:35,484 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 12:45:35,500 - INFO - =========================
+2025-05-10 12:50:35,961 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 12:50:35,961 - INFO - Positions checked: 3874
+2025-05-10 12:50:35,961 - INFO - Positions secured (Total): 40
+2025-05-10 12:50:35,961 - INFO -   - TP1 secured events: 0
+2025-05-10 12:50:35,961 - INFO -   - 2nd Price secured events: 0
+2025-05-10 12:50:35,961 - INFO - Pending orders deleted: 0
+2025-05-10 12:50:35,961 - INFO -   - Pending deleted events: 0
+2025-05-10 12:50:35,961 - INFO - Errors encountered: 0
+2025-05-10 12:50:35,961 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 12:50:35,961 - INFO - =========================
+2025-05-10 12:55:36,466 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 12:55:36,466 - INFO - Positions checked: 3874
+2025-05-10 12:55:36,466 - INFO - Positions secured (Total): 40
+2025-05-10 12:55:36,466 - INFO -   - TP1 secured events: 0
+2025-05-10 12:55:36,466 - INFO -   - 2nd Price secured events: 0
+2025-05-10 12:55:36,466 - INFO - Pending orders deleted: 0
+2025-05-10 12:55:36,466 - INFO -   - Pending deleted events: 0
+2025-05-10 12:55:36,466 - INFO - Errors encountered: 0
+2025-05-10 12:55:36,472 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 12:55:36,472 - INFO - =========================
+2025-05-10 13:00:36,771 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 13:00:36,771 - INFO - Positions checked: 3874
+2025-05-10 13:00:36,771 - INFO - Positions secured (Total): 40
+2025-05-10 13:00:36,771 - INFO -   - TP1 secured events: 0
+2025-05-10 13:00:36,771 - INFO -   - 2nd Price secured events: 0
+2025-05-10 13:00:36,771 - INFO - Pending orders deleted: 0
+2025-05-10 13:00:36,771 - INFO -   - Pending deleted events: 0
+2025-05-10 13:00:36,771 - INFO - Errors encountered: 0
+2025-05-10 13:00:36,771 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 13:00:36,780 - INFO - =========================
+2025-05-10 13:05:37,297 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 13:05:37,297 - INFO - Positions checked: 3874
+2025-05-10 13:05:37,297 - INFO - Positions secured (Total): 40
+2025-05-10 13:05:37,297 - INFO -   - TP1 secured events: 0
+2025-05-10 13:05:37,297 - INFO -   - 2nd Price secured events: 0
+2025-05-10 13:05:37,297 - INFO - Pending orders deleted: 0
+2025-05-10 13:05:37,297 - INFO -   - Pending deleted events: 0
+2025-05-10 13:05:37,297 - INFO - Errors encountered: 0
+2025-05-10 13:05:37,297 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 13:05:37,297 - INFO - =========================
+2025-05-10 13:10:37,865 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 13:10:37,865 - INFO - Positions checked: 3874
+2025-05-10 13:10:37,865 - INFO - Positions secured (Total): 40
+2025-05-10 13:10:37,865 - INFO -   - TP1 secured events: 0
+2025-05-10 13:10:37,865 - INFO -   - 2nd Price secured events: 0
+2025-05-10 13:10:37,870 - INFO - Pending orders deleted: 0
+2025-05-10 13:10:37,870 - INFO -   - Pending deleted events: 0
+2025-05-10 13:10:37,870 - INFO - Errors encountered: 0
+2025-05-10 13:10:37,870 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 13:10:37,870 - INFO - =========================
+2025-05-10 13:15:38,457 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 13:15:38,457 - INFO - Positions checked: 3874
+2025-05-10 13:15:38,457 - INFO - Positions secured (Total): 40
+2025-05-10 13:15:38,457 - INFO -   - TP1 secured events: 0
+2025-05-10 13:15:38,457 - INFO -   - 2nd Price secured events: 0
+2025-05-10 13:15:38,457 - INFO - Pending orders deleted: 0
+2025-05-10 13:15:38,457 - INFO -   - Pending deleted events: 0
+2025-05-10 13:15:38,457 - INFO - Errors encountered: 0
+2025-05-10 13:15:38,457 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 13:15:38,457 - INFO - =========================
+2025-05-10 13:20:38,956 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 13:20:38,969 - INFO - Positions checked: 3874
+2025-05-10 13:20:38,969 - INFO - Positions secured (Total): 40
+2025-05-10 13:20:38,969 - INFO -   - TP1 secured events: 0
+2025-05-10 13:20:38,969 - INFO -   - 2nd Price secured events: 0
+2025-05-10 13:20:38,969 - INFO - Pending orders deleted: 0
+2025-05-10 13:20:38,969 - INFO -   - Pending deleted events: 0
+2025-05-10 13:20:38,969 - INFO - Errors encountered: 0
+2025-05-10 13:20:38,969 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 13:20:38,969 - INFO - =========================
+2025-05-10 13:25:39,602 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 13:25:39,602 - INFO - Positions checked: 3874
+2025-05-10 13:25:39,602 - INFO - Positions secured (Total): 40
+2025-05-10 13:25:39,602 - INFO -   - TP1 secured events: 0
+2025-05-10 13:25:39,602 - INFO -   - 2nd Price secured events: 0
+2025-05-10 13:25:39,602 - INFO - Pending orders deleted: 0
+2025-05-10 13:25:39,602 - INFO -   - Pending deleted events: 0
+2025-05-10 13:25:39,602 - INFO - Errors encountered: 0
+2025-05-10 13:25:39,602 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 13:25:39,602 - INFO - =========================
+2025-05-10 13:30:40,080 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 13:30:40,080 - INFO - Positions checked: 3874
+2025-05-10 13:30:40,080 - INFO - Positions secured (Total): 40
+2025-05-10 13:30:40,080 - INFO -   - TP1 secured events: 0
+2025-05-10 13:30:40,080 - INFO -   - 2nd Price secured events: 0
+2025-05-10 13:30:40,080 - INFO - Pending orders deleted: 0
+2025-05-10 13:30:40,080 - INFO -   - Pending deleted events: 0
+2025-05-10 13:30:40,080 - INFO - Errors encountered: 0
+2025-05-10 13:30:40,080 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 13:30:40,080 - INFO - =========================
+2025-05-10 13:35:40,686 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 13:35:40,686 - INFO - Positions checked: 3874
+2025-05-10 13:35:40,686 - INFO - Positions secured (Total): 40
+2025-05-10 13:35:40,686 - INFO -   - TP1 secured events: 0
+2025-05-10 13:35:40,686 - INFO -   - 2nd Price secured events: 0
+2025-05-10 13:35:40,686 - INFO - Pending orders deleted: 0
+2025-05-10 13:35:40,686 - INFO -   - Pending deleted events: 0
+2025-05-10 13:35:40,686 - INFO - Errors encountered: 0
+2025-05-10 13:35:40,686 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 13:35:40,686 - INFO - =========================
+2025-05-10 13:40:41,147 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 13:40:41,147 - INFO - Positions checked: 3874
+2025-05-10 13:40:41,147 - INFO - Positions secured (Total): 40
+2025-05-10 13:40:41,147 - INFO -   - TP1 secured events: 0
+2025-05-10 13:40:41,147 - INFO -   - 2nd Price secured events: 0
+2025-05-10 13:40:41,161 - INFO - Pending orders deleted: 0
+2025-05-10 13:40:41,161 - INFO -   - Pending deleted events: 0
+2025-05-10 13:40:41,161 - INFO - Errors encountered: 0
+2025-05-10 13:40:41,161 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 13:40:41,161 - INFO - =========================
+2025-05-10 13:45:41,763 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 13:45:41,763 - INFO - Positions checked: 3874
+2025-05-10 13:45:41,763 - INFO - Positions secured (Total): 40
+2025-05-10 13:45:41,779 - INFO -   - TP1 secured events: 0
+2025-05-10 13:45:41,779 - INFO -   - 2nd Price secured events: 0
+2025-05-10 13:45:41,779 - INFO - Pending orders deleted: 0
+2025-05-10 13:45:41,779 - INFO -   - Pending deleted events: 0
+2025-05-10 13:45:41,779 - INFO - Errors encountered: 0
+2025-05-10 13:45:41,779 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 13:45:41,779 - INFO - =========================
+2025-05-10 13:50:42,302 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 13:50:42,302 - INFO - Positions checked: 3874
+2025-05-10 13:50:42,302 - INFO - Positions secured (Total): 40
+2025-05-10 13:50:42,302 - INFO -   - TP1 secured events: 0
+2025-05-10 13:50:42,302 - INFO -   - 2nd Price secured events: 0
+2025-05-10 13:50:42,302 - INFO - Pending orders deleted: 0
+2025-05-10 13:50:42,302 - INFO -   - Pending deleted events: 0
+2025-05-10 13:50:42,302 - INFO - Errors encountered: 0
+2025-05-10 13:50:42,302 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 13:50:42,302 - INFO - =========================
+2025-05-10 13:55:42,821 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 13:55:42,821 - INFO - Positions checked: 3874
+2025-05-10 13:55:42,835 - INFO - Positions secured (Total): 40
+2025-05-10 13:55:42,835 - INFO -   - TP1 secured events: 0
+2025-05-10 13:55:42,835 - INFO -   - 2nd Price secured events: 0
+2025-05-10 13:55:42,835 - INFO - Pending orders deleted: 0
+2025-05-10 13:55:42,835 - INFO -   - Pending deleted events: 0
+2025-05-10 13:55:42,835 - INFO - Errors encountered: 0
+2025-05-10 13:55:42,835 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 13:55:42,835 - INFO - =========================
+2025-05-10 14:00:43,181 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 14:00:43,181 - INFO - Positions checked: 3874
+2025-05-10 14:00:43,181 - INFO - Positions secured (Total): 40
+2025-05-10 14:00:43,181 - INFO -   - TP1 secured events: 0
+2025-05-10 14:00:43,181 - INFO -   - 2nd Price secured events: 0
+2025-05-10 14:00:43,187 - INFO - Pending orders deleted: 0
+2025-05-10 14:00:43,187 - INFO -   - Pending deleted events: 0
+2025-05-10 14:00:43,187 - INFO - Errors encountered: 0
+2025-05-10 14:00:43,187 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 14:00:43,187 - INFO - =========================
+2025-05-10 14:05:43,841 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 14:05:43,841 - INFO - Positions checked: 3874
+2025-05-10 14:05:43,841 - INFO - Positions secured (Total): 40
+2025-05-10 14:05:43,841 - INFO -   - TP1 secured events: 0
+2025-05-10 14:05:43,841 - INFO -   - 2nd Price secured events: 0
+2025-05-10 14:05:43,841 - INFO - Pending orders deleted: 0
+2025-05-10 14:05:43,841 - INFO -   - Pending deleted events: 0
+2025-05-10 14:05:43,841 - INFO - Errors encountered: 0
+2025-05-10 14:05:43,841 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 14:05:43,841 - INFO - =========================
+2025-05-10 14:10:44,270 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 14:10:44,270 - INFO - Positions checked: 3874
+2025-05-10 14:10:44,270 - INFO - Positions secured (Total): 40
+2025-05-10 14:10:44,270 - INFO -   - TP1 secured events: 0
+2025-05-10 14:10:44,270 - INFO -   - 2nd Price secured events: 0
+2025-05-10 14:10:44,270 - INFO - Pending orders deleted: 0
+2025-05-10 14:10:44,270 - INFO -   - Pending deleted events: 0
+2025-05-10 14:10:44,270 - INFO - Errors encountered: 0
+2025-05-10 14:10:44,270 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 14:10:44,270 - INFO - =========================
+2025-05-10 14:15:44,739 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 14:15:44,739 - INFO - Positions checked: 3874
+2025-05-10 14:15:44,739 - INFO - Positions secured (Total): 40
+2025-05-10 14:15:44,739 - INFO -   - TP1 secured events: 0
+2025-05-10 14:15:44,739 - INFO -   - 2nd Price secured events: 0
+2025-05-10 14:15:44,739 - INFO - Pending orders deleted: 0
+2025-05-10 14:15:44,739 - INFO -   - Pending deleted events: 0
+2025-05-10 14:15:44,739 - INFO - Errors encountered: 0
+2025-05-10 14:15:44,739 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 14:15:44,739 - INFO - =========================
+2025-05-10 14:20:45,266 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 14:20:45,266 - INFO - Positions checked: 3874
+2025-05-10 14:20:45,266 - INFO - Positions secured (Total): 40
+2025-05-10 14:20:45,266 - INFO -   - TP1 secured events: 0
+2025-05-10 14:20:45,266 - INFO -   - 2nd Price secured events: 0
+2025-05-10 14:20:45,266 - INFO - Pending orders deleted: 0
+2025-05-10 14:20:45,266 - INFO -   - Pending deleted events: 0
+2025-05-10 14:20:45,266 - INFO - Errors encountered: 0
+2025-05-10 14:20:45,266 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 14:20:45,266 - INFO - =========================
+2025-05-10 14:25:45,917 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 14:25:45,917 - INFO - Positions checked: 3874
+2025-05-10 14:25:45,917 - INFO - Positions secured (Total): 40
+2025-05-10 14:25:45,917 - INFO -   - TP1 secured events: 0
+2025-05-10 14:25:45,917 - INFO -   - 2nd Price secured events: 0
+2025-05-10 14:25:45,917 - INFO - Pending orders deleted: 0
+2025-05-10 14:25:45,917 - INFO -   - Pending deleted events: 0
+2025-05-10 14:25:45,917 - INFO - Errors encountered: 0
+2025-05-10 14:25:45,917 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 14:25:45,917 - INFO - =========================
+2025-05-10 14:30:46,546 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 14:30:46,546 - INFO - Positions checked: 3874
+2025-05-10 14:30:46,546 - INFO - Positions secured (Total): 40
+2025-05-10 14:30:46,546 - INFO -   - TP1 secured events: 0
+2025-05-10 14:30:46,546 - INFO -   - 2nd Price secured events: 0
+2025-05-10 14:30:46,546 - INFO - Pending orders deleted: 0
+2025-05-10 14:30:46,546 - INFO -   - Pending deleted events: 0
+2025-05-10 14:30:46,546 - INFO - Errors encountered: 0
+2025-05-10 14:30:46,546 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 14:30:46,546 - INFO - =========================
+2025-05-10 14:35:47,049 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 14:35:47,049 - INFO - Positions checked: 3874
+2025-05-10 14:35:47,049 - INFO - Positions secured (Total): 40
+2025-05-10 14:35:47,049 - INFO -   - TP1 secured events: 0
+2025-05-10 14:35:47,049 - INFO -   - 2nd Price secured events: 0
+2025-05-10 14:35:47,049 - INFO - Pending orders deleted: 0
+2025-05-10 14:35:47,049 - INFO -   - Pending deleted events: 0
+2025-05-10 14:35:47,049 - INFO - Errors encountered: 0
+2025-05-10 14:35:47,049 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 14:35:47,049 - INFO - =========================
+2025-05-10 14:40:47,627 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 14:40:47,627 - INFO - Positions checked: 3874
+2025-05-10 14:40:47,627 - INFO - Positions secured (Total): 40
+2025-05-10 14:40:47,627 - INFO -   - TP1 secured events: 0
+2025-05-10 14:40:47,627 - INFO -   - 2nd Price secured events: 0
+2025-05-10 14:40:47,627 - INFO - Pending orders deleted: 0
+2025-05-10 14:40:47,627 - INFO -   - Pending deleted events: 0
+2025-05-10 14:40:47,627 - INFO - Errors encountered: 0
+2025-05-10 14:40:47,627 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 14:40:47,627 - INFO - =========================
+2025-05-10 14:45:48,247 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 14:45:48,247 - INFO - Positions checked: 3874
+2025-05-10 14:45:48,247 - INFO - Positions secured (Total): 40
+2025-05-10 14:45:48,263 - INFO -   - TP1 secured events: 0
+2025-05-10 14:45:48,263 - INFO -   - 2nd Price secured events: 0
+2025-05-10 14:45:48,263 - INFO - Pending orders deleted: 0
+2025-05-10 14:45:48,279 - INFO -   - Pending deleted events: 0
+2025-05-10 14:45:48,279 - INFO - Errors encountered: 0
+2025-05-10 14:45:48,279 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 14:45:48,279 - INFO - =========================
+2025-05-10 14:50:48,710 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 14:50:48,710 - INFO - Positions checked: 3874
+2025-05-10 14:50:48,710 - INFO - Positions secured (Total): 40
+2025-05-10 14:50:48,710 - INFO -   - TP1 secured events: 0
+2025-05-10 14:50:48,710 - INFO -   - 2nd Price secured events: 0
+2025-05-10 14:50:48,710 - INFO - Pending orders deleted: 0
+2025-05-10 14:50:48,710 - INFO -   - Pending deleted events: 0
+2025-05-10 14:50:48,710 - INFO - Errors encountered: 0
+2025-05-10 14:50:48,710 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 14:50:48,710 - INFO - =========================
+2025-05-10 14:55:49,405 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 14:55:49,405 - INFO - Positions checked: 3874
+2025-05-10 14:55:49,405 - INFO - Positions secured (Total): 40
+2025-05-10 14:55:49,405 - INFO -   - TP1 secured events: 0
+2025-05-10 14:55:49,405 - INFO -   - 2nd Price secured events: 0
+2025-05-10 14:55:49,405 - INFO - Pending orders deleted: 0
+2025-05-10 14:55:49,405 - INFO -   - Pending deleted events: 0
+2025-05-10 14:55:49,405 - INFO - Errors encountered: 0
+2025-05-10 14:55:49,405 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 14:55:49,405 - INFO - =========================
+2025-05-10 15:00:49,834 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 15:00:49,834 - INFO - Positions checked: 3874
+2025-05-10 15:00:49,834 - INFO - Positions secured (Total): 40
+2025-05-10 15:00:49,834 - INFO -   - TP1 secured events: 0
+2025-05-10 15:00:49,834 - INFO -   - 2nd Price secured events: 0
+2025-05-10 15:00:49,834 - INFO - Pending orders deleted: 0
+2025-05-10 15:00:49,834 - INFO -   - Pending deleted events: 0
+2025-05-10 15:00:49,834 - INFO - Errors encountered: 0
+2025-05-10 15:00:49,834 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 15:00:49,834 - INFO - =========================
+2025-05-10 15:05:50,522 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 15:05:50,522 - INFO - Positions checked: 3874
+2025-05-10 15:05:50,522 - INFO - Positions secured (Total): 40
+2025-05-10 15:05:50,522 - INFO -   - TP1 secured events: 0
+2025-05-10 15:05:50,522 - INFO -   - 2nd Price secured events: 0
+2025-05-10 15:05:50,522 - INFO - Pending orders deleted: 0
+2025-05-10 15:05:50,522 - INFO -   - Pending deleted events: 0
+2025-05-10 15:05:50,522 - INFO - Errors encountered: 0
+2025-05-10 15:05:50,522 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 15:05:50,522 - INFO - =========================
+2025-05-10 15:10:50,988 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 15:10:50,988 - INFO - Positions checked: 3874
+2025-05-10 15:10:50,988 - INFO - Positions secured (Total): 40
+2025-05-10 15:10:50,988 - INFO -   - TP1 secured events: 0
+2025-05-10 15:10:50,988 - INFO -   - 2nd Price secured events: 0
+2025-05-10 15:10:50,988 - INFO - Pending orders deleted: 0
+2025-05-10 15:10:50,988 - INFO -   - Pending deleted events: 0
+2025-05-10 15:10:50,988 - INFO - Errors encountered: 0
+2025-05-10 15:10:50,988 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 15:10:50,988 - INFO - =========================
+2025-05-10 15:15:51,555 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 15:15:51,555 - INFO - Positions checked: 3874
+2025-05-10 15:15:51,555 - INFO - Positions secured (Total): 40
+2025-05-10 15:15:51,555 - INFO -   - TP1 secured events: 0
+2025-05-10 15:15:51,555 - INFO -   - 2nd Price secured events: 0
+2025-05-10 15:15:51,555 - INFO - Pending orders deleted: 0
+2025-05-10 15:15:51,555 - INFO -   - Pending deleted events: 0
+2025-05-10 15:15:51,555 - INFO - Errors encountered: 0
+2025-05-10 15:15:51,555 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 15:15:51,555 - INFO - =========================
+2025-05-10 15:16:07,690 - ERROR - MT5 connection lost - attempting to reconnect...
+2025-05-10 15:16:07,694 - INFO - Attempting to connect to account XM...
+2025-05-10 15:16:07,694 - ERROR - MT5 initialization failed for account XM. Error code: (-6, 'Terminal: Authorization failed')
+2025-05-10 15:16:07,694 - ERROR - Failed to reconnect to MT5. Will retry next cycle.
+2025-05-10 15:16:38,703 - ERROR - MT5 connection lost - attempting to reconnect...
+2025-05-10 15:16:38,734 - INFO - Attempting to connect to account XM...
+2025-05-10 15:16:38,890 - ERROR - MT5 initialization failed for account XM. Error code: (-6, 'Terminal: Authorization failed')
+2025-05-10 15:16:38,906 - ERROR - Failed to reconnect to MT5. Will retry next cycle.
+2025-05-10 15:17:09,944 - ERROR - MT5 connection lost - attempting to reconnect...
+2025-05-10 15:17:09,944 - INFO - Attempting to connect to account XM...
+2025-05-10 15:17:09,948 - INFO - Connected to MT5 account XM (Login: 98509933, Server: XMGlobal-MT5 5) successfully
+2025-05-10 15:17:09,948 - INFO - Successfully reconnected to MT5.
+2025-05-10 15:20:51,791 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 15:20:51,791 - INFO - Positions checked: 3068
+2025-05-10 15:20:51,791 - INFO - Positions secured (Total): 40
+2025-05-10 15:20:51,791 - INFO -   - TP1 secured events: 0
+2025-05-10 15:20:51,791 - INFO -   - 2nd Price secured events: 0
+2025-05-10 15:20:51,791 - INFO - Pending orders deleted: 0
+2025-05-10 15:20:51,802 - INFO -   - Pending deleted events: 0
+2025-05-10 15:20:51,802 - INFO - Errors encountered: 5
+2025-05-10 15:20:51,802 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 15:20:51,802 - INFO - =========================
+2025-05-10 15:25:52,309 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 15:25:52,309 - INFO - Positions checked: 3874
+2025-05-10 15:25:52,309 - INFO - Positions secured (Total): 40
+2025-05-10 15:25:52,323 - INFO -   - TP1 secured events: 0
+2025-05-10 15:25:52,323 - INFO -   - 2nd Price secured events: 0
+2025-05-10 15:25:52,323 - INFO - Pending orders deleted: 0
+2025-05-10 15:25:52,323 - INFO -   - Pending deleted events: 0
+2025-05-10 15:25:52,323 - INFO - Errors encountered: 0
+2025-05-10 15:25:52,323 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 15:25:52,323 - INFO - =========================
+2025-05-10 15:30:52,770 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 15:30:52,770 - INFO - Positions checked: 3874
+2025-05-10 15:30:52,770 - INFO - Positions secured (Total): 40
+2025-05-10 15:30:52,770 - INFO -   - TP1 secured events: 0
+2025-05-10 15:30:52,770 - INFO -   - 2nd Price secured events: 0
+2025-05-10 15:30:52,770 - INFO - Pending orders deleted: 0
+2025-05-10 15:30:52,770 - INFO -   - Pending deleted events: 0
+2025-05-10 15:30:52,770 - INFO - Errors encountered: 0
+2025-05-10 15:30:52,770 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 15:30:52,770 - INFO - =========================
+2025-05-10 15:35:53,175 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 15:35:53,175 - INFO - Positions checked: 3874
+2025-05-10 15:35:53,175 - INFO - Positions secured (Total): 40
+2025-05-10 15:35:53,175 - INFO -   - TP1 secured events: 0
+2025-05-10 15:35:53,175 - INFO -   - 2nd Price secured events: 0
+2025-05-10 15:35:53,175 - INFO - Pending orders deleted: 0
+2025-05-10 15:35:53,175 - INFO -   - Pending deleted events: 0
+2025-05-10 15:35:53,175 - INFO - Errors encountered: 0
+2025-05-10 15:35:53,175 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 15:35:53,175 - INFO - =========================
+2025-05-10 15:40:53,645 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 15:40:53,645 - INFO - Positions checked: 3874
+2025-05-10 15:40:53,645 - INFO - Positions secured (Total): 40
+2025-05-10 15:40:53,645 - INFO -   - TP1 secured events: 0
+2025-05-10 15:40:53,645 - INFO -   - 2nd Price secured events: 0
+2025-05-10 15:40:53,645 - INFO - Pending orders deleted: 0
+2025-05-10 15:40:53,645 - INFO -   - Pending deleted events: 0
+2025-05-10 15:40:53,645 - INFO - Errors encountered: 0
+2025-05-10 15:40:53,645 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 15:40:53,645 - INFO - =========================
+2025-05-10 15:45:54,067 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 15:45:54,067 - INFO - Positions checked: 3874
+2025-05-10 15:45:54,067 - INFO - Positions secured (Total): 40
+2025-05-10 15:45:54,067 - INFO -   - TP1 secured events: 0
+2025-05-10 15:45:54,067 - INFO -   - 2nd Price secured events: 0
+2025-05-10 15:45:54,067 - INFO - Pending orders deleted: 0
+2025-05-10 15:45:54,067 - INFO -   - Pending deleted events: 0
+2025-05-10 15:45:54,082 - INFO - Errors encountered: 0
+2025-05-10 15:45:54,082 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 15:45:54,082 - INFO - =========================
+2025-05-10 15:50:54,523 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 15:50:54,523 - INFO - Positions checked: 3874
+2025-05-10 15:50:54,523 - INFO - Positions secured (Total): 40
+2025-05-10 15:50:54,523 - INFO -   - TP1 secured events: 0
+2025-05-10 15:50:54,523 - INFO -   - 2nd Price secured events: 0
+2025-05-10 15:50:54,523 - INFO - Pending orders deleted: 0
+2025-05-10 15:50:54,523 - INFO -   - Pending deleted events: 0
+2025-05-10 15:50:54,523 - INFO - Errors encountered: 0
+2025-05-10 15:50:54,523 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 15:50:54,523 - INFO - =========================
+2025-05-10 15:55:54,973 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 15:55:54,973 - INFO - Positions checked: 3874
+2025-05-10 15:55:54,973 - INFO - Positions secured (Total): 40
+2025-05-10 15:55:54,988 - INFO -   - TP1 secured events: 0
+2025-05-10 15:55:54,988 - INFO -   - 2nd Price secured events: 0
+2025-05-10 15:55:54,988 - INFO - Pending orders deleted: 0
+2025-05-10 15:55:54,988 - INFO -   - Pending deleted events: 0
+2025-05-10 15:55:54,988 - INFO - Errors encountered: 0
+2025-05-10 15:55:54,988 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 15:55:54,988 - INFO - =========================
+2025-05-10 16:00:55,618 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 16:00:55,618 - INFO - Positions checked: 3874
+2025-05-10 16:00:55,618 - INFO - Positions secured (Total): 40
+2025-05-10 16:00:55,618 - INFO -   - TP1 secured events: 0
+2025-05-10 16:00:55,618 - INFO -   - 2nd Price secured events: 0
+2025-05-10 16:00:55,618 - INFO - Pending orders deleted: 0
+2025-05-10 16:00:55,618 - INFO -   - Pending deleted events: 0
+2025-05-10 16:00:55,618 - INFO - Errors encountered: 0
+2025-05-10 16:00:55,618 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 16:00:55,618 - INFO - =========================
+2025-05-10 16:05:56,129 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 16:05:56,129 - INFO - Positions checked: 3874
+2025-05-10 16:05:56,129 - INFO - Positions secured (Total): 40
+2025-05-10 16:05:56,129 - INFO -   - TP1 secured events: 0
+2025-05-10 16:05:56,129 - INFO -   - 2nd Price secured events: 0
+2025-05-10 16:05:56,129 - INFO - Pending orders deleted: 0
+2025-05-10 16:05:56,129 - INFO -   - Pending deleted events: 0
+2025-05-10 16:05:56,129 - INFO - Errors encountered: 0
+2025-05-10 16:05:56,129 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 16:05:56,129 - INFO - =========================
+2025-05-10 16:10:56,778 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 16:10:56,778 - INFO - Positions checked: 3874
+2025-05-10 16:10:56,778 - INFO - Positions secured (Total): 40
+2025-05-10 16:10:56,778 - INFO -   - TP1 secured events: 0
+2025-05-10 16:10:56,778 - INFO -   - 2nd Price secured events: 0
+2025-05-10 16:10:56,778 - INFO - Pending orders deleted: 0
+2025-05-10 16:10:56,778 - INFO -   - Pending deleted events: 0
+2025-05-10 16:10:56,778 - INFO - Errors encountered: 0
+2025-05-10 16:10:56,778 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 16:10:56,778 - INFO - =========================
+2025-05-10 16:15:57,252 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 16:15:57,262 - INFO - Positions checked: 3874
+2025-05-10 16:15:57,262 - INFO - Positions secured (Total): 40
+2025-05-10 16:15:57,262 - INFO -   - TP1 secured events: 0
+2025-05-10 16:15:57,262 - INFO -   - 2nd Price secured events: 0
+2025-05-10 16:15:57,262 - INFO - Pending orders deleted: 0
+2025-05-10 16:15:57,262 - INFO -   - Pending deleted events: 0
+2025-05-10 16:15:57,262 - INFO - Errors encountered: 0
+2025-05-10 16:15:57,262 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 16:15:57,262 - INFO - =========================
+2025-05-10 16:20:57,816 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 16:20:57,816 - INFO - Positions checked: 3874
+2025-05-10 16:20:57,816 - INFO - Positions secured (Total): 40
+2025-05-10 16:20:57,816 - INFO -   - TP1 secured events: 0
+2025-05-10 16:20:57,816 - INFO -   - 2nd Price secured events: 0
+2025-05-10 16:20:57,816 - INFO - Pending orders deleted: 0
+2025-05-10 16:20:57,816 - INFO -   - Pending deleted events: 0
+2025-05-10 16:20:57,816 - INFO - Errors encountered: 0
+2025-05-10 16:20:57,816 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 16:20:57,816 - INFO - =========================
+2025-05-10 16:25:58,429 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 16:25:58,440 - INFO - Positions checked: 3874
+2025-05-10 16:25:58,440 - INFO - Positions secured (Total): 40
+2025-05-10 16:25:58,440 - INFO -   - TP1 secured events: 0
+2025-05-10 16:25:58,440 - INFO -   - 2nd Price secured events: 0
+2025-05-10 16:25:58,440 - INFO - Pending orders deleted: 0
+2025-05-10 16:25:58,440 - INFO -   - Pending deleted events: 0
+2025-05-10 16:25:58,440 - INFO - Errors encountered: 0
+2025-05-10 16:25:58,440 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 16:25:58,440 - INFO - =========================
+2025-05-10 16:30:59,002 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 16:30:59,002 - INFO - Positions checked: 3874
+2025-05-10 16:30:59,002 - INFO - Positions secured (Total): 40
+2025-05-10 16:30:59,002 - INFO -   - TP1 secured events: 0
+2025-05-10 16:30:59,002 - INFO -   - 2nd Price secured events: 0
+2025-05-10 16:30:59,002 - INFO - Pending orders deleted: 0
+2025-05-10 16:30:59,002 - INFO -   - Pending deleted events: 0
+2025-05-10 16:30:59,002 - INFO - Errors encountered: 0
+2025-05-10 16:30:59,002 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 16:30:59,012 - INFO - =========================
+2025-05-10 16:35:59,595 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 16:35:59,595 - INFO - Positions checked: 3874
+2025-05-10 16:35:59,595 - INFO - Positions secured (Total): 40
+2025-05-10 16:35:59,595 - INFO -   - TP1 secured events: 0
+2025-05-10 16:35:59,595 - INFO -   - 2nd Price secured events: 0
+2025-05-10 16:35:59,595 - INFO - Pending orders deleted: 0
+2025-05-10 16:35:59,595 - INFO -   - Pending deleted events: 0
+2025-05-10 16:35:59,595 - INFO - Errors encountered: 0
+2025-05-10 16:35:59,595 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 16:35:59,595 - INFO - =========================
+2025-05-10 16:40:59,966 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 16:40:59,966 - INFO - Positions checked: 3874
+2025-05-10 16:40:59,975 - INFO - Positions secured (Total): 40
+2025-05-10 16:40:59,975 - INFO -   - TP1 secured events: 0
+2025-05-10 16:40:59,975 - INFO -   - 2nd Price secured events: 0
+2025-05-10 16:40:59,975 - INFO - Pending orders deleted: 0
+2025-05-10 16:40:59,975 - INFO -   - Pending deleted events: 0
+2025-05-10 16:40:59,975 - INFO - Errors encountered: 0
+2025-05-10 16:40:59,975 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 16:40:59,975 - INFO - =========================
+2025-05-10 16:46:00,525 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 16:46:00,525 - INFO - Positions checked: 3874
+2025-05-10 16:46:00,525 - INFO - Positions secured (Total): 40
+2025-05-10 16:46:00,525 - INFO -   - TP1 secured events: 0
+2025-05-10 16:46:00,525 - INFO -   - 2nd Price secured events: 0
+2025-05-10 16:46:00,525 - INFO - Pending orders deleted: 0
+2025-05-10 16:46:00,525 - INFO -   - Pending deleted events: 0
+2025-05-10 16:46:00,525 - INFO - Errors encountered: 0
+2025-05-10 16:46:00,525 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 16:46:00,540 - INFO - =========================
+2025-05-10 16:51:01,061 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 16:51:01,071 - INFO - Positions checked: 3874
+2025-05-10 16:51:01,071 - INFO - Positions secured (Total): 40
+2025-05-10 16:51:01,071 - INFO -   - TP1 secured events: 0
+2025-05-10 16:51:01,071 - INFO -   - 2nd Price secured events: 0
+2025-05-10 16:51:01,071 - INFO - Pending orders deleted: 0
+2025-05-10 16:51:01,071 - INFO -   - Pending deleted events: 0
+2025-05-10 16:51:01,071 - INFO - Errors encountered: 0
+2025-05-10 16:51:01,071 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 16:51:01,071 - INFO - =========================
+2025-05-10 16:56:01,743 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 16:56:01,743 - INFO - Positions checked: 3874
+2025-05-10 16:56:01,751 - INFO - Positions secured (Total): 40
+2025-05-10 16:56:01,751 - INFO -   - TP1 secured events: 0
+2025-05-10 16:56:01,751 - INFO -   - 2nd Price secured events: 0
+2025-05-10 16:56:01,751 - INFO - Pending orders deleted: 0
+2025-05-10 16:56:01,751 - INFO -   - Pending deleted events: 0
+2025-05-10 16:56:01,751 - INFO - Errors encountered: 0
+2025-05-10 16:56:01,751 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 16:56:01,751 - INFO - =========================
+2025-05-10 17:01:02,138 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 17:01:02,138 - INFO - Positions checked: 3874
+2025-05-10 17:01:02,138 - INFO - Positions secured (Total): 40
+2025-05-10 17:01:02,138 - INFO -   - TP1 secured events: 0
+2025-05-10 17:01:02,138 - INFO -   - 2nd Price secured events: 0
+2025-05-10 17:01:02,138 - INFO - Pending orders deleted: 0
+2025-05-10 17:01:02,138 - INFO -   - Pending deleted events: 0
+2025-05-10 17:01:02,138 - INFO - Errors encountered: 0
+2025-05-10 17:01:02,138 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 17:01:02,138 - INFO - =========================
+2025-05-10 17:06:02,776 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 17:06:02,782 - INFO - Positions checked: 3874
+2025-05-10 17:06:02,782 - INFO - Positions secured (Total): 40
+2025-05-10 17:06:02,782 - INFO -   - TP1 secured events: 0
+2025-05-10 17:06:02,782 - INFO -   - 2nd Price secured events: 0
+2025-05-10 17:06:02,782 - INFO - Pending orders deleted: 0
+2025-05-10 17:06:02,782 - INFO -   - Pending deleted events: 0
+2025-05-10 17:06:02,782 - INFO - Errors encountered: 0
+2025-05-10 17:06:02,782 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 17:06:02,782 - INFO - =========================
+2025-05-10 17:11:03,270 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 17:11:03,270 - INFO - Positions checked: 3874
+2025-05-10 17:11:03,280 - INFO - Positions secured (Total): 40
+2025-05-10 17:11:03,280 - INFO -   - TP1 secured events: 0
+2025-05-10 17:11:03,280 - INFO -   - 2nd Price secured events: 0
+2025-05-10 17:11:03,280 - INFO - Pending orders deleted: 0
+2025-05-10 17:11:03,280 - INFO -   - Pending deleted events: 0
+2025-05-10 17:11:03,280 - INFO - Errors encountered: 0
+2025-05-10 17:11:03,280 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 17:11:03,280 - INFO - =========================
+2025-05-10 17:16:03,888 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 17:16:03,888 - INFO - Positions checked: 3874
+2025-05-10 17:16:03,888 - INFO - Positions secured (Total): 40
+2025-05-10 17:16:03,888 - INFO -   - TP1 secured events: 0
+2025-05-10 17:16:03,888 - INFO -   - 2nd Price secured events: 0
+2025-05-10 17:16:03,888 - INFO - Pending orders deleted: 0
+2025-05-10 17:16:03,888 - INFO -   - Pending deleted events: 0
+2025-05-10 17:16:03,888 - INFO - Errors encountered: 0
+2025-05-10 17:16:03,888 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 17:16:03,888 - INFO - =========================
+2025-05-10 17:21:04,331 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 17:21:04,331 - INFO - Positions checked: 3874
+2025-05-10 17:21:04,331 - INFO - Positions secured (Total): 40
+2025-05-10 17:21:04,331 - INFO -   - TP1 secured events: 0
+2025-05-10 17:21:04,331 - INFO -   - 2nd Price secured events: 0
+2025-05-10 17:21:04,331 - INFO - Pending orders deleted: 0
+2025-05-10 17:21:04,331 - INFO -   - Pending deleted events: 0
+2025-05-10 17:21:04,331 - INFO - Errors encountered: 0
+2025-05-10 17:21:04,331 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 17:21:04,331 - INFO - =========================
+2025-05-10 17:26:04,894 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 17:26:04,894 - INFO - Positions checked: 3874
+2025-05-10 17:26:04,894 - INFO - Positions secured (Total): 40
+2025-05-10 17:26:04,894 - INFO -   - TP1 secured events: 0
+2025-05-10 17:26:04,894 - INFO -   - 2nd Price secured events: 0
+2025-05-10 17:26:04,894 - INFO - Pending orders deleted: 0
+2025-05-10 17:26:04,894 - INFO -   - Pending deleted events: 0
+2025-05-10 17:26:04,894 - INFO - Errors encountered: 0
+2025-05-10 17:26:04,894 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 17:26:04,894 - INFO - =========================
+2025-05-10 17:31:05,334 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 17:31:05,334 - INFO - Positions checked: 3874
+2025-05-10 17:31:05,334 - INFO - Positions secured (Total): 40
+2025-05-10 17:31:05,334 - INFO -   - TP1 secured events: 0
+2025-05-10 17:31:05,334 - INFO -   - 2nd Price secured events: 0
+2025-05-10 17:31:05,334 - INFO - Pending orders deleted: 0
+2025-05-10 17:31:05,334 - INFO -   - Pending deleted events: 0
+2025-05-10 17:31:05,334 - INFO - Errors encountered: 0
+2025-05-10 17:31:05,334 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 17:31:05,334 - INFO - =========================
+2025-05-10 17:36:05,959 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 17:36:05,959 - INFO - Positions checked: 3874
+2025-05-10 17:36:05,959 - INFO - Positions secured (Total): 40
+2025-05-10 17:36:05,965 - INFO -   - TP1 secured events: 0
+2025-05-10 17:36:05,965 - INFO -   - 2nd Price secured events: 0
+2025-05-10 17:36:05,965 - INFO - Pending orders deleted: 0
+2025-05-10 17:36:05,965 - INFO -   - Pending deleted events: 0
+2025-05-10 17:36:05,965 - INFO - Errors encountered: 0
+2025-05-10 17:36:05,965 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 17:36:05,965 - INFO - =========================
+2025-05-10 17:41:06,404 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 17:41:06,404 - INFO - Positions checked: 3874
+2025-05-10 17:41:06,404 - INFO - Positions secured (Total): 40
+2025-05-10 17:41:06,404 - INFO -   - TP1 secured events: 0
+2025-05-10 17:41:06,404 - INFO -   - 2nd Price secured events: 0
+2025-05-10 17:41:06,404 - INFO - Pending orders deleted: 0
+2025-05-10 17:41:06,404 - INFO -   - Pending deleted events: 0
+2025-05-10 17:41:06,404 - INFO - Errors encountered: 0
+2025-05-10 17:41:06,404 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 17:41:06,404 - INFO - =========================
+2025-05-10 17:46:06,931 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 17:46:06,931 - INFO - Positions checked: 3874
+2025-05-10 17:46:06,941 - INFO - Positions secured (Total): 40
+2025-05-10 17:46:06,941 - INFO -   - TP1 secured events: 0
+2025-05-10 17:46:06,941 - INFO -   - 2nd Price secured events: 0
+2025-05-10 17:46:06,941 - INFO - Pending orders deleted: 0
+2025-05-10 17:46:06,941 - INFO -   - Pending deleted events: 0
+2025-05-10 17:46:06,941 - INFO - Errors encountered: 0
+2025-05-10 17:46:06,941 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 17:46:06,941 - INFO - =========================
+2025-05-10 17:51:07,561 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 17:51:07,561 - INFO - Positions checked: 3874
+2025-05-10 17:51:07,561 - INFO - Positions secured (Total): 40
+2025-05-10 17:51:07,561 - INFO -   - TP1 secured events: 0
+2025-05-10 17:51:07,561 - INFO -   - 2nd Price secured events: 0
+2025-05-10 17:51:07,561 - INFO - Pending orders deleted: 0
+2025-05-10 17:51:07,561 - INFO -   - Pending deleted events: 0
+2025-05-10 17:51:07,561 - INFO - Errors encountered: 0
+2025-05-10 17:51:07,561 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 17:51:07,561 - INFO - =========================
+2025-05-10 17:56:08,110 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 17:56:08,110 - INFO - Positions checked: 3874
+2025-05-10 17:56:08,110 - INFO - Positions secured (Total): 40
+2025-05-10 17:56:08,110 - INFO -   - TP1 secured events: 0
+2025-05-10 17:56:08,110 - INFO -   - 2nd Price secured events: 0
+2025-05-10 17:56:08,110 - INFO - Pending orders deleted: 0
+2025-05-10 17:56:08,110 - INFO -   - Pending deleted events: 0
+2025-05-10 17:56:08,110 - INFO - Errors encountered: 0
+2025-05-10 17:56:08,110 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 17:56:08,110 - INFO - =========================
+2025-05-10 18:01:08,730 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 18:01:08,730 - INFO - Positions checked: 3874
+2025-05-10 18:01:08,730 - INFO - Positions secured (Total): 40
+2025-05-10 18:01:08,730 - INFO -   - TP1 secured events: 0
+2025-05-10 18:01:08,730 - INFO -   - 2nd Price secured events: 0
+2025-05-10 18:01:08,730 - INFO - Pending orders deleted: 0
+2025-05-10 18:01:08,730 - INFO -   - Pending deleted events: 0
+2025-05-10 18:01:08,730 - INFO - Errors encountered: 0
+2025-05-10 18:01:08,730 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 18:01:08,730 - INFO - =========================
+2025-05-10 18:06:09,263 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 18:06:09,263 - INFO - Positions checked: 3874
+2025-05-10 18:06:09,263 - INFO - Positions secured (Total): 40
+2025-05-10 18:06:09,263 - INFO -   - TP1 secured events: 0
+2025-05-10 18:06:09,263 - INFO -   - 2nd Price secured events: 0
+2025-05-10 18:06:09,263 - INFO - Pending orders deleted: 0
+2025-05-10 18:06:09,263 - INFO -   - Pending deleted events: 0
+2025-05-10 18:06:09,263 - INFO - Errors encountered: 0
+2025-05-10 18:06:09,263 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 18:06:09,263 - INFO - =========================
+2025-05-10 18:11:09,811 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 18:11:09,811 - INFO - Positions checked: 3874
+2025-05-10 18:11:09,811 - INFO - Positions secured (Total): 40
+2025-05-10 18:11:09,811 - INFO -   - TP1 secured events: 0
+2025-05-10 18:11:09,811 - INFO -   - 2nd Price secured events: 0
+2025-05-10 18:11:09,811 - INFO - Pending orders deleted: 0
+2025-05-10 18:11:09,811 - INFO -   - Pending deleted events: 0
+2025-05-10 18:11:09,811 - INFO - Errors encountered: 0
+2025-05-10 18:11:09,811 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 18:11:09,811 - INFO - =========================
+2025-05-10 18:16:10,235 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 18:16:10,235 - INFO - Positions checked: 3874
+2025-05-10 18:16:10,251 - INFO - Positions secured (Total): 40
+2025-05-10 18:16:10,251 - INFO -   - TP1 secured events: 0
+2025-05-10 18:16:10,282 - INFO -   - 2nd Price secured events: 0
+2025-05-10 18:16:10,282 - INFO - Pending orders deleted: 0
+2025-05-10 18:16:10,282 - INFO -   - Pending deleted events: 0
+2025-05-10 18:16:10,282 - INFO - Errors encountered: 0
+2025-05-10 18:16:10,282 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 18:16:10,282 - INFO - =========================
+2025-05-10 18:21:10,728 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 18:21:10,728 - INFO - Positions checked: 3874
+2025-05-10 18:21:10,728 - INFO - Positions secured (Total): 40
+2025-05-10 18:21:10,728 - INFO -   - TP1 secured events: 0
+2025-05-10 18:21:10,728 - INFO -   - 2nd Price secured events: 0
+2025-05-10 18:21:10,728 - INFO - Pending orders deleted: 0
+2025-05-10 18:21:10,728 - INFO -   - Pending deleted events: 0
+2025-05-10 18:21:10,728 - INFO - Errors encountered: 0
+2025-05-10 18:21:10,728 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 18:21:10,728 - INFO - =========================
+2025-05-10 18:26:11,170 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 18:26:11,170 - INFO - Positions checked: 3874
+2025-05-10 18:26:11,170 - INFO - Positions secured (Total): 40
+2025-05-10 18:26:11,170 - INFO -   - TP1 secured events: 0
+2025-05-10 18:26:11,170 - INFO -   - 2nd Price secured events: 0
+2025-05-10 18:26:11,170 - INFO - Pending orders deleted: 0
+2025-05-10 18:26:11,170 - INFO -   - Pending deleted events: 0
+2025-05-10 18:26:11,170 - INFO - Errors encountered: 0
+2025-05-10 18:26:11,170 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 18:26:11,170 - INFO - =========================
+2025-05-10 18:31:11,797 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 18:31:11,797 - INFO - Positions checked: 3874
+2025-05-10 18:31:11,808 - INFO - Positions secured (Total): 40
+2025-05-10 18:31:11,808 - INFO -   - TP1 secured events: 0
+2025-05-10 18:31:11,808 - INFO -   - 2nd Price secured events: 0
+2025-05-10 18:31:11,808 - INFO - Pending orders deleted: 0
+2025-05-10 18:31:11,808 - INFO -   - Pending deleted events: 0
+2025-05-10 18:31:11,808 - INFO - Errors encountered: 0
+2025-05-10 18:31:11,808 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 18:31:11,808 - INFO - =========================
+2025-05-10 18:36:12,297 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 18:36:12,297 - INFO - Positions checked: 3874
+2025-05-10 18:36:12,297 - INFO - Positions secured (Total): 40
+2025-05-10 18:36:12,297 - INFO -   - TP1 secured events: 0
+2025-05-10 18:36:12,297 - INFO -   - 2nd Price secured events: 0
+2025-05-10 18:36:12,297 - INFO - Pending orders deleted: 0
+2025-05-10 18:36:12,297 - INFO -   - Pending deleted events: 0
+2025-05-10 18:36:12,297 - INFO - Errors encountered: 0
+2025-05-10 18:36:12,312 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 18:36:12,312 - INFO - =========================
+2025-05-10 18:41:12,828 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 18:41:12,828 - INFO - Positions checked: 3874
+2025-05-10 18:41:12,828 - INFO - Positions secured (Total): 40
+2025-05-10 18:41:12,828 - INFO -   - TP1 secured events: 0
+2025-05-10 18:41:12,828 - INFO -   - 2nd Price secured events: 0
+2025-05-10 18:41:12,828 - INFO - Pending orders deleted: 0
+2025-05-10 18:41:12,828 - INFO -   - Pending deleted events: 0
+2025-05-10 18:41:12,828 - INFO - Errors encountered: 0
+2025-05-10 18:41:12,828 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 18:41:12,828 - INFO - =========================
+2025-05-10 18:46:13,259 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 18:46:13,267 - INFO - Positions checked: 3874
+2025-05-10 18:46:13,267 - INFO - Positions secured (Total): 40
+2025-05-10 18:46:13,267 - INFO -   - TP1 secured events: 0
+2025-05-10 18:46:13,267 - INFO -   - 2nd Price secured events: 0
+2025-05-10 18:46:13,267 - INFO - Pending orders deleted: 0
+2025-05-10 18:46:13,267 - INFO -   - Pending deleted events: 0
+2025-05-10 18:46:13,267 - INFO - Errors encountered: 0
+2025-05-10 18:46:13,267 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 18:46:13,267 - INFO - =========================
+2025-05-10 18:51:13,841 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 18:51:13,846 - INFO - Positions checked: 3874
+2025-05-10 18:51:13,846 - INFO - Positions secured (Total): 40
+2025-05-10 18:51:13,846 - INFO -   - TP1 secured events: 0
+2025-05-10 18:51:13,846 - INFO -   - 2nd Price secured events: 0
+2025-05-10 18:51:13,846 - INFO - Pending orders deleted: 0
+2025-05-10 18:51:13,846 - INFO -   - Pending deleted events: 0
+2025-05-10 18:51:13,846 - INFO - Errors encountered: 0
+2025-05-10 18:51:13,846 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 18:51:13,846 - INFO - =========================
+2025-05-10 18:56:14,400 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 18:56:14,400 - INFO - Positions checked: 3874
+2025-05-10 18:56:14,400 - INFO - Positions secured (Total): 40
+2025-05-10 18:56:14,400 - INFO -   - TP1 secured events: 0
+2025-05-10 18:56:14,400 - INFO -   - 2nd Price secured events: 0
+2025-05-10 18:56:14,400 - INFO - Pending orders deleted: 0
+2025-05-10 18:56:14,400 - INFO -   - Pending deleted events: 0
+2025-05-10 18:56:14,400 - INFO - Errors encountered: 0
+2025-05-10 18:56:14,400 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 18:56:14,400 - INFO - =========================
+2025-05-10 19:01:15,049 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 19:01:15,049 - INFO - Positions checked: 3874
+2025-05-10 19:01:15,049 - INFO - Positions secured (Total): 40
+2025-05-10 19:01:15,049 - INFO -   - TP1 secured events: 0
+2025-05-10 19:01:15,049 - INFO -   - 2nd Price secured events: 0
+2025-05-10 19:01:15,049 - INFO - Pending orders deleted: 0
+2025-05-10 19:01:15,049 - INFO -   - Pending deleted events: 0
+2025-05-10 19:01:15,049 - INFO - Errors encountered: 0
+2025-05-10 19:01:15,049 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 19:01:15,049 - INFO - =========================
+2025-05-10 19:06:15,570 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 19:06:15,570 - INFO - Positions checked: 3874
+2025-05-10 19:06:15,570 - INFO - Positions secured (Total): 40
+2025-05-10 19:06:15,570 - INFO -   - TP1 secured events: 0
+2025-05-10 19:06:15,570 - INFO -   - 2nd Price secured events: 0
+2025-05-10 19:06:15,570 - INFO - Pending orders deleted: 0
+2025-05-10 19:06:15,570 - INFO -   - Pending deleted events: 0
+2025-05-10 19:06:15,585 - INFO - Errors encountered: 0
+2025-05-10 19:06:15,585 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 19:06:15,585 - INFO - =========================
+2025-05-10 19:11:16,100 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 19:11:16,100 - INFO - Positions checked: 3874
+2025-05-10 19:11:16,100 - INFO - Positions secured (Total): 40
+2025-05-10 19:11:16,100 - INFO -   - TP1 secured events: 0
+2025-05-10 19:11:16,100 - INFO -   - 2nd Price secured events: 0
+2025-05-10 19:11:16,100 - INFO - Pending orders deleted: 0
+2025-05-10 19:11:16,100 - INFO -   - Pending deleted events: 0
+2025-05-10 19:11:16,100 - INFO - Errors encountered: 0
+2025-05-10 19:11:16,100 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 19:11:16,100 - INFO - =========================
+2025-05-10 19:16:16,614 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 19:16:16,614 - INFO - Positions checked: 3874
+2025-05-10 19:16:16,614 - INFO - Positions secured (Total): 40
+2025-05-10 19:16:16,614 - INFO -   - TP1 secured events: 0
+2025-05-10 19:16:16,614 - INFO -   - 2nd Price secured events: 0
+2025-05-10 19:16:16,614 - INFO - Pending orders deleted: 0
+2025-05-10 19:16:16,623 - INFO -   - Pending deleted events: 0
+2025-05-10 19:16:16,623 - INFO - Errors encountered: 0
+2025-05-10 19:16:16,623 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 19:16:16,623 - INFO - =========================
+2025-05-10 19:21:17,221 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 19:21:17,221 - INFO - Positions checked: 3874
+2025-05-10 19:21:17,221 - INFO - Positions secured (Total): 40
+2025-05-10 19:21:17,221 - INFO -   - TP1 secured events: 0
+2025-05-10 19:21:17,221 - INFO -   - 2nd Price secured events: 0
+2025-05-10 19:21:17,221 - INFO - Pending orders deleted: 0
+2025-05-10 19:21:17,221 - INFO -   - Pending deleted events: 0
+2025-05-10 19:21:17,221 - INFO - Errors encountered: 0
+2025-05-10 19:21:17,221 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 19:21:17,221 - INFO - =========================
+2025-05-10 19:26:17,730 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 19:26:17,730 - INFO - Positions checked: 3874
+2025-05-10 19:26:17,730 - INFO - Positions secured (Total): 40
+2025-05-10 19:26:17,730 - INFO -   - TP1 secured events: 0
+2025-05-10 19:26:17,730 - INFO -   - 2nd Price secured events: 0
+2025-05-10 19:26:17,730 - INFO - Pending orders deleted: 0
+2025-05-10 19:26:17,730 - INFO -   - Pending deleted events: 0
+2025-05-10 19:26:17,730 - INFO - Errors encountered: 0
+2025-05-10 19:26:17,730 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 19:26:17,730 - INFO - =========================
+2025-05-10 19:31:18,332 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 19:31:18,332 - INFO - Positions checked: 3874
+2025-05-10 19:31:18,332 - INFO - Positions secured (Total): 40
+2025-05-10 19:31:18,332 - INFO -   - TP1 secured events: 0
+2025-05-10 19:31:18,332 - INFO -   - 2nd Price secured events: 0
+2025-05-10 19:31:18,332 - INFO - Pending orders deleted: 0
+2025-05-10 19:31:18,332 - INFO -   - Pending deleted events: 0
+2025-05-10 19:31:18,332 - INFO - Errors encountered: 0
+2025-05-10 19:31:18,332 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 19:31:18,332 - INFO - =========================
+2025-05-10 19:36:18,970 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 19:36:18,970 - INFO - Positions checked: 3874
+2025-05-10 19:36:18,970 - INFO - Positions secured (Total): 40
+2025-05-10 19:36:18,970 - INFO -   - TP1 secured events: 0
+2025-05-10 19:36:18,970 - INFO -   - 2nd Price secured events: 0
+2025-05-10 19:36:18,970 - INFO - Pending orders deleted: 0
+2025-05-10 19:36:18,970 - INFO -   - Pending deleted events: 0
+2025-05-10 19:36:18,970 - INFO - Errors encountered: 0
+2025-05-10 19:36:18,970 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 19:36:18,970 - INFO - =========================
+2025-05-10 19:41:19,465 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 19:41:19,465 - INFO - Positions checked: 3874
+2025-05-10 19:41:19,465 - INFO - Positions secured (Total): 40
+2025-05-10 19:41:19,465 - INFO -   - TP1 secured events: 0
+2025-05-10 19:41:19,465 - INFO -   - 2nd Price secured events: 0
+2025-05-10 19:41:19,465 - INFO - Pending orders deleted: 0
+2025-05-10 19:41:19,465 - INFO -   - Pending deleted events: 0
+2025-05-10 19:41:19,465 - INFO - Errors encountered: 0
+2025-05-10 19:41:19,465 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 19:41:19,465 - INFO - =========================
+2025-05-10 19:46:20,042 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 19:46:20,043 - INFO - Positions checked: 3874
+2025-05-10 19:46:20,043 - INFO - Positions secured (Total): 40
+2025-05-10 19:46:20,043 - INFO -   - TP1 secured events: 0
+2025-05-10 19:46:20,043 - INFO -   - 2nd Price secured events: 0
+2025-05-10 19:46:20,044 - INFO - Pending orders deleted: 0
+2025-05-10 19:46:20,044 - INFO -   - Pending deleted events: 0
+2025-05-10 19:46:20,044 - INFO - Errors encountered: 0
+2025-05-10 19:46:20,044 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 19:46:20,045 - INFO - =========================
+2025-05-10 19:51:20,617 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 19:51:20,618 - INFO - Positions checked: 3874
+2025-05-10 19:51:20,618 - INFO - Positions secured (Total): 40
+2025-05-10 19:51:20,619 - INFO -   - TP1 secured events: 0
+2025-05-10 19:51:20,619 - INFO -   - 2nd Price secured events: 0
+2025-05-10 19:51:20,620 - INFO - Pending orders deleted: 0
+2025-05-10 19:51:20,620 - INFO -   - Pending deleted events: 0
+2025-05-10 19:51:20,620 - INFO - Errors encountered: 0
+2025-05-10 19:51:20,621 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 19:51:20,622 - INFO - =========================
+2025-05-10 19:56:21,164 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 19:56:21,165 - INFO - Positions checked: 3874
+2025-05-10 19:56:21,166 - INFO - Positions secured (Total): 40
+2025-05-10 19:56:21,167 - INFO -   - TP1 secured events: 0
+2025-05-10 19:56:21,167 - INFO -   - 2nd Price secured events: 0
+2025-05-10 19:56:21,168 - INFO - Pending orders deleted: 0
+2025-05-10 19:56:21,169 - INFO -   - Pending deleted events: 0
+2025-05-10 19:56:21,170 - INFO - Errors encountered: 0
+2025-05-10 19:56:21,171 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 19:56:21,171 - INFO - =========================
+2025-05-10 20:01:21,636 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 20:01:21,636 - INFO - Positions checked: 3874
+2025-05-10 20:01:21,637 - INFO - Positions secured (Total): 40
+2025-05-10 20:01:21,637 - INFO -   - TP1 secured events: 0
+2025-05-10 20:01:21,637 - INFO -   - 2nd Price secured events: 0
+2025-05-10 20:01:21,638 - INFO - Pending orders deleted: 0
+2025-05-10 20:01:21,638 - INFO -   - Pending deleted events: 0
+2025-05-10 20:01:21,638 - INFO - Errors encountered: 0
+2025-05-10 20:01:21,638 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 20:01:21,640 - INFO - =========================
+2025-05-10 20:06:21,961 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 20:06:21,962 - INFO - Positions checked: 3874
+2025-05-10 20:06:21,963 - INFO - Positions secured (Total): 40
+2025-05-10 20:06:21,963 - INFO -   - TP1 secured events: 0
+2025-05-10 20:06:21,964 - INFO -   - 2nd Price secured events: 0
+2025-05-10 20:06:21,965 - INFO - Pending orders deleted: 0
+2025-05-10 20:06:21,965 - INFO -   - Pending deleted events: 0
+2025-05-10 20:06:21,966 - INFO - Errors encountered: 0
+2025-05-10 20:06:21,967 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 20:06:21,968 - INFO - =========================
+2025-05-10 20:11:22,448 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 20:11:22,449 - INFO - Positions checked: 3874
+2025-05-10 20:11:22,450 - INFO - Positions secured (Total): 40
+2025-05-10 20:11:22,451 - INFO -   - TP1 secured events: 0
+2025-05-10 20:11:22,452 - INFO -   - 2nd Price secured events: 0
+2025-05-10 20:11:22,453 - INFO - Pending orders deleted: 0
+2025-05-10 20:11:22,453 - INFO -   - Pending deleted events: 0
+2025-05-10 20:11:22,454 - INFO - Errors encountered: 0
+2025-05-10 20:11:22,455 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 20:11:22,456 - INFO - =========================
+2025-05-10 20:16:22,853 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 20:16:22,854 - INFO - Positions checked: 3874
+2025-05-10 20:16:22,855 - INFO - Positions secured (Total): 40
+2025-05-10 20:16:22,856 - INFO -   - TP1 secured events: 0
+2025-05-10 20:16:22,857 - INFO -   - 2nd Price secured events: 0
+2025-05-10 20:16:22,857 - INFO - Pending orders deleted: 0
+2025-05-10 20:16:22,858 - INFO -   - Pending deleted events: 0
+2025-05-10 20:16:22,859 - INFO - Errors encountered: 0
+2025-05-10 20:16:22,859 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 20:16:22,860 - INFO - =========================
+2025-05-10 20:21:23,302 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 20:21:23,303 - INFO - Positions checked: 3874
+2025-05-10 20:21:23,304 - INFO - Positions secured (Total): 40
+2025-05-10 20:21:23,305 - INFO -   - TP1 secured events: 0
+2025-05-10 20:21:23,305 - INFO -   - 2nd Price secured events: 0
+2025-05-10 20:21:23,306 - INFO - Pending orders deleted: 0
+2025-05-10 20:21:23,306 - INFO -   - Pending deleted events: 0
+2025-05-10 20:21:23,307 - INFO - Errors encountered: 0
+2025-05-10 20:21:23,308 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 20:21:23,308 - INFO - =========================
+2025-05-10 20:26:23,732 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 20:26:23,733 - INFO - Positions checked: 3874
+2025-05-10 20:26:23,733 - INFO - Positions secured (Total): 40
+2025-05-10 20:26:23,734 - INFO -   - TP1 secured events: 0
+2025-05-10 20:26:23,735 - INFO -   - 2nd Price secured events: 0
+2025-05-10 20:26:23,735 - INFO - Pending orders deleted: 0
+2025-05-10 20:26:23,736 - INFO -   - Pending deleted events: 0
+2025-05-10 20:26:23,736 - INFO - Errors encountered: 0
+2025-05-10 20:26:23,737 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 20:26:23,737 - INFO - =========================
+2025-05-10 20:31:24,253 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 20:31:24,253 - INFO - Positions checked: 3874
+2025-05-10 20:31:24,254 - INFO - Positions secured (Total): 40
+2025-05-10 20:31:24,254 - INFO -   - TP1 secured events: 0
+2025-05-10 20:31:24,256 - INFO -   - 2nd Price secured events: 0
+2025-05-10 20:31:24,258 - INFO - Pending orders deleted: 0
+2025-05-10 20:31:24,258 - INFO -   - Pending deleted events: 0
+2025-05-10 20:31:24,259 - INFO - Errors encountered: 0
+2025-05-10 20:31:24,261 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 20:31:24,261 - INFO - =========================
+2025-05-10 20:36:24,723 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 20:36:24,723 - INFO - Positions checked: 3874
+2025-05-10 20:36:24,723 - INFO - Positions secured (Total): 40
+2025-05-10 20:36:24,724 - INFO -   - TP1 secured events: 0
+2025-05-10 20:36:24,725 - INFO -   - 2nd Price secured events: 0
+2025-05-10 20:36:24,725 - INFO - Pending orders deleted: 0
+2025-05-10 20:36:24,725 - INFO -   - Pending deleted events: 0
+2025-05-10 20:36:24,725 - INFO - Errors encountered: 0
+2025-05-10 20:36:24,726 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 20:36:24,726 - INFO - =========================
+2025-05-10 20:41:25,191 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 20:41:25,192 - INFO - Positions checked: 3874
+2025-05-10 20:41:25,192 - INFO - Positions secured (Total): 40
+2025-05-10 20:41:25,192 - INFO -   - TP1 secured events: 0
+2025-05-10 20:41:25,193 - INFO -   - 2nd Price secured events: 0
+2025-05-10 20:41:25,193 - INFO - Pending orders deleted: 0
+2025-05-10 20:41:25,193 - INFO -   - Pending deleted events: 0
+2025-05-10 20:41:25,193 - INFO - Errors encountered: 0
+2025-05-10 20:41:25,195 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 20:41:25,195 - INFO - =========================
+2025-05-10 20:46:25,634 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 20:46:25,646 - INFO - Positions checked: 3874
+2025-05-10 20:46:25,646 - INFO - Positions secured (Total): 40
+2025-05-10 20:46:25,651 - INFO -   - TP1 secured events: 0
+2025-05-10 20:46:25,651 - INFO -   - 2nd Price secured events: 0
+2025-05-10 20:46:25,651 - INFO - Pending orders deleted: 0
+2025-05-10 20:46:25,652 - INFO -   - Pending deleted events: 0
+2025-05-10 20:46:25,652 - INFO - Errors encountered: 0
+2025-05-10 20:46:25,652 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 20:46:25,653 - INFO - =========================
+2025-05-10 20:51:26,037 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 20:51:26,038 - INFO - Positions checked: 3874
+2025-05-10 20:51:26,038 - INFO - Positions secured (Total): 40
+2025-05-10 20:51:26,039 - INFO -   - TP1 secured events: 0
+2025-05-10 20:51:26,039 - INFO -   - 2nd Price secured events: 0
+2025-05-10 20:51:26,039 - INFO - Pending orders deleted: 0
+2025-05-10 20:51:26,040 - INFO -   - Pending deleted events: 0
+2025-05-10 20:51:26,040 - INFO - Errors encountered: 0
+2025-05-10 20:51:26,041 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 20:51:26,041 - INFO - =========================
+2025-05-10 20:56:26,606 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 20:56:26,608 - INFO - Positions checked: 3874
+2025-05-10 20:56:26,608 - INFO - Positions secured (Total): 40
+2025-05-10 20:56:26,608 - INFO -   - TP1 secured events: 0
+2025-05-10 20:56:26,608 - INFO -   - 2nd Price secured events: 0
+2025-05-10 20:56:26,608 - INFO - Pending orders deleted: 0
+2025-05-10 20:56:26,608 - INFO -   - Pending deleted events: 0
+2025-05-10 20:56:26,609 - INFO - Errors encountered: 0
+2025-05-10 20:56:26,609 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 20:56:26,609 - INFO - =========================
+2025-05-10 21:01:26,938 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 21:01:26,938 - INFO - Positions checked: 3874
+2025-05-10 21:01:26,939 - INFO - Positions secured (Total): 40
+2025-05-10 21:01:26,939 - INFO -   - TP1 secured events: 0
+2025-05-10 21:01:26,939 - INFO -   - 2nd Price secured events: 0
+2025-05-10 21:01:26,940 - INFO - Pending orders deleted: 0
+2025-05-10 21:01:26,940 - INFO -   - Pending deleted events: 0
+2025-05-10 21:01:26,941 - INFO - Errors encountered: 0
+2025-05-10 21:01:26,941 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 21:01:26,942 - INFO - =========================
+2025-05-10 21:06:27,460 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 21:06:27,461 - INFO - Positions checked: 3874
+2025-05-10 21:06:27,461 - INFO - Positions secured (Total): 40
+2025-05-10 21:06:27,462 - INFO -   - TP1 secured events: 0
+2025-05-10 21:06:27,463 - INFO -   - 2nd Price secured events: 0
+2025-05-10 21:06:27,463 - INFO - Pending orders deleted: 0
+2025-05-10 21:06:27,464 - INFO -   - Pending deleted events: 0
+2025-05-10 21:06:27,465 - INFO - Errors encountered: 0
+2025-05-10 21:06:27,465 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 21:06:27,466 - INFO - =========================
+2025-05-10 21:11:27,864 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 21:11:27,865 - INFO - Positions checked: 3874
+2025-05-10 21:11:27,867 - INFO - Positions secured (Total): 40
+2025-05-10 21:11:27,868 - INFO -   - TP1 secured events: 0
+2025-05-10 21:11:27,869 - INFO -   - 2nd Price secured events: 0
+2025-05-10 21:11:27,870 - INFO - Pending orders deleted: 0
+2025-05-10 21:11:27,871 - INFO -   - Pending deleted events: 0
+2025-05-10 21:11:27,872 - INFO - Errors encountered: 0
+2025-05-10 21:11:27,873 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 21:11:27,874 - INFO - =========================
+2025-05-10 21:16:28,142 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 21:16:28,142 - INFO - Positions checked: 3874
+2025-05-10 21:16:28,142 - INFO - Positions secured (Total): 40
+2025-05-10 21:16:28,142 - INFO -   - TP1 secured events: 0
+2025-05-10 21:16:28,142 - INFO -   - 2nd Price secured events: 0
+2025-05-10 21:16:28,142 - INFO - Pending orders deleted: 0
+2025-05-10 21:16:28,158 - INFO -   - Pending deleted events: 0
+2025-05-10 21:16:28,158 - INFO - Errors encountered: 0
+2025-05-10 21:16:28,158 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 21:16:28,158 - INFO - =========================
+2025-05-10 21:21:28,722 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 21:21:28,722 - INFO - Positions checked: 3874
+2025-05-10 21:21:28,722 - INFO - Positions secured (Total): 40
+2025-05-10 21:21:28,722 - INFO -   - TP1 secured events: 0
+2025-05-10 21:21:28,722 - INFO -   - 2nd Price secured events: 0
+2025-05-10 21:21:28,722 - INFO - Pending orders deleted: 0
+2025-05-10 21:21:28,722 - INFO -   - Pending deleted events: 0
+2025-05-10 21:21:28,722 - INFO - Errors encountered: 0
+2025-05-10 21:21:28,722 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 21:21:28,722 - INFO - =========================
+2025-05-10 21:26:29,281 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 21:26:29,281 - INFO - Positions checked: 3874
+2025-05-10 21:26:29,281 - INFO - Positions secured (Total): 40
+2025-05-10 21:26:29,281 - INFO -   - TP1 secured events: 0
+2025-05-10 21:26:29,281 - INFO -   - 2nd Price secured events: 0
+2025-05-10 21:26:29,281 - INFO - Pending orders deleted: 0
+2025-05-10 21:26:29,281 - INFO -   - Pending deleted events: 0
+2025-05-10 21:26:29,281 - INFO - Errors encountered: 0
+2025-05-10 21:26:29,281 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 21:26:29,281 - INFO - =========================
+2025-05-10 21:31:29,849 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 21:31:29,849 - INFO - Positions checked: 3874
+2025-05-10 21:31:29,849 - INFO - Positions secured (Total): 40
+2025-05-10 21:31:29,861 - INFO -   - TP1 secured events: 0
+2025-05-10 21:31:29,861 - INFO -   - 2nd Price secured events: 0
+2025-05-10 21:31:29,861 - INFO - Pending orders deleted: 0
+2025-05-10 21:31:29,861 - INFO -   - Pending deleted events: 0
+2025-05-10 21:31:29,861 - INFO - Errors encountered: 0
+2025-05-10 21:31:29,861 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 21:31:29,861 - INFO - =========================
+2025-05-10 21:36:30,456 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 21:36:30,456 - INFO - Positions checked: 3874
+2025-05-10 21:36:30,456 - INFO - Positions secured (Total): 40
+2025-05-10 21:36:30,456 - INFO -   - TP1 secured events: 0
+2025-05-10 21:36:30,456 - INFO -   - 2nd Price secured events: 0
+2025-05-10 21:36:30,456 - INFO - Pending orders deleted: 0
+2025-05-10 21:36:30,456 - INFO -   - Pending deleted events: 0
+2025-05-10 21:36:30,456 - INFO - Errors encountered: 0
+2025-05-10 21:36:30,456 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 21:36:30,456 - INFO - =========================
+2025-05-10 21:41:30,807 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 21:41:30,807 - INFO - Positions checked: 3874
+2025-05-10 21:41:30,807 - INFO - Positions secured (Total): 40
+2025-05-10 21:41:30,807 - INFO -   - TP1 secured events: 0
+2025-05-10 21:41:30,807 - INFO -   - 2nd Price secured events: 0
+2025-05-10 21:41:30,807 - INFO - Pending orders deleted: 0
+2025-05-10 21:41:30,807 - INFO -   - Pending deleted events: 0
+2025-05-10 21:41:30,807 - INFO - Errors encountered: 0
+2025-05-10 21:41:30,807 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 21:41:30,807 - INFO - =========================
+2025-05-10 21:46:31,397 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 21:46:31,397 - INFO - Positions checked: 3874
+2025-05-10 21:46:31,397 - INFO - Positions secured (Total): 40
+2025-05-10 21:46:31,397 - INFO -   - TP1 secured events: 0
+2025-05-10 21:46:31,397 - INFO -   - 2nd Price secured events: 0
+2025-05-10 21:46:31,397 - INFO - Pending orders deleted: 0
+2025-05-10 21:46:31,397 - INFO -   - Pending deleted events: 0
+2025-05-10 21:46:31,397 - INFO - Errors encountered: 0
+2025-05-10 21:46:31,397 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 21:46:31,397 - INFO - =========================
+2025-05-10 21:51:31,864 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 21:51:31,864 - INFO - Positions checked: 3874
+2025-05-10 21:51:31,864 - INFO - Positions secured (Total): 40
+2025-05-10 21:51:31,864 - INFO -   - TP1 secured events: 0
+2025-05-10 21:51:31,864 - INFO -   - 2nd Price secured events: 0
+2025-05-10 21:51:31,864 - INFO - Pending orders deleted: 0
+2025-05-10 21:51:31,864 - INFO -   - Pending deleted events: 0
+2025-05-10 21:51:31,864 - INFO - Errors encountered: 0
+2025-05-10 21:51:31,864 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 21:51:31,864 - INFO - =========================
+2025-05-10 21:56:32,547 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 21:56:32,547 - INFO - Positions checked: 3874
+2025-05-10 21:56:32,547 - INFO - Positions secured (Total): 40
+2025-05-10 21:56:32,547 - INFO -   - TP1 secured events: 0
+2025-05-10 21:56:32,547 - INFO -   - 2nd Price secured events: 0
+2025-05-10 21:56:32,547 - INFO - Pending orders deleted: 0
+2025-05-10 21:56:32,547 - INFO -   - Pending deleted events: 0
+2025-05-10 21:56:32,547 - INFO - Errors encountered: 0
+2025-05-10 21:56:32,547 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 21:56:32,547 - INFO - =========================
+2025-05-10 22:01:32,928 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 22:01:32,928 - INFO - Positions checked: 3874
+2025-05-10 22:01:32,928 - INFO - Positions secured (Total): 40
+2025-05-10 22:01:32,928 - INFO -   - TP1 secured events: 0
+2025-05-10 22:01:32,928 - INFO -   - 2nd Price secured events: 0
+2025-05-10 22:01:32,928 - INFO - Pending orders deleted: 0
+2025-05-10 22:01:32,928 - INFO -   - Pending deleted events: 0
+2025-05-10 22:01:32,928 - INFO - Errors encountered: 0
+2025-05-10 22:01:32,928 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 22:01:32,928 - INFO - =========================
+2025-05-10 22:06:33,471 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 22:06:33,471 - INFO - Positions checked: 3874
+2025-05-10 22:06:33,471 - INFO - Positions secured (Total): 40
+2025-05-10 22:06:33,471 - INFO -   - TP1 secured events: 0
+2025-05-10 22:06:33,471 - INFO -   - 2nd Price secured events: 0
+2025-05-10 22:06:33,471 - INFO - Pending orders deleted: 0
+2025-05-10 22:06:33,471 - INFO -   - Pending deleted events: 0
+2025-05-10 22:06:33,471 - INFO - Errors encountered: 0
+2025-05-10 22:06:33,471 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 22:06:33,471 - INFO - =========================
+2025-05-10 22:11:34,065 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 22:11:34,075 - INFO - Positions checked: 3874
+2025-05-10 22:11:34,122 - INFO - Positions secured (Total): 40
+2025-05-10 22:11:34,122 - INFO -   - TP1 secured events: 0
+2025-05-10 22:11:34,122 - INFO -   - 2nd Price secured events: 0
+2025-05-10 22:11:34,122 - INFO - Pending orders deleted: 0
+2025-05-10 22:11:34,138 - INFO -   - Pending deleted events: 0
+2025-05-10 22:11:34,138 - INFO - Errors encountered: 0
+2025-05-10 22:11:34,153 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 22:11:34,153 - INFO - =========================
+2025-05-10 22:16:34,669 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 22:16:34,669 - INFO - Positions checked: 3874
+2025-05-10 22:16:34,669 - INFO - Positions secured (Total): 40
+2025-05-10 22:16:34,669 - INFO -   - TP1 secured events: 0
+2025-05-10 22:16:34,669 - INFO -   - 2nd Price secured events: 0
+2025-05-10 22:16:34,669 - INFO - Pending orders deleted: 0
+2025-05-10 22:16:34,669 - INFO -   - Pending deleted events: 0
+2025-05-10 22:16:34,669 - INFO - Errors encountered: 0
+2025-05-10 22:16:34,669 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 22:16:34,669 - INFO - =========================
+2025-05-10 22:21:35,211 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 22:21:35,211 - INFO - Positions checked: 3874
+2025-05-10 22:21:35,211 - INFO - Positions secured (Total): 40
+2025-05-10 22:21:35,211 - INFO -   - TP1 secured events: 0
+2025-05-10 22:21:35,211 - INFO -   - 2nd Price secured events: 0
+2025-05-10 22:21:35,211 - INFO - Pending orders deleted: 0
+2025-05-10 22:21:35,211 - INFO -   - Pending deleted events: 0
+2025-05-10 22:21:35,211 - INFO - Errors encountered: 0
+2025-05-10 22:21:35,211 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 22:21:35,211 - INFO - =========================
+2025-05-10 22:26:35,769 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 22:26:35,769 - INFO - Positions checked: 3874
+2025-05-10 22:26:35,769 - INFO - Positions secured (Total): 40
+2025-05-10 22:26:35,769 - INFO -   - TP1 secured events: 0
+2025-05-10 22:26:35,769 - INFO -   - 2nd Price secured events: 0
+2025-05-10 22:26:35,769 - INFO - Pending orders deleted: 0
+2025-05-10 22:26:35,769 - INFO -   - Pending deleted events: 0
+2025-05-10 22:26:35,769 - INFO - Errors encountered: 0
+2025-05-10 22:26:35,769 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 22:26:35,769 - INFO - =========================
+2025-05-10 22:31:36,227 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 22:31:36,227 - INFO - Positions checked: 3874
+2025-05-10 22:31:36,227 - INFO - Positions secured (Total): 40
+2025-05-10 22:31:36,227 - INFO -   - TP1 secured events: 0
+2025-05-10 22:31:36,227 - INFO -   - 2nd Price secured events: 0
+2025-05-10 22:31:36,227 - INFO - Pending orders deleted: 0
+2025-05-10 22:31:36,227 - INFO -   - Pending deleted events: 0
+2025-05-10 22:31:36,227 - INFO - Errors encountered: 0
+2025-05-10 22:31:36,227 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 22:31:36,227 - INFO - =========================
+2025-05-10 22:36:36,785 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 22:36:36,785 - INFO - Positions checked: 3874
+2025-05-10 22:36:36,785 - INFO - Positions secured (Total): 40
+2025-05-10 22:36:36,785 - INFO -   - TP1 secured events: 0
+2025-05-10 22:36:36,785 - INFO -   - 2nd Price secured events: 0
+2025-05-10 22:36:36,785 - INFO - Pending orders deleted: 0
+2025-05-10 22:36:36,785 - INFO -   - Pending deleted events: 0
+2025-05-10 22:36:36,785 - INFO - Errors encountered: 0
+2025-05-10 22:36:36,785 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 22:36:36,785 - INFO - =========================
+2025-05-10 22:41:37,178 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 22:41:37,187 - INFO - Positions checked: 3874
+2025-05-10 22:41:37,187 - INFO - Positions secured (Total): 40
+2025-05-10 22:41:37,187 - INFO -   - TP1 secured events: 0
+2025-05-10 22:41:37,187 - INFO -   - 2nd Price secured events: 0
+2025-05-10 22:41:37,187 - INFO - Pending orders deleted: 0
+2025-05-10 22:41:37,187 - INFO -   - Pending deleted events: 0
+2025-05-10 22:41:37,187 - INFO - Errors encountered: 0
+2025-05-10 22:41:37,187 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 22:41:37,187 - INFO - =========================
+2025-05-10 22:46:37,815 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 22:46:37,815 - INFO - Positions checked: 3874
+2025-05-10 22:46:37,815 - INFO - Positions secured (Total): 40
+2025-05-10 22:46:37,815 - INFO -   - TP1 secured events: 0
+2025-05-10 22:46:37,815 - INFO -   - 2nd Price secured events: 0
+2025-05-10 22:46:37,815 - INFO - Pending orders deleted: 0
+2025-05-10 22:46:37,815 - INFO -   - Pending deleted events: 0
+2025-05-10 22:46:37,815 - INFO - Errors encountered: 0
+2025-05-10 22:46:37,815 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 22:46:37,815 - INFO - =========================
+2025-05-10 22:51:38,225 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 22:51:38,225 - INFO - Positions checked: 3874
+2025-05-10 22:51:38,225 - INFO - Positions secured (Total): 40
+2025-05-10 22:51:38,225 - INFO -   - TP1 secured events: 0
+2025-05-10 22:51:38,225 - INFO -   - 2nd Price secured events: 0
+2025-05-10 22:51:38,225 - INFO - Pending orders deleted: 0
+2025-05-10 22:51:38,225 - INFO -   - Pending deleted events: 0
+2025-05-10 22:51:38,225 - INFO - Errors encountered: 0
+2025-05-10 22:51:38,225 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 22:51:38,225 - INFO - =========================
+2025-05-10 22:56:38,919 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 22:56:38,919 - INFO - Positions checked: 3874
+2025-05-10 22:56:38,919 - INFO - Positions secured (Total): 40
+2025-05-10 22:56:38,919 - INFO -   - TP1 secured events: 0
+2025-05-10 22:56:38,919 - INFO -   - 2nd Price secured events: 0
+2025-05-10 22:56:38,919 - INFO - Pending orders deleted: 0
+2025-05-10 22:56:38,919 - INFO -   - Pending deleted events: 0
+2025-05-10 22:56:38,919 - INFO - Errors encountered: 0
+2025-05-10 22:56:38,919 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 22:56:38,919 - INFO - =========================
+2025-05-10 23:01:39,363 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 23:01:39,363 - INFO - Positions checked: 3874
+2025-05-10 23:01:39,363 - INFO - Positions secured (Total): 40
+2025-05-10 23:01:39,376 - INFO -   - TP1 secured events: 0
+2025-05-10 23:01:39,376 - INFO -   - 2nd Price secured events: 0
+2025-05-10 23:01:39,376 - INFO - Pending orders deleted: 0
+2025-05-10 23:01:39,376 - INFO -   - Pending deleted events: 0
+2025-05-10 23:01:39,376 - INFO - Errors encountered: 0
+2025-05-10 23:01:39,376 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 23:01:39,376 - INFO - =========================
+2025-05-10 23:06:39,917 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 23:06:39,917 - INFO - Positions checked: 3874
+2025-05-10 23:06:39,917 - INFO - Positions secured (Total): 40
+2025-05-10 23:06:39,917 - INFO -   - TP1 secured events: 0
+2025-05-10 23:06:39,917 - INFO -   - 2nd Price secured events: 0
+2025-05-10 23:06:39,917 - INFO - Pending orders deleted: 0
+2025-05-10 23:06:39,917 - INFO -   - Pending deleted events: 0
+2025-05-10 23:06:39,917 - INFO - Errors encountered: 0
+2025-05-10 23:06:39,917 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 23:06:39,917 - INFO - =========================
+2025-05-10 23:11:40,385 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 23:11:40,385 - INFO - Positions checked: 3874
+2025-05-10 23:11:40,385 - INFO - Positions secured (Total): 40
+2025-05-10 23:11:40,401 - INFO -   - TP1 secured events: 0
+2025-05-10 23:11:40,401 - INFO -   - 2nd Price secured events: 0
+2025-05-10 23:11:40,401 - INFO - Pending orders deleted: 0
+2025-05-10 23:11:40,401 - INFO -   - Pending deleted events: 0
+2025-05-10 23:11:40,401 - INFO - Errors encountered: 0
+2025-05-10 23:11:40,401 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 23:11:40,401 - INFO - =========================
+2025-05-10 23:16:40,991 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 23:16:40,991 - INFO - Positions checked: 3874
+2025-05-10 23:16:40,991 - INFO - Positions secured (Total): 40
+2025-05-10 23:16:40,991 - INFO -   - TP1 secured events: 0
+2025-05-10 23:16:40,991 - INFO -   - 2nd Price secured events: 0
+2025-05-10 23:16:40,991 - INFO - Pending orders deleted: 0
+2025-05-10 23:16:40,991 - INFO -   - Pending deleted events: 0
+2025-05-10 23:16:40,991 - INFO - Errors encountered: 0
+2025-05-10 23:16:40,991 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 23:16:40,991 - INFO - =========================
+2025-05-10 23:21:41,535 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 23:21:41,535 - INFO - Positions checked: 3874
+2025-05-10 23:21:41,535 - INFO - Positions secured (Total): 40
+2025-05-10 23:21:41,535 - INFO -   - TP1 secured events: 0
+2025-05-10 23:21:41,535 - INFO -   - 2nd Price secured events: 0
+2025-05-10 23:21:41,535 - INFO - Pending orders deleted: 0
+2025-05-10 23:21:41,535 - INFO -   - Pending deleted events: 0
+2025-05-10 23:21:41,535 - INFO - Errors encountered: 0
+2025-05-10 23:21:41,535 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 23:21:41,535 - INFO - =========================
+2025-05-10 23:26:42,136 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 23:26:42,136 - INFO - Positions checked: 3874
+2025-05-10 23:26:42,136 - INFO - Positions secured (Total): 40
+2025-05-10 23:26:42,136 - INFO -   - TP1 secured events: 0
+2025-05-10 23:26:42,136 - INFO -   - 2nd Price secured events: 0
+2025-05-10 23:26:42,136 - INFO - Pending orders deleted: 0
+2025-05-10 23:26:42,136 - INFO -   - Pending deleted events: 0
+2025-05-10 23:26:42,136 - INFO - Errors encountered: 0
+2025-05-10 23:26:42,136 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 23:26:42,136 - INFO - =========================
+2025-05-10 23:31:42,664 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 23:31:42,664 - INFO - Positions checked: 3874
+2025-05-10 23:31:42,664 - INFO - Positions secured (Total): 40
+2025-05-10 23:31:42,664 - INFO -   - TP1 secured events: 0
+2025-05-10 23:31:42,664 - INFO -   - 2nd Price secured events: 0
+2025-05-10 23:31:42,664 - INFO - Pending orders deleted: 0
+2025-05-10 23:31:42,664 - INFO -   - Pending deleted events: 0
+2025-05-10 23:31:42,673 - INFO - Errors encountered: 0
+2025-05-10 23:31:42,673 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 23:31:42,673 - INFO - =========================
+2025-05-10 23:36:43,274 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 23:36:43,274 - INFO - Positions checked: 3874
+2025-05-10 23:36:43,274 - INFO - Positions secured (Total): 40
+2025-05-10 23:36:43,274 - INFO -   - TP1 secured events: 0
+2025-05-10 23:36:43,274 - INFO -   - 2nd Price secured events: 0
+2025-05-10 23:36:43,274 - INFO - Pending orders deleted: 0
+2025-05-10 23:36:43,274 - INFO -   - Pending deleted events: 0
+2025-05-10 23:36:43,274 - INFO - Errors encountered: 0
+2025-05-10 23:36:43,274 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 23:36:43,274 - INFO - =========================
+2025-05-10 23:41:43,957 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 23:41:43,957 - INFO - Positions checked: 3874
+2025-05-10 23:41:43,957 - INFO - Positions secured (Total): 40
+2025-05-10 23:41:43,957 - INFO -   - TP1 secured events: 0
+2025-05-10 23:41:43,957 - INFO -   - 2nd Price secured events: 0
+2025-05-10 23:41:43,970 - INFO - Pending orders deleted: 0
+2025-05-10 23:41:43,970 - INFO -   - Pending deleted events: 0
+2025-05-10 23:41:43,970 - INFO - Errors encountered: 0
+2025-05-10 23:41:43,970 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 23:41:43,970 - INFO - =========================
+2025-05-10 23:46:44,430 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 23:46:44,442 - INFO - Positions checked: 3874
+2025-05-10 23:46:44,442 - INFO - Positions secured (Total): 40
+2025-05-10 23:46:44,442 - INFO -   - TP1 secured events: 0
+2025-05-10 23:46:44,442 - INFO -   - 2nd Price secured events: 0
+2025-05-10 23:46:44,442 - INFO - Pending orders deleted: 0
+2025-05-10 23:46:44,442 - INFO -   - Pending deleted events: 0
+2025-05-10 23:46:44,442 - INFO - Errors encountered: 0
+2025-05-10 23:46:44,442 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 23:46:44,442 - INFO - =========================
+2025-05-10 23:51:45,030 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 23:51:45,030 - INFO - Positions checked: 3874
+2025-05-10 23:51:45,037 - INFO - Positions secured (Total): 40
+2025-05-10 23:51:45,037 - INFO -   - TP1 secured events: 0
+2025-05-10 23:51:45,037 - INFO -   - 2nd Price secured events: 0
+2025-05-10 23:51:45,037 - INFO - Pending orders deleted: 0
+2025-05-10 23:51:45,037 - INFO -   - Pending deleted events: 0
+2025-05-10 23:51:45,037 - INFO - Errors encountered: 0
+2025-05-10 23:51:45,037 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 23:51:45,037 - INFO - =========================
+2025-05-10 23:56:45,586 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-10 23:56:45,586 - INFO - Positions checked: 3874
+2025-05-10 23:56:45,586 - INFO - Positions secured (Total): 40
+2025-05-10 23:56:45,586 - INFO -   - TP1 secured events: 0
+2025-05-10 23:56:45,586 - INFO -   - 2nd Price secured events: 0
+2025-05-10 23:56:45,586 - INFO - Pending orders deleted: 0
+2025-05-10 23:56:45,586 - INFO -   - Pending deleted events: 0
+2025-05-10 23:56:45,586 - INFO - Errors encountered: 0
+2025-05-10 23:56:45,586 - INFO - Active symbols: AUDCHF, GBPAUD, GBPNZD, NZDUSD
+2025-05-10 23:56:45,586 - INFO - =========================

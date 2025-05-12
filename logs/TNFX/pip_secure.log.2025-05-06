@@ -1,0 +1,45 @@
+2025-05-06 12:37:44,882 - INFO - KeyboardInterrupt received for account TNFX. Shutting down.
+2025-05-06 12:37:44,921 - INFO - Disconnecting EA for account TNFX.
+2025-05-06 12:37:44,922 - INFO - Disconnected from MT5 account TNFX
+2025-05-06 12:37:44,926 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-06 12:37:44,927 - INFO - Positions checked: 0
+2025-05-06 12:37:44,927 - INFO - Positions secured (Total): 0
+2025-05-06 12:37:44,929 - INFO -   - TP1 secured events: 0
+2025-05-06 12:37:44,929 - INFO -   - 2nd Price secured events: 0
+2025-05-06 12:37:44,930 - INFO - Pending orders deleted: 0
+2025-05-06 12:37:44,930 - INFO -   - Pending deleted events: 0
+2025-05-06 12:37:44,930 - INFO - Errors encountered: 0
+2025-05-06 12:37:44,931 - INFO - Active symbols: None
+2025-05-06 12:37:44,931 - INFO - =========================
+2025-05-06 12:37:51,257 - INFO - Logging initialized for account TNFX
+2025-05-06 12:37:51,258 - INFO - Heartbeat monitor initialized.
+2025-05-06 12:37:51,258 - INFO - Starting PipSecureEA monitoring for account TNFX
+2025-05-06 12:37:51,258 - INFO - Attempting to connect to account TNFX...
+2025-05-06 12:37:51,264 - INFO - Connected to MT5 account TNFX (Login: 549357, Server: TNFX-Demo) successfully
+2025-05-06 12:51:48,934 - INFO - Logging initialized for account TNFX
+2025-05-06 12:51:48,935 - INFO - Heartbeat monitor initialized.
+2025-05-06 12:51:48,935 - INFO - Starting PipSecureEA monitoring for account TNFX
+2025-05-06 12:51:48,935 - INFO - Attempting to connect to account TNFX...
+2025-05-06 12:51:48,941 - INFO - Connected to MT5 account TNFX (Login: 549357, Server: TNFX-Demo) successfully
+2025-05-06 13:22:50,305 - ERROR - MT5 connection lost - attempting to reconnect...
+2025-05-06 13:22:50,305 - INFO - Attempting to connect to account TNFX...
+2025-05-06 13:22:53,161 - INFO - Connected to MT5 account TNFX (Login: 549357, Server: TNFX-Demo) successfully
+2025-05-06 13:22:53,161 - INFO - Successfully reconnected to MT5.
+2025-05-06 13:25:16,410 - INFO - KeyboardInterrupt received for account TNFX. Shutting down.
+2025-05-06 13:25:16,425 - INFO - Disconnecting EA for account TNFX.
+2025-05-06 13:25:16,431 - INFO - Disconnected from MT5 account TNFX
+2025-05-06 13:25:16,438 - INFO - ==== ACTIVITY SUMMARY ====
+2025-05-06 13:25:16,438 - INFO - Positions checked: 0
+2025-05-06 13:25:16,440 - INFO - Positions secured (Total): 0
+2025-05-06 13:25:16,441 - INFO -   - TP1 secured events: 0
+2025-05-06 13:25:16,442 - INFO -   - 2nd Price secured events: 0
+2025-05-06 13:25:16,442 - INFO - Pending orders deleted: 0
+2025-05-06 13:25:16,442 - INFO -   - Pending deleted events: 0
+2025-05-06 13:25:16,444 - INFO - Errors encountered: 1
+2025-05-06 13:25:16,444 - INFO - Active symbols: None
+2025-05-06 13:25:16,448 - INFO - =========================
+2025-05-06 13:25:23,775 - INFO - Logging initialized for account TNFX
+2025-05-06 13:25:23,776 - INFO - Heartbeat monitor initialized.
+2025-05-06 13:25:23,776 - INFO - Starting PipSecureEA monitoring for account TNFX
+2025-05-06 13:25:23,777 - INFO - Attempting to connect to account TNFX...
+2025-05-06 13:25:25,769 - INFO - Connected to MT5 account TNFX (Login: 5005688, Server: TNFX-Demo) successfully
