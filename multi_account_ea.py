@@ -84,13 +84,17 @@ class PipSecureEA:
         # Account configuration
         self.account_config = account_config
         self.account_name = account_config.get('name', f"Login_{account_config.get('login', 'Unknown')}") # More robust default name
+        self.TEST_MODE = account_config.get('test_mode', False)
+        self.TEST_SYMBOL = account_config.get('test_symbol', 'EURUSD')
 
         # --- Logger setup MUST happen early ---
         # Create logger instance first
         self.logger = logging.getLogger(self.account_name)
         # Now call setup which configures this logger instance
         self.setup_logging() # Sets up self.logger
-
+        self.tp1_hit_groups = set()  # Keep track of groups where TP1 was hit
+        self.tp1_hit_file = f'logs/{self.account_name}/tp1_hit_groups.txt'
+        self._load_tp1_hit_groups()  # Load saved TP1 hit groups
         # Define pip value multipliers for different currency pairs
         self.pip_multipliers = {
             'JPY': 0.01,         # For JPY pairs
@@ -133,6 +137,94 @@ class PipSecureEA:
 
         # Initialize heartbeat monitoring for this specific account instance
         self.initialize_heartbeat()
+
+
+
+
+    def create_test_positions(self):
+        """Create test positions that will trigger quickly"""
+        if not self.TEST_MODE:
+            return False
+            
+        self.logger.info("=== CREATING TEST POSITIONS ===")
+        symbol = self.TEST_SYMBOL
+        
+        # Get current price
+        tick = mt5.symbol_info_tick(symbol)
+        if not tick:
+            self.logger.error(f"Cannot get tick for {symbol}")
+            return False
+            
+        current_price = tick.ask
+        pip_size = self.get_pip_multiplier(symbol)
+        
+        self.logger.info(f"Current {symbol}: {current_price}, Pip size: {pip_size}")
+        
+        # Create positions with TPs VERY close to current price (will trigger fast)
+        created_count = 0
+        
+        for i in range(4):
+            tp_distance = (i + 1) * 3  # Only 3, 6, 9, 12 pips away!
+            tp_price = current_price + (tp_distance * pip_size)
+            
+            request = {
+                "action": mt5.TRADE_ACTION_DEAL,
+                "symbol": symbol,
+                "volume": 0.01,
+                "type": mt5.ORDER_TYPE_BUY,
+                "price": current_price,
+                "tp": tp_price,
+                "sl": current_price - (30 * pip_size),
+                "comment": f"TEST_TP{i+1}",
+                "deviation": 20
+            }
+            
+            # Try different filling modes (same approach as close_position method)
+            filling_modes = [
+                mt5.ORDER_FILLING_IOC,
+                mt5.ORDER_FILLING_FOK,
+                mt5.ORDER_FILLING_RETURN,
+                None  # Try without filling mode as last resort
+            ]
+            
+            position_created = False
+            for filling_mode in filling_modes:
+                try:
+                    if filling_mode is not None:
+                        request["type_filling"] = filling_mode
+                    else:
+                        request.pop("type_filling", None)
+                    
+                    self.logger.debug(f"Trying to create position {i+1} with filling mode: {filling_mode}")
+                    
+                    result = mt5.order_send(request)
+                    
+                    if result and result.retcode == mt5.TRADE_RETCODE_DONE:
+                        self.logger.info(f"✅ Created TEST position {i+1}: Ticket={result.order}, TP={tp_price}")
+                        created_count += 1
+                        position_created = True
+                        break  # Success, exit filling mode loop
+                    elif result:
+                        self.logger.debug(f"Failed with filling mode {filling_mode}: {result.comment}")
+                        # If it's not a filling mode error, don't try other modes
+                        if "filling" not in result.comment.lower():
+                            self.logger.error(f"❌ Failed to create position {i+1}: {result.comment}")
+                            break
+                            
+                except AttributeError:
+                    # This filling mode constant doesn't exist, try next one
+                    continue
+                except Exception as e:
+                    self.logger.debug(f"Error with filling mode {filling_mode}: {str(e)}")
+                    continue
+            
+            if not position_created:
+                self.logger.error(f"❌ Failed to create position {i+1} after trying all filling modes")
+                
+            time.sleep(1)
+        
+        self.logger.info(f"=== CREATED {created_count} TEST POSITIONS ===")
+        return created_count > 0
 
     def initialize_heartbeat(self):
         """Initialize heartbeat monitoring for this EA instance"""
@@ -273,7 +365,38 @@ class PipSecureEA:
 
             # Update last summary time
             self.last_summary_time = current_time
+            
+    #save/load TP1 hit groups:
+    def _load_tp1_hit_groups(self):
+        """Load saved TP1 hit groups from file"""
+        try:
+            if os.path.exists(self.tp1_hit_file):
+                with open(self.tp1_hit_file, 'r') as f:
+                    for line in f:
+                        self.tp1_hit_groups.add(line.strip())
+                
+                # Use safer logging
+                if hasattr(self, 'logger'):
+                    self.logger.info(f"Loaded {len(self.tp1_hit_groups)} TP1 hit groups from file")
+                else:
+                    print(f"Loaded {len(self.tp1_hit_groups)} TP1 hit groups from file")
+        except Exception as e:
+            # Use safer error logging
+            if hasattr(self, 'logger'):
+                self.logger.error(f"Error loading TP1 hit groups: {str(e)}")
+            else:
+                print(f"Error loading TP1 hit groups: {str(e)}")
 
+    def _save_tp1_hit_group(self, group_id):
+        """Save a group_id to the TP1 hit groups file"""
+        try:
+            if group_id not in self.tp1_hit_groups:
+                self.tp1_hit_groups.add(group_id)
+                with open(self.tp1_hit_file, 'a') as f:
+                    f.write(f"{group_id}\n")
+                self.logger.info(f"Saved group {group_id} to TP1 hit groups file")
+        except Exception as e:
+            self.logger.error(f"Error saving TP1 hit group: {str(e)}")
 
     def connect(self):
         # Initialize connection to MetaTrader 5
@@ -283,7 +406,7 @@ class PipSecureEA:
             login=self.account_config.get('login'),
             password=self.account_config.get('password'),
             server=self.account_config.get('server'),
-            timeout=10000 # Add timeout (milliseconds)
+            timeout=30000 # Add timeout (milliseconds)
         )
 
         if not init_success:
@@ -315,6 +438,8 @@ class PipSecureEA:
     def get_pip_multiplier(self, symbol):
         # Return appropriate pip multiplier based on currency pair or instrument type
         # Check specific prefixes first
+        if 'GOLD' in symbol.upper():
+             return 0.01  # Use 0.01 for GOLD instead of 0.0001
         for prefix, multiplier in self.pip_multipliers.items():
              if prefix != 'DEFAULT' and symbol.startswith(prefix):
                  return multiplier
@@ -366,7 +491,7 @@ class PipSecureEA:
             "tp": position.tp,          # Preserve existing take profit (if any)
             # "type_time": mt5.ORDER_TIME_GTC, # Not needed for SLTP action
             # "type_filling": mt5.ORDER_FILLING_IOC # Not needed for SLTP action
-            "comment": "PipSecureEA: Secure @ Entry"
+           "comment": "PipSecure Entry"
         }
 
         # Add retry mechanism for order modification
@@ -443,7 +568,7 @@ class PipSecureEA:
         1. Same symbol
         2. Same direction (buy/sell)
         3. Close entry times (using position.time - the open time)
-        4. Similar entry prices (optional, focus on time first)
+        4. Similar entry prices (with more tolerance for certain instruments)
         """
         positions = mt5.positions_get()
         if positions is None:
@@ -458,12 +583,11 @@ class PipSecureEA:
             return {}
 
         # Sort positions primarily by time, then symbol, then type for consistent grouping
-        # Using position.time (open time) seems more reliable than time_setup
         try:
-             sorted_positions = sorted(positions, key=lambda p: (p.time, p.symbol, p.type))
+            sorted_positions = sorted(positions, key=lambda p: (p.time, p.symbol, p.type))
         except Exception as e:
-             self.logger.error(f"Error sorting positions: {e}", exc_info=True)
-             sorted_positions = list(positions) # Use unsorted if sort fails
+            self.logger.error(f"Error sorting positions: {e}", exc_info=True)
+            sorted_positions = list(positions) # Use unsorted if sort fails
 
 
         position_groups = {}
@@ -490,25 +614,37 @@ class PipSecureEA:
                 # Check time difference first (most important)
                 time_diff = abs(other_position.time - position.time)
                 if time_diff > self.time_proximity_threshold:
-                    # Since positions are sorted by time, we can potentially break early
-                    # if the symbol/type also matches, but let's check all for safety now.
-                    # Consider adding a check here: if other_position.symbol == position.symbol... break
+                    # Since positions are sorted by time, we can break early
+                    # if the symbol/type also matches, but check all for safety
                     continue # Too far apart in time
 
                 # Check symbol and type
                 if (other_position.symbol == position.symbol and
                     other_position.type == position.type):
 
+                    # Set higher price tolerance for commodities and indices
+               
+                    price_proximity_override = None
+                    if (position.symbol in ['OILCash', 'XAUUSDx', 'US30Cash', 'US100Cash', 'JP225Cash', 'GER40Cash'] or
+                        'XAU' in position.symbol.upper() or 'GOLD' in position.symbol.upper()):
+                        price_proximity_override = 100  # Increased from 20 to 100 pips for GOLD
+                    
+                        
+                    
+                    # Use the override if available, otherwise use default
+                    price_threshold = price_proximity_override or self.price_proximity_threshold
+
                     # Optional: Check price proximity
                     pip_multiplier = self.get_pip_multiplier(position.symbol)
                     if pip_multiplier > 0: # Avoid division by zero
-                         price_diff_in_pips = abs(other_position.price_open - position.price_open) / pip_multiplier
-                         if price_diff_in_pips <= self.price_proximity_threshold:
-                              # Add to the current group
-                              current_group.append(other_position)
-                              processed_tickets.add(other_position.ticket)
-                         # else: # Price too different, even if time/symbol/type match
-                              # self.logger.debug(f"Skipping {other_position.ticket} from group {group_id}: price diff {price_diff_in_pips:.1f} pips > {self.price_proximity_threshold}")
+                        price_diff_in_pips = abs(other_position.price_open - position.price_open) / pip_multiplier
+                        if price_diff_in_pips <= price_threshold:
+                            # Add to the current group
+                            current_group.append(other_position)
+                            processed_tickets.add(other_position.ticket)
+                            self.logger.debug(f"Added position {other_position.ticket} to group {group_id}: price diff {price_diff_in_pips:.1f} pips <= {price_threshold}")
+                        else:
+                            self.logger.debug(f"Skipping {other_position.ticket} from group {group_id}: price diff {price_diff_in_pips:.1f} pips > {price_threshold}")
 
                     else: # If pip_multiplier is 0 or invalid, rely only on time/symbol/type
                         current_group.append(other_position)
@@ -524,8 +660,6 @@ class PipSecureEA:
                 for pos in current_group:
                     tp_val = getattr(pos, 'tp', 0) # Handle potential missing attribute in mocks/real data
                     self.logger.debug(f"  - Ticket: {pos.ticket}, Entry: {pos.price_open:.5f}, TP: {tp_val:.5f}, Time: {datetime.fromtimestamp(pos.time)}")
-            # else: # Single position, not treated as a group for TP1/TP2 logic
-                # self.logger.debug(f"Position {position.ticket} is standalone.")
 
         return position_groups
 
@@ -566,6 +700,115 @@ class PipSecureEA:
         # Position might be in the original group but had TP=0, so not in sorted_positions
         self.logger.warning(f"Position {position.ticket} with TP={getattr(position, 'tp', 'N/A')} not found in sorted TP list for its group.")
         return None
+
+
+    def diagnose_tp_values(self, group):
+        """Diagnose TP values in a position group"""
+        self.logger.info("🔍 DIAGNOSING TP VALUES:")
+        
+        for i, pos in enumerate(group):
+            tp_val = getattr(pos, 'tp', 0)
+            self.logger.info(f"  Position {i+1}: Ticket={pos.ticket}, Entry={pos.price_open:.2f}, TP={tp_val:.2f}, Current={pos.price_current:.2f}")
+            
+            # Calculate distance to TP
+            if tp_val > 0:
+                if pos.type == mt5.ORDER_TYPE_SELL:
+                    distance_to_tp = pos.price_current - tp_val
+                    self.logger.info(f"    Distance to TP: {distance_to_tp:.2f} points ({'HIT' if distance_to_tp <= 0 else 'NOT HIT'})")
+                else:
+                    distance_to_tp = tp_val - pos.price_current  
+                    self.logger.info(f"    Distance to TP: {distance_to_tp:.2f} points ({'HIT' if distance_to_tp <= 0 else 'NOT HIT'})")
+        
+        # Check if all TPs are the same
+        tp_values = [getattr(pos, 'tp', 0) for pos in group]
+        unique_tps = set(tp_values)
+        if len(unique_tps) == 1:
+            self.logger.info(f"✅ All positions have same TP: {list(unique_tps)[0]}")
+        else:
+            self.logger.error(f"❌ DIFFERENT TP VALUES FOUND: {unique_tps}")
+
+    def validate_signal_direction_logic(self, position, group):
+            """Validate that BUY/SELL logic is applied correctly"""
+            try:
+                is_buy = position.type == mt5.ORDER_TYPE_BUY
+                symbol = position.symbol
+                
+                # Log the position details for debugging
+                self.logger.info(f"🔍 Direction Check - {symbol}:")
+                self.logger.info(f"  Position Type: {'BUY' if is_buy else 'SELL'}")
+                self.logger.info(f"  Entry: {position.price_open:.2f}")
+                self.logger.info(f"  Current: {position.price_current:.2f}")
+                self.logger.info(f"  TP: {getattr(position, 'tp', 0):.2f}")
+                self.logger.info(f"  SL: {position.sl:.2f}")
+                
+                # Check if TP makes sense for the direction
+                pos_tp = getattr(position, 'tp', 0)
+                if pos_tp > 0:
+                    if is_buy and pos_tp <= position.price_open:
+                        self.logger.error(f"❌ BUY position TP ({pos_tp}) should be ABOVE entry ({position.price_open})")
+                        return False
+                    elif not is_buy and pos_tp >= position.price_open:
+                        self.logger.error(f"❌ SELL position TP ({pos_tp}) should be BELOW entry ({position.price_open})")
+                        return False
+                
+                # Check if SL makes sense for the direction  
+                if is_buy and position.sl >= position.price_open:
+                    self.logger.error(f"❌ BUY position SL ({position.sl}) should be BELOW entry ({position.price_open})")
+                    return False
+                elif not is_buy and position.sl <= position.price_open:
+                    self.logger.error(f"❌ SELL position SL ({position.sl}) should be ABOVE entry ({position.price_open})")
+                    return False
+                    
+                # Check price movement direction
+                pip_multiplier = self.get_pip_multiplier(symbol)
+                if is_buy:
+                    pips_moved = (position.price_current - position.price_open) / pip_multiplier
+                    self.logger.info(f"  BUY pips moved: {pips_moved:.1f} ({'profit' if pips_moved > 0 else 'loss'})")
+                else:
+                    pips_moved = (position.price_open - position.price_current) / pip_multiplier  
+                    self.logger.info(f"  SELL pips moved: {pips_moved:.1f} ({'profit' if pips_moved > 0 else 'loss'})")
+                
+                return True
+                
+            except Exception as e:
+                self.logger.error(f"Error in direction validation: {e}")
+                return True  # Allow processing to continue
+
+    def get_true_first_price_group(self, position_groups):
+            """Get the group that represents the actual first price level based on signal logic"""
+            
+            if not position_groups:
+                return None, None
+                
+            valid_groups = {gid: group for gid, group in position_groups.items() if len(group) > 1}
+            
+            if len(valid_groups) == 0:
+                return None, None
+                
+            if len(valid_groups) == 1:
+                # Only one group, it must be first price
+                group_id = list(valid_groups.keys())[0]
+                return valid_groups[group_id], group_id
+            
+            # Multiple groups - determine which is logically the first price
+            # Get a sample position to determine direction
+            sample_position = list(valid_groups.values())[0][0]
+            is_sell = sample_position.type == mt5.ORDER_TYPE_SELL
+            
+            if is_sell:
+                # For SELL: first price should be the LOWER entry (price falls to hit it first)
+                lowest_group = min(valid_groups.items(), key=lambda x: sum(p.price_open for p in x[1])/len(x[1]))
+                avg_entry = sum(p.price_open for p in lowest_group[1]) / len(lowest_group[1])
+                self.logger.info(f"SELL: First price group identified (lowest entry): {lowest_group[0]}, avg: {avg_entry:.2f}")
+                return lowest_group[1], lowest_group[0]
+            else:
+                # For BUY: first price should be the HIGHER entry (price rises to hit it first)  
+                highest_group = max(valid_groups.items(), key=lambda x: sum(p.price_open for p in x[1])/len(x[1]))
+                avg_entry = sum(p.price_open for p in highest_group[1]) / len(highest_group[1])
+                self.logger.info(f"BUY: First price group identified (highest entry): {highest_group[0]}, avg: {avg_entry:.2f}")
+                return highest_group[1], highest_group[0]
+
+
 
     def identify_pending_orders(self):
         """
@@ -609,94 +852,39 @@ class PipSecureEA:
         # Currently not grouping, just returning the list
         return actual_pending
 
-
+# Ensure Pending Orders are Found and Deleted
     def find_corresponding_pending_orders(self, position_group):
         """
         Finds pending orders that likely correspond to the 'next' price level
-        for a given activated position group. Uses symbol, type, and potentially
-        timing or comments if available. This is a heuristic process.
-
-        Args:
-            position_group: List of positions from the first activated price level.
-
-        Returns:
-            List of matching pending orders, or None if no likely match found.
+        for a given activated position group.
         """
         if not position_group:
             return None
 
-        # Get details from the first price group
         sample_position = position_group[0]
         symbol = sample_position.symbol
-        position_type = sample_position.type  # BUY or SELL
+        position_type = sample_position.type
 
-        # Determine the corresponding pending order types
-        if position_type == mt5.ORDER_TYPE_BUY:
-            expected_pending_types = {mt5.ORDER_TYPE_BUY_LIMIT, mt5.ORDER_TYPE_BUY_STOP, mt5.ORDER_TYPE_BUY_STOP_LIMIT}
-        elif position_type == mt5.ORDER_TYPE_SELL:
-            expected_pending_types = {mt5.ORDER_TYPE_SELL_LIMIT, mt5.ORDER_TYPE_SELL_STOP, mt5.ORDER_TYPE_SELL_STOP_LIMIT}
-        else:
-            self.logger.warning(f"Unknown position type {position_type} in group for symbol {symbol}")
+        # Get ALL orders for this symbol
+        all_orders = mt5.orders_get(symbol=symbol)
+        if not all_orders:
+            self.logger.info(f"No orders found for {symbol}")
             return None
 
-        self.logger.info(f"Searching for corresponding pending orders for {symbol} (Type: {'BUY' if position_type == mt5.ORDER_TYPE_BUY else 'SELL'})...")
+        # Filter for pending orders
+        pending_orders = []
+        for order in all_orders:
+            # Check if it's a pending order (not filled or cancelled)
+            if order.state == mt5.ORDER_STATE_PLACED:
+                # Check if it matches the direction
+                if position_type == mt5.ORDER_TYPE_BUY and order.type in [mt5.ORDER_TYPE_BUY_LIMIT, mt5.ORDER_TYPE_BUY_STOP]:
+                    pending_orders.append(order)
+                    self.logger.info(f"Found pending BUY order: {order.ticket} at {order.price_open}")
+                elif position_type == mt5.ORDER_TYPE_SELL and order.type in [mt5.ORDER_TYPE_SELL_LIMIT, mt5.ORDER_TYPE_SELL_STOP]:
+                    pending_orders.append(order)
+                    self.logger.info(f"Found pending SELL order: {order.ticket} at {order.price_open}")
 
-        # Get all currently pending orders for the specific symbol
-        all_pending = self.identify_pending_orders() # Use the refined function
-        symbol_pending = [order for order in all_pending if order.symbol == symbol]
-
-        if not symbol_pending:
-            self.logger.info(f"No pending orders found for {symbol}.")
-            return None
-
-        self.logger.debug(f"Found {len(symbol_pending)} pending orders for {symbol}. Filtering...")
-
-        # --- Matching Logic ---
-        # Strategy: Look for pending orders of the correct type (Buy/Sell) for the same symbol,
-        # potentially placed around a similar time frame or with comments indicating a relationship.
-        # A simple approach: Assume any pending order matching symbol and direction *could* be the second price.
-        # A more complex approach would involve analyzing setup times, comments, magic numbers etc.
-
-        potential_matches = []
-        for order in symbol_pending:
-             # Ensure 'type' exists before checking
-             if hasattr(order, 'type') and order.type in expected_pending_types:
-                  # Basic match: Symbol and Direction match
-                  potential_matches.append(order)
-                  self.logger.debug(f"  - Potential match: Ticket {getattr(order, 'ticket', 'N/A')}, Type {order.type}, Price {getattr(order, 'price_open', 'N/A')}")
-
-        # Refinement: Try to exclude pending orders that seem unrelated
-        # Example: If position group was opened much later than pending orders, they might be old/unrelated.
-        # Example: Check magic numbers if available/used.
-        # Example: Check comments if they follow a pattern.
-
-        # For now, let's return all potential matches. The calling function decides based on context.
-        # If we want stricter matching (e.g., based on time proximity), we'd add filters here.
-        # e.g., position_open_time = min(p.time for p in position_group)
-        # filtered_matches = [o for o in potential_matches if abs(o.time_setup - position_open_time) < some_threshold ]
-
-        if potential_matches:
-             self.logger.info(f"Found {len(potential_matches)} potential corresponding pending orders for {symbol}.")
-             # Log the potential matched orders for verification
-             for order in potential_matches:
-                order_type_str = f"Type {order.type}" # Basic fallback
-                # Safely try to get description (might fail if constants not available)
-                try:
-                     order_type_desc_map = {
-                        mt5.ORDER_TYPE_BUY_LIMIT: "BUY_LIMIT", mt5.ORDER_TYPE_BUY_STOP: "BUY_STOP",
-                        mt5.ORDER_TYPE_SELL_LIMIT: "SELL_LIMIT", mt5.ORDER_TYPE_SELL_STOP: "SELL_STOP",
-                        mt5.ORDER_TYPE_BUY_STOP_LIMIT: "BUY_STOP_LIMIT", mt5.ORDER_TYPE_SELL_STOP_LIMIT: "SELL_STOP_LIMIT",
-                     }
-                     order_type_str = order_type_desc_map.get(order.type, order_type_str)
-                except NameError: # mt5 constants might not be defined if running standalone test without full import
-                     pass
-                setup_time_str = datetime.fromtimestamp(getattr(order, 'time_setup', 0)).strftime('%Y-%m-%d %H:%M:%S')
-                self.logger.info(f"  - Matched Pending: {getattr(order, 'ticket', 'N/A')}, Type: {order_type_str}, Price: {getattr(order, 'price_open', 'N/A')}, TimeSetup: {setup_time_str}")
-
-             return potential_matches
-        else:
-             self.logger.info(f"No corresponding pending orders found matching symbol ({symbol}) and direction.")
-             return None
+        return pending_orders if pending_orders else None
 
 
     def delete_pending_orders(self, orders_to_delete):
@@ -722,7 +910,7 @@ class PipSecureEA:
             request = {
                 "action": mt5.TRADE_ACTION_REMOVE, # Action to remove pending order
                 "order": order_ticket,            # Ticket of the pending order
-                "comment": "PipSecureEA: Delete pending (TP1 hit)"
+                "comment": "PipSecure Delete"
             }
 
             # Send the request
@@ -845,7 +1033,7 @@ class PipSecureEA:
                 "symbol": position.symbol,
                 "sl": first_price_entry_value, # <<< Key part of RULE 2
                 "tp": position.tp,             # Keep original TP
-                "comment": f"PipSecureEA: Secure @ 1st Entry ({first_price_entry_value:.5f})"
+                "comment": "PipSecure 1st"
             }
 
             # Send the request (with retries)
@@ -919,8 +1107,17 @@ class PipSecureEA:
         """
         try:
             start_time = time.time()
-
-            # Verify MT5 connection is still active - use terminal_info() which is lightweight
+            
+            # Add position age and profit requirements
+            MIN_POSITION_AGE_SECONDS = 300  # 5 minutes minimum
+            MIN_PIPS_FOR_SECURE = 5  # Minimum 5 pips profit
+            
+            # Track TP1 hits - IMPORTANT: This should persist between cycles
+            if not hasattr(self, 'tp1_hit_groups'):
+                self.tp1_hit_groups = set()  # Track groups where TP1 was actually hit
+            # Set to track which TP1 groups have triggered an action in this cycle
+            tp1_action_triggered_groups = set()
+            # Verify MT5 connection is still active
             terminal_info = mt5.terminal_info()
             if not terminal_info or terminal_info.connected is False:
                 self.logger.error("MT5 connection lost - attempting to reconnect...")
@@ -928,230 +1125,345 @@ class PipSecureEA:
                 if not self.connect():
                     self.logger.error("Failed to reconnect to MT5. Will retry next cycle.")
                     time.sleep(30)
-                    return # Skip checks until reconnected
+                    return
                 else:
                     self.logger.info("Successfully reconnected to MT5.")
 
-            # --- Get Data ---
+            # Get positions
             positions = mt5.positions_get()
             if positions is None:
                 error_code, error_desc = mt5.last_error()
-                self.log_throttled('error', f"Failed to get positions in check_positions: {error_code} - {error_desc}", key="check_get_pos_fail")
+                self.log_throttled('error', f"Failed to get positions: {error_code} - {error_desc}", key="check_get_pos_fail")
                 self.summary_counters['errors'] += 1
-                return # Cannot proceed without positions
+                return
+            # In check_positions method, add after getting positions:
+            for position in positions:
+                if 'XAU' in position.symbol.upper() or 'GOLD' in position.symbol.upper():
+                     pass  # Do nothing for GOLD
+                    
 
-            # Update active symbols for summary
+            # Update active symbols
             current_active_symbols = {pos.symbol for pos in positions}
             self.active_symbols.update(current_active_symbols)
-
-            # Update position count for summary
             self.summary_counters['positions_checked'] += len(positions)
 
             if not positions:
                 self.logger.debug("No open positions found to check.")
-                # Clear secured positions set if no positions are open (housekeeping)
                 if self.secured_positions:
                     self.logger.info("Clearing secured positions tracker as no positions are open.")
                     self.secured_positions.clear()
+                # Also clear TP1 hit tracker when no positions
+                if hasattr(self, 'tp1_hit_groups'):
+                    self.tp1_hit_groups.clear()
                 return
 
-            # Identify position groups (multi-TP signals)
-            position_groups = self.identify_position_groups() # Returns dict: group_id -> [pos1, pos2,...]
+            # Identify position groups
+            position_groups = self.identify_position_groups()
+            
+            # Clean up tp1_hit_groups - remove groups that no longer exist
+            existing_group_ids = set(position_groups.keys())
+            self.tp1_hit_groups = self.tp1_hit_groups.intersection(existing_group_ids)
 
-            # Set to track which TP1 groups have triggered an action (secure/delete/rule2) in this cycle
-            tp1_action_triggered_groups = set()
-
-            # --- Process Each Position ---
-            self.logger.debug(f"Processing {len(positions)} open positions...")
-            # Process a copy in case the list changes during iteration (unlikely with mt5.positions_get but safer)
+            # Process each position
             for position in list(positions):
                 try:
-                    # --- Define symbol early ---
                     symbol = position.symbol
 
-                    # --- Skip if already secured ---
-                    # This check prevents reprocessing positions secured in THIS cycle by Rule 2
-                    # or positions secured in previous cycles.
+                    # Skip if already secured
                     if position.ticket in self.secured_positions:
                         self.log_throttled('debug', f"Position {position.ticket} is in secured set. Skipping.", key=f"secured_skip_{position.ticket}")
                         continue
 
-                    # --- Get symbol info (used for pip calcs, SL threshold) ---
-                    symbol_info = mt5.symbol_info(symbol)
-                    # sl_threshold = 10**(-symbol_info.digits) if symbol_info else 0.00001
+                    # Check position age
+                    position_age = time.time() - position.time
+                    if position_age < MIN_POSITION_AGE_SECONDS:
+                        self.logger.debug(f"Position {position.ticket} too young ({position_age:.0f}s), skipping secure check")
+                        continue
+                    # Initialize variables for each position
+                    position_index = None
+                    group_id = None
+                    group = None
+                    # Check profit
+                    pip_multiplier = self.get_pip_multiplier(symbol)
+                    if pip_multiplier == 0:
+                        self.logger.warning(f"Invalid pip multiplier 0 for {symbol}")
+                        continue
+                        
+                    pips_gained = 0
+                    is_buy = position.type == mt5.ORDER_TYPE_BUY
+                    
+                    if is_buy:
+                        pips_gained = (position.price_current - position.price_open) / pip_multiplier
+                    else:
+                        pips_gained = (position.price_open - position.price_current) / pip_multiplier
 
-                    # Find which group this position belongs to (if any)
+                    # Find group
                     group = None
                     group_id = None
                     for gid, group_positions in position_groups.items():
-                        # Check if any position in the group matches the current position's ticket
                         if any(p.ticket == position.ticket for p in group_positions):
-                             group = group_positions
-                             group_id = gid
-                             break # Found the group
+                            group = group_positions
+                            group_id = gid
+                            break
 
-                    # --- Logic for Grouped Positions (Multi-TP) ---
-                    if group:
-                        position_index = self.get_position_index_in_group(position, group)
+                    # Process grouped positions
+                        if group:
+                            self.diagnose_tp_values(group)
+                            # Add validation for BUY/SELL logic
+                            if not self.validate_signal_direction_logic(position, group):
+                                self.logger.error(f"❌ Direction logic validation failed for {position.ticket}")
+                                continue
+                            # Find the true first price group
+                            true_first_price_group, true_first_price_group_id = self.get_true_first_price_group(position_groups)
+                            position_index = self.get_position_index_in_group(position, group)
+                            if position_index is None:
+                                self.logger.debug(f"Could not determine TP index for position {position.ticket} in group {group_id}. Skipping TP logic.")
+                                continue                       
+                    self.logger.debug(
+                        f"Processing grouped position {position.ticket} (TP{position_index}) "
+                        f"in group {group_id} - {symbol}. "
+                        f"Entry: {position.price_open:.5f}, SL: {position.sl:.5f}, TP: {getattr(position, 'tp', 0):.5f}, Current: {position.price_current:.5f}"
+                    )
+
+                    # --- Rule Trigger: Check TP1 for Securing Conditions (ONLY for true first price group) ---
+                    if position_index == 1 and group_id == true_first_price_group_id and group_id not in tp1_action_triggered_groups:
+                        # ... rest of your existing TP1 logic stays the same ...                       
                         if position_index is None:
-                            self.logger.debug(f"Could not determine TP index for position {position.ticket} in group {group_id}. Skipping TP logic.")
+                            self.logger.debug(f"Could not determine TP index for position {position.ticket}")
                             continue
 
                         self.logger.debug(
-                            f"Processing grouped position {position.ticket} (TP{position_index}) "
-                            f"in group {group_id} - {symbol}. "
-                            f"Entry: {position.price_open:.5f}, SL: {position.sl:.5f}, TP: {getattr(position, 'tp', 0):.5f}, Current: {position.price_current:.5f}"
+                            f"Processing position {position.ticket} (TP{position_index}) "
+                            f"Entry: {position.price_open:.5f}, Current: {position.price_current:.5f}, "
+                            f"TP: {getattr(position, 'tp', 0):.5f}"
                         )
 
-                        # --- Rule Trigger: Check TP1 for Securing Conditions ---
-                        if position_index == 1 and group_id not in tp1_action_triggered_groups:
-                            pip_multiplier = self.get_pip_multiplier(symbol)
-                            if pip_multiplier == 0:
-                                 self.logger.warning(f"Invalid pip multiplier 0 for {symbol}. Cannot calculate pips.")
-                                 continue
+                        # Check TP1 position
+                        
 
-                            pips_gained = 0
-                            pips_to_tp = float('inf')
-                            tp_progress_percent = 0
-                            is_buy = position.type == mt5.ORDER_TYPE_BUY
+                        # Inside check_positions method, replace the TP1 checking section with:
 
-                            # Calculate pips gained
-                            if is_buy: pips_gained = (position.price_current - position.price_open) / pip_multiplier
-                            else: pips_gained = (position.price_open - position.price_current) / pip_multiplier
+                    if position_index == 1 and group_id not in tp1_action_triggered_groups:
+                        pip_multiplier = self.get_pip_multiplier(symbol)
+                        if pip_multiplier == 0:
+                            self.logger.warning(f"Invalid pip multiplier 0 for {symbol}")
+                            continue
 
-                            # Calculate pips to TP and progress % (handle TP=0)
-                            pos_tp = getattr(position, 'tp', 0) # Safe access
-                            if pos_tp != 0:
-                                total_tp_pips = 0
-                                if is_buy:
-                                    pips_to_tp = (pos_tp - position.price_current) / pip_multiplier
-                                    total_tp_pips = (pos_tp - position.price_open) / pip_multiplier
+                        # Calculate metrics
+                        pips_gained = 0
+                        is_buy = position.type == mt5.ORDER_TYPE_BUY
+                        
+                        if is_buy:
+                            pips_gained = (position.price_current - position.price_open) / pip_multiplier
+                        else:
+                            pips_gained = (position.price_open - position.price_current) / pip_multiplier
+
+                        # Calculate distance to TP
+                        pos_tp = getattr(position, 'tp', 0)
+                        if pos_tp == 0:
+                            continue
+                            
+                        pips_to_tp = float('inf')
+                        total_tp_pips = 0
+                        tp_progress_percent = 0
+                        
+                        if is_buy:
+                            pips_to_tp = (pos_tp - position.price_current) / pip_multiplier
+                            total_tp_pips = (pos_tp - position.price_open) / pip_multiplier
+                        else:
+                            pips_to_tp = (position.price_current - pos_tp) / pip_multiplier
+                            total_tp_pips = (position.price_open - pos_tp) / pip_multiplier
+
+                        if abs(total_tp_pips) > 0.1:
+                            tp_progress_percent = (pips_gained / total_tp_pips) * 100
+
+                        # Check if we should take action
+                        should_act = False
+                        action_reason = ""
+
+                        # 🧪 TEST MODE CONDITIONS (much easier to trigger)
+                        if self.TEST_MODE:
+                            if pips_to_tp <= 10:
+                                should_act = True
+                                action_reason = f"TEST MODE: within 10 pips of TP1 ({pips_to_tp:.1f} pips away)"
+                            elif tp_progress_percent >= 25:
+                                should_act = True
+                                action_reason = f"TEST MODE: reached {tp_progress_percent:.1f}% of distance to TP1"
+                            elif pips_gained >= 1:
+                                should_act = True
+                                action_reason = f"TEST MODE: gained {pips_gained:.1f} pips"
+                            else:
+                                # NEW FAIR APPROACH FOR MULTI-GROUP SCENARIOS
+                                if len(position_groups) > 1:
+                                    # Multi-group: Use distance-only (fair for all groups)
+                                    if pips_to_tp <= 3:
+                                        should_act = True
+                                        action_reason = f"within 3 pips of TP1 ({pips_to_tp:.1f} pips away) - multi-group mode"
                                 else:
-                                    pips_to_tp = (position.price_current - pos_tp) / pip_multiplier
-                                    total_tp_pips = (position.price_open - pos_tp) / pip_multiplier
+                                    # Single-group: Use original system (distance + percentage)
+                                    if pips_to_tp <= 3:
+                                        should_act = True
+                                        action_reason = f"within 3 pips of TP1 ({pips_to_tp:.1f} pips away)"
+                                    elif tp_progress_percent >= 80:
+                                        should_act = True
+                                        action_reason = f"reached {tp_progress_percent:.1f}% of distance to TP1"
 
-                                if abs(total_tp_pips) > 0.1: # Avoid division by zero/tiny TP
-                                    tp_progress_percent = (pips_gained / total_tp_pips) * 100
+                        # Adjust minimum profit for test mode
+                        min_pips_required = 1 if self.TEST_MODE else 5
+
+                        if should_act and pips_gained >= min_pips_required:
+                            self.logger.info(f"TP1 trigger condition met for {position.ticket} ({symbol}): {action_reason}")
+                            tp1_action_triggered_groups.add(group_id)
+                            self._save_tp1_hit_group(group_id)
+                            # Action 1: Close TP1 position
+                            self.logger.info(f"Action 1: Closing TP1 position {position.ticket}")
+                            if self.close_position(position):
+                                self.logger.info(f"TP1 position {position.ticket} closed successfully")
+                                
+                                # Action 2: Secure other positions in the group
+                                self.logger.info(f"Action 2: Securing other positions in group {group_id}")
+                                for other_pos in group:
+                                    if other_pos.ticket != position.ticket and other_pos.ticket not in self.secured_positions:
+                                        self.logger.info(f"Securing related position {other_pos.ticket} (TP{self.get_position_index_in_group(other_pos, group)})")
+                                        self.secure_position(other_pos, log_as_tp1_hit=False)
+                                
+                                # Action 3: Delete pending orders
+                                self.logger.info(f"Action 3: Deleting pending orders for {symbol}")
+                                corresponding_pending = self.find_corresponding_pending_orders(group)
+                                if corresponding_pending:
+                                    self.logger.info(f"Found {len(corresponding_pending)} pending orders. Deleting...")
+                                    deleted_count = self.delete_pending_orders(corresponding_pending)
+                                    self.logger.info(f"Deleted {deleted_count} pending orders")
                                 else:
-                                    tp_progress_percent = 100 if pips_gained >= 0 else 0 # Assume 100% if TP is tiny/at entry
+                                    self.logger.info(f"No pending orders found, checking for second price positions")
+                                    # If no pending orders, check for active second price positions
+                                    first_price_entry = position.price_open
+                                    self.secure_second_price_positions(group, first_price_entry)
+                            else:
+                                self.logger.error(f"Failed to close TP1 position {position.ticket}")
+                                tp1_action_triggered_groups.remove(group_id)
+                        
+                        # Check other positions if TP1 in group was hit (either in this cycle or previously)
+                        elif position_index > 1 and (group_id in self.tp1_hit_groups or group_id in tp1_action_triggered_groups):
+                            if position.ticket not in self.secured_positions:
+                                self.logger.info(f"Securing position {position.ticket} (TP{position_index}) because TP1 was hit")
+                                self.secure_position(position, log_as_tp1_hit=False)   
 
-                            # Log detailed metrics
-                            self.logger.debug(
-                                f"  TP1 ({position.ticket}) Metrics: "
-                                f"Pips Gained: {pips_gained:.1f}, "
-                                f"Pips to TP: {pips_to_tp:.1f}, "
-                                f"TP Progress: {tp_progress_percent:.1f}%"
-                            )
-
-                            # --- TP1 Securing Conditions ---
-                            secure_reason = None
-                            if pips_to_tp <= 3: secure_reason = f"within 3 pips of TP1 ({pips_to_tp:.1f} pips away)"
-                            elif tp_progress_percent >= 80: secure_reason = f"reached {tp_progress_percent:.1f}% of distance to TP1"
-
-                            if secure_reason:
-                                self.logger.info(f"TP1 Condition Met for {position.ticket} ({symbol}): {secure_reason}. Initiating actions...")
-                                tp1_action_triggered_groups.add(group_id) # Mark group as processed
-
-                                # --- Action 1: Secure TP1 Position ---
-                                self.logger.info(f"  Action: Securing TP1 position {position.ticket} at entry.")
-                                if self.secure_position(position, log_as_tp1_hit=True):
-                                    self.logger.info(f"  TP1 position {position.ticket} secured successfully.")
-
-                                    # --- Action 2: Secure other positions in the same group (TP2, TP3...) ---
-                                    self.logger.info(f"  Action: Securing other positions in group {group_id} at their entries.")
-                                    for other_pos in group:
-                                        # Check ticket AND if not already secured (important!)
-                                        if other_pos.ticket != position.ticket and other_pos.ticket not in self.secured_positions:
-                                            self.logger.info(f"    Securing related position {other_pos.ticket} (TP{self.get_position_index_in_group(other_pos, group)})")
-                                            if not self.secure_position(other_pos, log_as_tp1_hit=False):
-                                                self.logger.warning(f"    Failed to secure related position {other_pos.ticket}")
-
-                                    # --- Action 3: Handle Second Price Level (Rules 1 & 2) ---
-                                    self.logger.info(f"  Action: Checking for second price level for {symbol} based on TP1 hit.") # Use symbol defined earlier
-                                    first_price_entry_for_sl = position.price_open # Use TP1's entry for Rule 2 SL
-
-                                    corresponding_pending = self.find_corresponding_pending_orders(group)
-                                    if corresponding_pending:
-                                         self.logger.info(f"  Rule 1 Triggered: Found {len(corresponding_pending)} pending orders for {symbol}. Deleting them.")
-                                         self.delete_pending_orders(corresponding_pending)
-                                    else:
-                                         self.logger.info(f"  Rule 2 Triggered: No corresponding pending orders found for {symbol}. Checking for active second price positions to secure at SL={first_price_entry_for_sl:.5f}")
-                                         # This call now marks positions secured internally if successful
-                                         self.secure_second_price_positions(group, first_price_entry_for_sl)
-
-                                else: # Failed to secure TP1 itself
-                                    self.logger.error(f"  Failed to secure the triggering TP1 position {position.ticket}. Subsequent actions for this group are skipped in this cycle.")
-                                    tp1_action_triggered_groups.remove(group_id)
-
-
-                        # --- Logic for TP2, TP3... if TP1 was already secured in a *previous* cycle ---
-                        # This section might become redundant if the initial `if position.ticket in self.secured_positions:` check works reliably.
-                        # Let's keep it for now as a backup check.
-                        elif position_index > 1 and group_id not in tp1_action_triggered_groups:
-                             tp1_position = None
-                             for pos in group:
-                                 if self.get_position_index_in_group(pos, group) == 1:
-                                     tp1_position = pos
-                                     break
-
-                             if tp1_position and tp1_position.ticket in self.secured_positions:
-                                 # Check if the CURRENT position (TP2+) is NOT YET secured
-                                 if position.ticket not in self.secured_positions:
-                                     self.log_throttled('info',
-                                         f"Securing position {position.ticket} (TP{position_index}) because TP1 ({tp1_position.ticket}) is secured.",
-                                         key=f"secure_follow_{position.ticket}"
-                                     )
-                                     if self.secure_position(position, log_as_tp1_hit=False):
-                                          self.logger.info(f"  Successfully secured following position {position.ticket}")
-                                     else:
-                                          self.logger.warning(f"  Failed to secure following position {position.ticket}")
-
-                    # --- Logic for Standalone Positions (Not part of multi-TP group) ---
                     else:
-                        # Standard EA logic does not apply to standalone positions based on requirements.
-                        self.log_throttled('debug',
-                                           f"Skipping position {position.ticket} ({symbol}) as it's not part of a multi-TP group.",
-                                           key=f"skip_standalone_{symbol}")
-                        pass
-
-
+                        # Standalone positions
+                        self.log_throttled('debug', f"Skipping standalone position {position.ticket}", key=f"skip_standalone_{symbol}")
+                    continue  # Skip standalone positions
                 except Exception as e:
-                    # Use symbol var defined at the start of the loop
-                    self.logger.error(f"Error processing position {position.ticket} ({symbol}): {str(e)}", exc_info=True)
+                    self.logger.error(f"Error processing position {position.ticket}: {str(e)}", exc_info=True)
                     self.summary_counters['errors'] += 1
 
-
-            # Log summary periodically
+            # Log summary
             self.log_summary()
-
-            # Record end time and execution duration
+            
             execution_time = time.time() - start_time
-            self.logger.debug(f"Position check cycle completed in {execution_time:.3f} seconds.")
-
-
-        except mt5.TerminalException as te:
-             self.logger.error(f"MetaTrader 5 Terminal Exception in check_positions: {te}", exc_info=True)
-             self.summary_counters['errors'] += 1
-             # Attempt graceful shutdown/reconnect on terminal issues
-             try: self.disconnect()
-             except: pass
-             time.sleep(10) # Wait before potential reconnect
+            self.logger.debug(f"Position check completed in {execution_time:.3f} seconds")
 
         except Exception as e:
-            # Catch-all for any other unexpected errors in the main loop
-            self.logger.critical(f"CRITICAL UNHANDLED ERROR in check_positions loop: {str(e)}", exc_info=True)
+            self.logger.critical(f"Critical error in check_positions: {str(e)}", exc_info=True)
             self.summary_counters['errors'] += 1
-            # Consider adding a mechanism to stop the EA or alert admin on critical errors
-
-
+            
+      #tp1 close when 5 pips reach      
+    def close_position(self, position):
+        """Close a specific position with simple filling mode approach"""
+        try:
+            # Get current price
+            tick = mt5.symbol_info_tick(position.symbol)
+            if tick is None:
+                self.logger.error(f"Failed to get tick data for {position.symbol}")
+                return False
+                
+            # Determine closing price and type
+            if position.type == mt5.ORDER_TYPE_BUY:
+                close_type = mt5.ORDER_TYPE_SELL
+                close_price = tick.bid
+            else:
+                close_type = mt5.ORDER_TYPE_BUY
+                close_price = tick.ask
+            
+            # Build the basic request without filling mode
+            request = {
+                "action": mt5.TRADE_ACTION_DEAL,
+                "position": position.ticket,
+                "symbol": position.symbol,
+                "volume": position.volume,
+                "type": close_type,
+                "price": close_price,
+                "deviation": 20,
+                "comment": "PipSecureEA: TP1 Close",
+            }
+            
+            # Try different filling modes in order of likelihood
+            filling_modes = [
+                mt5.ORDER_FILLING_IOC,
+                mt5.ORDER_FILLING_FOK,
+                mt5.ORDER_FILLING_RETURN,
+                None  # Try without filling mode as last resort
+            ]
+            
+            for filling_mode in filling_modes:
+                try:
+                    if filling_mode is not None:
+                        request["type_filling"] = filling_mode
+                    else:
+                        request.pop("type_filling", None)
+                    
+                    self.logger.debug(f"Trying to close position {position.ticket} with filling mode: {filling_mode}")
+                    
+                    result = mt5.order_send(request)
+                    
+                    if result and result.retcode == mt5.TRADE_RETCODE_DONE:
+                        self.logger.info(f"[SUCCESS] Closed position {position.ticket} at {close_price}")
+                        return True
+                    elif result:
+                        self.logger.debug(f"Failed with filling mode {filling_mode}: {result.comment}")
+                        # If it's not a filling mode error, don't try other modes
+                        if "filling" not in result.comment.lower():
+                            self.logger.error(f"Failed to close position {position.ticket}: {result.comment}")
+                            return False
+                            
+                except AttributeError:
+                    # This filling mode constant doesn't exist, try next one
+                    continue
+                except Exception as e:
+                    self.logger.debug(f"Error with filling mode {filling_mode}: {str(e)}")
+                    continue
+            
+            self.logger.error(f"Failed to close position {position.ticket} after trying all filling modes")
+            return False
+                
+        except Exception as e:
+            self.logger.error(f"Error closing position {position.ticket}: {str(e)}")
+            return False
+    
     def run(self):
         """
         The main execution loop for a single PipSecureEA instance.
         Connects, checks positions periodically, and disconnects on exit.
         """
         self.logger.info(f"Starting PipSecureEA monitoring for account {self.account_name}")
+        
+        # 🧪 TEST MODE INDICATOR
+        if self.TEST_MODE:
+            self.logger.info("🧪 RUNNING IN TEST MODE")
+        
         if self.connect():
             try:
+                # 🧪 CREATE TEST POSITIONS IF IN TEST MODE
+                if self.TEST_MODE:
+                    self.logger.info("⏳ Creating test positions...")
+                    time.sleep(3)  # Wait for connection stability
+                    if self.create_test_positions():
+                        self.logger.info("✅ Test positions created successfully")
+                    else:
+                        self.logger.error("❌ Failed to create test positions")
+                        return
+                
+                # Main execution loop
                 while True:
                     # --- Main Loop Actions ---
                     self.check_positions()
@@ -1163,15 +1475,14 @@ class PipSecureEA:
             except KeyboardInterrupt:
                 self.logger.info(f"KeyboardInterrupt received for account {self.account_name}. Shutting down.")
             except Exception as e:
-                 self.logger.critical(f"Unhandled exception in main run loop for {self.account_name}: {e}", exc_info=True)
+                self.logger.critical(f"Unhandled exception in main run loop for {self.account_name}: {e}", exc_info=True)
             finally:
                 self.logger.info(f"Disconnecting EA for account {self.account_name}.")
                 self.disconnect()
                 self.log_summary(force=True) # Log final summary
         else:
             self.logger.error(f"Could not connect account {self.account_name}. EA will not run.")
-
-
+                
 # ------------------------------------------------------------------------
 # SOLUTION 1: MULTI-ACCOUNT MONITOR CLASS (Manages multiple EA instances)
 # ------------------------------------------------------------------------
@@ -1337,6 +1648,150 @@ class MultiAccountMonitor:
 # SOLUTION 2: SINGLE-ACCOUNT SCRIPT RUNNER FUNCTION
 # ------------------------------------------------------------------------
 
+    def run_single_account(account_name):
+        """Loads config and runs the EA for a single specified account."""
+        config_file = 'accounts_config.json'
+        account_config = None
+        print(f"Attempting to run in single-account mode for: {account_name}")
+
+        # Load the master config file to find the specific account
+        try:
+            with open(config_file, 'r') as f:
+                accounts = json.load(f)
+
+            # Find the specified account config
+            for acc in accounts:
+                # Match by name, case-insensitive comparison might be safer
+                if acc.get('name', '').lower() == account_name.lower():
+                    account_config = acc
+                    break
+
+            if not account_config:
+                print(f"ERROR: Account '{account_name}' not found in configuration file '{config_file}'")
+                sys.exit(1)
+
+            print(f"Found configuration for account '{account_name}'. Starting EA...")
+            # Create and run the EA instance for this account
+            ea = PipSecureEA(account_config)
+            ea.run() # This handles connect, loop, disconnect
+
+        except FileNotFoundError:
+            print(f"ERROR: Configuration file '{config_file}' not found.")
+            create_sample_config()
+            sys.exit(1)
+        except json.JSONDecodeError:
+            print(f"ERROR: Invalid JSON format in configuration file '{config_file}'.")
+            sys.exit(1)
+        except KeyboardInterrupt:
+            # The EA's run method should handle this, but we add a message here too.
+            print(f"\nMonitoring stopped by user for account '{account_name}'.")
+        except Exception as e:
+            print(f"ERROR during single account execution for '{account_name}': {e}")
+            import traceback
+            traceback.print_exc() # Print detailed traceback for debugging
+            sys.exit(1)
+
+
+# ------------------------------------------------------------------------
+# UTILITY FUNCTION TO CREATE SAMPLE CONFIG
+# ------------------------------------------------------------------------
+
+    def create_sample_config():
+        sample_config = [
+            {
+                "name": "XM_Demo", # Use descriptive names
+                "login": 98509933,
+                "password": "@Xmm232425",
+                "server": "XMGlobal-MT5 5",
+                "terminal_path": "C:/Program Files/XM Global MT5/terminal64.exe"
+            },
+            {
+                "name": "TNFX_Demo",
+                "login": 549357,
+                "password": "@Tnf232425",
+                "server": "TNFX-Demo",
+                "terminal_path": "C:/Program Files/TNFX Ltd MetaTrader 5 Terminal/terminal64.exe"
+            },
+            # Add more accounts here
+            # {
+            #     "name": "AnotherBroker_Live",
+            #     "login": 12345678,
+            #     "password": "YourSecurePassword",
+            #     "server": "BrokerServer-Live",
+            #     "terminal_path": "C:/Path/To/Another/MT5/terminal64.exe" # Optional if in default location or PATH
+            # }
+        ]
+        config_file = 'accounts_config.json'
+        try:
+            with open(config_file, 'w') as f:
+                json.dump(sample_config, f, indent=4)
+            print(f"\nCreated sample configuration file: {config_file}")
+            print("IMPORTANT: Please EDIT this file with your correct account details and terminal paths.")
+        except Exception as e:
+            print(f"\nERROR: Could not create sample config file {config_file}: {e}")
+
+
+# ------------------------------------------------------------------------
+# UTILITY FUNCTION TO CHECK EA STATUS VIA HEARTBEATS
+# ------------------------------------------------------------------------
+
+    def check_ea_status(max_age_minutes=5):
+        """
+        Checks EA status based on heartbeat files found in the 'heartbeats' directory.
+        """
+        import glob
+
+        heartbeat_dir = 'heartbeats'
+        print(f"\n--- EA Heartbeat Status Check (Stale if > {max_age_minutes} minutes old) ---")
+        if not os.path.exists(heartbeat_dir) or not os.path.isdir(heartbeat_dir):
+            print(f"Heartbeat directory '{heartbeat_dir}' not found.")
+            print("-" * 50)
+            return
+
+        heartbeat_files = glob.glob(os.path.join(heartbeat_dir, '*_heartbeat.txt'))
+        if not heartbeat_files:
+            print("No heartbeat files found.")
+            print("-" * 50)
+            return
+
+        current_time = datetime.now()
+        print(f"Current time: {current_time.strftime('%Y-%m-%d %H:%M:%S')}")
+        print("-" * 50)
+
+        stale_count = 0
+        active_count = 0
+
+        for hb_file in sorted(heartbeat_files):
+            try:
+                account_name = os.path.basename(hb_file).replace('_heartbeat.txt', '')
+                monitor = HeartbeatMonitor(account_name, heartbeat_dir=heartbeat_dir) # Pass dir just in case
+
+                last_heartbeat = monitor.get_last_heartbeat()
+                if last_heartbeat is None:
+                    print(f"Account: {account_name:<20} | Status: UNKNOWN (No valid heartbeat data)")
+                    continue
+
+                age = current_time - last_heartbeat
+                age_minutes = age.total_seconds() / 60
+
+                if monitor.is_stale(max_age_minutes):
+                    status = "STALE"
+                    stale_count += 1
+                else:
+                    status = "ACTIVE"
+                    active_count += 1
+
+                print(f"Account: {account_name:<20} | Status: {status:<7} | Last Beat: {last_heartbeat.strftime('%Y-%m-%d %H:%M:%S')} ({age_minutes:.1f} min ago)")
+
+            except Exception as e:
+                print(f"Error processing heartbeat file {hb_file}: {e}")
+
+        print("-" * 50)
+        print(f"Summary: {active_count} ACTIVE, {stale_count} STALE (or Unknown)")
+        print("-" * 50)
+
+# Add this function OUTSIDE of all classes, before the "if __name__ == '__main__':" section
+
 def run_single_account(account_name):
     """Loads config and runs the EA for a single specified account."""
     config_file = 'accounts_config.json'
@@ -1375,17 +1830,14 @@ def run_single_account(account_name):
         # The EA's run method should handle this, but we add a message here too.
         print(f"\nMonitoring stopped by user for account '{account_name}'.")
     except Exception as e:
-         print(f"ERROR during single account execution for '{account_name}': {e}")
-         import traceback
-         traceback.print_exc() # Print detailed traceback for debugging
-         sys.exit(1)
+        print(f"ERROR during single account execution for '{account_name}': {e}")
+        import traceback
+        traceback.print_exc() # Print detailed traceback for debugging
+        sys.exit(1)
 
-
-# ------------------------------------------------------------------------
-# UTILITY FUNCTION TO CREATE SAMPLE CONFIG
-# ------------------------------------------------------------------------
 
 def create_sample_config():
+    """Create sample configuration file"""
     sample_config = [
         {
             "name": "XM_Demo", # Use descriptive names
@@ -1400,15 +1852,7 @@ def create_sample_config():
             "password": "@Tnf232425",
             "server": "TNFX-Demo",
             "terminal_path": "C:/Program Files/TNFX Ltd MetaTrader 5 Terminal/terminal64.exe"
-        },
-        # Add more accounts here
-        # {
-        #     "name": "AnotherBroker_Live",
-        #     "login": 12345678,
-        #     "password": "YourSecurePassword",
-        #     "server": "BrokerServer-Live",
-        #     "terminal_path": "C:/Path/To/Another/MT5/terminal64.exe" # Optional if in default location or PATH
-        # }
+        }
     ]
     config_file = 'accounts_config.json'
     try:
@@ -1419,10 +1863,6 @@ def create_sample_config():
     except Exception as e:
         print(f"\nERROR: Could not create sample config file {config_file}: {e}")
 
-
-# ------------------------------------------------------------------------
-# UTILITY FUNCTION TO CHECK EA STATUS VIA HEARTBEATS
-# ------------------------------------------------------------------------
 
 def check_ea_status(max_age_minutes=5):
     """
@@ -1478,8 +1918,6 @@ def check_ea_status(max_age_minutes=5):
     print("-" * 50)
     print(f"Summary: {active_count} ACTIVE, {stale_count} STALE (or Unknown)")
     print("-" * 50)
-
-
 # ------------------------------------------------------------------------
 # MAIN ENTRY POINT
 # ------------------------------------------------------------------------

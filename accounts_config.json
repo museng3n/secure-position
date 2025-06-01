@@ -1,10 +1,12 @@
 [
     {
-        "name": "XM",
+        "name": "XM_Demo_Test",
         "login": 98509933,
         "password": "@Xmm232425",
         "server": "XMGlobal-MT5 5",
-        "terminal_path": "C:\\Program Files\\XM Global MT5\\terminal64.exe"
+        "terminal_path": "C:\\Program Files\\XM Global MT5\\terminal64.exe",
+        "test_mode": false,
+        "test_symbol": "EURUSD"
     },
     {
         "name": "TNFX",
