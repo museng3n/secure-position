@@ -81,3 +81,105 @@
 [2025-05-12 10:56:14] [XM] [PENDING_DELETE_FAILED] Failed to delete pending order 507795593 (JP225Cash). System Error: -2 - Invalid "comment" argument
 [2025-05-12 10:56:15] [XM] [PENDING_DELETE_FAILED] Failed to delete pending order 507795597 (JP225Cash). System Error: -2 - Invalid "comment" argument
 [2025-05-12 10:56:16] [XM] [PENDING_DELETE_FAILED] Failed to delete pending order 507795598 (JP225Cash). System Error: -2 - Invalid "comment" argument
+[2025-05-12 16:22:57] [XM] [TP1_SECURED] Position 503328796 (GER40Cash) secured at entry 23750.0 after TP1 condition met.
+[2025-05-12 16:22:58] [XM] [PENDING_DELETE_FAILED] Failed to delete pending order 507795523 (GER40Cash). System Error: -2 - Invalid "comment" argument
+[2025-05-12 16:22:59] [XM] [PENDING_DELETE_FAILED] Failed to delete pending order 507795527 (GER40Cash). System Error: -2 - Invalid "comment" argument
+[2025-05-12 16:23:00] [XM] [PENDING_DELETE_FAILED] Failed to delete pending order 507795532 (GER40Cash). System Error: -2 - Invalid "comment" argument
+[2025-05-12 16:23:01] [XM] [PENDING_DELETE_FAILED] Failed to delete pending order 507795533 (GER40Cash). System Error: -2 - Invalid "comment" argument
+[2025-05-12 21:35:24] [XM] [TP1_SECURED] Position 507795723 (CHFJPY) secured at entry 175.803 after TP1 condition met.
+[2025-05-12 21:35:26] [XM] [PENDING_DELETE_FAILED] Failed to delete pending order 507795760 (CHFJPY). System Error: -2 - Invalid "comment" argument
+[2025-05-12 21:35:27] [XM] [PENDING_DELETE_FAILED] Failed to delete pending order 507795762 (CHFJPY). System Error: -2 - Invalid "comment" argument
+[2025-05-12 21:35:28] [XM] [PENDING_DELETE_FAILED] Failed to delete pending order 507795765 (CHFJPY). System Error: -2 - Invalid "comment" argument
+[2025-05-12 21:35:29] [XM] [PENDING_DELETE_FAILED] Failed to delete pending order 507795769 (CHFJPY). System Error: -2 - Invalid "comment" argument
+[2025-05-13 07:32:11] [XM] [TP1_SECURED] Position 507799809 (USDCAD) secured at entry 1.40001 after TP1 condition met.
+[2025-05-13 07:32:12] [XM] [PENDING_DELETE_FAILED] Failed to delete pending order 507799815 (USDCAD). System Error: -2 - Invalid "comment" argument
+[2025-05-13 07:32:13] [XM] [PENDING_DELETE_FAILED] Failed to delete pending order 507799816 (USDCAD). System Error: -2 - Invalid "comment" argument
+[2025-05-13 07:32:14] [XM] [PENDING_DELETE_FAILED] Failed to delete pending order 507799820 (USDCAD). System Error: -2 - Invalid "comment" argument
+[2025-05-13 07:32:15] [XM] [PENDING_DELETE_FAILED] Failed to delete pending order 507799823 (USDCAD). System Error: -2 - Invalid "comment" argument
+[2025-05-13 18:05:56] [XM] [TP1_SECURED] Position 507799923 (EURCAD) secured at entry 1.55198 after TP1 condition met.
+[2025-05-14 03:54:22] [XM] [TP1_SECURED] Position 507799848 (USDJPY) secured at entry 148.2 after TP1 condition met.
+[2025-05-14 04:21:43] [XM] [TP1_SECURED] Position 507799842 (USDJPY) secured at entry 147.604 after TP1 condition met.
+[2025-05-14 11:03:28] [XM] [TP1_SECURED] Position 507799917 (EURCAD) secured at entry 1.55792 after TP1 condition met.
+[2025-05-15 15:23:17] [XM] [SECOND_PRICE_SECURED] Position 507795684 (CADJPY, Entry: 105.10400) secured with SL at FIRST price entry 105.70000 (Rule 2).
+[2025-05-15 15:23:18] [XM] [SECOND_PRICE_SECURED] Position 507795685 (CADJPY, Entry: 105.10400) secured with SL at FIRST price entry 105.70000 (Rule 2).
+[2025-05-15 15:23:18] [XM] [SECOND_PRICE_SECURED] Position 507795696 (CADJPY, Entry: 105.10400) secured with SL at FIRST price entry 105.70000 (Rule 2).
+[2025-05-15 15:24:50] [XM] [SECOND_PRICE_SECURED] Position 507799765 (NZDJPY, Entry: 87.20000) secured with SL at FIRST price entry 86.60000 (Rule 2).
+[2025-05-15 15:24:50] [XM] [SECOND_PRICE_SECURED] Position 507799770 (NZDJPY, Entry: 87.20000) secured with SL at FIRST price entry 86.60000 (Rule 2).
+[2025-05-15 15:30:04] [XM] [SECOND_PRICE_SECURED] Position 507799918 (EURCAD, Entry: 1.55792) secured with SL at FIRST price entry 1.55198 (Rule 2).
+[2025-05-15 15:30:04] [XM] [SECOND_PRICE_SECURED] Position 507799919 (EURCAD, Entry: 1.55792) secured with SL at FIRST price entry 1.55198 (Rule 2).
+[2025-05-15 15:30:05] [XM] [SECOND_PRICE_SECURED] Position 507799921 (EURCAD, Entry: 1.55792) secured with SL at FIRST price entry 1.55198 (Rule 2).
+[2025-05-16 03:52:50] [XM] [SECOND_PRICE_SECURED] Position 507799885 (USDCHF, Entry: 0.83602) secured with SL at FIRST price entry 0.84200 (Rule 2).
+[2025-05-16 03:52:50] [XM] [SECOND_PRICE_SECURED] Position 507799887 (USDCHF, Entry: 0.83602) secured with SL at FIRST price entry 0.84200 (Rule 2).
+[2025-05-16 03:52:51] [XM] [SECOND_PRICE_SECURED] Position 507799889 (USDCHF, Entry: 0.83602) secured with SL at FIRST price entry 0.84200 (Rule 2).
+[2025-05-16 03:52:51] [XM] [SECOND_PRICE_SECURED] Position 507799890 (USDCHF, Entry: 0.83602) secured with SL at FIRST price entry 0.84200 (Rule 2).
+[2025-05-16 06:56:14] [XM] [PENDING_DELETED] Pending order 507795643 (AUDJPY, Price: 92.3) deleted due to TP1 hit on related position.
+[2025-05-16 06:56:14] [XM] [PENDING_DELETED] Pending order 507795646 (AUDJPY, Price: 92.3) deleted due to TP1 hit on related position.
+[2025-05-16 06:56:14] [XM] [PENDING_DELETED] Pending order 507795647 (AUDJPY, Price: 92.3) deleted due to TP1 hit on related position.
+[2025-05-16 06:56:14] [XM] [PENDING_DELETED] Pending order 507795648 (AUDJPY, Price: 92.3) deleted due to TP1 hit on related position.
+[2025-05-19 03:55:14] [XM] [SECOND_PRICE_SECURED] Position 507795685 (CADJPY, Entry: 105.10400) secured with SL at FIRST price entry 105.70000 (Rule 2).
+[2025-05-19 03:55:14] [XM] [SECOND_PRICE_SECURED] Position 507795696 (CADJPY, Entry: 105.10400) secured with SL at FIRST price entry 105.70000 (Rule 2).
+[2025-05-19 03:56:27] [XM] [SECOND_PRICE_SECURED] Position 507799749 (NZDJPY, Entry: 86.60000) secured with SL at FIRST price entry 87.20000 (Rule 2).
+[2025-05-19 03:56:27] [XM] [SECOND_PRICE_SECURED] Position 507799751 (NZDJPY, Entry: 86.60000) secured with SL at FIRST price entry 87.20000 (Rule 2).
+[2025-05-19 04:51:43] [XM] [SECOND_PRICE_SECURED] Position 511558690 (GOLD, Entry: 3245.16000) secured with SL at FIRST price entry 3235.01000 (Rule 2).
+[2025-05-19 04:51:43] [XM] [SECOND_PRICE_SECURED] Position 511558701 (GOLD, Entry: 3245.16000) secured with SL at FIRST price entry 3235.01000 (Rule 2).
+[2025-05-19 04:51:43] [XM] [SECOND_PRICE_SECURED] Position 511558716 (GOLD, Entry: 3245.06000) secured with SL at FIRST price entry 3235.01000 (Rule 2).
+[2025-05-19 10:01:03] [XM] [PENDING_DELETED] Pending order 511556441 (GBPUSD, Price: 1.322) deleted due to TP1 hit on related position.
+[2025-05-19 10:01:03] [XM] [PENDING_DELETED] Pending order 511556452 (GBPUSD, Price: 1.322) deleted due to TP1 hit on related position.
+[2025-05-19 10:01:03] [XM] [PENDING_DELETED] Pending order 511556458 (GBPUSD, Price: 1.322) deleted due to TP1 hit on related position.
+[2025-05-19 10:01:03] [XM] [PENDING_DELETED] Pending order 511556466 (GBPUSD, Price: 1.322) deleted due to TP1 hit on related position.
+[2025-05-19 13:31:09] [XM] [SECOND_PRICE_SECURED] Position 507799893 (USDCHF, Entry: 0.84200) secured with SL at FIRST price entry 0.83602 (Rule 2).
+[2025-05-19 13:31:09] [XM] [SECOND_PRICE_SECURED] Position 507799894 (USDCHF, Entry: 0.84200) secured with SL at FIRST price entry 0.83602 (Rule 2).
+[2025-05-19 13:31:09] [XM] [SECOND_PRICE_SECURED] Position 507799897 (USDCHF, Entry: 0.84200) secured with SL at FIRST price entry 0.83602 (Rule 2).
+[2025-05-19 16:45:31] [XM] [PENDING_DELETED] Pending order 511558550 (US100Cash, Price: 20900.0) deleted due to TP1 hit on related position.
+[2025-05-19 16:45:32] [XM] [PENDING_DELETED] Pending order 511558572 (US100Cash, Price: 20900.0) deleted due to TP1 hit on related position.
+[2025-05-19 16:45:32] [XM] [PENDING_DELETED] Pending order 511558582 (US100Cash, Price: 20900.0) deleted due to TP1 hit on related position.
+[2025-05-19 16:45:32] [XM] [PENDING_DELETED] Pending order 511558592 (US100Cash, Price: 20900.0) deleted due to TP1 hit on related position.
+[2025-05-19 18:39:32] [XM] [SECOND_PRICE_SECURED] Position 511557910 (OILCash, Entry: 62.25000) secured with SL at FIRST price entry 61.70000 (Rule 2).
+[2025-05-19 18:39:32] [XM] [SECOND_PRICE_SECURED] Position 511557925 (OILCash, Entry: 62.25000) secured with SL at FIRST price entry 61.70000 (Rule 2).
+[2025-05-19 18:39:32] [XM] [SECOND_PRICE_SECURED] Position 511557956 (OILCash, Entry: 62.27000) secured with SL at FIRST price entry 61.70000 (Rule 2).
+[2025-05-19 18:39:32] [XM] [SECOND_PRICE_SECURED] Position 511557967 (OILCash, Entry: 62.27000) secured with SL at FIRST price entry 61.70000 (Rule 2).
+[2025-05-20 04:25:46] [XM] [SECOND_PRICE_SECURED] Position 507795708 (CADJPY, Entry: 105.70000) secured with SL at FIRST price entry 105.10400 (Rule 2).
+[2025-05-20 08:06:17] [XM] [PENDING_DELETED] Pending order 511556845 (EURJPY, Price: 163.7) deleted due to TP1 hit on related position.
+[2025-05-20 08:06:17] [XM] [PENDING_DELETED] Pending order 511556848 (EURJPY, Price: 163.7) deleted due to TP1 hit on related position.
+[2025-05-20 08:06:17] [XM] [PENDING_DELETED] Pending order 511556849 (EURJPY, Price: 163.7) deleted due to TP1 hit on related position.
+[2025-05-20 08:06:17] [XM] [PENDING_DELETED] Pending order 511556853 (EURJPY, Price: 163.7) deleted due to TP1 hit on related position.
+[2025-05-22 01:16:39] [XM] [SECOND_PRICE_SECURED] Position 511555602 (USDJPY, Entry: 143.89900) secured with SL at FIRST price entry 143.29800 (Rule 2).
+[2025-05-22 01:16:39] [XM] [SECOND_PRICE_SECURED] Position 511555610 (USDJPY, Entry: 143.89900) secured with SL at FIRST price entry 143.29800 (Rule 2).
+[2025-05-22 01:16:39] [XM] [SECOND_PRICE_SECURED] Position 511555640 (USDJPY, Entry: 143.89900) secured with SL at FIRST price entry 143.29800 (Rule 2).
+[2025-05-22 01:16:39] [XM] [SECOND_PRICE_SECURED] Position 511555649 (USDJPY, Entry: 143.89900) secured with SL at FIRST price entry 143.29800 (Rule 2).
+[2025-05-22 03:03:35] [XM] [SECOND_PRICE_SECURED] Position 507799770 (NZDJPY, Entry: 87.20000) secured with SL at FIRST price entry 86.60000 (Rule 2).
+[2025-05-22 12:55:28] [XM] [PENDING_DELETED] Pending order 511557338 (AUDNZD, Price: 1.078) deleted due to TP1 hit on related position.
+[2025-05-22 12:55:28] [XM] [PENDING_DELETED] Pending order 511557340 (AUDNZD, Price: 1.078) deleted due to TP1 hit on related position.
+[2025-05-22 12:55:28] [XM] [PENDING_DELETED] Pending order 511557344 (AUDNZD, Price: 1.078) deleted due to TP1 hit on related position.
+[2025-05-22 12:55:29] [XM] [PENDING_DELETED] Pending order 511557349 (AUDNZD, Price: 1.078) deleted due to TP1 hit on related position.
+[2025-05-23 17:24:09] [XM] [SECOND_PRICE_SECURED] Position 511556937 (EURAUD, Entry: 1.75400) secured with SL at FIRST price entry 1.76003 (Rule 2).
+[2025-05-23 17:24:09] [XM] [SECOND_PRICE_SECURED] Position 511556951 (EURAUD, Entry: 1.75400) secured with SL at FIRST price entry 1.76003 (Rule 2).
+[2025-05-23 17:24:09] [XM] [SECOND_PRICE_SECURED] Position 511556959 (EURAUD, Entry: 1.75400) secured with SL at FIRST price entry 1.76003 (Rule 2).
+[2025-05-23 17:24:10] [XM] [SECOND_PRICE_SECURED] Position 511556966 (EURAUD, Entry: 1.75400) secured with SL at FIRST price entry 1.76003 (Rule 2).
+[2025-05-26 00:32:52] [XM_Demo_Test] [SECOND_PRICE_SECURED] Position 511556978 (EURAUD, Entry: 1.76003) secured with SL at FIRST price entry 1.75400 (Rule 2).
+[2025-05-26 00:32:52] [XM_Demo_Test] [SECOND_PRICE_SECURED] Position 511556983 (EURAUD, Entry: 1.76003) secured with SL at FIRST price entry 1.75400 (Rule 2).
+[2025-05-26 00:32:52] [XM_Demo_Test] [SECOND_PRICE_SECURED] Position 511556990 (EURAUD, Entry: 1.76003) secured with SL at FIRST price entry 1.75400 (Rule 2).
+[2025-05-26 04:46:18] [XM_Demo_Test] [PENDING_DELETED] Pending order 515363090 (AUDJPY, Price: 92.0) deleted due to TP1 hit on related position.
+[2025-05-26 04:46:18] [XM_Demo_Test] [PENDING_DELETED] Pending order 515363091 (AUDJPY, Price: 92.0) deleted due to TP1 hit on related position.
+[2025-05-26 04:46:19] [XM_Demo_Test] [PENDING_DELETED] Pending order 515363092 (AUDJPY, Price: 92.0) deleted due to TP1 hit on related position.
+[2025-05-26 04:46:19] [XM_Demo_Test] [PENDING_DELETED] Pending order 515363093 (AUDJPY, Price: 92.0) deleted due to TP1 hit on related position.
+[2025-05-27 08:11:04] [XM_Demo_Test] [PENDING_DELETED] Pending order 515365353 (GBPUSD, Price: 1.3639999999999999) deleted due to TP1 hit on related position.
+[2025-05-27 08:11:04] [XM_Demo_Test] [PENDING_DELETED] Pending order 515365355 (GBPUSD, Price: 1.3639999999999999) deleted due to TP1 hit on related position.
+[2025-05-27 08:11:04] [XM_Demo_Test] [PENDING_DELETED] Pending order 515365356 (GBPUSD, Price: 1.3639999999999999) deleted due to TP1 hit on related position.
+[2025-05-27 08:11:04] [XM_Demo_Test] [PENDING_DELETED] Pending order 515365360 (GBPUSD, Price: 1.3639999999999999) deleted due to TP1 hit on related position.
+[2025-05-27 16:36:41] [XM_Demo_Test] [SECOND_PRICE_SECURED] Position 515364872 (US30Cash, Entry: 42000.30000) secured with SL at FIRST price entry 42202.60000 (Rule 2).
+[2025-05-27 16:36:41] [XM_Demo_Test] [SECOND_PRICE_SECURED] Position 515364879 (US30Cash, Entry: 42000.30000) secured with SL at FIRST price entry 42202.60000 (Rule 2).
+[2025-05-27 16:36:41] [XM_Demo_Test] [SECOND_PRICE_SECURED] Position 515364885 (US30Cash, Entry: 42000.30000) secured with SL at FIRST price entry 42202.60000 (Rule 2).
+[2025-05-27 16:36:41] [XM_Demo_Test] [SECOND_PRICE_SECURED] Position 515364893 (US30Cash, Entry: 42000.30000) secured with SL at FIRST price entry 42202.60000 (Rule 2).
+[2025-05-28 03:16:09] [XM_Demo_Test] [PENDING_DELETED] Pending order 515363033 (CADJPY, Price: 105.3) deleted due to TP1 hit on related position.
+[2025-05-28 03:16:09] [XM_Demo_Test] [PENDING_DELETED] Pending order 515363035 (CADJPY, Price: 105.3) deleted due to TP1 hit on related position.
+[2025-05-28 03:16:09] [XM_Demo_Test] [PENDING_DELETED] Pending order 515363036 (CADJPY, Price: 105.3) deleted due to TP1 hit on related position.
+[2025-05-28 03:16:09] [XM_Demo_Test] [PENDING_DELETED] Pending order 515363037 (CADJPY, Price: 105.3) deleted due to TP1 hit on related position.
+[2025-05-29 16:27:52] [XM_Demo_Test] [PENDING_DELETED] Pending order 515365165 (NZDUSD, Price: 0.589) deleted due to TP1 hit on related position.
+[2025-05-29 16:27:53] [XM_Demo_Test] [PENDING_DELETED] Pending order 515365172 (NZDUSD, Price: 0.589) deleted due to TP1 hit on related position.
+[2025-05-29 16:27:53] [XM_Demo_Test] [PENDING_DELETED] Pending order 515365180 (NZDUSD, Price: 0.589) deleted due to TP1 hit on related position.
+[2025-05-29 16:27:54] [XM_Demo_Test] [PENDING_DELETED] Pending order 515365186 (NZDUSD, Price: 0.589) deleted due to TP1 hit on related position.
+[2025-05-30 03:02:21] [XM_Demo_Test] [PENDING_DELETED] Pending order 515363004 (CHFJPY, Price: 175.8) deleted due to TP1 hit on related position.
+[2025-05-30 03:02:21] [XM_Demo_Test] [PENDING_DELETED] Pending order 515363007 (CHFJPY, Price: 175.8) deleted due to TP1 hit on related position.
+[2025-05-30 03:02:22] [XM_Demo_Test] [PENDING_DELETED] Pending order 515363008 (CHFJPY, Price: 175.8) deleted due to TP1 hit on related position.
+[2025-05-30 03:02:22] [XM_Demo_Test] [PENDING_DELETED] Pending order 515363009 (CHFJPY, Price: 175.8) deleted due to TP1 hit on related position.

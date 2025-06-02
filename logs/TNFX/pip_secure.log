@@ -1,5 +1,6 @@
-2025-05-12 02:01:11,765 - INFO - Logging initialized for account TNFX
-2025-05-12 02:01:11,765 - INFO - Heartbeat monitor initialized.
-2025-05-12 02:01:11,765 - INFO - Starting PipSecureEA monitoring for account TNFX
-2025-05-12 02:01:11,765 - INFO - Attempting to connect to account TNFX...
-2025-05-12 02:01:22,520 - INFO - Connected to MT5 account TNFX (Login: 5005688, Server: TNFX-Demo) successfully
+2025-06-02 04:31:41,992 - INFO - Logging initialized for account TNFX
+2025-06-02 04:31:41,992 - INFO - Heartbeat monitor initialized.
+2025-06-02 04:31:42,008 - INFO - Starting PipSecureEA monitoring for account TNFX
+2025-06-02 04:31:42,008 - INFO - Attempting to connect to account TNFX...
+2025-06-02 04:32:20,382 - ERROR - MT5 initialization failed for account TNFX. Error code: (-10005, 'IPC timeout')
+2025-06-02 04:32:20,397 - ERROR - Could not connect account TNFX. EA will not run.

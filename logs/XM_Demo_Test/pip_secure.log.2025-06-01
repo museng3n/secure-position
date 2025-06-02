@@ -1,0 +1,400 @@
+2025-06-01 00:02:19,542 - INFO - ==== ACTIVITY SUMMARY ====
+2025-06-01 00:02:19,563 - INFO - Positions checked: 2384
+2025-06-01 00:02:19,570 - INFO - Positions secured (Total): 23
+2025-06-01 00:02:19,577 - INFO -   - TP1 secured events: 0
+2025-06-01 00:02:19,578 - INFO -   - 2nd Price secured events: 0
+2025-06-01 00:02:19,579 - INFO - Pending orders deleted: 0
+2025-06-01 00:02:19,580 - INFO -   - Pending deleted events: 0
+2025-06-01 00:02:19,585 - INFO - Errors encountered: 0
+2025-06-01 00:02:19,587 - INFO - Active symbols: AUDUSD, EURCAD, GBPUSD, USDCHF
+2025-06-01 00:02:19,589 - INFO - =========================
+2025-06-01 00:07:19,551 - INFO - ==== ACTIVITY SUMMARY ====
+2025-06-01 00:07:19,558 - INFO - Positions checked: 2376
+2025-06-01 00:07:19,561 - INFO - Positions secured (Total): 23
+2025-06-01 00:07:19,564 - INFO -   - TP1 secured events: 0
+2025-06-01 00:07:19,567 - INFO -   - 2nd Price secured events: 0
+2025-06-01 00:07:19,579 - INFO - Pending orders deleted: 0
+2025-06-01 00:07:19,580 - INFO -   - Pending deleted events: 0
+2025-06-01 00:07:19,583 - INFO - Errors encountered: 0
+2025-06-01 00:07:19,584 - INFO - Active symbols: AUDUSD, EURCAD, GBPUSD, USDCHF
+2025-06-01 00:07:19,585 - INFO - =========================
+2025-06-01 00:12:20,453 - INFO - ==== ACTIVITY SUMMARY ====
+2025-06-01 00:12:20,454 - INFO - Positions checked: 2384
+2025-06-01 00:12:20,455 - INFO - Positions secured (Total): 23
+2025-06-01 00:12:20,456 - INFO -   - TP1 secured events: 0
+2025-06-01 00:12:20,457 - INFO -   - 2nd Price secured events: 0
+2025-06-01 00:12:20,458 - INFO - Pending orders deleted: 0
+2025-06-01 00:12:20,459 - INFO -   - Pending deleted events: 0
+2025-06-01 00:12:20,461 - INFO - Errors encountered: 0
+2025-06-01 00:12:20,462 - INFO - Active symbols: AUDUSD, EURCAD, GBPUSD, USDCHF
+2025-06-01 00:12:20,462 - INFO - =========================
+2025-06-01 00:17:21,415 - INFO - ==== ACTIVITY SUMMARY ====
+2025-06-01 00:17:21,416 - INFO - Positions checked: 2384
+2025-06-01 00:17:21,418 - INFO - Positions secured (Total): 23
+2025-06-01 00:17:21,420 - INFO -   - TP1 secured events: 0
+2025-06-01 00:17:21,421 - INFO -   - 2nd Price secured events: 0
+2025-06-01 00:17:21,431 - INFO - Pending orders deleted: 0
+2025-06-01 00:17:21,433 - INFO -   - Pending deleted events: 0
+2025-06-01 00:17:21,434 - INFO - Errors encountered: 0
+2025-06-01 00:17:21,446 - INFO - Active symbols: AUDUSD, EURCAD, GBPUSD, USDCHF
+2025-06-01 00:17:21,449 - INFO - =========================
+2025-06-01 00:22:21,432 - INFO - ==== ACTIVITY SUMMARY ====
+2025-06-01 00:22:21,433 - INFO - Positions checked: 2376
+2025-06-01 00:22:21,434 - INFO - Positions secured (Total): 23
+2025-06-01 00:22:21,434 - INFO -   - TP1 secured events: 0
+2025-06-01 00:22:21,435 - INFO -   - 2nd Price secured events: 0
+2025-06-01 00:22:21,436 - INFO - Pending orders deleted: 0
+2025-06-01 00:22:21,437 - INFO -   - Pending deleted events: 0
+2025-06-01 00:22:21,437 - INFO - Errors encountered: 0
+2025-06-01 00:22:21,438 - INFO - Active symbols: AUDUSD, EURCAD, GBPUSD, USDCHF
+2025-06-01 00:22:21,439 - INFO - =========================
+2025-06-01 00:27:22,399 - INFO - ==== ACTIVITY SUMMARY ====
+2025-06-01 00:27:22,399 - INFO - Positions checked: 2384
+2025-06-01 00:27:22,400 - INFO - Positions secured (Total): 23
+2025-06-01 00:27:22,400 - INFO -   - TP1 secured events: 0
+2025-06-01 00:27:22,400 - INFO -   - 2nd Price secured events: 0
+2025-06-01 00:27:22,400 - INFO - Pending orders deleted: 0
+2025-06-01 00:27:22,401 - INFO -   - Pending deleted events: 0
+2025-06-01 00:27:22,401 - INFO - Errors encountered: 0
+2025-06-01 00:27:22,401 - INFO - Active symbols: AUDUSD, EURCAD, GBPUSD, USDCHF
+2025-06-01 00:27:22,401 - INFO - =========================
+2025-06-01 00:32:23,140 - INFO - ==== ACTIVITY SUMMARY ====
+2025-06-01 00:32:23,141 - INFO - Positions checked: 2384
+2025-06-01 00:32:23,142 - INFO - Positions secured (Total): 23
+2025-06-01 00:32:23,143 - INFO -   - TP1 secured events: 0
+2025-06-01 00:32:23,144 - INFO -   - 2nd Price secured events: 0
+2025-06-01 00:32:23,145 - INFO - Pending orders deleted: 0
+2025-06-01 00:32:23,146 - INFO -   - Pending deleted events: 0
+2025-06-01 00:32:23,148 - INFO - Errors encountered: 0
+2025-06-01 00:32:23,149 - INFO - Active symbols: AUDUSD, EURCAD, GBPUSD, USDCHF
+2025-06-01 00:32:23,150 - INFO - =========================
+2025-06-01 00:37:24,140 - INFO - ==== ACTIVITY SUMMARY ====
+2025-06-01 00:37:24,140 - INFO - Positions checked: 2384
+2025-06-01 00:37:24,140 - INFO - Positions secured (Total): 23
+2025-06-01 00:37:24,141 - INFO -   - TP1 secured events: 0
+2025-06-01 00:37:24,141 - INFO -   - 2nd Price secured events: 0
+2025-06-01 00:37:24,141 - INFO - Pending orders deleted: 0
+2025-06-01 00:37:24,142 - INFO -   - Pending deleted events: 0
+2025-06-01 00:37:24,142 - INFO - Errors encountered: 0
+2025-06-01 00:37:24,143 - INFO - Active symbols: AUDUSD, EURCAD, GBPUSD, USDCHF
+2025-06-01 00:37:24,143 - INFO - =========================
+2025-06-01 00:42:24,145 - INFO - ==== ACTIVITY SUMMARY ====
+2025-06-01 00:42:24,145 - INFO - Positions checked: 2376
+2025-06-01 00:42:24,146 - INFO - Positions secured (Total): 23
+2025-06-01 00:42:24,146 - INFO -   - TP1 secured events: 0
+2025-06-01 00:42:24,146 - INFO -   - 2nd Price secured events: 0
+2025-06-01 00:42:24,147 - INFO - Pending orders deleted: 0
+2025-06-01 00:42:24,147 - INFO -   - Pending deleted events: 0
+2025-06-01 00:42:24,147 - INFO - Errors encountered: 0
+2025-06-01 00:42:24,148 - INFO - Active symbols: AUDUSD, EURCAD, GBPUSD, USDCHF
+2025-06-01 00:42:24,148 - INFO - =========================
+2025-06-01 00:47:24,183 - INFO - ==== ACTIVITY SUMMARY ====
+2025-06-01 00:47:24,185 - INFO - Positions checked: 2376
+2025-06-01 00:47:24,186 - INFO - Positions secured (Total): 23
+2025-06-01 00:47:24,187 - INFO -   - TP1 secured events: 0
+2025-06-01 00:47:24,188 - INFO -   - 2nd Price secured events: 0
+2025-06-01 00:47:24,189 - INFO - Pending orders deleted: 0
+2025-06-01 00:47:24,191 - INFO -   - Pending deleted events: 0
+2025-06-01 00:47:24,192 - INFO - Errors encountered: 0
+2025-06-01 00:47:24,194 - INFO - Active symbols: AUDUSD, EURCAD, GBPUSD, USDCHF
+2025-06-01 00:47:24,195 - INFO - =========================
+2025-06-01 00:52:24,835 - INFO - ==== ACTIVITY SUMMARY ====
+2025-06-01 00:52:24,836 - INFO - Positions checked: 2384
+2025-06-01 00:52:24,837 - INFO - Positions secured (Total): 23
+2025-06-01 00:52:24,838 - INFO -   - TP1 secured events: 0
+2025-06-01 00:52:24,839 - INFO -   - 2nd Price secured events: 0
+2025-06-01 00:52:24,839 - INFO - Pending orders deleted: 0
+2025-06-01 00:52:24,840 - INFO -   - Pending deleted events: 0
+2025-06-01 00:52:24,843 - INFO - Errors encountered: 0
+2025-06-01 00:52:24,844 - INFO - Active symbols: AUDUSD, EURCAD, GBPUSD, USDCHF
+2025-06-01 00:52:24,845 - INFO - =========================
+2025-06-01 00:57:25,481 - INFO - ==== ACTIVITY SUMMARY ====
+2025-06-01 00:57:25,481 - INFO - Positions checked: 2384
+2025-06-01 00:57:25,481 - INFO - Positions secured (Total): 23
+2025-06-01 00:57:25,482 - INFO -   - TP1 secured events: 0
+2025-06-01 00:57:25,482 - INFO -   - 2nd Price secured events: 0
+2025-06-01 00:57:25,482 - INFO - Pending orders deleted: 0
+2025-06-01 00:57:25,482 - INFO -   - Pending deleted events: 0
+2025-06-01 00:57:25,483 - INFO - Errors encountered: 0
+2025-06-01 00:57:25,483 - INFO - Active symbols: AUDUSD, EURCAD, GBPUSD, USDCHF
+2025-06-01 00:57:25,483 - INFO - =========================
+2025-06-01 01:02:26,435 - INFO - ==== ACTIVITY SUMMARY ====
+2025-06-01 01:02:26,436 - INFO - Positions checked: 2384
+2025-06-01 01:02:26,438 - INFO - Positions secured (Total): 23
+2025-06-01 01:02:26,439 - INFO -   - TP1 secured events: 0
+2025-06-01 01:02:26,440 - INFO -   - 2nd Price secured events: 0
+2025-06-01 01:02:26,442 - INFO - Pending orders deleted: 0
+2025-06-01 01:02:26,443 - INFO -   - Pending deleted events: 0
+2025-06-01 01:02:26,444 - INFO - Errors encountered: 0
+2025-06-01 01:02:26,445 - INFO - Active symbols: AUDUSD, EURCAD, GBPUSD, USDCHF
+2025-06-01 01:02:26,447 - INFO - =========================
+2025-06-01 01:07:26,474 - INFO - ==== ACTIVITY SUMMARY ====
+2025-06-01 01:07:26,475 - INFO - Positions checked: 2376
+2025-06-01 01:07:26,476 - INFO - Positions secured (Total): 23
+2025-06-01 01:07:26,477 - INFO -   - TP1 secured events: 0
+2025-06-01 01:07:26,477 - INFO -   - 2nd Price secured events: 0
+2025-06-01 01:07:26,478 - INFO - Pending orders deleted: 0
+2025-06-01 01:07:26,479 - INFO -   - Pending deleted events: 0
+2025-06-01 01:07:26,479 - INFO - Errors encountered: 0
+2025-06-01 01:07:26,480 - INFO - Active symbols: AUDUSD, EURCAD, GBPUSD, USDCHF
+2025-06-01 01:07:26,481 - INFO - =========================
+2025-06-01 01:12:27,432 - INFO - ==== ACTIVITY SUMMARY ====
+2025-06-01 01:12:27,433 - INFO - Positions checked: 2384
+2025-06-01 01:12:27,434 - INFO - Positions secured (Total): 23
+2025-06-01 01:12:27,436 - INFO -   - TP1 secured events: 0
+2025-06-01 01:12:27,437 - INFO -   - 2nd Price secured events: 0
+2025-06-01 01:12:27,437 - INFO - Pending orders deleted: 0
+2025-06-01 01:12:27,438 - INFO -   - Pending deleted events: 0
+2025-06-01 01:12:27,439 - INFO - Errors encountered: 0
+2025-06-01 01:12:27,439 - INFO - Active symbols: AUDUSD, EURCAD, GBPUSD, USDCHF
+2025-06-01 01:12:27,440 - INFO - =========================
+2025-06-01 01:17:28,354 - INFO - ==== ACTIVITY SUMMARY ====
+2025-06-01 01:17:28,356 - INFO - Positions checked: 2384
+2025-06-01 01:17:28,358 - INFO - Positions secured (Total): 23
+2025-06-01 01:17:28,359 - INFO -   - TP1 secured events: 0
+2025-06-01 01:17:28,360 - INFO -   - 2nd Price secured events: 0
+2025-06-01 01:17:28,361 - INFO - Pending orders deleted: 0
+2025-06-01 01:17:28,362 - INFO -   - Pending deleted events: 0
+2025-06-01 01:17:28,363 - INFO - Errors encountered: 0
+2025-06-01 01:17:28,364 - INFO - Active symbols: AUDUSD, EURCAD, GBPUSD, USDCHF
+2025-06-01 01:17:28,365 - INFO - =========================
+2025-06-01 01:22:29,219 - INFO - ==== ACTIVITY SUMMARY ====
+2025-06-01 01:22:29,220 - INFO - Positions checked: 2384
+2025-06-01 01:22:29,221 - INFO - Positions secured (Total): 23
+2025-06-01 01:22:29,221 - INFO -   - TP1 secured events: 0
+2025-06-01 01:22:29,222 - INFO -   - 2nd Price secured events: 0
+2025-06-01 01:22:29,222 - INFO - Pending orders deleted: 0
+2025-06-01 01:22:29,222 - INFO -   - Pending deleted events: 0
+2025-06-01 01:22:29,223 - INFO - Errors encountered: 0
+2025-06-01 01:22:29,224 - INFO - Active symbols: AUDUSD, EURCAD, GBPUSD, USDCHF
+2025-06-01 01:22:29,224 - INFO - =========================
+2025-06-01 01:27:30,224 - INFO - ==== ACTIVITY SUMMARY ====
+2025-06-01 01:27:30,225 - INFO - Positions checked: 2384
+2025-06-01 01:27:30,226 - INFO - Positions secured (Total): 23
+2025-06-01 01:27:30,227 - INFO -   - TP1 secured events: 0
+2025-06-01 01:27:30,228 - INFO -   - 2nd Price secured events: 0
+2025-06-01 01:27:30,229 - INFO - Pending orders deleted: 0
+2025-06-01 01:27:30,230 - INFO -   - Pending deleted events: 0
+2025-06-01 01:27:30,231 - INFO - Errors encountered: 0
+2025-06-01 01:27:30,232 - INFO - Active symbols: AUDUSD, EURCAD, GBPUSD, USDCHF
+2025-06-01 01:27:30,233 - INFO - =========================
+2025-06-01 01:32:31,198 - INFO - ==== ACTIVITY SUMMARY ====
+2025-06-01 01:32:31,199 - INFO - Positions checked: 2384
+2025-06-01 01:32:31,202 - INFO - Positions secured (Total): 23
+2025-06-01 01:32:31,205 - INFO -   - TP1 secured events: 0
+2025-06-01 01:32:31,206 - INFO -   - 2nd Price secured events: 0
+2025-06-01 01:32:31,209 - INFO - Pending orders deleted: 0
+2025-06-01 01:32:31,212 - INFO -   - Pending deleted events: 0
+2025-06-01 01:32:31,215 - INFO - Errors encountered: 0
+2025-06-01 01:32:31,220 - INFO - Active symbols: AUDUSD, EURCAD, GBPUSD, USDCHF
+2025-06-01 01:32:31,222 - INFO - =========================
+2025-06-01 01:37:32,142 - INFO - ==== ACTIVITY SUMMARY ====
+2025-06-01 01:37:32,143 - INFO - Positions checked: 2384
+2025-06-01 01:37:32,145 - INFO - Positions secured (Total): 23
+2025-06-01 01:37:32,146 - INFO -   - TP1 secured events: 0
+2025-06-01 01:37:32,147 - INFO -   - 2nd Price secured events: 0
+2025-06-01 01:37:32,149 - INFO - Pending orders deleted: 0
+2025-06-01 01:37:32,150 - INFO -   - Pending deleted events: 0
+2025-06-01 01:37:32,151 - INFO - Errors encountered: 0
+2025-06-01 01:37:32,152 - INFO - Active symbols: AUDUSD, EURCAD, GBPUSD, USDCHF
+2025-06-01 01:37:32,155 - INFO - =========================
+2025-06-01 01:42:33,133 - INFO - ==== ACTIVITY SUMMARY ====
+2025-06-01 01:42:33,135 - INFO - Positions checked: 2384
+2025-06-01 01:42:33,143 - INFO - Positions secured (Total): 23
+2025-06-01 01:42:33,144 - INFO -   - TP1 secured events: 0
+2025-06-01 01:42:33,145 - INFO -   - 2nd Price secured events: 0
+2025-06-01 01:42:33,147 - INFO - Pending orders deleted: 0
+2025-06-01 01:42:33,148 - INFO -   - Pending deleted events: 0
+2025-06-01 01:42:33,150 - INFO - Errors encountered: 0
+2025-06-01 01:42:33,152 - INFO - Active symbols: AUDUSD, EURCAD, GBPUSD, USDCHF
+2025-06-01 01:42:33,154 - INFO - =========================
+2025-06-01 01:47:34,135 - INFO - ==== ACTIVITY SUMMARY ====
+2025-06-01 01:47:34,136 - INFO - Positions checked: 2384
+2025-06-01 01:47:34,137 - INFO - Positions secured (Total): 23
+2025-06-01 01:47:34,138 - INFO -   - TP1 secured events: 0
+2025-06-01 01:47:34,139 - INFO -   - 2nd Price secured events: 0
+2025-06-01 01:47:34,139 - INFO - Pending orders deleted: 0
+2025-06-01 01:47:34,140 - INFO -   - Pending deleted events: 0
+2025-06-01 01:47:34,141 - INFO - Errors encountered: 0
+2025-06-01 01:47:34,141 - INFO - Active symbols: AUDUSD, EURCAD, GBPUSD, USDCHF
+2025-06-01 01:47:34,142 - INFO - =========================
+2025-06-01 01:52:35,133 - INFO - ==== ACTIVITY SUMMARY ====
+2025-06-01 01:52:35,133 - INFO - Positions checked: 2384
+2025-06-01 01:52:35,134 - INFO - Positions secured (Total): 23
+2025-06-01 01:52:35,134 - INFO -   - TP1 secured events: 0
+2025-06-01 01:52:35,134 - INFO -   - 2nd Price secured events: 0
+2025-06-01 01:52:35,135 - INFO - Pending orders deleted: 0
+2025-06-01 01:52:35,135 - INFO -   - Pending deleted events: 0
+2025-06-01 01:52:35,135 - INFO - Errors encountered: 0
+2025-06-01 01:52:35,136 - INFO - Active symbols: AUDUSD, EURCAD, GBPUSD, USDCHF
+2025-06-01 01:52:35,138 - INFO - =========================
+2025-06-01 01:57:35,967 - INFO - ==== ACTIVITY SUMMARY ====
+2025-06-01 01:57:35,969 - INFO - Positions checked: 2384
+2025-06-01 01:57:35,970 - INFO - Positions secured (Total): 23
+2025-06-01 01:57:35,971 - INFO -   - TP1 secured events: 0
+2025-06-01 01:57:35,973 - INFO -   - 2nd Price secured events: 0
+2025-06-01 01:57:35,975 - INFO - Pending orders deleted: 0
+2025-06-01 01:57:35,977 - INFO -   - Pending deleted events: 0
+2025-06-01 01:57:35,978 - INFO - Errors encountered: 0
+2025-06-01 01:57:35,979 - INFO - Active symbols: AUDUSD, EURCAD, GBPUSD, USDCHF
+2025-06-01 01:57:35,980 - INFO - =========================
+2025-06-01 02:02:36,903 - INFO - ==== ACTIVITY SUMMARY ====
+2025-06-01 02:02:36,904 - INFO - Positions checked: 2384
+2025-06-01 02:02:36,906 - INFO - Positions secured (Total): 23
+2025-06-01 02:02:36,907 - INFO -   - TP1 secured events: 0
+2025-06-01 02:02:36,916 - INFO -   - 2nd Price secured events: 0
+2025-06-01 02:02:36,918 - INFO - Pending orders deleted: 0
+2025-06-01 02:02:36,919 - INFO -   - Pending deleted events: 0
+2025-06-01 02:02:36,920 - INFO - Errors encountered: 0
+2025-06-01 02:02:36,922 - INFO - Active symbols: AUDUSD, EURCAD, GBPUSD, USDCHF
+2025-06-01 02:02:36,934 - INFO - =========================
+2025-06-01 02:07:37,907 - INFO - ==== ACTIVITY SUMMARY ====
+2025-06-01 02:07:37,909 - INFO - Positions checked: 2384
+2025-06-01 02:07:37,915 - INFO - Positions secured (Total): 23
+2025-06-01 02:07:37,917 - INFO -   - TP1 secured events: 0
+2025-06-01 02:07:37,918 - INFO -   - 2nd Price secured events: 0
+2025-06-01 02:07:37,919 - INFO - Pending orders deleted: 0
+2025-06-01 02:07:37,919 - INFO -   - Pending deleted events: 0
+2025-06-01 02:07:37,920 - INFO - Errors encountered: 0
+2025-06-01 02:07:37,921 - INFO - Active symbols: AUDUSD, EURCAD, GBPUSD, USDCHF
+2025-06-01 02:07:37,921 - INFO - =========================
+2025-06-01 02:12:38,745 - INFO - ==== ACTIVITY SUMMARY ====
+2025-06-01 02:12:38,746 - INFO - Positions checked: 2384
+2025-06-01 02:12:38,747 - INFO - Positions secured (Total): 23
+2025-06-01 02:12:38,748 - INFO -   - TP1 secured events: 0
+2025-06-01 02:12:38,749 - INFO -   - 2nd Price secured events: 0
+2025-06-01 02:12:38,750 - INFO - Pending orders deleted: 0
+2025-06-01 02:12:38,751 - INFO -   - Pending deleted events: 0
+2025-06-01 02:12:38,752 - INFO - Errors encountered: 0
+2025-06-01 02:12:38,752 - INFO - Active symbols: AUDUSD, EURCAD, GBPUSD, USDCHF
+2025-06-01 02:12:38,753 - INFO - =========================
+2025-06-01 02:17:39,609 - INFO - ==== ACTIVITY SUMMARY ====
+2025-06-01 02:17:39,609 - INFO - Positions checked: 2384
+2025-06-01 02:17:39,610 - INFO - Positions secured (Total): 23
+2025-06-01 02:17:39,611 - INFO -   - TP1 secured events: 0
+2025-06-01 02:17:39,612 - INFO -   - 2nd Price secured events: 0
+2025-06-01 02:17:39,613 - INFO - Pending orders deleted: 0
+2025-06-01 02:17:39,613 - INFO -   - Pending deleted events: 0
+2025-06-01 02:17:39,614 - INFO - Errors encountered: 0
+2025-06-01 02:17:39,615 - INFO - Active symbols: AUDUSD, EURCAD, GBPUSD, USDCHF
+2025-06-01 02:17:39,616 - INFO - =========================
+2025-06-01 02:22:40,535 - INFO - ==== ACTIVITY SUMMARY ====
+2025-06-01 02:22:40,535 - INFO - Positions checked: 2384
+2025-06-01 02:22:40,536 - INFO - Positions secured (Total): 23
+2025-06-01 02:22:40,537 - INFO -   - TP1 secured events: 0
+2025-06-01 02:22:40,538 - INFO -   - 2nd Price secured events: 0
+2025-06-01 02:22:40,538 - INFO - Pending orders deleted: 0
+2025-06-01 02:22:40,539 - INFO -   - Pending deleted events: 0
+2025-06-01 02:22:40,539 - INFO - Errors encountered: 0
+2025-06-01 02:22:40,539 - INFO - Active symbols: AUDUSD, EURCAD, GBPUSD, USDCHF
+2025-06-01 02:22:40,540 - INFO - =========================
+2025-06-01 02:27:41,004 - INFO - ==== ACTIVITY SUMMARY ====
+2025-06-01 02:27:41,004 - INFO - Positions checked: 2384
+2025-06-01 02:27:41,004 - INFO - Positions secured (Total): 23
+2025-06-01 02:27:41,004 - INFO -   - TP1 secured events: 0
+2025-06-01 02:27:41,004 - INFO -   - 2nd Price secured events: 0
+2025-06-01 02:27:41,004 - INFO - Pending orders deleted: 0
+2025-06-01 02:27:41,004 - INFO -   - Pending deleted events: 0
+2025-06-01 02:27:41,004 - INFO - Errors encountered: 0
+2025-06-01 02:27:41,016 - INFO - Active symbols: AUDUSD, EURCAD, GBPUSD, USDCHF
+2025-06-01 02:27:41,016 - INFO - =========================
+2025-06-01 02:32:41,007 - INFO - ==== ACTIVITY SUMMARY ====
+2025-06-01 02:32:41,017 - INFO - Positions checked: 2384
+2025-06-01 02:32:41,017 - INFO - Positions secured (Total): 23
+2025-06-01 02:32:41,017 - INFO -   - TP1 secured events: 0
+2025-06-01 02:32:41,017 - INFO -   - 2nd Price secured events: 0
+2025-06-01 02:32:41,017 - INFO - Pending orders deleted: 0
+2025-06-01 02:32:41,017 - INFO -   - Pending deleted events: 0
+2025-06-01 02:32:41,017 - INFO - Errors encountered: 0
+2025-06-01 02:32:41,017 - INFO - Active symbols: AUDUSD, EURCAD, GBPUSD, USDCHF
+2025-06-01 02:32:41,017 - INFO - =========================
+2025-06-01 02:37:41,029 - INFO - ==== ACTIVITY SUMMARY ====
+2025-06-01 02:37:41,034 - INFO - Positions checked: 2384
+2025-06-01 02:37:41,034 - INFO - Positions secured (Total): 23
+2025-06-01 02:37:41,034 - INFO -   - TP1 secured events: 0
+2025-06-01 02:37:41,034 - INFO -   - 2nd Price secured events: 0
+2025-06-01 02:37:41,034 - INFO - Pending orders deleted: 0
+2025-06-01 02:37:41,034 - INFO -   - Pending deleted events: 0
+2025-06-01 02:37:41,034 - INFO - Errors encountered: 0
+2025-06-01 02:37:41,034 - INFO - Active symbols: AUDUSD, EURCAD, GBPUSD, USDCHF
+2025-06-01 02:37:41,034 - INFO - =========================
+2025-06-01 02:42:41,591 - INFO - ==== ACTIVITY SUMMARY ====
+2025-06-01 02:42:41,591 - INFO - Positions checked: 2392
+2025-06-01 02:42:41,591 - INFO - Positions secured (Total): 23
+2025-06-01 02:42:41,591 - INFO -   - TP1 secured events: 0
+2025-06-01 02:42:41,599 - INFO -   - 2nd Price secured events: 0
+2025-06-01 02:42:41,600 - INFO - Pending orders deleted: 0
+2025-06-01 02:42:41,600 - INFO -   - Pending deleted events: 0
+2025-06-01 02:42:41,600 - INFO - Errors encountered: 0
+2025-06-01 02:42:41,600 - INFO - Active symbols: AUDUSD, EURCAD, GBPUSD, USDCHF
+2025-06-01 02:42:41,600 - INFO - =========================
+2025-06-01 02:47:42,391 - INFO - ==== ACTIVITY SUMMARY ====
+2025-06-01 02:47:42,392 - INFO - Positions checked: 2392
+2025-06-01 02:47:42,393 - INFO - Positions secured (Total): 23
+2025-06-01 02:47:42,395 - INFO -   - TP1 secured events: 0
+2025-06-01 02:47:42,396 - INFO -   - 2nd Price secured events: 0
+2025-06-01 02:47:42,400 - INFO - Pending orders deleted: 0
+2025-06-01 02:47:42,400 - INFO -   - Pending deleted events: 0
+2025-06-01 02:47:42,401 - INFO - Errors encountered: 0
+2025-06-01 02:47:42,401 - INFO - Active symbols: AUDUSD, EURCAD, GBPUSD, USDCHF
+2025-06-01 02:47:42,403 - INFO - =========================
+2025-06-01 02:52:43,393 - INFO - ==== ACTIVITY SUMMARY ====
+2025-06-01 02:52:43,393 - INFO - Positions checked: 2392
+2025-06-01 02:52:43,394 - INFO - Positions secured (Total): 23
+2025-06-01 02:52:43,394 - INFO -   - TP1 secured events: 0
+2025-06-01 02:52:43,394 - INFO -   - 2nd Price secured events: 0
+2025-06-01 02:52:43,394 - INFO - Pending orders deleted: 0
+2025-06-01 02:52:43,395 - INFO -   - Pending deleted events: 0
+2025-06-01 02:52:43,395 - INFO - Errors encountered: 0
+2025-06-01 02:52:43,395 - INFO - Active symbols: AUDUSD, EURCAD, GBPUSD, USDCHF
+2025-06-01 02:52:43,395 - INFO - =========================
+2025-06-01 02:57:44,301 - INFO - ==== ACTIVITY SUMMARY ====
+2025-06-01 02:57:44,301 - INFO - Positions checked: 2392
+2025-06-01 02:57:44,302 - INFO - Positions secured (Total): 23
+2025-06-01 02:57:44,302 - INFO -   - TP1 secured events: 0
+2025-06-01 02:57:44,302 - INFO -   - 2nd Price secured events: 0
+2025-06-01 02:57:44,302 - INFO - Pending orders deleted: 0
+2025-06-01 02:57:44,303 - INFO -   - Pending deleted events: 0
+2025-06-01 02:57:44,303 - INFO - Errors encountered: 0
+2025-06-01 02:57:44,303 - INFO - Active symbols: AUDUSD, EURCAD, GBPUSD, USDCHF
+2025-06-01 02:57:44,303 - INFO - =========================
+2025-06-01 03:02:45,172 - INFO - ==== ACTIVITY SUMMARY ====
+2025-06-01 03:02:45,172 - INFO - Positions checked: 2392
+2025-06-01 03:02:45,172 - INFO - Positions secured (Total): 23
+2025-06-01 03:02:45,172 - INFO -   - TP1 secured events: 0
+2025-06-01 03:02:45,172 - INFO -   - 2nd Price secured events: 0
+2025-06-01 03:02:45,172 - INFO - Pending orders deleted: 0
+2025-06-01 03:02:45,172 - INFO -   - Pending deleted events: 0
+2025-06-01 03:02:45,172 - INFO - Errors encountered: 0
+2025-06-01 03:02:45,172 - INFO - Active symbols: AUDUSD, EURCAD, GBPUSD, USDCHF
+2025-06-01 03:02:45,172 - INFO - =========================
+2025-06-01 03:07:45,972 - INFO - ==== ACTIVITY SUMMARY ====
+2025-06-01 03:07:45,973 - INFO - Positions checked: 2392
+2025-06-01 03:07:45,976 - INFO - Positions secured (Total): 23
+2025-06-01 03:07:45,976 - INFO -   - TP1 secured events: 0
+2025-06-01 03:07:45,976 - INFO -   - 2nd Price secured events: 0
+2025-06-01 03:07:45,977 - INFO - Pending orders deleted: 0
+2025-06-01 03:07:45,977 - INFO -   - Pending deleted events: 0
+2025-06-01 03:07:45,977 - INFO - Errors encountered: 0
+2025-06-01 03:07:45,977 - INFO - Active symbols: AUDUSD, EURCAD, GBPUSD, USDCHF
+2025-06-01 03:07:45,977 - INFO - =========================
+2025-06-01 03:12:46,695 - INFO - ==== ACTIVITY SUMMARY ====
+2025-06-01 03:12:46,703 - INFO - Positions checked: 2392
+2025-06-01 03:12:46,703 - INFO - Positions secured (Total): 23
+2025-06-01 03:12:46,703 - INFO -   - TP1 secured events: 0
+2025-06-01 03:12:46,704 - INFO -   - 2nd Price secured events: 0
+2025-06-01 03:12:46,704 - INFO - Pending orders deleted: 0
+2025-06-01 03:12:46,704 - INFO -   - Pending deleted events: 0
+2025-06-01 03:12:46,704 - INFO - Errors encountered: 0
+2025-06-01 03:12:46,705 - INFO - Active symbols: AUDUSD, EURCAD, GBPUSD, USDCHF
+2025-06-01 03:12:46,705 - INFO - =========================
+2025-06-01 03:17:47,267 - INFO - ==== ACTIVITY SUMMARY ====
+2025-06-01 03:17:47,267 - INFO - Positions checked: 2392
+2025-06-01 03:17:47,267 - INFO - Positions secured (Total): 23
+2025-06-01 03:17:47,268 - INFO -   - TP1 secured events: 0
+2025-06-01 03:17:47,268 - INFO -   - 2nd Price secured events: 0
+2025-06-01 03:17:47,268 - INFO - Pending orders deleted: 0
+2025-06-01 03:17:47,268 - INFO -   - Pending deleted events: 0
+2025-06-01 03:17:47,269 - INFO - Errors encountered: 0
+2025-06-01 03:17:47,269 - INFO - Active symbols: AUDUSD, EURCAD, GBPUSD, USDCHF
+2025-06-01 03:17:47,269 - INFO - =========================
