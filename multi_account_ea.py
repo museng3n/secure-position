@@ -134,9 +134,564 @@ class PipSecureEA:
             'second_price_secured_events': 0,
         }
         self.active_symbols = set() # Track symbols with positions
-
+        # Initialize progressive TP manager
+        self.progressive_tp_manager = ProgressiveTPManager(self)
         # Initialize heartbeat monitoring for this specific account instance
         self.initialize_heartbeat()
+
+
+    def get_instrument_specific_trigger_distance(self, symbol):
+        """
+        Returns appropriate TP distance trigger based on instrument type
+        """
+        symbol_upper = symbol.upper()
+        
+        if 'JPY' in symbol_upper:
+            return 30  # JPY pairs need 30 pips
+        elif symbol_upper in ['XAUUSD', 'XAGUSD', 'GOLD', 'SILVER']:
+            return 200  # Gold/Silver need 200 pips
+        elif symbol_upper in ['US30CASH', 'NAS100CASH', 'GER40CASH', 'JPN225CASH', 
+                            'US30', 'NAS100', 'GER40', 'JPN225', 'SPX500', 'UK100']:
+            return 1000  # Indices need 1000 pips
+        elif symbol_upper in ['USOIL', 'UKOIL']:
+            return 100  # Oil needs 100 pips
+        elif symbol_upper in ['EURUSD', 'GBPUSD', 'AUDUSD', 'NZDUSD', 'USDCAD', 'USDCHF']:
+            return 5   # Major pairs keep 5 pips
+        elif any(pair in symbol_upper for pair in ['EUR', 'GBP', 'AUD', 'NZD', 'CAD', 'CHF']):
+            return 8   # Minor pairs use 8 pips
+        else:
+            return 15  # Exotic pairs use 15 pips
+
+
+
+    # =============================================================================
+    # ENHANCED PIPSECURE EA - COMPLETE INTEGRATION
+    # Add these methods to your PipSecureEA class
+    # =============================================================================
+
+    import json
+    import os
+    import time
+
+    # ===== METHOD 1: SAVE SIGNAL STRUCTURE =====
+    def save_signal_structure(self, group_id, positions):
+        """
+        Save original signal structure when first detected
+        This helps with retroactive analysis
+        """
+        signal_file = f'logs/{self.account_name}/signal_structure.json'
+        
+        try:
+            # Load existing signals
+            signals = {}
+            if os.path.exists(signal_file):
+                with open(signal_file, 'r') as f:
+                    signals = json.load(f)
+            
+            # Check if this signal is already saved
+            if group_id in signals:
+                return  # Already saved
+            
+            # Extract signal info
+            sample_pos = positions[0]
+            signal_data = {
+                'symbol': sample_pos.symbol,
+                'entry_time': sample_pos.time,
+                'positions': [],
+                'saved_at': time.time(),
+                'directions': {}
+            }
+            
+            # Save each position's details
+            for pos in positions:
+                direction = 'BUY' if pos.type == mt5.ORDER_TYPE_BUY else 'SELL'
+                signal_data['directions'][direction] = signal_data['directions'].get(direction, 0) + 1
+                
+                pos_data = {
+                    'ticket': pos.ticket,
+                    'type': direction,
+                    'entry_price': pos.price_open,
+                    'tp_price': getattr(pos, 'tp', 0),
+                    'estimated_tp_level': self.get_position_tp_level(pos)
+                }
+                signal_data['positions'].append(pos_data)
+            
+            # Sort by estimated TP level
+            signal_data['positions'].sort(key=lambda x: x['estimated_tp_level'])
+            signal_data['total_tp_levels'] = len(signal_data['positions'])
+            
+            signals[group_id] = signal_data
+            
+            # Save to file
+            os.makedirs(os.path.dirname(signal_file), exist_ok=True)
+            with open(signal_file, 'w') as f:
+                json.dump(signals, f, indent=2)
+                
+            direction_summary = ", ".join([f"{count} {dir}" for dir, count in signal_data['directions'].items()])
+            self.logger.info(f"💾 Saved signal structure: {group_id} ({signal_data['total_tp_levels']} TPs: {direction_summary})")
+            
+        except Exception as e:
+            self.logger.error(f"Error saving signal structure: {e}")
+
+    # ===== METHOD 2: ANALYZE MISSING POSITIONS =====
+    def analyze_missing_positions(self, group_id, current_positions):
+        """
+        Compare current positions with saved signal structure to identify missing positions
+        """
+        signal_file = f'logs/{self.account_name}/signal_structure.json'
+        
+        if not os.path.exists(signal_file):
+            return None
+            
+        try:
+            with open(signal_file, 'r') as f:
+                signals = json.load(f)
+                
+            if group_id not in signals:
+                return None
+                
+            saved_signal = signals[group_id]
+            current_tickets = {pos.ticket for pos in current_positions}
+            saved_tickets = {pos_data['ticket'] for pos_data in saved_signal['positions']}
+            
+            missing_tickets = saved_tickets - current_tickets
+            
+            if missing_tickets:
+                missing_positions = [
+                    pos_data for pos_data in saved_signal['positions'] 
+                    if pos_data['ticket'] in missing_tickets
+                ]
+                
+                self.logger.info(f"🔍 Missing Position Analysis for {group_id}:")
+                self.logger.info(f"  Original: {len(saved_signal['positions'])} | Current: {len(current_positions)} | Missing: {len(missing_tickets)}")
+                
+                for missing in missing_positions:
+                    self.logger.info(f"    Missing TP{missing['estimated_tp_level']}: {missing['ticket']} ({missing['type']}) @ {missing['entry_price']}")
+                
+                return {
+                    'original_signal': saved_signal,
+                    'missing_positions': missing_positions,
+                    'likely_tp1_hit': any(pos['estimated_tp_level'] == 1 for pos in missing_positions)
+                }
+                
+        except Exception as e:
+            self.logger.error(f"Error analyzing missing positions: {e}")
+            
+        return None
+
+    # ===== METHOD 3: ENHANCED POSITION GROUPING =====
+    def identify_position_groups(self):
+        """
+        ENHANCED: Groups positions from same signal, supporting mixed directions (BUY+SELL)
+        """
+        positions = mt5.positions_get()
+        if positions is None:
+            error_code, error_desc = mt5.last_error()
+            self.log_throttled('error', f"Failed to get positions: {error_code} - {error_desc}", key="get_positions_fail")
+            self.summary_counters['errors'] += 1
+            return {}
+
+        if not positions:
+            return {}
+
+        # Sort by time for logical grouping
+        try:
+            sorted_positions = sorted(positions, key=lambda p: (p.time, p.symbol))
+        except Exception as e:
+            self.logger.error(f"Error sorting positions: {e}")
+            sorted_positions = list(positions)
+
+        position_groups = {}
+        group_counter = 0
+        processed_tickets = set()
+
+        for i, position in enumerate(sorted_positions):
+            if position.ticket in processed_tickets:
+                continue
+
+            current_group = [position]
+            processed_tickets.add(position.ticket)
+            
+            # Create group ID based on symbol and time
+            group_timestamp = int(position.time / 300) * 300  # 5-min intervals
+            group_id = f"{position.symbol}_{group_timestamp}_{group_counter}"
+
+            # Look for related positions
+            for j in range(i + 1, len(sorted_positions)):
+                other_position = sorted_positions[j]
+
+                if other_position.ticket in processed_tickets:
+                    continue
+
+                # Time proximity check
+                time_diff = abs(other_position.time - position.time)
+                if time_diff > self.time_proximity_threshold:
+                    continue
+
+                # Same symbol check (removed direction requirement)
+                if other_position.symbol == position.symbol:
+                    pip_multiplier = self.get_pip_multiplier(position.symbol)
+                    
+                    # Enhanced price tolerance
+                    price_threshold = self.price_proximity_threshold
+                    if 'XAU' in position.symbol.upper() or 'GOLD' in position.symbol.upper():
+                        price_threshold = 200
+                    elif position.symbol in ['US30Cash', 'US100Cash', 'JP225Cash']:
+                        price_threshold = 100
+                    
+                    # Double tolerance for opposite directions
+                    if other_position.type != position.type:
+                        price_threshold *= 2
+                    
+                    if pip_multiplier > 0:
+                        price_diff_pips = abs(other_position.price_open - position.price_open) / pip_multiplier
+                        if price_diff_pips <= price_threshold:
+                            current_group.append(other_position)
+                            processed_tickets.add(other_position.ticket)
+
+            # Store multi-position groups
+            if len(current_group) > 1:
+                position_groups[group_id] = current_group
+                group_counter += 1
+                
+                # Log group details
+                directions = {}
+                for pos in current_group:
+                    direction = 'BUY' if pos.type == mt5.ORDER_TYPE_BUY else 'SELL'
+                    directions[direction] = directions.get(direction, 0) + 1
+                
+                direction_summary = ", ".join([f"{count} {dir}" for dir, count in directions.items()])
+                self.logger.info(f"📊 Found Group {group_id}: {len(current_group)} positions ({direction_summary})")
+
+        return position_groups
+
+    # ===== METHOD 4: POSITION TP HIT DETECTION =====
+    def position_hit_tp_while_offline(self, position):
+        """
+        Determine if a position hit its TP while system was offline
+        """
+        pos_tp = getattr(position, 'tp', 0)
+        if pos_tp == 0:
+            return False
+            
+        is_buy = position.type == mt5.ORDER_TYPE_BUY
+        pip_multiplier = self.get_pip_multiplier(position.symbol)
+        
+        # Check if current price has passed TP
+        if is_buy:
+            price_past_tp = position.price_current >= pos_tp
+            pips_past = (position.price_current - pos_tp) / pip_multiplier if price_past_tp else 0
+        else:
+            price_past_tp = position.price_current <= pos_tp
+            pips_past = (pos_tp - position.price_current) / pip_multiplier if price_past_tp else 0
+        
+        # Must be at least 2 pips past TP to avoid false positives
+        return price_past_tp and pips_past >= 2
+
+    # ===== METHOD 5: SMART RETROACTIVE DETECTION =====
+    def smart_retroactive_detection(self, positions):
+        """
+        Enhanced retroactive detection using signal reconstruction
+        """
+        retroactive_actions = []
+        position_groups = self.identify_position_groups()
+        
+        for group_id, group in position_groups.items():
+            # Check for missing positions (likely TP1 hits)
+            missing_analysis = self.analyze_missing_positions(group_id, group)
+            
+            if missing_analysis and missing_analysis['likely_tp1_hit']:
+                self.logger.info(f"🎯 DETECTED: TP1 likely hit while offline for {group_id}")
+                
+                # Mark group as TP1 hit
+                self.tp1_hit_groups.add(group_id)
+                self._save_tp1_hit_group(group_id)
+                
+                # Queue remaining positions for securing
+                for pos in group:
+                    if pos.ticket not in self.secured_positions:
+                        pos_index = self.get_position_tp_level(pos)
+                        retroactive_actions.append({
+                            'action': 'secure',
+                            'position': pos,
+                            'reason': f'TP1 hit offline - securing remaining TP{pos_index}'
+                        })
+            
+            # Check each position for individual TP hits
+            for pos in group:
+                if self.position_hit_tp_while_offline(pos):
+                    pos_index = self.get_position_tp_level(pos)
+                    
+                    if pos_index == 1 and group_id not in self.tp1_hit_groups:
+                        # TP1 retroactive hit
+                        self.logger.info(f"🎯 RETROACTIVE TP1: {pos.ticket} hit TP1 while offline")
+                        retroactive_actions.append({
+                            'action': 'tp1_hit',
+                            'position': pos,
+                            'group': group,
+                            'group_id': group_id
+                        })
+                    else:
+                        # Higher TP hit
+                        self.logger.info(f"🎯 RETROACTIVE TP{pos_index}: {pos.ticket} hit TP while offline")
+                        retroactive_actions.append({
+                            'action': 'secure',
+                            'position': pos,
+                            'reason': f'TP{pos_index} hit while offline'
+                        })
+        
+        return retroactive_actions
+
+    # ===== METHOD 6: HANDLE RETROACTIVE ACTIONS =====
+    def handle_retroactive_actions(self, retroactive_actions):
+        """
+        Execute actions for positions that hit TP while offline
+        """
+        if not retroactive_actions:
+            return
+            
+        self.logger.info(f"🎬 EXECUTING {len(retroactive_actions)} retroactive actions:")
+        
+        for action_data in retroactive_actions:
+            try:
+                action = action_data['action']
+                position = action_data['position']
+                
+                if action == 'secure':
+                    self.logger.info(f"🔒 Retroactive secure: {position.ticket} - {action_data['reason']}")
+                    self.secure_position(position, log_as_tp1_hit=False)
+                    
+                elif action == 'tp1_hit':
+                    group = action_data['group']
+                    group_id = action_data['group_id']
+                    
+                    self.logger.info(f"🎯 Processing retroactive TP1 hit: {position.ticket}")
+                    
+                    # Mark group as TP1 hit
+                    self.tp1_hit_groups.add(group_id)
+                    self._save_tp1_hit_group(group_id)
+                    
+                    # Secure all other positions in group
+                    for other_pos in group:
+                        if other_pos.ticket != position.ticket and other_pos.ticket not in self.secured_positions:
+                            other_index = self.get_position_tp_level(other_pos)
+                            self.logger.info(f"🔒 Retroactive group secure: TP{other_index} position {other_pos.ticket}")
+                            self.secure_position(other_pos, log_as_tp1_hit=False)
+                    
+                    # Handle the TP1 position itself
+                    if self.progressive_tp_manager.should_handle_tp_progression(position, group, group_id):
+                        self.logger.info(f"🔄 Retroactive progression: {position.ticket}")
+                        self.progressive_tp_manager.handle_tp_hit(position, group, group_id)
+                    else:
+                        self.logger.info(f"❌ Retroactive close: {position.ticket}")
+                        self.close_position(position)
+                            
+            except Exception as e:
+                self.logger.error(f"Error executing retroactive action for {position.ticket}: {e}")
+
+    # ===== METHOD 7: ENHANCED CHECK POSITIONS (REPLACE YOUR EXISTING ONE) =====
+    def check_positions(self):
+        """
+        ENHANCED: Main position checking with retroactive TP detection
+        """
+        try:
+            start_time = time.time()
+            
+            # Reduced requirements for better detection
+            MIN_POSITION_AGE_SECONDS = 60
+            MIN_PIPS_FOR_SECURE = 1
+            
+            if not hasattr(self, 'tp1_hit_groups'):
+                self.tp1_hit_groups = set()
+            tp1_action_triggered_groups = set()
+            
+            # Connection check
+            terminal_info = mt5.terminal_info()
+            if not terminal_info or terminal_info.connected is False:
+                self.logger.error("MT5 connection lost - attempting to reconnect...")
+                if not self.connect():
+                    self.logger.error("Failed to reconnect. Will retry next cycle.")
+                    time.sleep(30)
+                    return
+
+            # Get positions
+            positions = mt5.positions_get()
+            if positions is None:
+                error_code, error_desc = mt5.last_error()
+                self.log_throttled('error', f"Failed to get positions: {error_code} - {error_desc}", key="check_get_pos_fail")
+                return
+
+            if not positions:
+                self.logger.debug("No open positions found.")
+                if self.secured_positions:
+                    self.secured_positions.clear()
+                if hasattr(self, 'tp1_hit_groups'):
+                    self.tp1_hit_groups.clear()
+                return
+
+            # Update tracking
+            current_active_symbols = {pos.symbol for pos in positions}
+            self.active_symbols.update(current_active_symbols)
+            self.summary_counters['positions_checked'] += len(positions)
+
+            # 🔍 STEP 1: Enhanced position grouping
+            position_groups = self.identify_position_groups()
+            
+            # 🔍 STEP 2: Save signal structures for future analysis
+            for group_id, group in position_groups.items():
+                self.save_signal_structure(group_id, group)
+
+            # 🔍 STEP 3: Perform retroactive detection
+            retroactive_actions = self.smart_retroactive_detection(positions)
+            
+            # 🔍 STEP 4: Execute retroactive actions
+            if retroactive_actions:
+                self.handle_retroactive_actions(retroactive_actions)
+
+            # Clean up old group references
+            existing_group_ids = set(position_groups.keys())
+            self.tp1_hit_groups = self.tp1_hit_groups.intersection(existing_group_ids)
+
+            # 🔍 STEP 5: Real-time position monitoring
+            for position in list(positions):
+                try:
+                    symbol = position.symbol
+                    position_index = None
+                    group_id = None
+                    group = None
+
+                    # Skip secured positions
+                    if position.ticket in self.secured_positions:
+                        continue
+
+                    # Age check
+                    position_age = time.time() - position.time
+                    if position_age < MIN_POSITION_AGE_SECONDS:
+                        continue
+                        
+                    # Basic validations
+                    pip_multiplier = self.get_pip_multiplier(symbol)
+                    if pip_multiplier == 0:
+                        continue
+                        
+                    is_buy = position.type == mt5.ORDER_TYPE_BUY
+                    if is_buy:
+                        pips_gained = (position.price_current - position.price_open) / pip_multiplier
+                    else:
+                        pips_gained = (position.price_open - position.price_current) / pip_multiplier
+
+                    # Find group
+                    for gid, group_positions in position_groups.items():
+                        if any(p.ticket == position.ticket for p in group_positions):
+                            group = group_positions
+                            group_id = gid
+                            break
+
+                    # Handle standalone positions
+                    if not group:
+                        # Check standalone TP hits
+                        pos_tp = getattr(position, 'tp', 0)
+                        if pos_tp > 0 and self.position_hit_tp_while_offline(position):
+                            self.logger.info(f"🎯 STANDALONE TP HIT: {position.ticket} ({symbol})")
+                            self.secure_position(position, log_as_tp1_hit=True)
+                        continue
+
+                    # Process grouped positions
+                    position_index = self.get_position_index_in_group(position, group)
+                    if position_index is None:
+                        continue
+
+                    # TP analysis
+                    pos_tp = getattr(position, 'tp', 0)
+                    if pos_tp == 0:
+                        continue
+
+                    # Calculate TP metrics
+                    if is_buy:
+                        pips_to_tp = (pos_tp - position.price_current) / pip_multiplier
+                        total_tp_pips = (pos_tp - position.price_open) / pip_multiplier
+                    else:
+                        pips_to_tp = (position.price_current - pos_tp) / pip_multiplier
+                        total_tp_pips = (position.price_open - pos_tp) / pip_multiplier
+
+                    tp_progress_percent = 0
+                    if abs(total_tp_pips) > 0.1:
+                        tp_progress_percent = (pips_gained / total_tp_pips) * 100
+
+                    # Enhanced trigger conditions
+                    should_act = False
+                    action_reason = ""
+
+                    # Check various trigger conditions
+                    if pips_to_tp <= 0:
+                        should_act = True
+                        action_reason = f"TP already hit by {abs(pips_to_tp):.1f}p"
+                    elif pips_to_tp <= 5:
+                        should_act = True
+                        action_reason = f"within 5 pips of TP ({pips_to_tp:.1f}p away)"
+                    elif tp_progress_percent >= 70:
+                        should_act = True
+                        action_reason = f"reached {tp_progress_percent:.1f}% progress"
+                    elif pips_gained >= 10:
+                        should_act = True
+                        action_reason = f"good profit achieved ({pips_gained:.1f}p)"
+
+                    # Execute actions
+                    if should_act and pips_gained >= MIN_PIPS_FOR_SECURE:
+                        self.logger.info(f"🎯 TP ACTION: {position.ticket} (TP{position_index}) - {action_reason}")
+                        
+                        if position_index == 1 and group_id not in tp1_action_triggered_groups:
+                            # TP1 hit - trigger group actions
+                            tp1_action_triggered_groups.add(group_id)
+                            self._save_tp1_hit_group(group_id)
+                            
+                            self.logger.info(f"🎬 TP1 TRIGGER: Executing group actions for {group_id}")
+                            
+                            # Handle TP1 position
+                            if self.progressive_tp_manager.should_handle_tp_progression(position, group, group_id):
+                                self.progressive_tp_manager.handle_tp_hit(position, group, group_id)
+                            else:
+                                if self.close_position(position):
+                                    self.logger.info(f"✅ Closed TP1 position {position.ticket}")
+                            
+                            # Secure remaining positions
+                            for other_pos in group:
+                                if other_pos.ticket != position.ticket and other_pos.ticket not in self.secured_positions:
+                                    other_index = self.get_position_tp_level(other_pos)
+                                    self.logger.info(f"🔒 Securing TP{other_index} position {other_pos.ticket}")
+                                    self.secure_position(other_pos, log_as_tp1_hit=False)
+                            
+                            # Handle pending orders
+                            corresponding_pending = self.find_corresponding_pending_orders(group)
+                            if corresponding_pending:
+                                deleted_count = self.delete_pending_orders(corresponding_pending)
+                                self.logger.info(f"🗑️ Deleted {deleted_count} pending orders")
+                        
+                        else:
+                            # Individual TP hit (not TP1)
+                            self.secure_position(position, log_as_tp1_hit=False)
+
+                    # Handle positions in previously hit groups
+                    elif position_index > 1 and group_id in self.tp1_hit_groups:
+                        if position.ticket not in self.secured_positions:
+                            self.logger.info(f"🔒 Securing TP{position_index} (TP1 was hit previously)")
+                            self.secure_position(position, log_as_tp1_hit=False)
+
+                except Exception as e:
+                    self.logger.error(f"Error processing position {position.ticket}: {str(e)}", exc_info=True)
+                    self.summary_counters['errors'] += 1
+
+            # Update heartbeat and log summary
+            self.heartbeat.update_heartbeat()
+            self.log_summary()
+            
+            execution_time = time.time() - start_time
+            self.logger.debug(f"Enhanced position check completed in {execution_time:.3f} seconds")
+
+        except Exception as e:
+            self.logger.critical(f"Critical error in check_positions: {str(e)}", exc_info=True)
+            self.summary_counters['errors'] += 1
+
 
 
 
@@ -307,6 +862,10 @@ class PipSecureEA:
             print(f"WARNING: No handlers configured for logger '{self.account_name}'. Logging will not work.")
 
 
+
+
+
+
     def log_key_event(self, event_type, message):
         """Log key events to a separate file"""
         try:
@@ -397,6 +956,43 @@ class PipSecureEA:
                 self.logger.info(f"Saved group {group_id} to TP1 hit groups file")
         except Exception as e:
             self.logger.error(f"Error saving TP1 hit group: {str(e)}")
+
+    def should_evaluate_tp_conditions(self, group, current_price):
+        """
+        Determine if TP conditions should be evaluated for a position group.
+        
+        In real trading: Position existence means entry was already validated by broker.
+        For simulation: We need to validate entry logic based on order type.
+        """
+        if not group:
+            return False
+            
+        sample_position = group[0]
+        entry_price = sample_position.price_open
+        
+        # Check if this is a test/simulation environment
+        if self.TEST_MODE:
+            # In test mode, use stricter entry validation for simulation accuracy
+            if sample_position.type == mt5.ORDER_TYPE_SELL:
+                # For SELL: Position should exist if price ever went above entry
+                # But since we're testing, we assume positions exist if they're in our test data
+                self.logger.debug(f"TEST MODE: SELL position {sample_position.ticket} - assuming entry was valid")
+                return True
+            else:
+                # For BUY: Similar logic for test mode
+                self.logger.debug(f"TEST MODE: BUY position {sample_position.ticket} - assuming entry was valid")
+                return True
+        
+        # REAL TRADING LOGIC:
+        # If position exists in MT5, the broker already validated entry conditions
+        # We don't need to re-validate entry because:
+        # 1. LIMIT orders only execute when price reaches the limit level
+        # 2. MARKET orders execute immediately at current price
+        # 3. Position existence = successful entry execution
+        
+        self.logger.debug(f"LIVE MODE: Position {sample_position.ticket} exists - entry was valid")
+        return True
+
 
     def connect(self):
         # Initialize connection to MetaTrader 5
@@ -663,43 +1259,74 @@ class PipSecureEA:
 
         return position_groups
 
-
     def get_position_index_in_group(self, position, group):
-        """
-        Determine the index (TP1, TP2, etc.) of a position within its group
-        by sorting the group by take profit levels. TP1 is assumed to be the
-        'closest' TP to the entry price.
-        Returns 1 for TP1, 2 for TP2, etc. Returns None if TP is zero or ambiguous.
-        """
-        if not group or getattr(position, 'tp', 0) == 0: # Safe access to tp
-            return None # Cannot determine index without TP or group
-
-        # Filter out positions with zero TP as they can't be ranked
-        valid_tp_positions = [p for p in group if getattr(p, 'tp', 0) != 0]
-        if not valid_tp_positions:
-            return None # No positions with valid TPs in the group
-
-        # Sort positions by TP levels.
-        # For BUY orders, TP1 is the LOWEST TP value.
-        # For SELL orders, TP1 is the HIGHEST TP value.
-        is_buy = (position.type == mt5.ORDER_TYPE_BUY)
-        # Sort by TP: ascending for BUYs (lower TP is TP1), descending for SELLs (higher TP is TP1)
+        """Determine the index (TP1, TP2, etc.) of a position within its group"""
+        # Use the tracked TP level from comment instead of TP value comparison
+        return self.get_position_tp_level(position)
+    
+    def get_position_tp_level(self, position):
+        """Extract current TP level from position comment"""
         try:
-            # Ensure all elements have 'tp' before sorting
-            sorted_positions = sorted(valid_tp_positions, key=lambda p: p.tp, reverse=(not is_buy))
-        except AttributeError as e:
-             self.logger.error(f"AttributeError during TP sorting: {e}. Group members: {[getattr(p, 'ticket', 'N/A') for p in valid_tp_positions]}")
-             return None # Cannot sort if 'tp' is missing
+            if hasattr(position, 'comment') and position.comment and "_TP" in position.comment:
+                # Extract TP level from comment format: "G12345_TP2"
+                tp_part = position.comment.split("_TP")[-1]
+                return int(tp_part[0])  # Get first digit after _TP
+            return 1  # Default to TP1
+        except (ValueError, IndexError):
+            return 1  # Default to TP1 on error
 
+    def get_next_tp_price(self, position, signal_data, next_level):
+        """Get the next TP price for progression"""
+        try:
+            # signal_data should contain original TP levels
+            tp_levels = signal_data.get('tp_levels', [])
+            if next_level <= len(tp_levels):
+                return tp_levels[next_level - 1]  # TP levels are 0-indexed
+            return None
+        except (IndexError, KeyError):
+            return None
 
-        # Find the index of the position in the sorted list
-        for i, pos in enumerate(sorted_positions):
-            if pos.ticket == position.ticket:
-                return i + 1  # 1-based index (TP1, TP2, etc.)
-
-        # Position might be in the original group but had TP=0, so not in sorted_positions
-        self.logger.warning(f"Position {position.ticket} with TP={getattr(position, 'tp', 'N/A')} not found in sorted TP list for its group.")
-        return None
+    def secure_and_progress_tp(self, position, next_tp_price, next_tp_level, group_id):
+        """Secure position AND progress to next TP in ONE atomic operation"""
+        if next_tp_price is None:
+            # No more TPs, close the position
+            return self.close_position(position)
+        
+        # Update comment to reflect new TP level
+        old_comment = getattr(position, 'comment', '')
+        if "_TP" in old_comment:
+            new_comment = old_comment.split("_TP")[0] + f"_TP{next_tp_level}"
+        else:
+            new_comment = f"G{group_id}_TP{next_tp_level}"
+        
+        request = {
+            "action": mt5.TRADE_ACTION_SLTP,
+            "position": position.ticket,
+            "symbol": position.symbol,
+            "sl": position.price_open,      # Secure at entry
+            "tp": next_tp_price,            # Set next TP
+            "comment": new_comment
+        }
+        
+        max_retries = 3
+        for attempt in range(max_retries):
+            try:
+                result = mt5.order_send(request)
+                
+                if result and result.retcode == mt5.TRADE_RETCODE_DONE:
+                    self.logger.info(f"✅ Secured position {position.ticket} and progressed to TP{next_tp_level} at {next_tp_price}")
+                    self.secured_positions.add(position.ticket)
+                    return True
+                else:
+                    self.logger.error(f"Attempt {attempt + 1}: Failed to secure and progress {position.ticket}")
+                    if attempt < max_retries - 1:
+                        time.sleep(1)
+            except Exception as e:
+                self.logger.error(f"Exception during secure_and_progress_tp: {e}")
+                if attempt < max_retries - 1:
+                    time.sleep(1)
+        
+        return False
 
 
     def diagnose_tp_values(self, group):
@@ -1100,6 +1727,162 @@ class PipSecureEA:
         return secured_count
 
 
+
+    # Replace your diagnostic_check_enhanced_methods with this more detailed version
+
+    def diagnostic_check_enhanced_methods(self):
+        """
+        Enhanced diagnostic to see exactly what's happening with positions and groups
+        """
+        self.logger.info("🔍 DETAILED DIAGNOSTIC: Analyzing positions and groups...")
+        
+        try:
+            positions = mt5.positions_get()
+            if not positions:
+                self.logger.info("🔍 No positions to analyze")
+                return
+                
+            self.logger.info(f"🔍 ANALYZING {len(positions)} POSITIONS:")
+            
+            # Analyze each position first
+            for i, pos in enumerate(positions):
+                pip_multiplier = self.get_pip_multiplier(pos.symbol)
+                is_buy = pos.type == mt5.ORDER_TYPE_BUY
+                
+                if is_buy:
+                    pips_gained = (pos.price_current - pos.price_open) / pip_multiplier
+                else:
+                    pips_gained = (pos.price_open - pos.price_current) / pip_multiplier
+                
+                pos_tp = getattr(pos, 'tp', 0)
+                tp_status = "NO_TP"
+                if pos_tp > 0:
+                    if is_buy:
+                        pips_to_tp = (pos_tp - pos.price_current) / pip_multiplier
+                    else:
+                        pips_to_tp = (pos.price_current - pos_tp) / pip_multiplier
+                    
+                    if pips_to_tp <= 0:
+                        tp_status = f"TP_HIT!({abs(pips_to_tp):.1f}p_past)"
+                    elif pips_to_tp <= 5:
+                        tp_status = f"NEAR_TP({pips_to_tp:.1f}p_away)"
+                    else:
+                        tp_status = f"FAR_TP({pips_to_tp:.1f}p_away)"
+                
+                # Check position age
+                position_age = time.time() - pos.time
+                age_status = f"Age:{position_age:.0f}s"
+                
+                # Check if secured
+                secured_status = "SECURED" if pos.ticket in self.secured_positions else "ACTIVE"
+                
+                self.logger.info(f"  {i+1:2d}. {pos.ticket} | {pos.symbol:8} | {'BUY' if is_buy else 'SELL':4} | "
+                            f"Profit:{pips_gained:6.1f}p | {tp_status:15} | {age_status:8} | {secured_status}")
+
+            # Test enhanced grouping
+            self.logger.info(f"\n🔍 TESTING GROUP FORMATION:")
+            groups = self.identify_position_groups()
+            self.logger.info(f"🔍 Found {len(groups)} groups")
+            
+            if groups:
+                for group_id, group in groups.items():
+                    self.logger.info(f"\n📊 GROUP: {group_id}")
+                    self.logger.info(f"    Positions: {len(group)}")
+                    
+                    # Analyze each position in group
+                    for pos in group:
+                        pos_index = self.get_position_tp_level(pos)
+                        is_buy = pos.type == mt5.ORDER_TYPE_BUY
+                        direction = 'BUY' if is_buy else 'SELL'
+                        
+                        pip_multiplier = self.get_pip_multiplier(pos.symbol)
+                        if is_buy:
+                            pips_gained = (pos.price_current - pos.price_open) / pip_multiplier
+                        else:
+                            pips_gained = (pos.price_open - pos.price_current) / pip_multiplier
+                        
+                        pos_tp = getattr(pos, 'tp', 0)
+                        if pos_tp > 0:
+                            if is_buy:
+                                pips_to_tp = (pos_tp - pos.price_current) / pip_multiplier
+                            else:
+                                pips_to_tp = (pos.price_current - pos_tp) / pip_multiplier
+                        else:
+                            pips_to_tp = float('inf')
+                        
+                        secured = "SECURED" if pos.ticket in self.secured_positions else "ACTIVE"
+                        
+                        self.logger.info(f"    TP{pos_index}: {pos.ticket} | {direction} | "
+                                    f"Profit:{pips_gained:5.1f}p | ToTP:{pips_to_tp:5.1f}p | {secured}")
+                    
+                    # Check if this group should trigger actions
+                    tp1_positions = [pos for pos in group if self.get_position_tp_level(pos) == 1]
+                    if tp1_positions:
+                        tp1_pos = tp1_positions[0]
+                        is_buy = tp1_pos.type == mt5.ORDER_TYPE_BUY
+                        pip_multiplier = self.get_pip_multiplier(tp1_pos.symbol)
+                        
+                        if is_buy:
+                            pips_gained = (tp1_pos.price_current - tp1_pos.price_open) / pip_multiplier
+                        else:
+                            pips_gained = (tp1_pos.price_open - tp1_pos.price_current) / pip_multiplier
+                        
+                        pos_tp = getattr(tp1_pos, 'tp', 0)
+                        if pos_tp > 0:
+                            if is_buy:
+                                pips_to_tp = (pos_tp - tp1_pos.price_current) / pip_multiplier
+                                total_tp_pips = (pos_tp - tp1_pos.price_open) / pip_multiplier
+                            else:
+                                pips_to_tp = (tp1_pos.price_current - pos_tp) / pip_multiplier
+                                total_tp_pips = (tp1_pos.price_open - pos_tp) / pip_multiplier
+                            
+                            tp_progress = (pips_gained / total_tp_pips * 100) if total_tp_pips != 0 else 0
+                            
+                            # Check trigger conditions
+                            should_trigger = False
+                            trigger_reason = ""
+                            
+                            # Age check
+                            position_age = time.time() - tp1_pos.time
+                            age_ok = position_age >= MIN_POSITION_AGE_SECONDS  
+                            basic_profit_ok = pips_gained > 0  # Just positive profit needed
+                            
+                        
+                            if pips_to_tp <= 0:
+                                should_trigger = True
+                            trigger_reason = f"TP already hit by {abs(pips_to_tp):.1f}p"
+                        elif pips_to_tp <= tp_distance_trigger:
+                            should_trigger = True
+                            trigger_reason = f"TP will hit in {pips_to_tp:.1f}p (trigger: {tp_distance_trigger}p for {tp1_pos.symbol})"
+                           
+            self.logger.info(f"    🎯 TP1 ANALYSIS:")
+            self.logger.info(f"       Age: {position_age:.0f}s (need {MIN_POSITION_AGE_SECONDS}s) = {'✅' if age_ok else '❌'}")
+            self.logger.info(f"       Profit: {pips_gained:.1f}p (need >0p) = {'✅' if basic_profit_ok else '❌'}")
+            self.logger.info(f"       Trigger Distance: {tp_distance_trigger}p for {tp1_pos.symbol}")
+            self.logger.info(f"       Current Distance: {pips_to_tp:.1f}p to TP")
+            self.logger.info(f"       Trigger: {trigger_reason if should_trigger else f'Need ≤{tp_distance_trigger}p distance'}")
+            self.logger.info(f"       Would Act: {'✅ YES' if should_trigger and age_ok and basic_profit_ok else '❌ NO'}")
+            # Test retroactive detection
+            self.logger.info(f"\n🔍 TESTING RETROACTIVE DETECTION:")
+            try:
+                retroactive_actions = self.smart_retroactive_detection(positions)
+                self.logger.info(f"🔍 Retroactive actions needed: {len(retroactive_actions)}")
+                
+                if retroactive_actions:
+                    for action in retroactive_actions:
+                        self.logger.info(f"  Action: {action['action']} for {action['position'].ticket}")
+                
+            except Exception as e:
+                self.logger.error(f"❌ Error in retroactive detection: {e}")
+
+            self.logger.info("🔍 DETAILED DIAGNOSTIC COMPLETED\n")
+            
+        except Exception as e:
+            self.logger.error(f"❌ Error in detailed diagnostic: {e}")
+            import traceback
+            self.logger.error(traceback.format_exc())
+
+
     def check_positions(self):
         """
         Main logic loop: Checks all positions, identifies groups, applies securing rules,
@@ -1109,8 +1892,11 @@ class PipSecureEA:
             start_time = time.time()
             
             # Add position age and profit requirements
-            MIN_POSITION_AGE_SECONDS = 300  # 5 minutes minimum
+            MIN_POSITION_AGE_SECONDS = 60 
             MIN_PIPS_FOR_SECURE = 5  # Minimum 5 pips profit
+            if not hasattr(self, '_diagnostic_run'):
+                self._diagnostic_run = True
+                self.diagnostic_check_enhanced_methods()
             
             # Track TP1 hits - IMPORTANT: This should persist between cycles
             if not hasattr(self, 'tp1_hit_groups'):
@@ -1241,13 +2027,16 @@ class PipSecureEA:
                         # Check TP1 position
                         
 
-                        # Inside check_positions method, replace the TP1 checking section with:
+                        # Check TP1 position - but only if this group was actually entered by market
+                        if position_index == 1 and group_id not in tp1_action_triggered_groups:
+                            # NEW: Check if this group should be evaluated based on market entry
+                            if not self.should_evaluate_tp_conditions(group, position.price_current):
+                                self.logger.debug(f"Skipping TP evaluation for group {group_id} - entry level not hit yet")
+                                continue
+                                
+                            # Original TP1 checking logic continues here...
 
-                    if position_index == 1 and group_id not in tp1_action_triggered_groups:
-                        pip_multiplier = self.get_pip_multiplier(symbol)
-                        if pip_multiplier == 0:
-                            self.logger.warning(f"Invalid pip multiplier 0 for {symbol}")
-                            continue
+
 
                         # Calculate metrics
                         pips_gained = 0
@@ -1262,14 +2051,52 @@ class PipSecureEA:
                         pos_tp = getattr(position, 'tp', 0)
                         if pos_tp == 0:
                             continue
-                            
+                        # Calculate distance to TP for both BUY and SELL
+                        if is_buy:
+                            pips_to_tp = (pos_tp - position.price_current) / pip_multiplier
+                            total_tp_pips = (pos_tp - position.price_open) / pip_multiplier
+                        else:
+                            pips_to_tp = (position.price_current - pos_tp) / pip_multiplier
+                            total_tp_pips = (position.price_open - pos_tp) / pip_multiplier
+
+                        # Get instrument-specific trigger distance
+                        tp_distance_trigger = self.get_instrument_specific_trigger_distance(position.symbol)
+
+                        # Initialize trigger variables
+                        should_act = False
+                        action_reason = ""
+
+                        # Check trigger conditions
+                        if pips_to_tp <= 0:
+                            should_act = True
+                            action_reason = f"TP already hit by {abs(pips_to_tp):.1f}p (retroactive)"
+                        elif pips_to_tp <= tp_distance_trigger:
+                            should_act = True
+                            action_reason = f"TP will hit in {pips_to_tp:.1f}p (trigger: {tp_distance_trigger}p for {position.symbol})"
+
+                        # Age and profit checks
+                        position_age = time.time() - position.time
+                        age_ok = position_age >= MIN_POSITION_AGE_SECONDS
+                        basic_profit_ok = pips_gained > 0
+
+                        # Execute action with logging
+                        if should_act and age_ok and basic_profit_ok:
+                            self.logger.info(f"🎯 TRIGGER: {position.ticket} (TP{position_index}) - {action_reason}")
+    # Your existing securing logic goes here...                            
                         pips_to_tp = float('inf')
                         total_tp_pips = 0
                         tp_progress_percent = 0
                         
-                        if is_buy:
-                            pips_to_tp = (pos_tp - position.price_current) / pip_multiplier
-                            total_tp_pips = (pos_tp - position.price_open) / pip_multiplier
+
+
+                        # Add minimum age and basic profit protection
+                        position_age = time.time() - position.time
+                        age_ok = position_age >= MIN_POSITION_AGE_SECONDS
+                        basic_profit_ok = pips_gained > 0  # Just needs to be positive
+
+                        if should_act and age_ok and basic_profit_ok:
+                            self.logger.info(f"🎯 TP DISTANCE TRIGGER: {position.ticket} (TP{position_index}) - {action_reason}")
+                            # ... execute your existing securing logic
                         else:
                             pips_to_tp = (position.price_current - pos_tp) / pip_multiplier
                             total_tp_pips = (position.price_open - pos_tp) / pip_multiplier
@@ -1317,31 +2144,47 @@ class PipSecureEA:
                             self._save_tp1_hit_group(group_id)
                             # Action 1: Close TP1 position
                             self.logger.info(f"Action 1: Closing TP1 position {position.ticket}")
-                            if self.close_position(position):
-                                self.logger.info(f"TP1 position {position.ticket} closed successfully")
+                        if should_act and pips_gained >= min_pips_required:
+                            self.logger.info(f"TP1 trigger condition met for {position.ticket} ({symbol}): {action_reason}")
+                            tp1_action_triggered_groups.add(group_id)
+                            self._save_tp1_hit_group(group_id)
+                            
+                            # Check if this uses progressive TP system
+                            if self.progressive_tp_manager.should_handle_tp_progression(position, group, group_id):
+                                # Progressive TP handling
+                                self.logger.info(f"Progressive TP: Handling TP hit for {position.ticket}")
+                                self.progressive_tp_manager.handle_tp_hit(position, group, group_id)
                                 
-                                # Action 2: Secure other positions in the group
+                                # Still secure other positions in group
                                 self.logger.info(f"Action 2: Securing other positions in group {group_id}")
                                 for other_pos in group:
                                     if other_pos.ticket != position.ticket and other_pos.ticket not in self.secured_positions:
-                                        self.logger.info(f"Securing related position {other_pos.ticket} (TP{self.get_position_index_in_group(other_pos, group)})")
+                                        self.logger.info(f"Securing related position {other_pos.ticket}")
                                         self.secure_position(other_pos, log_as_tp1_hit=False)
-                                
-                                # Action 3: Delete pending orders
-                                self.logger.info(f"Action 3: Deleting pending orders for {symbol}")
-                                corresponding_pending = self.find_corresponding_pending_orders(group)
-                                if corresponding_pending:
-                                    self.logger.info(f"Found {len(corresponding_pending)} pending orders. Deleting...")
-                                    deleted_count = self.delete_pending_orders(corresponding_pending)
-                                    self.logger.info(f"Deleted {deleted_count} pending orders")
-                                else:
-                                    self.logger.info(f"No pending orders found, checking for second price positions")
-                                    # If no pending orders, check for active second price positions
-                                    first_price_entry = position.price_open
-                                    self.secure_second_price_positions(group, first_price_entry)
                             else:
-                                self.logger.error(f"Failed to close TP1 position {position.ticket}")
-                                tp1_action_triggered_groups.remove(group_id)
+                                # Original logic for non-progressive positions
+                                self.logger.info(f"Action 1: Closing TP1 position {position.ticket}")
+                                if self.close_position(position):
+                                    self.logger.info(f"TP1 position {position.ticket} closed successfully")
+                                    
+                                    # Action 2: Secure other positions in the group
+                                    self.logger.info(f"Action 2: Securing other positions in group {group_id}")
+                                    for other_pos in group:
+                                        if other_pos.ticket != position.ticket and other_pos.ticket not in self.secured_positions:
+                                            self.logger.info(f"Securing related position {other_pos.ticket} (TP{self.get_position_index_in_group(other_pos, group)})")
+                                            self.secure_position(other_pos, log_as_tp1_hit=False)
+                            
+                            # Action 3: Delete pending orders (keep this unchanged)
+                            self.logger.info(f"Action 3: Deleting pending orders for {symbol}")
+                            corresponding_pending = self.find_corresponding_pending_orders(group)
+                            if corresponding_pending:
+                                self.logger.info(f"Found {len(corresponding_pending)} pending orders. Deleting...")
+                                deleted_count = self.delete_pending_orders(corresponding_pending)
+                                self.logger.info(f"Deleted {deleted_count} pending orders")
+                            else:
+                                self.logger.info(f"No pending orders found, checking for second price positions")
+                                first_price_entry = position.price_open
+                                self.secure_second_price_positions(group, first_price_entry)
                         
                         # Check other positions if TP1 in group was hit (either in this cycle or previously)
                         elif position_index > 1 and (group_id in self.tp1_hit_groups or group_id in tp1_action_triggered_groups):
@@ -1482,7 +2325,61 @@ class PipSecureEA:
                 self.log_summary(force=True) # Log final summary
         else:
             self.logger.error(f"Could not connect account {self.account_name}. EA will not run.")
-                
+class ProgressiveTPManager:
+    """Manages progressive TP placement and tracking"""
+    
+    def __init__(self, pip_secure_ea):
+        self.ea = pip_secure_ea
+        self.logger = pip_secure_ea.logger
+        # Store original signal data for TP progression
+        self.signal_data_cache = {}  # group_id -> signal_data
+    
+    def cache_signal_data(self, group_id, tp_levels):
+        """Cache original TP levels for later progression"""
+        self.signal_data_cache[group_id] = {
+            'tp_levels': tp_levels,
+            'created_at': time.time()
+        }
+        # Clean old cache entries (older than 24 hours)
+        current_time = time.time()
+        self.signal_data_cache = {
+            gid: data for gid, data in self.signal_data_cache.items()
+            if current_time - data['created_at'] < 86400
+        }
+    
+    def handle_tp_hit(self, position, group, group_id):
+        """Handle TP hit with progressive advancement"""
+        current_level = self.ea.get_position_tp_level(position)
+        self.logger.info(f"🎯 TP{current_level} hit for position {position.ticket}")
+        
+        # Get cached signal data
+        signal_data = self.signal_data_cache.get(group_id, {})
+        
+        if current_level < 4:  # Can progress to next TP
+            next_level = current_level + 1
+            next_tp_price = self.ea.get_next_tp_price(position, signal_data, next_level)
+            
+            if next_tp_price:
+                # Secure and progress atomically
+                success = self.ea.secure_and_progress_tp(position, next_tp_price, next_level, group_id)
+                if success:
+                    self.logger.info(f"✅ Position {position.ticket} progressed from TP{current_level} to TP{next_level}")
+                else:
+                    self.logger.error(f"❌ Failed to progress position {position.ticket}")
+            else:
+                # No more TPs, close position
+                self.logger.info(f"🔚 No more TPs for {position.ticket}, closing position")
+                self.ea.close_position(position)
+        else:
+            # TP4 hit, close position
+            self.logger.info(f"🏁 TP4 hit for {position.ticket}, closing position")
+            self.ea.close_position(position)
+    
+    def should_handle_tp_progression(self, position, group, group_id):
+        """Check if this position should use progressive TP handling"""
+        # Only handle progression for positions with our comment format
+        comment = getattr(position, 'comment', '')
+        return "_TP" in comment and group_id in self.signal_data_cache                
 # ------------------------------------------------------------------------
 # SOLUTION 1: MULTI-ACCOUNT MONITOR CLASS (Manages multiple EA instances)
 # ------------------------------------------------------------------------

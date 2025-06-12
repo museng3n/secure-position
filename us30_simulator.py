@@ -105,7 +105,58 @@ class MockPipSecureEA:
                     self.logger.info(f"  - Ticket: {pos.ticket}, Entry: {pos.price_open:.2f}, TP: {pos.tp:.2f}")
         
         return position_groups
+
+def should_evaluate_tp_conditions(self, group, current_price):
+    """
+    Enhanced entry validation for simulation.
+    Simulates realistic entry scenarios for both BUY and SELL.
+    """
+    if not group:
+        return False
+        
+    sample_position = group[0]
+    entry_price = sample_position.price_open
     
+    # SIMULATION LOGIC: Assume positions were entered when price levels were hit
+    # For realistic simulation, we assume:
+    # 1. SELL positions were entered when market was at or above entry
+    # 2. BUY positions were entered when market was at or below entry
+    # 3. Current price movement away from entry is normal profit-seeking behavior
+    
+    if sample_position.type == MT5Constants.ORDER_TYPE_SELL:
+        # For SELL: If current price is reasonably close to entry (within expected range)
+        # assume the position was properly entered when price was higher
+        max_expected_movement = 500  # Allow up to 500 pips movement from entry
+        pip_multiplier = self.get_pip_multiplier(sample_position.symbol)
+        
+        if pip_multiplier > 0:
+            pips_from_entry = (entry_price - current_price) / pip_multiplier
+            entry_is_realistic = pips_from_entry <= max_expected_movement
+            
+            self.logger.info(f"SELL entry validation: {entry_price} → {current_price} = {pips_from_entry:.1f} pips movement ({'VALID' if entry_is_realistic else 'TOO FAR'})")
+            return entry_is_realistic
+        else:
+            # Fallback if pip calculation fails
+            self.logger.info(f"SELL entry validation: Assuming valid (pip calculation failed)")
+            return True
+            
+    else:  # BUY position
+        # For BUY: Similar logic but reversed direction
+        max_expected_movement = 500  # Allow up to 500 pips movement from entry
+        pip_multiplier = self.get_pip_multiplier(sample_position.symbol)
+        
+        if pip_multiplier > 0:
+            pips_from_entry = (current_price - entry_price) / pip_multiplier
+            entry_is_realistic = pips_from_entry <= max_expected_movement
+            
+            self.logger.info(f"BUY entry validation: {entry_price} → {current_price} = {pips_from_entry:.1f} pips movement ({'VALID' if entry_is_realistic else 'TOO FAR'})")
+            return entry_is_realistic
+        else:
+            # Fallback if pip calculation fails
+            self.logger.info(f"BUY entry validation: Assuming valid (pip calculation failed)")
+            return True
+
+
     def get_position_index_in_group(self, position, group):
         """Determine TP index of position in group"""
         if not group or position.tp == 0:
@@ -126,7 +177,9 @@ class MockPipSecureEA:
                 return i + 1
                 
         return None
-    
+
+
+
     def get_true_first_price_group(self, position_groups):
         """Get the group that represents the actual first price level"""
         if not position_groups:
@@ -370,10 +423,15 @@ def run_simulation():
         logger.info(f"\nChecking group: {group_id}")
         ea.diagnose_tp_values(group)
         
-        # Find TP1 position in this group
+# Find TP1 position in this group
         for position in group:
             position_index = ea.get_position_index_in_group(position, group)
             if position_index == 1:  # This is TP1
+                # NEW: Check if this group should be evaluated based on market entry
+                if not ea.should_evaluate_tp_conditions(group, 41803.0):
+                    logger.info(f"⏭️ Skipping group {group_id} - entry not hit (price never reached entry level)")
+                    break  # Skip this entire group
+                    
                 should_secure, reason = ea.check_tp1_hit_conditions(position, group, 41803.0, position_groups_updated)
                 logger.info(f"TP1 Position {position.ticket}: {'SHOULD SECURE' if should_secure else 'NO ACTION'} - {reason}")
                 
